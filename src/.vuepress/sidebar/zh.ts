@@ -13,7 +13,7 @@ export const enSidebar = sidebar({
     {
       text: "文章",
       icon: "note",
-      prefix: "posts/",
+      prefix: "/",
       children: "structure",
     },
   ],
