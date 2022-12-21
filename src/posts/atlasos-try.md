@@ -1,0 +1,49 @@
+---
+title: Atlas OS 初体验 - 从入门到放弃...
+date: 2022-12-11 22:17:12
+tag: 
+    - Windows
+    - Atlas OS
+category: Windows
+---
+最近，在上网冲浪时看到了 [Atlas OS](https://atlasos.net/)，相信你也知道这个东西。
+
+AtlasOS 是一个[开源](https://github.com/Atlas-OS/Atlas)免费的项目，旨在为游戏玩家提供最合适用于运行游戏的操作系统。它基于 Windows 10 定制而来，“精简”删除了各种非必要的系统组件，剥离了众多的 Windows 后台进程，从而为游戏节省出大量的系统资源。
+
+所以我[下载](https://atlasos.net/downloads)了一个来实际体验一下究竟有没有那么厉害。我下载的是它的20H2版本，也是他们推荐的版本。
+
+![下载页面](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/11/6395c5629da61.png)
+
+它的下载源在Github上，所以有的时候会出现无法下载的情况。这时我们需要Watt Toolkit[^1]。终于能下了，但是这速度有点...
+
+![你的下载速度已经击败了全国1%的网友！](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/11/6395d3fca51d8.png)
+
+[^1]: 原Steam++，官网地址是 https://steampp.net
+
+--- 
+终于下载好了！
+
+官方推荐的工具是 [Rufus](https://rufus.ie/zh/) ,也是需要Github下载。所以我改用[微PE](https://www.wepe.com.cn/)安装它。相信能看我的文章的人都会用PE装系统，这里就不一一讲解了。
+
+![镜像的目录](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/11/6395d75838555.png)
+
+
+在安装之后我们会发现他是英文的，而且它的语言设置无法安装中文。虽然说有办法安装语言包，但是总是没有原生的好用。而且由于它阉割了很多系统最基本的功能和驱动，导致我的Wi-Fi总是时不时的断开（因人而异）。
+
+![安装中文基本语言包报错](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/11/6395d80023c6f.png)
+
+但是，它的系统资源消耗是真的低（这里忘了截图了）。随着系统资源消耗的降低带来的兼容性问题也是数不胜数（官方已经说明），最后只能换回原系统。
+
+
+最后说一下，这个系统只适合在低配置的电脑打游戏的群体，并不适合作为生产力使用（更不适合装在主力机上还不懂英语的人）。如果你们要尝鲜的话建议使用虚拟机尝鲜。
+
+---
+阿，你已经可以关了，这里没有重要的东西。
+
+上文中说的“装在主力机上还不懂英语的人”就是我。
+
+我在我的电脑里找到了一个之前做的一个VHD虚拟磁盘，里面装的是企业版LTSC，想通过修改BCD文件建立引导。由于手头没有U盘，所以采用的是硬盘直装法。
+
+![外星语言...](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/11/6395e18201e3f.png)
+
+由于心情原因，导致我把C盘给格式化了，而且BCD文件内的一个字母打错了，结果你懂得（仔细看截图上的日期和页首的发布时间）。
