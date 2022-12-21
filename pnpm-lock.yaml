@@ -4,12 +4,14 @@ specifiers:
   '@vuepress/client': 2.0.0-beta.59
   vue: ^3.2.45
   vuepress: 2.0.0-beta.59
+  vuepress-plugin-search-pro: 2.0.0-beta.143
   vuepress-theme-hope: 2.0.0-beta.143
 
 devDependencies:
   '@vuepress/client': 2.0.0-beta.59
   vue: 3.2.45
   vuepress: 2.0.0-beta.59_zuhh5cekyzsqox63zj3ccba2ny
+  vuepress-plugin-search-pro: 2.0.0-beta.143_vuepress@2.0.0-beta.59
   vuepress-theme-hope: 2.0.0-beta.143_vuepress@2.0.0-beta.59
 
 packages:
@@ -1655,7 +1657,7 @@ packages:
   /@types/sax/1.2.4:
     resolution: {integrity: sha512-pSAff4IAxJjfAXUG6tFkO7dsSbTmf8CtUpfhhZ5VhkRpC4628tJhh3+V6H1E+/Gs9piSzYKT5yzHO5M4GG9jkw==}
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 18.11.17
     dev: true
 
   /@types/trusted-types/2.0.2:
@@ -5067,6 +5069,42 @@ packages:
       vuepress: 2.0.0-beta.59_zuhh5cekyzsqox63zj3ccba2ny
       vuepress-shared: 2.0.0-beta.143
     transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /vuepress-plugin-search-pro/2.0.0-beta.143_vuepress@2.0.0-beta.59:
+    resolution: {integrity: sha512-9Qbz9qJ5MJBAOIyPUpvQIvLym5ZQVJyYYBUYg1Nq19EsWA25yvAbSaZDjpcRZcF+5yMXca/SBtHvf8eSvnACiQ==}
+    engines: {node: ^14.18.0 || >=16.0.0, npm: '>=8', pnpm: '>=7'}
+    peerDependencies:
+      sass-loader: ^13.2.0
+      vuepress: 2.0.0-beta.59
+      vuepress-vite: 2.0.0-beta.59
+      vuepress-webpack: 2.0.0-beta.59
+    peerDependenciesMeta:
+      sass-loader:
+        optional: true
+      vuepress:
+        optional: true
+      vuepress-vite:
+        optional: true
+      vuepress-webpack:
+        optional: true
+    dependencies:
+      '@types/body-scroll-lock': 3.1.0
+      '@vuepress/client': 2.0.0-beta.59
+      '@vuepress/utils': 2.0.0-beta.59
+      '@vueuse/core': 9.8.2_vue@3.2.45
+      body-scroll-lock: 3.1.5
+      cheerio: 1.0.0-rc.12
+      chokidar: 3.5.3
+      vue: 3.2.45
+      vue-router: 4.1.6_vue@3.2.45
+      vuepress: 2.0.0-beta.59_zuhh5cekyzsqox63zj3ccba2ny
+      vuepress-plugin-blog2: 2.0.0-beta.143_vuepress@2.0.0-beta.59
+      vuepress-plugin-sass-palette: 2.0.0-beta.143_vuepress@2.0.0-beta.59
+      vuepress-shared: 2.0.0-beta.143
+    transitivePeerDependencies:
+      - '@vue/composition-api'
       - supports-color
     dev: true
 

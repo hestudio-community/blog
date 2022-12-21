@@ -7,7 +7,6 @@ export const enSidebar = sidebar({
       icon: "read",
       text: "文档",
       prefix: "docs/",
-      link: "docs/",
       children: "structure",
     },
     {

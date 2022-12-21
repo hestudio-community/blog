@@ -19,9 +19,26 @@ export default hopeTheme({
 
   docsDir: "docs",
 
+  // 自定义部分
+  themeColor: {
+    blue: "#2196f3",
+    red: "#f26d6d",
+    green: "#3eaf7c",
+    orange: "#fb9b5f",
+  },
+
+  fullscreen: true,
+  
+  copyright: "Copyright © heStudio 2021-2022",
+
+  // 自定义部分结束
+
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
   blog: {
+    avatar: "https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/13/6398763d6229a.jpg",
+    name: "醉、倾城",
+    roundAvatar: true,
     medias: {
       // Baidu: "https://example.com",
       // BiliBili: "https://example.com",
@@ -122,6 +139,13 @@ export default hopeTheme({
     // If you don’t need comment feature, you can remove following option
     // The following config is for demo ONLY, if you need comment feature, please generate and use your own config, see comment plugin documentation for details.
     // To avoid disturbing the theme developer and consuming his resources, please DO NOT use the following config directly in your production environment!!!!!
+
+    copyCode: {
+      showInMobile: true,
+    },
+
+    photoSwipe: true,
+
     comment: {
       /**
        * Using Giscus
@@ -143,6 +167,12 @@ export default hopeTheme({
        */
       provider: "Waline",
       serverURL: "https://comment.hestudio.org",
+      dark: 'body.theme-dark',
+      meta: ['nick', 'mail'],
+      requiredMeta: ['nick', 'mail'],
+      login: "force",
+      search: false,
+      copyright: false,
     },
 
     // Disable features you don’t want here
