@@ -3,11 +3,11 @@ import { enNavbar } from "./navbar/index.js";
 import { enSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://wwx.hestudio.org",
+  hostname: "https://www.hestudio.org",
 
   author: {
     name: "醉、倾城",
-    url: "https://wwx.hestudio.org/about/",
+    url: "https://www.hestudio.org/about/",
     email: "hestudio@hestudio.org"
   },
 
@@ -29,7 +29,7 @@ export default hopeTheme({
 
   fullscreen: true,
   
-  copyright: "Copyright © heStudio 2021-2022",
+  copyright: '<a href="/talking/docs/copyright/" target="_blank">Copyright © heStudio 2021-2022</a>',
 
   // 自定义部分结束
 
@@ -46,7 +46,7 @@ export default hopeTheme({
       // Dingding: "https://example.com",
       // Discord: "https://example.com",
       // Dribbble: "https://example.com",
-      Email: "hestudio@hestudio.org",
+      Email: "mailto:hestudio@hestudio.org",
       // Evernote: "https://example.com",
       // Facebook: "https://example.com",
       // Flipboard: "https://example.com",
@@ -78,6 +78,8 @@ export default hopeTheme({
     },
   },
 
+  sidebarSorter: ["readme","date-desc"],
+
   locales: {
     "/": {
       // navbar
@@ -86,7 +88,7 @@ export default hopeTheme({
       // sidebar
       sidebar: enSidebar,
 
-      footer: "",
+      footer: '<a href="https://icp.gov.moe/?keyword=20225520" target="_blank">萌ICP备20225520号</a><!-- Clarity tracking code for https://www.hestudio.org/ --><script>    (function(c,l,a,r,i,t,y){        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);    })(window, document, "clarity", "script", "eu064i4ylm");</script>',
 
       displayFooter: true,
 
@@ -218,6 +220,9 @@ export default hopeTheme({
       vPre: true,
       vuePlayground: true,
     },
+    
+
+    git: false,
 
     // uncomment these if you want a PWA
     // pwa: {

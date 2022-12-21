@@ -133,5 +133,5 @@ localhost:5901
 此操作不适用于小白
 ::: 
 
-详见[《Linux设置自启动和显示文字》](https://www.hestudio.org/2022/10/Setting-up-Linux-self-starting-and-displaying-text/)
+详见[《Linux设置自启动和显示文字》](/posts/Setting-up-Linux-self-starting-and-displaying-text.html)
 

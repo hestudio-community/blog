@@ -1,0 +1,27 @@
+---
+title: 公共服务
+icon: type
+article: false
+---
+
+### 服务
+- [KMS 服务](https://wwx.hestudio.org/posts/how-to-use-kms.html)
+- [Kali for Termux 安装源](https://wwx.hestudio.org/posts/install-kali-on-android-renew.html#%E5%AE%89%E8%A3%85%E5%9F%BA%E6%9C%AC%E7%B3%BB%E7%BB%9F)
+- [Waline 的 heStudio CDN](https://wwx.hestudio.org/posts/set-waline-on-hexo.html#cdn%E5%9C%B0%E5%9D%80)
+- [heStudio Framework](https://pypi.org/project/heframework/)
+
+### 软件
+- [Windows 11升级助手](https://gitee.com/hestudio/upgrade_win11)
+- [百度搜索提交工具](https://pypi.org/project/hbsst/)
+- [KMS助手](https://gitee.com/heStudio/kms-tool?_from=gitee_search)
+- [百度搜索提交工具](https://pypi.org/project/hbsst/)
+
+### 镜像
+- [Waline 的 heStudio CDN](https://wwx.hestudio.org/posts/set-waline-on-hexo.html#cdn%E5%9C%B0%E5%9D%80)
+- [Quick Reference](https://quickref.hestudio.org/)
+
+### 参与
+- [Quick Reference](https://github.com/jaywcjlove/reference)
+- [木兰编程语言](https://gitee.com/MulanRevive/mulan-rework)
+
+如果需要其他的公共服务或者使用出现了问题，可以在 heStudio Talking 提出。

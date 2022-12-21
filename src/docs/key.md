@@ -1,5 +1,5 @@
 ---
-title: 在Android手机上安装kali Linux 的 Key 获取与查找 - 文档
+title: Key 获取与查找
 icon: read
 article: false
 ---

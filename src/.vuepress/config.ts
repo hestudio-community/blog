@@ -5,6 +5,18 @@ import theme from "./theme.js";
 export default defineUserConfig({
   base: "/",
 
+  head: [
+    [
+      'script',{
+      type: 'text/javascript',
+      "data-ad-client": 'ca-pub-9539803519556987',
+      async: true,
+      src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+      crossorigin: "anonymous"
+    },
+  ],
+  ],
+
   locales: {
     "/": {
       lang: "zh-CN",

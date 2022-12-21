@@ -19,7 +19,9 @@ category: Linux
 echo $0
 ```
 使用这个命令查看终端类型
+
 ![输出结果](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/11/6395a23825ef2.jpg)
+
 例如，我这个终端就是zsh
 
 然后使用下面的其中之一编辑对应的文件
@@ -30,13 +32,15 @@ vim ~/.bashrc
 ```
 vim ~/.zshrc
 ```
-> 注：vim使用方法
+
+::: info
+vim使用方法
 | 操作 | 对应的命令 |
 |---|---|
 | :q! | 退出而不保存 |
 | :w! | 保存而不退出 |
 | :wq | 保存并退出 |
-
+:::
 
 ### 每次打开终端时自动执行某命令
 1. 先打开前言的提到文件，然后按 i 键编辑
@@ -60,6 +64,7 @@ echo 'Hello heStudio!'
 4. 重启终端
 
 运行效果如下
+
 ![Hello heStudio!](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/11/6395a23ca4cb0.jpg)
 
 ### ~/.bash_profile 和 ~/.bashrc文件区别

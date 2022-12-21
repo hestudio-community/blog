@@ -79,6 +79,7 @@ print("唱"+"跳","rap","篮球")
 ```
 运行结果如下
 
+
 ![运行结果](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/11/63959de683268.jpg)
 
 ### 输出多行文字

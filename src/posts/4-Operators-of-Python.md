@@ -17,6 +17,7 @@ category: Python
  | ** | 乘方 |
  
  示例
+
 ![运行结果](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/11/63959f9c3d2bf.jpg)
 
 ::: warning 
@@ -90,6 +91,7 @@ a += 1 # 加法赋值
 print(a) # 输出 a
 ```
 运行结果为
+
 ![运行结果](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/11/63959fa4532cf.jpg)
 
 ### 位运算符
