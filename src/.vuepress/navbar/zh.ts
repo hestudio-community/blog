@@ -7,6 +7,7 @@ export const enNavbar = navbar([
   "/talking/",
   "/get-help/",
   "/about/",
+  "/links/",
   {
     text: "支持我",
     icon: "support",

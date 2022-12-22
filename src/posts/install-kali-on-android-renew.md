@@ -71,9 +71,13 @@ termux-setup-storage && curl -O --url https://res.hestudio.org/kali_for_android/
 ```
 sudo apt-get update
 ```
-> kali输入密码[^5]时**不显示密码**，即使你已经输入(其他的Linux系统也一样)
+::: warning
+kali输入密码时**不显示密码**，即使你已经输入(其他的Linux系统也一样)
+:::
 
-[^5]: kali Linux的默认密码是`kali`
+::: info
+kali Linux的默认密码是`kali`
+:::
 
 #### 更新软件
 ```
@@ -89,7 +93,7 @@ sudo apt-get upgrade
 ##### 初始化vncserver
 本脚本内置vncserver[^6]服务，但是还是需要自己稍微设置一下。
 
-> 部分机型可能报错，如出现这种情况，请到[QQ频道](https://pd.qq.com/s/uakgta)求助
+> 部分机型可能报错，如出现这种情况，请浏览 https://www.hestudio.org/docs/kali_for_android.html 或者到[QQ频道](https://pd.qq.com/s/uakgta)求助
 
 ::: info 
 查看更多vncserver操作，请到https://tigervnc.org/
@@ -114,6 +118,7 @@ vncserver -kill
 
 ##### 链接到vnc
 1. 打开 VNC Viewer
+
 ![VNC Viewer](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/11/6395a119a4602.jpg)
 
 2. 一路`Next`
