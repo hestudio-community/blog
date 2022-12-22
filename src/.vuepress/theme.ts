@@ -144,6 +144,10 @@ export default hopeTheme({
 
     photoSwipe: true,
 
+    feed: {
+      atom: true,
+    },
+
     comment: {
       /**
        * Using Giscus
