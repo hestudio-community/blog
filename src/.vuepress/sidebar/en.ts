@@ -8,12 +8,10 @@ export const enSidebar = sidebar({
       prefix: "docs/",
       children: "structure",
     },
-  ],
-  "/posts/": [
     {
       text: "文章",
       icon: "note",
-      prefix: "/",
+      prefix: "posts/",
       children: "structure",
     },
   ],

@@ -5,9 +5,9 @@ article: false
 ---
 
 ### 服务
-- [KMS 服务](https://wwx.hestudio.org/posts/how-to-use-kms.html)
-- [Kali for Termux 安装源](https://wwx.hestudio.org/posts/install-kali-on-android-renew.html#%E5%AE%89%E8%A3%85%E5%9F%BA%E6%9C%AC%E7%B3%BB%E7%BB%9F)
-- [Waline 的 heStudio CDN](https://wwx.hestudio.org/posts/set-waline-on-hexo.html#cdn%E5%9C%B0%E5%9D%80)
+- [KMS 服务](https://www.hestudio.org/posts/how-to-use-kms.html)
+- [Kali for Termux 安装源](https://www.hestudio.org/posts/install-kali-on-android-renew.html#%E5%AE%89%E8%A3%85%E5%9F%BA%E6%9C%AC%E7%B3%BB%E7%BB%9F)
+- [Waline 的 heStudio CDN](https://www.hestudio.org/posts/set-waline-on-hexo.html#cdn%E5%9C%B0%E5%9D%80)
 - [heStudio Framework](https://pypi.org/project/heframework/)
 
 ### 软件
@@ -17,7 +17,7 @@ article: false
 - [百度搜索提交工具](https://pypi.org/project/hbsst/)
 
 ### 镜像
-- [Waline 的 heStudio CDN](https://wwx.hestudio.org/posts/set-waline-on-hexo.html#cdn%E5%9C%B0%E5%9D%80)
+- [Waline 的 heStudio CDN](https://www.hestudio.org/posts/set-waline-on-hexo.html#cdn%E5%9C%B0%E5%9D%80)
 - [Quick Reference](https://quickref.hestudio.org/)
 
 ### 参与
