@@ -1,6 +1,6 @@
 ---
 title: 文档
-icon: read
+icon: repo
 article: false
 ---
 

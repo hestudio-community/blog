@@ -1,6 +1,6 @@
 ---
 title: 友情链接
-icon: read
+icon: link
 article: false
 ---
 
