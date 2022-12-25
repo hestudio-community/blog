@@ -43,4 +43,4 @@ heStudio原名 呵呵工作室，成立于2021年3月，是几个闲的蛋疼的
 ### 赞助
 赞助我们以获得更长期稳定的产品
 
-[![赞助我们以获得更长期稳定的产品](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/13/639873ce2d116.jpg)](https://afdian.net/@hestudio)
+[![赞助我们以获得更长期稳定的产品](https://image.hestudio.org/img/2022/12/13/639873ce2d116.jpg)](https://afdian.net/@hestudio)

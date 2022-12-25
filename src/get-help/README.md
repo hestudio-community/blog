@@ -35,4 +35,4 @@ article: false
 
 3. 通过微信扫描以下二维码反馈
 
-![请使用微信扫描下方二维码](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/13/6398739b9b752.jpg)
+![请使用微信扫描下方二维码](https://image.hestudio.org/img/2022/12/13/6398739b9b752.jpg)

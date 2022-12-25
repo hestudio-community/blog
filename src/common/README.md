@@ -12,7 +12,6 @@ article: false
 
 ### 软件
 - [Windows 11升级助手](https://gitee.com/hestudio/upgrade_win11)
-- [百度搜索提交工具](https://pypi.org/project/hbsst/)
 - [KMS助手](https://gitee.com/heStudio/kms-tool?_from=gitee_search)
 - [百度搜索提交工具](https://pypi.org/project/hbsst/)
 

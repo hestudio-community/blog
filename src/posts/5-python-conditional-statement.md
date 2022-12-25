@@ -42,7 +42,7 @@ if check:
 
 运行结果是：
 
-![输出结果](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/11/6395a04c9b467.jpg)
+![输出结果](https://image.hestudio.org/img/2022/12/11/6395a04c9b467.jpg)
 
 ### if - else 结构
 继续上面的内容，如果我们的用户是未成年怎么办？一定要有一个响应。
@@ -73,7 +73,7 @@ else:
 
 运行结果是：
 
-![输出结果](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/11/6395a04e5cf36.jpg)
+![输出结果](https://image.hestudio.org/img/2022/12/11/6395a04e5cf36.jpg)
 
 ### if - elif 结构
 上面的代码还可以改写为if - elif 结构，if - elif 结构适合所有条件都确定的情况下使用。
@@ -96,7 +96,7 @@ elif age <18:
 ### if - elif - else 结构
 当然，有的用户很调皮，肯定不会按照套路来的，所以使用上面的两种结构就容易出现一些奇怪的场景。
 
-![奇怪的场景](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/11/6395a04fc3624.jpg)
+![奇怪的场景](https://image.hestudio.org/img/2022/12/11/6395a04fc3624.jpg)
 
 所以我们要避免这种情况，就需要if - elif - else 结构
 
@@ -132,7 +132,7 @@ else:
 
 运行结果是：
 
-![输出结果](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/11/6395a0513213a.jpg)
+![输出结果](https://image.hestudio.org/img/2022/12/11/6395a0513213a.jpg)
 
 ### 套娃式玩法
 上面的代码还可以改为这样的

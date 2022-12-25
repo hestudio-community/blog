@@ -111,5 +111,5 @@ print("不管走到哪里都会想起的人是你"+"\tyou"*2)
 ```
 运行结果为
 
-![只因你太美歌词片段](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/11/63959ea96002c.jpg)
+![只因你太美歌词片段](https://image.hestudio.org/img/2022/12/11/63959ea96002c.jpg)
 

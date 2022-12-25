@@ -18,7 +18,7 @@ category: Python
  
  示例
 
-![运行结果](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/11/63959f9c3d2bf.jpg)
+![运行结果](https://image.hestudio.org/img/2022/12/11/63959f9c3d2bf.jpg)
 
 ::: warning 
 如对上述内容不理解的，请咨询您的老师或访问 https://www.zxx.edu.cn/syncClassroom 以寻求帮助。
@@ -51,7 +51,7 @@ category: Python
 ::: 
 
 示例
-![运行结果](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/11/63959fa11a517.jpg)
+![运行结果](https://image.hestudio.org/img/2022/12/11/63959fa11a517.jpg)
 
 ::: warning 
 如对上述内容不理解的，请咨询您的老师或访问 https://www.zxx.edu.cn/syncClassroom/classActivity?activityId=3cad01bb-9879-11ec-92ef-246e9675e50c 以寻求帮助。
@@ -92,7 +92,7 @@ print(a) # 输出 a
 ```
 运行结果为
 
-![运行结果](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/11/63959fa4532cf.jpg)
+![运行结果](https://image.hestudio.org/img/2022/12/11/63959fa4532cf.jpg)
 
 ### 位运算符
 | 符号 | 作用 | 解释

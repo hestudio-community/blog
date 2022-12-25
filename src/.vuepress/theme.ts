@@ -36,7 +36,7 @@ export default hopeTheme({
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
   blog: {
-    avatar: "https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/13/6398763d6229a.jpg",
+    avatar: "https://image.hestudio.org/img/2022/12/13/6398763d6229a.jpg",
     name: "醉、倾城",
     roundAvatar: true,
     medias: {

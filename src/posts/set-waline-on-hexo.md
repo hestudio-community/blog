@@ -44,7 +44,7 @@ SSL证书我们使用Let's Encrypt即可，现在我们要设置的是Nginx反�
 2. 新建一个网站，配置如图所示
 3. 保存，以留备用
 
-![填写模板](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/11/6395a29cf37e7.jpg)
+![填写模板](https://image.hestudio.org/img/2022/12/11/6395a29cf37e7.jpg)
 
 
 
@@ -174,17 +174,17 @@ services:
 现在你需要部署到Docker，这里以宝塔面板为例，
 1. 进入Docker >> Compose模板
 
-![Compose模板](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/11/6395a297bc475.png)
+![Compose模板](https://image.hestudio.org/img/2022/12/11/6395a297bc475.png)
 
 2. 点击“添加”
 3. 模板名自定义，内容填入上面写好的yaml文件
 
-![添加模板](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/11/6395a29954e67.png)
+![添加模板](https://image.hestudio.org/img/2022/12/11/6395a29954e67.png)
 
 4. 保存，并转到“Compose”页面
 5. 点击“添加Compose项目”
 
-![添加Compose项目](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/11/6395a29a78b4c.png)
+![添加Compose项目](https://image.hestudio.org/img/2022/12/11/6395a29a78b4c.png)
 
 6. 选择刚才创建的模板，点击添加
 7. 等待一定时间后，转到“容器”页面
@@ -194,7 +194,7 @@ services:
 1. 进入网站设置 >> 反向代理 >> 添加反向代理
 2. 如图所示
 
-![模板](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/11/6395a29f1ea5d.jpg)
+![模板](https://image.hestudio.org/img/2022/12/11/6395a29f1ea5d.jpg)
 
 最后，访问
 ```text
@@ -225,7 +225,7 @@ https://评论系统域名/ui
 
 当然，有的小伙伴遇到了虽然正确配置，但是网页底部的评论还是不显示，这个怎么办呢？因为向默认的CDN地址请求Hexo必须的`waline.min.js`时找不到文件（404）。
 
-![返回404](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/11/6395a2a18e0f4.jpg)
+![返回404](https://image.hestudio.org/img/2022/12/11/6395a2a18e0f4.jpg)
 
 以Hexo的fluid主题为例，将主题的_config.yml底部CDN配置的Waline改为heStudio的CDN，然后再次部署。
 

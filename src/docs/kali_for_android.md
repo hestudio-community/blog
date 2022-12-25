@@ -24,7 +24,7 @@ article: false
 ### 它支持什么功能
 详见这张图片
 
-![支持什么功能](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/11/6395a1cbdba87.jpg)
+![支持什么功能](https://image.hestudio.org/img/2022/12/11/6395a1cbdba87.jpg)
 
 ### 安装时显示文件损坏
 
@@ -36,7 +36,7 @@ article: false
 :::
 
 ### Termux选择源的时候怎么选
-![termux-change-repo](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/16/639c696754b56.jpg)
+![termux-change-repo](https://image.hestudio.org/img/2022/12/16/639c696754b56.jpg)
 
 如果出现这个页面，我建议在中国大陆的用户使用清华源（倒数第四个）或者北京外国语大学源（倒数第三个）。且最好使用触摸选择（不是底下的软键盘），点击对应的文字。
 

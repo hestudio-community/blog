@@ -15,7 +15,7 @@ a = input("显示的内容 >>>")
 这段代码的意思是将你输入的内容输入到a变量里储存
 运行后如下图所示：
 
-![运行结果](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/11/63959c6f7ee70.jpg)
+![运行结果](https://image.hestudio.org/img/2022/12/11/63959c6f7ee70.jpg)
 
 ### 输出
 #### 基本的输出
@@ -27,7 +27,7 @@ print("Hello heStudio!")
 ```
 输出结果为
 
-![运行结果](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/11/63959dc895591.jpg)
+![运行结果](https://image.hestudio.org/img/2022/12/11/63959dc895591.jpg)
 
 当然，我们也可以用单引号，并不会影响输出结果。
 
@@ -40,7 +40,7 @@ print(a)
 ```
 此时，输出结果为
 
-![运行结果](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/11/63959dd5ba727.jpg)
+![运行结果](https://image.hestudio.org/img/2022/12/11/63959dd5ba727.jpg)
 
 #### 分清变量和字符串的区别
 话不多说，直接看
@@ -62,7 +62,7 @@ print("我是练习时长", time, "的练习生")
 ```
 运行结果如下
 
-![运行结果](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/11/63959de461c35.jpg)
+![运行结果](https://image.hestudio.org/img/2022/12/11/63959de461c35.jpg)
 
 ##### 使用`+`连接
 ```python
@@ -71,7 +71,7 @@ print(c+"你太美")
 ```
 运行结果如下
 
-![运行结果](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/11/63959de4dfdf8.jpg)
+![运行结果](https://image.hestudio.org/img/2022/12/11/63959de4dfdf8.jpg)
 
 ##### 或者混合使用
 ```python
@@ -80,7 +80,7 @@ print("唱"+"跳","rap","篮球")
 运行结果如下
 
 
-![运行结果](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/11/63959de683268.jpg)
+![运行结果](https://image.hestudio.org/img/2022/12/11/63959de683268.jpg)
 
 ### 输出多行文字
 ```python
@@ -91,7 +91,7 @@ print("""
 """)
 ```
 运行结果如下
-![运行结果](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/11/63959dea520e4.jpg)
+![运行结果](https://image.hestudio.org/img/2022/12/11/63959dea520e4.jpg)
 
 #### 简单的数据类型转换
 
@@ -119,7 +119,7 @@ print(a+b)
 ```
 运行结果如下
 
-![运行结果](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/11/63959de7753a4.jpg)
+![运行结果](https://image.hestudio.org/img/2022/12/11/63959de7753a4.jpg)
 
 #### 转义符号
 | 转义符号 | 对应的操作 |
@@ -146,7 +146,7 @@ print(r"Hello\nWorld")
 
 运行结果如下
 
-![运行结果](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/11/63959de96719b.jpg)
+![运行结果](https://image.hestudio.org/img/2022/12/11/63959de96719b.jpg)
 
 
 :::
@@ -160,5 +160,5 @@ print(str(a),"+",str(b),"=",float(a+b),"\n计算完毕！")
 ```
 运行结果如下
 
-![运行结果](https://hestudio-server-image.oss-cn-hongkong.aliyuncs.com/2022/12/11/63959de863af2.jpg)
+![运行结果](https://image.hestudio.org/img/2022/12/11/63959de863af2.jpg)
 
