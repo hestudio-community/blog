@@ -32,6 +32,7 @@ heStudio原名 呵呵工作室，成立于2021年3月，是几个闲的蛋疼的
 - [KMS助手](https://gitee.com/heStudio/kms-tool?_from=gitee_search)
 - [百度搜索提交工具](https://pypi.org/project/hbsst/)
 - [heStudio Framework](https://pypi.org/project/heframework/)
+- [heStudio MFA for Desktop](https://gitee.com/hestudio/hmfa)
 
 ### 镜像的项目
 - [Quick Reference](https://quickref.hestudio.org/)

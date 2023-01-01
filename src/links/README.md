@@ -7,8 +7,6 @@ article: false
 ### [薛才杰个人博客](https://www.xuecaijie.com/)
 一个分享技术、记录生活的个人技术博客
 
-### [玩机科技社](https://blog.csdn.net/m0_58782029)
-这里是电子发烧友的集结地。友友们集合啦！
 
 ### [Meng](https://www.meng.me/)
 Welcome to mengBlog

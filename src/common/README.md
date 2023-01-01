@@ -14,6 +14,7 @@ article: false
 - [Windows 11升级助手](https://gitee.com/hestudio/upgrade_win11)
 - [KMS助手](https://gitee.com/heStudio/kms-tool?_from=gitee_search)
 - [百度搜索提交工具](https://pypi.org/project/hbsst/)
+- [heStudio MFA for Desktop](https://gitee.com/hestudio/hmfa)
 
 ### 镜像
 - [Waline 的 heStudio CDN](https://www.hestudio.org/posts/set-waline-on-hexo.html#cdn%E5%9C%B0%E5%9D%80)
