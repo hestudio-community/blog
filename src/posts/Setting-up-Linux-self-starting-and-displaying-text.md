@@ -34,12 +34,14 @@ vim ~/.zshrc
 ```
 
 ::: info
-vim使用方法
+vim基础使用方法
 | 操作 | 对应的命令 |
 |---|---|
 | :q! | 退出而不保存 |
 | :w! | 保存而不退出 |
 | :wq | 保存并退出 |
+
+查看其它用法，请浏览 [Vim 备忘清单](https://quickref.hestudio.org/docs/vim.html)
 :::
 
 ### 每次打开终端时自动执行某命令

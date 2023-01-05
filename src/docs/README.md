@@ -2,6 +2,7 @@
 title: 文档
 icon: repo
 article: false
+order: 1
 ---
 
 - [在Android手机上安装kali Linux 的 Q&A](/docs/kali_for_android.html)

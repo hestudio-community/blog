@@ -29,7 +29,7 @@ export default hopeTheme({
 
   fullscreen: true,
   
-  copyright: '<a href="/docs/copyright.html" target="_blank">Copyright © heStudio 2021-2022</a>',
+  copyright: '<a href="/docs/copyright.html" target="_blank">Copyright © heStudio 2021-2023</a>',
 
   // 自定义部分结束
 
