@@ -9,7 +9,7 @@ category: Linux
 ---
 最近有很多反馈，都是一些正常界面，截图反馈给我问我有什么问题（原版是英文的）。而且原文（指CSDN上的[^1]）用的是富文本，不方便后期修改和同步，所以我更新了这个版本（以后不出意外的话都在这里更新）。
 
-下面的教程基于[原文教程](https://www.hestudio.org/2022/10/install-kali-on-android/)做了一些修改。
+下面的教程基于[原文教程](https://www.hestudio.org/posts/install-kali-on-android.html)做了一些修改。
 
 [^1]: https://blog.csdn.net/a18845594188/article/details/123163279
 

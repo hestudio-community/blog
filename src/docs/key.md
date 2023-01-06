@@ -2,6 +2,7 @@
 title: Key 获取与查找
 icon: read
 article: false
+order: 3
 ---
 ### 怎么获取key&找到已购买的key
 #### 怎么购买

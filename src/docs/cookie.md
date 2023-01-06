@@ -2,7 +2,7 @@
 title: Cookie政策
 icon: read
 article: false
-order: 5
+order: 6
 ---
 
 ### Cookie政策

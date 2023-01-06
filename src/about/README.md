@@ -40,6 +40,7 @@ heStudio原名 呵呵工作室，成立于2021年3月，是几个闲的蛋疼的
 ### 参与的项目
 - [Quick Reference](https://github.com/jaywcjlove/reference)
 - [木兰编程语言](https://gitee.com/MulanRevive/mulan-rework)
+- [MCSManager](https://github.com/MCSManager)
 
 ### 赞助
 赞助我们以获得更长期稳定的产品
