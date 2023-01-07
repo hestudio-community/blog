@@ -23,5 +23,6 @@ article: false
 ### 参与
 - [Quick Reference](https://github.com/jaywcjlove/reference)
 - [木兰编程语言](https://gitee.com/MulanRevive/mulan-rework)
+- [MCSManager](https://github.com/MCSManager)
 
 如果需要其他的公共服务或者使用出现了问题，可以在 heStudio Talking 提出。
