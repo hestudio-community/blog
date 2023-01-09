@@ -106,6 +106,7 @@ stages:
               - fail
               - cancel
               - skip
+              - success
             content:
               - repository
               - pipeline
@@ -117,5 +118,6 @@ stages:
             type: weixin
         strategy:
           retry: '0'
+          expression: []
 strategy:
   blocking: true
