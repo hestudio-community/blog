@@ -2,6 +2,7 @@
 title: 关于
 icon: info
 article: false
+comment: false
 ---
 
 ### 欢迎入坑
@@ -41,6 +42,12 @@ heStudio原名 呵呵工作室，成立于2021年3月，是几个闲的蛋疼的
 - [Quick Reference](https://github.com/jaywcjlove/reference)
 - [木兰编程语言](https://gitee.com/MulanRevive/mulan-rework)
 - [MCSManager](https://github.com/MCSManager)
+
+### 友情链接
+本站欢迎友情链接，详见 https://www.hestudio.org/links
+
+### 搬运
+本站在一定条件下允许搬运，详见 https://www.hestudio.org/docs/copyright.html
 
 ### 赞助
 赞助我们以获得更长期稳定的产品

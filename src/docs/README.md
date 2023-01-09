@@ -2,6 +2,7 @@
 title: 文档
 icon: repo
 article: false
+comment: false
 order: 1
 ---
 

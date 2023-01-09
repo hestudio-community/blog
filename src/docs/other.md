@@ -2,6 +2,7 @@
 title: 其他
 icon: read
 article: false
+comment: false
 order: 7
 ---
 

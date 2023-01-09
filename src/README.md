@@ -8,36 +8,36 @@ bgImage: https://image.hestudio.org/img/2022/12/21/63a282ab13f64.jpg
 heroText: heStudio
 tagline: Welcome to the pit!
 heroFullScreen: true
-# projects:
-#   - icon: project
-#     name: project name
-#     desc: project detailed description
-#     link: https://your.project.link
+projects:
+  - icon: install
+    name: Kali Linux for Android
+    desc: 在你的安卓手机上安装Kali Linux
+    link: https://www.hestudio.org/posts/install-kali-on-android-renew.html
 
-#   - icon: link
-#     name: link name
-#     desc: link detailed description
-#     link: https://link.address
+  - icon: windows
+    name: Windows 11 升级助手
+    desc: 让没有TPM2.0的电脑升级Windows 11
+    link: https://gitee.com/hestudio/upgrade_win11
 
-#   - icon: book
-#     name: book name
-#     desc: Detailed description of the book
-#     link: https://link.to.your.book
+  - icon: license
+    name: KMS 助手
+    desc: 一个半图形化的系统授权管理工具
+    link: https://gitee.com/heStudio/kms-tool?_from=gitee_search
 
-#   - icon: article
-#     name: article name
-#     desc: Detailed description of the article
-#     link: https://link.to.your.article
+  - icon: api
+    name: 百度搜索提交工具
+    desc: 基于Python的快速提交网页到百度的接口
+    link: https://pypi.org/project/hbsst/
 
-#   - icon: friend
-#     name: friend name
-#     desc: Detailed description of friend
-#     link: https://link.to.your.friend
+  - icon: frame
+    name: heStudio Framework
+    desc: 让你的Python更简便的一个框架
+    link: https://pypi.org/project/heframework/
 
-#   - icon: /logo.svg
-#     name: custom item
-#     desc: Detailed description of this custom item
-#     link: https://link.to.your.friend
+  - icon: token
+    name: heStudio MFA for Desktop
+    desc: 一个依赖于Python的桌面端MFA应用
+    link: https://gitee.com/hestudio/hmfa
 
 # footer: customize your footer text
 ---
