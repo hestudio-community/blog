@@ -12,6 +12,9 @@ comment: false
 ### [Meng](https://www.meng.me/)
 Welcome to mengBlog
 
+### [VuePress Theme Hope](https://vuepress-theme-hope.gitee.io/v2/zh/)
+一个具有强大功能的 vuepress 主题✨
+
 ### 申请友链
 在下方留言申请加入我的友链（申请之前要先将我的博客加入友链），按如下格式在[heStudio Talking](/talking/)提供信息：
 - 博客名: heStudio

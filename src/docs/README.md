@@ -11,4 +11,5 @@ order: 1
 - [heStudio Talking 文档](/docs/talking.html)
 - [转载与授权](/docs/copyright.html)
 - [Cookie 政策](/docs/cookie.html)
+- [本站用到的开源服务](/docs/opensource.html)
 - [其他](/docs/other.html)
