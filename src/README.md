@@ -22,7 +22,7 @@ projects:
   - icon: license
     name: KMS 助手
     desc: 一个半图形化的系统授权管理工具
-    link: https://gitee.com/heStudio/kms-tool?_from=gitee_search
+    link: https://gitee.com/heStudio/kms-tool
 
   - icon: api
     name: 百度搜索提交工具

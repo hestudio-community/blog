@@ -26,14 +26,22 @@ comment: false
 你可以先看看 文档 里面有没有你需要的。如果没有，可以向我们提出。
 :::
 
-1. 通过 [heStudio Talking](https://www.hestudio.org/talking) 直接反馈
+1. 通过对应项目的issue提交
 
-2. 向 hestudio@hestudio.org 发送电子邮件反馈
+| 项目 | 仓库链接 |
+|---|---|
+| Kali Linux for Android | https://gitee.com/heStudio/ka_install |
+| Windows 11 升级助手 | https://gitee.com/hestudio/upgrade_win11 |
+| KMS 助手 | https://gitee.com/heStudio/kms-tool |
+| 百度搜索提交工具 | https://gitee.com/heStudio/baidu-search-submission-tool |
+| heStudio Framework | https://gitee.com/heStudio-Framework/main-windows |
+| heStudio MFA for Desktop | https://gitee.com/hestudio/hmfa |
+
+2. 通过 [heStudio Talking](https://www.hestudio.org/talking) 直接反馈
+
+3. 向 hestudio@hestudio.org 发送电子邮件反馈
 
 ::: warning
 请发送电子邮件的时候详细描述你的问题，避免被系统当做垃圾邮件处理
 :::
 
-3. 通过微信扫描以下二维码反馈
-
-![请使用微信扫描下方二维码](https://image.hestudio.org/img/2022/12/13/6398739b9b752.jpg)
