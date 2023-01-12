@@ -36,7 +36,7 @@ projects:
 
   - icon: token
     name: heStudio MFA for Desktop
-    desc: 一个依赖于Python的桌面端MFA应用
+    desc: 一个用Java写的的桌面端MFA应用
     link: https://gitee.com/hestudio/hmfa
 
 # footer: customize your footer text
