@@ -8,6 +8,7 @@ article: false
 - [KMS 服务](https://www.hestudio.org/posts/how-to-use-kms.html)
 - [Kali for Termux 安装源](https://www.hestudio.org/posts/install-kali-on-android-renew.html#%E5%AE%89%E8%A3%85%E5%9F%BA%E6%9C%AC%E7%B3%BB%E7%BB%9F)
 - [heStudio Framework](https://pypi.org/project/heframework/)
+- [heStudio Download Server](https://download.hestudio.org)
 
 ### 软件
 - [Windows 11升级助手](https://gitee.com/hestudio/upgrade_win11)
