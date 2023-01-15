@@ -41,7 +41,7 @@ export default hopeTheme({
     roundAvatar: true,
     medias: {
       // Baidu: "https://example.com",
-      // BiliBili: "https://example.com",
+      BiliBili: "https://space.bilibili.com/1511806753",
       // Bitbucket: "https://example.com",
       CSDN: [
         "https://bbs.csdn.net/forums/hestudio",
