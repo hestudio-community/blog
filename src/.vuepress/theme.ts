@@ -231,7 +231,8 @@ export default hopeTheme({
     
 
     git: false,
-
+    
+    pwa: true,
     // uncomment these if you want a PWA
     // pwa: {
     //   favicon: "/favicon.ico",
