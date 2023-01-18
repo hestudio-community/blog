@@ -3,11 +3,10 @@ home: true
 layout: BlogHome
 icon: home
 title: Home
-# bgImage: https://image.hestudio.org/img/2022/12/21/63a282ab13f64.jpg
+bgImage: https://image.hestudio.org/img/2023/01/18/63c7b60d4c2e1.png
 # heroImage: /logo.svg
 # heroText: heStudio
 # tagline: Welcome to the pit!
-bgImage: false
 heroText: false
 tagline: false
 heroFullScreen: false
