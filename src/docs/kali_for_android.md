@@ -2,7 +2,6 @@
 title: 在Android手机上安装kali Linux 的 Q&A
 icon: read
 article: false
-order: 2
 ---
 
 ### 教程

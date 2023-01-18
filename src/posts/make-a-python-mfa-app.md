@@ -230,6 +230,9 @@ def get():
 
 ### 代码汇总和测试
 总结代码如下
+
+::: details 完整代码
+
 ```python
 import heframework
 import sys
@@ -369,5 +372,7 @@ if __name__ == "__main__":
     main()
 
 ```
+
+:::
 
 ![运行界面](https://image.hestudio.org/img/2022/12/31/63afe382abec2.png)
