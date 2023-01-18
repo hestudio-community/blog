@@ -2,7 +2,6 @@
 title: Key 获取与查找
 icon: read
 article: false
-sticky: 6
 ---
 ### 怎么获取key&找到已购买的key
 #### 怎么购买

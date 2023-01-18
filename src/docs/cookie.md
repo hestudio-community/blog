@@ -2,7 +2,6 @@
 title: Cookie政策
 icon: read
 article: false
-sticky: 3
 ---
 
 ### Cookie政策

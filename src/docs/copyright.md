@@ -2,7 +2,6 @@
 title: 转载与授权
 icon: read
 article: false
-sticky: 4
 ---
 
 ### 关于转载

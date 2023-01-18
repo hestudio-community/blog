@@ -5,6 +5,9 @@ article: false
 comment: false
 ---
 
+### [–小透明](https://v.kuaishou.com/JneKBF)
+彼方尚有荣光在.
+
 ### [薛才杰个人博客](https://www.xuecaijie.com/)
 一个分享技术、记录生活的个人技术博客
 

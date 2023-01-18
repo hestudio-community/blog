@@ -2,7 +2,6 @@
 title: 本站用到的开源服务
 icon: read
 article: false
-sticky: 2
 ---
 
 ## 博客
