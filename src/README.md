@@ -6,9 +6,9 @@ title: Home
 bgImage: false
 # bgImage: https://image.hestudio.org/img/2022/12/21/63a282ab13f64.jpg
 # heroImage: /logo.svg
-heroText: heStudio
-tagline: Welcome to the pit!
-heroFullScreen: true
+# heroText: heStudio
+# tagline: Welcome to the pit!
+heroFullScreen: false
 projects:
   - icon: install
     name: Kali Linux for Android
