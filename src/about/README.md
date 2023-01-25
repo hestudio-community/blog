@@ -3,6 +3,7 @@ title: 关于
 icon: info
 article: false
 comment: false
+next: false
 ---
 
 ### 欢迎入坑

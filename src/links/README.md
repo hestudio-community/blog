@@ -3,6 +3,7 @@ title: 友情链接
 icon: link
 article: false
 comment: false
+next: false
 ---
 
 ### [–小透明](https://v.kuaishou.com/JneKBF)

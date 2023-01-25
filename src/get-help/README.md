@@ -3,6 +3,7 @@ title: 获取帮助
 icon: question
 article: false
 comment: false
+next: false
 ---
 
 ::: info
