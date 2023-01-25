@@ -86,7 +86,7 @@ stages:
         hostGroupID:
           ID: hestudio
           hostID:
-            - e7531de5-c8cd-4920-9096-793bf4448c53
+            - 37b43fab-8526-416e-8b91-330422e7e103
         deployArtifact:
           - source: build
             name: output
