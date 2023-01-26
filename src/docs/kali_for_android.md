@@ -1,6 +1,5 @@
 ---
 title: 在Android手机上安装kali Linux 的 Q&A
-data: 2024-12-29
 icon: read
 article: false
 ---

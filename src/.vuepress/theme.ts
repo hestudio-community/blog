@@ -177,12 +177,28 @@ export default hopeTheme({
        */
       provider: "Waline",
       serverURL: "https://comment.hestudio.org",
-      dark: 'body.theme-dark',
+      dark: 'html[data-theme="dark"]',
       meta: ['nick', 'mail'],
       requiredMeta: ['nick', 'mail'],
       login: "force",
       search: false,
+      reaction: true,
       copyright: false,
+      imageUploader: (file) => {
+          let formData = new FormData();
+          let headers = new Headers();
+
+          formData.append('file', file);
+          headers.append('Accept', 'application/json');
+
+          return fetch('https://image.hestudio.org/api/v1', {
+            method: 'POST',
+            headers: headers,
+            body: formData,
+          })
+            .then((resp) => resp.json())
+            .then((resp) => resp.data.links.url);
+        },
     },
 
     // Disable features you don’t want here
@@ -232,7 +248,14 @@ export default hopeTheme({
 
     git: false,
     
-    pwa: true,
+    seo: true,
+    
+    pwa: {
+      cacheHTML: true,
+      cachePic: true,
+      update: 'hint',
+      
+    },
     // uncomment these if you want a PWA
     // pwa: {
     //   favicon: "/favicon.ico",

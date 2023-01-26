@@ -1,6 +1,5 @@
 ---
 title: 转载与授权
-data: 2024-12-25
 icon: read
 article: false
 ---

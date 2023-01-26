@@ -1,6 +1,5 @@
 ---
 title: heStudio Talking 文档
-data: 2024-12-26
 icon: read
 article: false
 ---

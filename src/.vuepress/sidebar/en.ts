@@ -6,7 +6,17 @@ export const enSidebar = sidebar({
       icon: "read",
       text: "文档",
       prefix: "docs/",
-      children: "structure",
+      children: [
+        '',
+        'kali_for_android',
+        'key',
+        'patch',
+        'talking',
+        'copyright',
+        'cookie',
+        'opensource',
+        'other',
+        ],
     },
     {
       text: "文章",
