@@ -185,19 +185,19 @@ export default hopeTheme({
       reaction: true,
       copyright: false,
       imageUploader: (file) => {
-          let formData = new FormData();
-          let headers = new Headers();
+        let formData = new FormData();
+        let headers = new Headers();
 
-          formData.append('file', file);
-          headers.append('Accept', 'application/json');
-
-          return fetch('https://image.hestudio.org/api/v1', {
-            method: 'POST',
-            headers: headers,
-            body: formData,
+        formData.append('file', file);
+        headers.append('Accept', 'application/json');
+        headers.append('Content-Type', 'multipart/form-data')
+        return fetch('https://image.hestudio.org/api/v1', {
+          method: 'POST',
+          headers: headers,
+          body: formData,
           })
-            .then((resp) => resp.json())
-            .then((resp) => resp.data.links.url);
+          .then((resp) => resp.json())
+          .then((resp) => resp.data.links.url);
         },
     },
 
