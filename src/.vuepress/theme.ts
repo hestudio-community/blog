@@ -185,18 +185,16 @@ export default hopeTheme({
       reaction: true,
       copyright: false,
       imageUploader: function(file) {
-        let formData = new FormData();
-        let headers = new Headers();
-
-        formData.append('file', file)
-        headers.append('Accept', 'application/json');
-        return fetch('https://image.hestudio.org/api/v1/upload', {
-          method: 'POST',
-          headers: headers,
-          body: formData,
-          })
-          .then((resp) => resp.json())
-          .then((resp) => resp.data.links.url);
+          const formData = new FormData();
+          formData.append('file', file);
+          // formData.append('strategy_id', 0); // 可选策略ID
+          return fetch('https://image.hestudio.org/api/v1/upload', {
+            headers: {
+              'Authorization': ''
+            },
+            method: 'POST',
+            body: formData
+          }).then(resp => resp.json()).then(resp => resp.data.links.url);
         },
     },
 
