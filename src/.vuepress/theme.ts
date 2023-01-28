@@ -184,12 +184,11 @@ export default hopeTheme({
       search: false,
       reaction: true,
       copyright: false,
-      imageUploader: (file) => {
+      imageUploader: function(file) {
         let formData = new FormData();
         let headers = new Headers();
 
-        formData.append('file', file);
-        headers.append('Authorization', '')
+        formData.append('file', file)
         headers.append('Accept', 'application/json');
         return fetch('https://image.hestudio.org/api/v1/upload', {
           method: 'POST',
