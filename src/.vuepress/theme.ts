@@ -191,7 +191,7 @@ export default hopeTheme({
         formData.append('file', file);
         headers.append('Authorization', '')
         headers.append('Accept', 'application/json');
-        return fetch('https://image.hestudio.org/api/v1', {
+        return fetch('https://image.hestudio.org/api/v1/upload', {
           method: 'POST',
           headers: headers,
           body: formData,
