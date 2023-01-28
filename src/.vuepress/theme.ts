@@ -166,18 +166,6 @@ export default hopeTheme({
       search: false,
       reaction: true,
       copyright: false,
-      imageUploader: function(file) {
-          const formData = new FormData();
-          formData.append('file', file);
-          // formData.append('strategy_id', 0); // 可选策略ID
-          return fetch('https://image.hestudio.org/api/v1/upload', {
-            headers: {
-              'Authorization': ''
-            },
-            method: 'POST',
-            body: formData
-          }).then(resp => resp.json()).then(resp => resp.data.links.url);
-        },
     },
 
     // Disable features you don’t want here
