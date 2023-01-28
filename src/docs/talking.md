@@ -14,6 +14,10 @@ heStudio Talking 是一个在heStudio博客内置的一个疑难解答的平台�
 目前，由于接口问题，当前仅支持 Github 登录。
 :::
 
+### 注册的时候出现密钥已过期怎么处理
+如果出现这种情况，你可以尝试重新操作注册流程。
+
+
 ### 注册/登录 的时候卡住怎么办？
 由于本系统使用了谷歌的reCAPTCHA，所以部分时间可能无法加载属于正常现象，你可以使用加速工具（本站不提供）或者稍后再试。
 
@@ -47,3 +51,48 @@ heStudio Talking 是一个在heStudio博客内置的一个疑难解答的平台�
 2. 进入上传页面，上传文件后，复制Markdown选项的代码
 3. 返回[heStudio Talking](https://www.hestudio.org/talking/)，粘贴刚才复制的代码
 
+### 怎么更换头像
+1. 通过上面的教程上传图片并拿到图片的URL
+2. 访问 https://comment.hestudio.org/ui/profile?lng=zh-CN 
+3. 在登录账号后点击你的头像，会提示输入URL
+
+![](https://image.hestudio.org/img/2023/01/29/63d54bb8b83f1.jpg)
+
+4. 粘贴在图床获得的URL
+5. 修改完成
+
+### 怎么注销账号
+
+::: danger
+注销账号是一个有风险的操作，请三思而后行！
+:::
+
+#### 邮箱注册用户
+如果需要注销账号，请复制以下内容并用需要注销的账号的注册邮箱以`注销账号`为标题发送到 [hestudio@hestudio.org](mailto:hestudio@hestudio.org)
+
+```text
+我是 #你的昵称#，我的邮箱是 #你的邮箱# ，我需要注销账号并放弃注册用户的支持和服务。
+
+#你的昵称#
+```
+
+#### Github注册用户
+请使用对应Github账号向 [heStudio-Network](https://github.com/hestudio-network) 发送以下内容的私信
+
+```text
+我是 #你的昵称#，我需要注销账号并放弃注册用户的支持和服务。
+```
+
+### 更换邮箱
+你需要使用旧的邮箱向 [hestudio@hestudio.org](mailto:hestudio@hestudio.org) 发送一下内容。
+```text
+我是 #你的昵称#，我需要将邮箱重新绑定到 #新的邮箱#
+
+#你的昵称#
+```
+
+当你发送后，请等待回复。在回复后请使用新的邮箱找回密码进行重新绑定。
+
+::: warning
+为了你的账号安全，我们会将你的密码进行清空。
+:::
