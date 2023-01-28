@@ -157,24 +157,6 @@ export default hopeTheme({
     },
 
     comment: {
-      /**
-       * Using Giscus
-       */
-      // provider: "Giscus",
-      // repo: "vuepress-theme-hope/giscus-discussions",
-      // repoId: "R_kgDOG_Pt2A",
-      // category: "Announcements",
-      // categoryId: "DIC_kwDOG_Pt2M4COD69",
-
-      /**
-       * Using Twikoo
-       */
-      // provider: "Twikoo",
-      // envId: "https://twikoo.ccknbc.vercel.app",
-
-      /**
-       * Using Waline
-       */
       provider: "Waline",
       serverURL: "https://comment.hestudio.org",
       dark: 'html[data-theme="dark"]',
