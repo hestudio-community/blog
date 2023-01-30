@@ -6,11 +6,9 @@ comment: false
 next: false
 ---
 
-### <FontIcon icon="android"/> [Android 下载](https://res.hestudio.org/res/hestudio_blog.apk)
-
 :::tabs
 
-@tab <FontIcon icon="android"/> Android 下载
+@tab Android 下载
 
 ### release-2.0 更新内容：
 1. 使用TWA和PWA结合的方式
