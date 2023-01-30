@@ -37,6 +37,51 @@ vncserver -kill
 ##### 其他命令
 详见 https://tigervnc.org/
 
+### VNCServer 教程
+#### 开启vnc
+##### 初始化vncserver
+本脚本内置vncserver[^6]服务，但是还是需要自己稍微设置一下。
+
+> 部分机型可能报错，如出现这种情况，请浏览 https://www.hestudio.org/docs/kali_for_android.html#%E6%88%91%E5%BC%80%E5%90%AF%E4%BA%86vncserver%E4%BD%86%E5%9C%A8vnc-viewer%E9%A1%B5%E9%9D%A2%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5%E3%80%82 或者到[QQ频道](https://pd.qq.com/s/uakgta)求助
+
+::: info 
+查看更多vncserver操作，请到https://tigervnc.org/
+:::
+
+[^6]: 本脚本内置[TigerVNC](https://tigervnc.org/)
+
+先修改vnc密码，不然连不上！
+```
+vncpasswd
+```
+
+##### 运行vncserver
+```
+vncserver
+```
+
+##### 杀死vncserver
+```
+vncserver -kill
+```
+
+##### 链接到vnc
+1. 打开 VNC Viewer
+
+![VNC Viewer](https://image.hestudio.org/img/2022/12/11/6395a119a4602.jpg)
+
+2. 一路`Next`
+3. 点击+号
+4. 设置链接地址
+port后面的4位数字为端口号，像这样
+```
+localhost:5901
+```
+
+![port后面的4位数字为端口号](https://image.hestudio.org/img/2022/12/11/6395a11b5c6c4.jpg)
+
+5. 最后保存即可
+
 ### 我开启了vncserver但在VNC Viewer页面无法进入。
 由于vncserver和桌面环境对设备配置要求较高，所以部分设备会杀掉后台进程，有的经过手动设置实现墓碑机制的设备也无法使用，因为后台被冻结了（可以使用白名单保证termux不被冻结）。这个问题无法根治，部分支持软件悬浮窗的手机可以尝试使用悬浮窗使Termux前台运行。
 

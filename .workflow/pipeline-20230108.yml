@@ -99,6 +99,7 @@ stages:
           - cp ads.txt dist/
           - rm -rf www.hestudio.xyz/*
           - cp -r dist/* www.hestudio.xyz/
+          - cp -r .well-known www.hestudio.xyz/
           - echo "All is Successfully!"
         notify:
           - certificate: 77d5a450-216c-013b-e2e0-62a419196a2a
