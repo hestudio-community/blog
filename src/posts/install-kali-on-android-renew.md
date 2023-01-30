@@ -20,6 +20,8 @@ category: Android
 
 [^3]: 受支持的机器列表具有时效性，详见 https://www.kali.org/get-kali/#kali-mobile
 
+<!-- more -->
+
 ### 工具
 1. 搭载基于Android的手机
 2. [Termux](https://res.hestudio.org/kali_for_android/Termux_0.118.0.apk)

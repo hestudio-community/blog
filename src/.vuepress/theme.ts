@@ -33,7 +33,7 @@ export default hopeTheme({
 
   // 自定义部分结束
 
-  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
+  pageInfo: ["Author", "Original", "Date", "pageview", "Category", "Tag", "ReadingTime"],
 
   blog: {
     avatar: "https://image.hestudio.org/img/2022/12/13/6398763d6229a.jpg",

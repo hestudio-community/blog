@@ -1,5 +1,5 @@
 ---
-title: 2-Python输入与输出
+title: Python输入与输出
 date: 2022-10-20 19:19:57
 tag: Python
 category: Python

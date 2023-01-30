@@ -1,5 +1,5 @@
 ---
-title: 4-Python的运算符
+title: Python的运算符
 date: 2022-10-22 17:12:28
 tag: Python
 category: Python

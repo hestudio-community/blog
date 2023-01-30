@@ -13,6 +13,8 @@ category: Android
 然而，在手机上敲代码总是有一些别扭，所以这篇文章就教你怎么远程链接，也就是用ssh连接。
 
 
+<!-- more -->
+
 ### 在Termux上安装openssh服务
 #### 安装
 1. 打开Termux

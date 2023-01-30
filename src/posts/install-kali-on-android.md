@@ -12,12 +12,14 @@ category: Android
 查看最新版请转到 https://www.hestudio.org/2022/12/install-kali-on-android-renew/
 ::: 
 
-### 前言
+
 由于kali官方的Nethunter[^1]的安装代码因为...无法访问，手头又没有一些受支持的机器[^2]，所以做了这个脚本供大家使用。
 
 [^1]: 官方文档： https://www.kali.org/docs/nethunter/nethunter-rootless/
 
 [^2]: 受支持的机器列表具有时效性，详见 https://www.kali.org/get-kali/#kali-mobile
+
+<!-- more -->
 
 ### 工具
 1. 搭载基于Android的手机

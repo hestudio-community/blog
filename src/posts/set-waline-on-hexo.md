@@ -19,6 +19,8 @@ category: Linux
 
 其他的部署方案请在waline官网查看，这里只讲述独立部署。
 
+<!-- more -->
+
 我打算用`docker-compose`部署到我们的服务器上，那么我们就需要准备`docker-compose.yml`
 ```yaml
 version: '3.8'

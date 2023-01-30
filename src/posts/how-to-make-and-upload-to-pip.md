@@ -8,6 +8,9 @@ category: Python
 ---
 因为最近在做Python包，所以也了解了一下这个。这里我把我自己的学习经验写出来，如果哪里写的不好也请大家提出来。本文的内容大多数都来自[ Packaging Python Projects - Pypi ](https://packaging.python.org/en/latest/tutorials/packaging-projects/)，我根据我的理解进行描述一下。
 
+
+<!-- more -->
+
 ![Pypi的文档截图](https://image.hestudio.org/img/2022/12/17/639db6293266c.png)
 
 ---

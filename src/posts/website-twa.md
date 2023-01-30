@@ -1,7 +1,7 @@
 ---
 title: 让你的网站变成一个Android应用
 date: 2023-01-30 16:32:59
-tagy: 
+tag: 
     - PWA
     - TWA
     - Android
@@ -16,6 +16,8 @@ TWA (Trusted Web Activity 可信任的网络应用）即: 基于Chrome Custom Ta
 - [Android Studio](https://developer.android.google.cn/studio/)
 
 本文参照 [TWA踩坑记-从零到一让你的博客变成app并上架商店](https://tellyouwhat.cn/p/twa-you-blog-can-become-an-app/#toc-heading-1) 编写，由于版本更迭的原因，原教程的方法已经不再完全可用。感谢 [Harbor Zeng](https://tellyouwhat.cn/) 老师的思路。
+
+<!-- more -->
 
 ### 创建项目
 1. 打开 Android Studio

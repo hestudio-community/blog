@@ -12,6 +12,8 @@ category: Python
 
 ![](https://image.hestudio.org/img/2022/12/28/63abc608bb033.png)
 
+<!-- more -->
+
 ::: info 
 这里只讲解它的原理，图形方案交给你们设计。
 :::

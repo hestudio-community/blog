@@ -10,6 +10,9 @@ category: Windows
 
 AtlasOS 是一个[开源](https://github.com/Atlas-OS/Atlas)免费的项目，旨在为游戏玩家提供最合适用于运行游戏的操作系统。它基于 Windows 10 定制而来，“精简”删除了各种非必要的系统组件，剥离了众多的 Windows 后台进程，从而为游戏节省出大量的系统资源。
 
+
+<!-- more -->
+
 所以我[下载](https://atlasos.net/downloads)了一个来实际体验一下究竟有没有那么厉害。我下载的是它的20H2版本，也是他们推荐的版本。
 
 ![下载页面](https://image.hestudio.org/img/2022/12/11/6395c5629da61.png)
