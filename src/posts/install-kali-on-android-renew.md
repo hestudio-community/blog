@@ -5,7 +5,7 @@ tag:
     - Termux
     - Android
     - Kali Linux
-category: Linux
+category: Android
 ---
 最近有很多反馈，都是一些正常界面，截图反馈给我问我有什么问题（原版是英文的）。而且原文（指CSDN上的[^1]）用的是富文本，不方便后期修改和同步，所以我更新了这个版本（以后不出意外的话都在这里更新）。
 

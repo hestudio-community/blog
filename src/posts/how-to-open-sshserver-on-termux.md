@@ -5,10 +5,9 @@ tag:
     - Termux
     - Linux
     - SSH
-category: Linux
+category: Android
 ---
 
-### 前言
 众所周知，Termux 是一个 Android 终端仿真应用程序，用于在 Android 手机上搭建一个完整的 Linux 环境。 Termux不是真实的Linux环境，但是Termux可以安装真实的Linux，而且不会损失性能！. 关键是还不需要root！
 
 然而，在手机上敲代码总是有一些别扭，所以这篇文章就教你怎么远程链接，也就是用ssh连接。

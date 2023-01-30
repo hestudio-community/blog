@@ -5,7 +5,7 @@ tag:
     - Termux
     - Android
     - Kali Linux
-category: Linux
+category: Android
 ---
 
 ::: info 
