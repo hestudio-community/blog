@@ -218,7 +218,6 @@ export default hopeTheme({
     seo: true,
     
     pwa: {
-      cacheHTML: true,
       cachePic: true,
       update: 'hint',
       
