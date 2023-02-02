@@ -8,7 +8,7 @@ export const enSidebar = sidebar({
       prefix: "docs/",
       children: [
         'kali_for_android',
-        'y'
+        'y',
         'key',
         'patch',
         'talking',
