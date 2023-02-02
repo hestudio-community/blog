@@ -41,6 +41,11 @@ projects:
     desc: 一个用Java写的的桌面端MFA应用
     link: https://gitee.com/hestudio/hmfa
 
+  - icon: emoji
+    name: Y
+    desc: 治疗用户不看文档的陋习
+    link: https://www.hestudio.org/docs/y.html
+
 # footer: customize your footer text
 ---
 

@@ -89,6 +89,10 @@ localhost:5901
 
 部分配置比较高的手机因为它的系统版本往往是最高的，而Termux并未对其进行适配，所以会导致Termux突然崩溃。
 
+::: danger 兼容性问题
+有关Termux的兼容性问题请浏览 https://github.com/termux/termux-packages/wiki/Termux-and-Android-10 和 https://developer.android.google.cn/about/versions/10/behavior-changes-10?hl=zh-cn#execute-permission
+:::
+
 由于Termux未适配Harmony OS，所以使用搭载有Harmony OS的华为或荣耀用户可能无法使用。在实际测试和用户反馈中，Harmony OS 2.0机型（测试设备为荣耀9x）可以使用除vnc之外的功能，Harmony OS 3.0机型（测试设备为华为MatePad Pro）由于安装脚本无法识别导致无法安装。
 
 ### 不显示网卡信息，怎么联网等
@@ -120,6 +124,10 @@ localhost:5901
 如果出现这个页面，我建议在中国大陆的用户使用清华源（倒数第四个）或者北京外国语大学源（倒数第三个）。且最好使用触摸选择（不是底下的软键盘），点击对应的文字。
 
 如果你使用的是自己配置的源，可以点击Cancel关闭这个窗口
+
+::: tip 如何寻找Termux的源
+这个是Termux官方提供的文档：https://github.com/termux/termux-packages/wiki/Mirrors#mirrors-hosted-in-china
+:::
 
 ### 出现 `curl: (28) SSL connection timeout` 报错
 这种现象在我的所有测试设备中总是无法复现，部分用户也表示使用该同一版本的脚本时从未出现这种情况。这种情况的出现可能由以下几大原因造成的：
