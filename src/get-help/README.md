@@ -42,7 +42,7 @@ next: false
 
 | 项目 | 仓库链接 |
 |---|---|
-| Kali Linux for Android | https://gitee.com/heStudio/ka_install |
+| Kali Linux for Android | https://gitlab.com/heStudio/ka_install |
 | Windows 11 升级助手 | https://gitee.com/hestudio/upgrade_win11 |
 | KMS 助手 | https://gitee.com/heStudio/kms-tool |
 | 百度搜索提交工具 | https://gitee.com/heStudio/baidu-search-submission-tool |
