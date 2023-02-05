@@ -28,7 +28,7 @@ docker pull registry.cn-hangzhou.aliyuncs.com/hestudio/hestudio_bing_wallpaper_g
 #### NPM安装
 ```shell
 npm i hestudio-bing-wallpaper-get
-node node_modules/hestudio-bing-wallpaper-get/get.js
+cd node_modules/hestudio-bing-wallpaper-get/ && npm run server
 ```
 
 #### 手动安装
