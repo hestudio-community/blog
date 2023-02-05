@@ -1,6 +1,6 @@
 ---
 title: Y Application
-icon: read
+icon: emoji
 article: false
 ---
 

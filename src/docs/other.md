@@ -1,6 +1,6 @@
 ---
 title: 其他
-icon: read
+icon: others
 article: false
 comment: false
 ---

@@ -7,7 +7,7 @@ next: false
 ---
 
 ### 服务
-- [KMS 服务](https://www.hestudio.org/posts/how-to-use-kms.html)
+- [KMS 服务 (即将下架) ](https://www.hestudio.org/posts/how-to-use-kms.html)
 - [Kali for Termux 安装源](https://www.hestudio.org/posts/install-kali-on-android-renew.html#%E5%AE%89%E8%A3%85%E5%9F%BA%E6%9C%AC%E7%B3%BB%E7%BB%9F)
 - [heStudio Framework](https://pypi.org/project/heframework/)
 - [heStudio Download Server](https://download.hestudio.org)
@@ -16,6 +16,7 @@ next: false
 - [Windows 11升级助手](https://gitee.com/hestudio/upgrade_win11)
 - [KMS助手](https://gitee.com/heStudio/kms-tool?_from=gitee_search)
 - [百度搜索提交工具](https://pypi.org/project/hbsst/)
+- [BingWallpaper Get](/docs/hestudio_bing_wallpaper_get.html)
 - [heStudio MFA for Desktop](https://gitee.com/hestudio/hmfa)
 
 ### 镜像

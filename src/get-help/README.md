@@ -44,7 +44,7 @@ next: false
 |---|---|
 | Kali Linux for Android | https://gitlab.com/heStudio/ka_install |
 | Windows 11 升级助手 | https://gitee.com/hestudio/upgrade_win11 |
-| KMS 助手 | https://gitee.com/heStudio/kms-tool |
+| BingWallpaper Get | https://gitlab.com/heStudio/bing-wallpaper-get.git |
 | 百度搜索提交工具 | https://gitee.com/heStudio/baidu-search-submission-tool |
 | heStudio Framework | https://gitee.com/heStudio-Framework/main-windows |
 | heStudio MFA for Desktop | https://gitee.com/hestudio/hmfa |

@@ -3,13 +3,11 @@ home: true
 layout: BlogHome
 icon: home
 title: Home
-bgImage: https://image.hestudio.org/img/2023/01/18/63c7b60d4c2e1.png
+bgImage: https://hbwg.hestudio.org/getimage
 # heroImage: /logo.svg
-# heroText: heStudio
-# tagline: Welcome to the pit!
-heroText: false
-tagline: false
-heroFullScreen: false
+heroText: heStudio
+tagline: Welcome to the pit!
+heroFullScreen: true
 projects:
   - icon: install
     name: Kali Linux for Android
@@ -26,10 +24,10 @@ projects:
     desc: 让没有TPM2.0的电脑升级Windows 11
     link: https://gitee.com/hestudio/upgrade_win11
 
-  - icon: license
-    name: KMS 助手
-    desc: 一个半图形化的系统授权管理工具
-    link: https://gitee.com/heStudio/kms-tool
+  - icon: api
+    name: BingWallpaper Get
+    desc: 一个直接返回图片的API
+    link: https://www.hestudio.org/docs/hestudio_bing_wallpaper_get.html
 
   - icon: api
     name: 百度搜索提交工具

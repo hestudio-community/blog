@@ -1,6 +1,6 @@
 ---
 title: Key 获取与查找
-icon: read
+icon: lock
 article: false
 ---
 ### 怎么获取key&找到已购买的key

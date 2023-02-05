@@ -1,6 +1,6 @@
 ---
 title: heStudio Talking 文档
-icon: read
+icon: community
 article: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: 补丁合集
-icon: read
+icon: debug
 article: false
 ---
 
