@@ -30,7 +30,7 @@ next: false
 - [百度搜索提交工具](https://pypi.org/project/hbsst/)
 - [heStudio Framework](https://pypi.org/project/heframework/)
 - [heStudio MFA for Desktop](https://gitee.com/hestudio/hmfa)
-- [BingWallpaper Get](https://www.npmjs.com/package/hestudio-bing-wallpaper-get)
+- [BingWallpaper Get](https://www.npmjs.com/package/hestudio-bingwallpaper-get)
 
 ### 镜像的项目
 - [Quick Reference](https://quickref.hestudio.org/)
