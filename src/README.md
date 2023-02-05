@@ -14,7 +14,7 @@ projects:
     desc: 在你的安卓手机上安装Kali Linux
     link: https://www.hestudio.org/posts/install-kali-on-android-renew.html
 
-  - icon: quickref.svg
+  - icon: /quickref.svg
     name: Quick Reference
     desc: 为开发人员分享快速参考备忘清单
     link: https://quickref.hestudio.org/

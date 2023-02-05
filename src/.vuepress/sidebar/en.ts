@@ -8,6 +8,7 @@ export const enSidebar = sidebar({
       prefix: "docs/",
       children: [
         'kali_for_android',
+        'hestudio_bing_wallpaper_get',
         'y',
         'key',
         'patch',
