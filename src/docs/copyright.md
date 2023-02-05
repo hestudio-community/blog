@@ -1,6 +1,6 @@
 ---
 title: 转载与授权
-icon: lisense
+icon: license
 article: false
 ---
 
