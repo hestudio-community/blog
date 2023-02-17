@@ -1,7 +1,13 @@
 ---
 title: heStudio BingWallpaper Get
-icon: api
-article: false
+date: 2022-12-14 12:01:35
+tag: 
+    - Linux
+    - 必应壁纸
+    - Node
+    - NPM
+    - API
+category: 软件发布
 ---
 
 ### demo
@@ -43,27 +49,4 @@ GET /getcopyright
 
 ### 安装方法
 
-::: code-tabs
-
-@tab Docker部署 (推荐)
-```shell
-docker pull hestudio/bingwallpaper_get
-docker run -d -p 3000:3000 hestudio/bingwallpaper_get
-```
-
-
-@tab NPM安装
-```shell
-npm i hestudio-bingwallpaper-get
-cd node_modules/hestudio-bingwallpaper-get/ && npm run server
-```
-
-@tab 手动安装
-```shell
-git clone https://gitlab.com/heStudio/bing-wallpaper-get.git
-cd bing-wallpaper-get
-npm install
-npm run server
-```
-
-:::
+详见 https://www.hestudio.org/docs/hestudio_bing_wallpaper_get.html
