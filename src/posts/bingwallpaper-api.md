@@ -1,6 +1,6 @@
 ---
-title: heStudio BingWallpaper Get
-date: 2022-12-14 12:01:35
+title: heStudio BingWallpaper Get - 一个自动获取图片的必应壁纸接口
+date: 2023-02-17 11:30:35
 tag: 
     - Linux
     - 必应壁纸
@@ -9,6 +9,8 @@ tag:
     - API
 category: 软件发布
 ---
+
+一个自动获取图片的必应壁纸二次封装接口，这个接口主要方便部分框架不支持自主嵌入处理窗口，仅支持图片链接和没有开发能力的人使用。
 
 ### demo
 ![这是一张自动更换的图片](https://hbwg.hestudio.org/getimage)
