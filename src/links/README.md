@@ -22,6 +22,9 @@ Welcome to mengBlog
 ### [二次猿](https://www.erciape.com/)
 在谷底也要开花
 
+### [我的玩机技巧](https://wjkjy.cn/)
+欢迎来到玩机科技社!
+
 ### 申请友链
 在下方留言申请加入我的友链（申请之前要先将我的博客加入友链），按如下格式在[heStudio Talking](/talking/)提供信息：
 - 博客名: heStudio
