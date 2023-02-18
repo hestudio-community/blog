@@ -20,12 +20,6 @@ export default hopeTheme({
   docsDir: "docs",
 
   // 自定义部分
-  themeColor: {
-    blue: "#2196f3",
-    red: "#f26d6d",
-    green: "#3eaf7c",
-    orange: "#fb9b5f",
-  },
 
   fullscreen: true,
 
@@ -185,7 +179,7 @@ export default hopeTheme({
     pwa: {
       cachePic: true,
       update: 'hint',
-
+      themeColor: '#e77c8e',
     },
   },
 });
