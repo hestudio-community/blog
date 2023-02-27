@@ -118,6 +118,17 @@ localhost:5901
 如不是因为以上原因导致的报错，请访问 https://pd.qq.com/s/rvk1vn?shareSource=5 或者到[QQ频道](https://pd.qq.com/s/uakgta)求助
 :::
 
+### Termux提示`Failed to fetch`
+![](https://image.hestudio.org/img/2023/02/27/63fcca9e7d274.jpg)
+
+当出现此提示的时候，请输入
+
+```shell
+termux-change-repo
+```
+
+然后参照下一条操作。
+
 ### Termux选择源的时候怎么选
 ![termux-change-repo](https://image.hestudio.org/img/2022/12/16/639c696754b56.jpg)
 
