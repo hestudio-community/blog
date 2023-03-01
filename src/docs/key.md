@@ -5,7 +5,7 @@ article: false
 ---
 ### 怎么获取key&找到已购买的key
 #### 怎么购买
-1. [点击这里购买](https://afdian.net/a/hestudio)
+1. [点击这里购买](https://afdian.net/item/66544a4a1f0211ed835052540025c377)
 2. 点击 为TA发电
 ![点击 为TA发电](https://foruda.gitee.com/images/1664632117224809873/7c47c717_10456722.jpeg "IMG_20221001_214442.jpg")
 3. 找到要发电的东西( **认准识别号** )
