@@ -99,6 +99,10 @@ export default hopeTheme({
 
 
   plugins: {
+    prismjs: {
+      light: "vsc-dark-plus",
+      dark: "vsc-dark-plus",
+    },
     blog: true,
 
     // If you don’t need comment feature, you can remove following option
