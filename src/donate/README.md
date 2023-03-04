@@ -6,7 +6,7 @@ comment: false
 next: false
 ---
 
-::: tip 捐赠选项
+::: details 捐赠选项
 
 ::: tabs
 
@@ -15,7 +15,7 @@ next: false
 
 
 @tab 支付宝
-[![1677942525.jpg](https://image.hestudio.org/img/2023/03/04/6403658ad55e8.jpg)](https://qr.alipay.com/fkx13427ks9t0ups0qzc081)
+[![ ](https://image.hestudio.org/img/2023/03/04/6403658ad55e8.jpg)](https://qr.alipay.com/fkx13427ks9t0ups0qzc081)
 
 
 @tab QQ钱包
