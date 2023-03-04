@@ -6,7 +6,23 @@ comment: false
 next: false
 ---
 
-<iframe id="afdian_leaflet_hestudio" src="https://afdian.net/leaflet?slug=hestudio" width="100%" scrolling="no" height="200" frameborder="0"></iframe><script>document.body.clientWidth< 700 ? document.getElementById("afdian_leaflet_hestudio").width = "100%" : document.getElementById("afdian_leaflet_hestudio").width = "640"</script>
+::: tip 捐赠选项
+
+::: tabs
+
+@tab 微信支付
+![](https://image.hestudio.org/img/2023/03/04/6403651274504.jpg)
+
+
+@tab 支付宝
+[![1677942525.jpg](https://image.hestudio.org/img/2023/03/04/6403658ad55e8.jpg)](https://qr.alipay.com/fkx13427ks9t0ups0qzc081)
+
+
+@tab QQ钱包
+![](https://image.hestudio.org/img/2023/03/04/640362d927b8a.png)
+
+
+:::
 
 ### 感谢以下粉丝的支持
 
