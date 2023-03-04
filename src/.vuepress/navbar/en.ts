@@ -9,9 +9,5 @@ export const enNavbar = navbar([
   "/about/",
   "/app/",
   "/links/",
-  {
-    text: "支持我",
-    icon: "support",
-    link: "https://afdian.net/a/hestudio"
-  },
+  "/donate/",
 ]);
