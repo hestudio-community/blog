@@ -6,7 +6,7 @@ comment: false
 next: false
 ---
 
-<iframe src="https://afdian.net/leaflet?slug=hestudio" width="640" scrolling="no" height="200" frameborder="0"></iframe>
+<iframe src="https://afdian.net/leaflet?slug=hestudio" scrolling="no" ></iframe>
 
 ### 感谢以下粉丝的支持
 
