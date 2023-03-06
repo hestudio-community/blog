@@ -11,3 +11,5 @@ article: false
 
 
 :::
+
+<Share colorful />

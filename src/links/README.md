@@ -9,7 +9,7 @@ next: false
 ### [–小透明](https://v.kuaishou.com/JneKBF)
 彼方尚有荣光在.
 
-### [wang湘杰🏀](https://www.kuaishou.com/profile/3xp9w5bbq3badew)
+### [wang湘杰🏀](https://v.kuaishou.com/P3fWle)
 提到了你
 
 ### [薛才杰个人博客](https://www.xuecaijie.com/)
@@ -37,3 +37,5 @@ Welcome to mengBlog
 - 简介: Welcome to the pit!
 - 链接: https://www.hestudio.org/
 - 头像URL(可选): https://image.hestudio.org/img/2022/12/13/639872e717350.png
+
+<Share colorful />

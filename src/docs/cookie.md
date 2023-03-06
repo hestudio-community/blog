@@ -149,3 +149,5 @@ This document was last updated on November 11, 2022
 - hestudio@hestudio.org
 
 この文書の最終更新日：2022年11月11日
+
+<Share colorful />

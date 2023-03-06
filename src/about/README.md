@@ -51,3 +51,5 @@ next: false
 赞助我们以获得更长期稳定的产品
 
 [![赞助我们以获得更长期稳定的产品](https://image.hestudio.org/img/2022/12/13/639873ce2d116.jpg)](https://afdian.net/@hestudio)
+
+<Share colorful />

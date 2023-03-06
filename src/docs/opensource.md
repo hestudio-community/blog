@@ -55,3 +55,5 @@ https://docs.mcsmanager.com/#/
 
 #### Github
 https://github.com/MCSManager/MCSManager
+
+<Share colorful />

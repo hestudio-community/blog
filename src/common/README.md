@@ -30,3 +30,5 @@ next: false
 - [MCSManager](https://github.com/MCSManager)
 
 如果需要其他的公共服务或者使用出现了问题，可以在 heStudio Talking 提出。
+
+<Share colorful />

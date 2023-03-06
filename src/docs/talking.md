@@ -96,3 +96,5 @@ heStudio Talking 是一个在heStudio博客内置的一个疑难解答的平台�
 ::: warning
 为了你的账号安全，我们会将你的密码进行清空。
 :::
+
+<Share colorful />

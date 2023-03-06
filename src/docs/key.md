@@ -25,3 +25,5 @@ article: false
 ![查看内容](https://foruda.gitee.com/images/1664632443345021684/372656d3_10456722.jpeg "IMG_20221001_214604.jpg")
 3. 查看序列号
 ![查看序列号](https://foruda.gitee.com/images/1664632491582934824/af4ad37a_10456722.jpeg "IMG_20221001_214631.jpg")
+
+<Share colorful />

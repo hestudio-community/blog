@@ -19,4 +19,5 @@ next: false
 3. 返回[heStudio Talking](https://www.hestudio.org/talking/)，粘贴刚才复制的代码
 :::
 
+<Share colorful />
 
