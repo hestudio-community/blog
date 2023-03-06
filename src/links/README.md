@@ -9,6 +9,9 @@ next: false
 ### [–小透明](https://v.kuaishou.com/JneKBF)
 彼方尚有荣光在.
 
+### [wang湘杰🏀](https://www.kuaishou.com/profile/3xp9w5bbq3badew)
+提到了你
+
 ### [薛才杰个人博客](https://www.xuecaijie.com/)
 一个分享技术、记录生活的个人技术博客
 
