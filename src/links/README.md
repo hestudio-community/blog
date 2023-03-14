@@ -19,7 +19,7 @@ next: false
 ### [Meng](https://www.meng.me/)
 Welcome to mengBlog
 
-### [VuePress Theme Hope](https://vuepress-theme-hope.gitee.io/v2/zh/)
+### [VuePress Theme Hope](https://theme-hope.vuejs.press/zh/)
 一个具有强大功能的 vuepress 主题✨
 
 ### [二次猿](https://www.erciape.com/)

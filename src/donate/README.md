@@ -17,6 +17,8 @@ next: false
 @tab 支付宝
 [![ ](https://image.hestudio.org/img/2023/03/04/6403658ad55e8.jpg)](https://qr.alipay.com/fkx13427ks9t0ups0qzc081)
 
+或者，通过[点击这里](https://qr.alipay.com/fkx13427ks9t0ups0qzc081)跳转到支付宝。
+
 
 @tab QQ钱包
 ![](https://image.hestudio.org/img/2023/03/04/640362d927b8a.png)
@@ -31,6 +33,7 @@ next: false
 | 赞助者 | 赞助金额 |
 |---|---|
 | 独狼 | ￥ 36.00 |
+| 逐风天翼 ｜ ¥ 30.00 ｜
 | 爱发电用户_KQqw | ￥ 6.00 |
 | 695777814 | ￥ 6.00 |
 | 爱发电用户_hMqP | ￥ 5.00 |
@@ -46,6 +49,10 @@ next: false
 | 爱发电用户_HKXj | ￥ 5.00 |
 | 爱发电用户_TcS5 | ￥ 5.00 |
 | 爱发电用户_tQag | ￥ 5.00 |
+
+::: tip
+迄今为止，共接受捐赠 ¥ 143.00
+:::
 
 ::: warning
 此表单并非实时更新
