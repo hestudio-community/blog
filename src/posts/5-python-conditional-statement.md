@@ -146,3 +146,5 @@ else:
     elif age >= 18:
         print("成年")
 ```
+
+<Share colorful />

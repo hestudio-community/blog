@@ -99,6 +99,11 @@ export default hopeTheme({
 
 
   plugins: {
+    components: {
+      components: [
+        'Share',
+      ],
+    },
     prismjs: {
       light: "vsc-dark-plus",
       dark: "vsc-dark-plus",

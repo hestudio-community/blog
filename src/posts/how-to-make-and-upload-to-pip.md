@@ -147,3 +147,4 @@ pip install example
 ```
 其中`example`是你的项目的名称，它应该为上文的`name`的值。
 
+<Share colorful />

@@ -58,6 +58,7 @@ category: Windows
 ![](https://image.hestudio.org/img/2022/12/12/639702c8a2821.png)
 
 9. 将手机端设置后台运行和自启动
+
 ![](https://image.hestudio.org/img/2022/12/12/639703dbc02de.png)
 
 ### 可以做什么？
@@ -65,3 +66,4 @@ category: Windows
 
 ![素材和它的朋友们](https://image.hestudio.org/img/2022/12/12/639704d14a6c8.png)
 
+<Share colorful />

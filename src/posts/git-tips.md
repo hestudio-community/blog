@@ -985,3 +985,4 @@ git log --pretty='%aN' | sort | uniq -c | sort -k1 -n -r | head -n 10
 git log --oneline | wc -l
 ```
 
+<Share colorful />

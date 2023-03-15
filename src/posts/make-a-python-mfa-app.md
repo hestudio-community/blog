@@ -378,3 +378,5 @@ if __name__ == "__main__":
 :::
 
 ![运行界面](https://image.hestudio.org/img/2022/12/31/63afe382abec2.png)
+
+<Share colorful />

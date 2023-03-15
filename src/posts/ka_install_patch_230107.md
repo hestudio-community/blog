@@ -23,3 +23,5 @@ category: 软件补丁
 ```bash
 wget https://res.hestudio.org/kali_for_android/patch/ka_install_patch_230107 && bash ka_install_patch_230107
 ```
+
+<Share colorful />

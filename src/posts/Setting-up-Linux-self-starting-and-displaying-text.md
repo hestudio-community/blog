@@ -78,3 +78,5 @@ echo 'Hello heStudio!'
 
 #### ~/.bashrc
 为当前用户设置专属的 bash 信息，当每次打开新的shell时，该文件被执行。理念类似于/etc/bashrc，只不过只对当前用户有效，不需要重启只需要打开新的shell即可生效。
+
+<Share colorful />

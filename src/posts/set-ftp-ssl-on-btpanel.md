@@ -31,3 +31,5 @@ vim /etc/ssl/private/pure-ftpd.pem
 再次登录 FileZilla , 尝试连接后，报错消失了。
 
 ![](https://image.hestudio.org/img/2022/12/22/63a40228a6826.png)
+
+<Share colorful />

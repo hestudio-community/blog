@@ -104,3 +104,4 @@ termux配合mt管理器
 本站用的所有开源软件合集： https://www.hestudio.org/docs/opensource.html
 :::
 
+<Share colorful />

@@ -137,3 +137,4 @@ localhost:5901
 
 详见[《Linux设置自启动和显示文字》](/posts/Setting-up-Linux-self-starting-and-displaying-text.html)
 
+<Share colorful />
