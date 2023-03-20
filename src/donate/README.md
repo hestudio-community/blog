@@ -23,14 +23,6 @@ next: false
 @tab QQ钱包
 ![](https://image.hestudio.org/img/2023/03/04/640362d927b8a.png)
 
-@tab 云闪付
-请复制以下信息，并打开云闪付APP赞助。
-
-```text
-6#给我转账，赞助#长按复制此条消息，打开云闪付即可给我转账。:/#>?EBERI5spJZ?<# app.95516.com
-```
-
-
 :::
 
 <Share colorful />
