@@ -1,5 +1,6 @@
 import { defineUserConfig } from "vuepress";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
+import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
 import theme from "./theme.js";
 
 export default defineUserConfig({
@@ -28,6 +29,10 @@ export default defineUserConfig({
   theme,
 
   plugins: [
+    googleAnalyticsPlugin({
+      // 配置项
+      id: 'G-YTW6F8F5GC',
+    }),
     searchProPlugin({
       // 索引全部内容
       indexContent: true,

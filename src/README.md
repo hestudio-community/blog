@@ -3,7 +3,7 @@ home: true
 layout: BlogHome
 icon: home
 title: Home
-bgImage: https://hbwg.hestudio.org/getimage
+bgImage: https://bw.hestudio.org/getimage
 # heroImage: /logo.svg
 heroText: heStudio
 tagline: Welcome to the pit!

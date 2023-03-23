@@ -13,7 +13,7 @@ category: 软件发布
 一个自动获取图片的必应壁纸二次封装接口，这个接口主要方便部分框架不支持自主嵌入处理窗口，仅支持图片链接和没有开发能力的人使用。
 
 ### demo
-![这是一张自动更换的图片](https://hbwg.hestudio.org/getimage)
+![这是一张自动更换的图片](https://bw.hestudio.org/getimage)
 
 ### 调用方法
 
