@@ -22,7 +22,7 @@ category: Android
 ```
 pkg install openssh -y
 ```
-![安装openssh](https://img-blog.csdnimg.cn/cdfb47c592714037a7a96741c49068c9.jpeg#pic_center)
+![安装openssh](https://image.hestudio.org/img/2023/03/24/641d5f31417e3.jpeg)
 
 3. 安装好之后，我们需要手动启动sshd
 ```
@@ -33,7 +33,7 @@ sshd
 ```
 ssh localhost -p 8022
 ```
-![验证是否开启ssh](https://img-blog.csdnimg.cn/3a636d540b1347b282ebe5a0fba46198.jpeg#pic_center)
+![验证是否开启ssh](https://image.hestudio.org/img/2023/03/24/641d5f795756f.jpeg)
 
 如果出现图片上的画面，则已经开启ssh服务
 
@@ -42,7 +42,7 @@ Termux的sshd只能通过密钥登陆，因此你需要在客户端上生成密�
 ```
 ssh-keygen
 ```
-![生成密钥对](https://img-blog.csdnimg.cn/b982f41850594cfc988f135f161c4ea8.png#pic_center)
+![生成密钥对](https://image.hestudio.org/img/2023/03/24/641d5fb122600.png)
 
 把客户端上的公钥加到Termux中的 .ssh/authorized_keys,这一步比较麻烦。因为你无法使用 ssh-copy-id,只能先把 id_rsa.pub 拷贝到手机上，再在手机上打开该文件，拷贝文件内容后在Termux中用 vi 打开 authorized_keys,并复制内容进去。
 
@@ -64,7 +64,7 @@ ssh 127.0.0.1 -p 8022
 ```
 把 127.0.0.1换成手机ip
 手机IP可以在 设置 --> WLAN --> 高级设置 里查看
-![连接ssh](https://img-blog.csdnimg.cn/082979f3d67b4da29c440b8fbaaf7d52.png#pic_center)
+![连接ssh](https://image.hestudio.org/img/2023/03/24/641d5ff99ba32.png)
 
 > 最后一次更新：2022.11.1
 
