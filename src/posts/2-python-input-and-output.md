@@ -1,21 +1,26 @@
 ---
 title: Python输入与输出
-date: 2022-10-20 19:19:57
+date: 2023-03-27 12:30:57
 tag: Python
 category: Python
 ---
+
+::: tip
+首次发布于 2022年10月21日
+:::
 
 ### 输入
 我之所以先讲输入，而不是向其他教程一样先讲输出，是有一定用意的。
 
 如下所示
 ```python
-a = input("显示的内容 >>>")
+a = input("提示的内容：")
+print(a) # 后面会讲这里
 ```
 这段代码的意思是将你输入的内容输入到a变量里储存
 运行后如下图所示：
 
-![运行结果](https://image.hestudio.org/img/2022/12/11/63959c6f7ee70.jpg)
+![运行结果](https://image.hestudio.org/img/2023/03/27/64218ec53f696.jpeg)
 
 ### 输出
 #### 基本的输出
@@ -43,12 +48,14 @@ print(a)
 ![运行结果](https://image.hestudio.org/img/2022/12/11/63959dd5ba727.jpg)
 
 #### 分清变量和字符串的区别
-话不多说，直接看
-```
+
+```python
 >>> a = jntm
 >>> print(a)
 jntm
+```
 
+```python
 >>> print("a")
 a
 
@@ -83,6 +90,9 @@ print("唱"+"跳","rap","篮球")
 ![运行结果](https://image.hestudio.org/img/2022/12/11/63959de683268.jpg)
 
 ### 输出多行文字
+
+当你需要输出多行文字时，你必须打出三个引号，这里的三个引号需要注意，它与你需要输出的行数无任何关系。
+
 ```python
 print("""
 1
