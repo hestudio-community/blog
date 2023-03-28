@@ -20,6 +20,26 @@ category: Python
 
 ![运行结果](https://image.hestudio.org/img/2022/12/11/63959f9c3d2bf.jpg)
 
+::: tip
+在交互模式下，在运算的时候可以省略`print`函数。
+
+当然你可以使用
+```python 
+print(3+2)
+``` 
+它的输出结果是`5`
+
+但是请注意不要用这种形式，例如
+```python 
+print("3+2")
+```
+它们输出的内容是不同的。
+
+![](https://image.hestudio.org/img/2023/03/28/64225eb2d26a4.jpeg)
+
+
+:::
+
 ::: warning 
 如对上述内容不理解的，请咨询您的老师或访问 https://www.zxx.edu.cn/syncClassroom 以寻求帮助。
 ::: 
@@ -88,7 +108,7 @@ category: Python
 ```python
 a = 1 # 赋值
 a += 1 # 加法赋值
-print(a) # 输出 a
+print(a) # 输出 a 的值
 ```
 运行结果为
 
