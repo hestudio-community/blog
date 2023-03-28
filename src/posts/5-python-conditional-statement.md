@@ -8,9 +8,9 @@ category: Python
 先来看一下这节课要学的东西
 
 1.  `if` 结构
-2.  `if` - 'else' 结构
-3.  'if' - `elif` 结构
-4.  'if' - `elif` - `else` 结构
+2.  `if` - `else` 结构
+3.  `if` - `elif` 结构
+4.  `if` - `elif` - `else` 结构
 5.  套娃式玩法
 
 ### if 结构
