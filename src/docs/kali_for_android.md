@@ -82,7 +82,30 @@ localhost:5901
 
 5. 最后保存即可
 
-### 我开启了vncserver但在VNC Viewer页面无法进入。
+#### vnc怎么更换端口
+TigerVNC默认是以`5900+X`作为版本号的。在重启后会继续向下一位分配版本号，这就意味着我们会经常修改vnc显示器的端口号。
+
+如果我们在运行的时候指定一个端口，那么实际上这个端口就固定了。
+
+```shell
+vncserver :1
+```
+
+在这种情况下vnc服务就会在`5901`端口运行。如果你想要在其他端口运行，那么可以将1改成其他数值。
+
+如果需要固定一个简便的方法，那么我们可以尝试创建一个脚本并通过脚本快速通过固定的端口启动。
+
+```shell
+echo "vncserver :1" >> /usr/share/vncserver-start
+chmod +x /usr/share/vncserver-shart
+```
+ 
+其中`:1`应当改为你需要的数值，`vncserver-start`应当改为你想要的脚本名称（需要是非中文或特殊字符且不要和系统原有指令冲突）。然后以后可以通过脚本快速通过固定端口启动。
+
+如果需要使其开机自启动，请浏览 [Linux设置自启动和显示文字](https://www.hestudio.org/posts/Setting-up-Linux-self-starting-and-displaying-text.html)
+
+
+#### 我开启了vncserver但在VNC Viewer页面无法进入。
 由于vncserver和桌面环境对设备配置要求较高，所以部分设备会杀掉后台进程，有的经过手动设置实现墓碑机制的设备也无法使用，因为后台被冻结了（可以使用白名单保证termux不被冻结）。这个问题无法根治，部分支持软件悬浮窗的手机可以尝试使用悬浮窗使Termux前台运行。
 
 如果你的设备性能较低，那无论怎么设置也解决不了这个问题，请更换设备或者尝试使用[官方的App](https://www.kali.org/get-kali/#kali-mobile)（需要Root或者刷机）

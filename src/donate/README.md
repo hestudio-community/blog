@@ -23,6 +23,9 @@ next: false
 @tab QQ钱包
 ![](https://image.hestudio.org/img/2023/03/04/640362d927b8a.png)
 
+@tab PayPal
+[点击向我付款](https://www.paypal.me/hestudionetwork)
+
 :::
 
 <Share colorful />
