@@ -91,7 +91,7 @@ vim /data/data/com.termux/files/usr/bin/x11
 在填写完之后我们要赋予其权限，
 
 ```shell
-
+chmod +x /data/data/com.termux/files/usr/bin/x11
 ```
 
 在里面填上上面的启动指令，以后将可以通过对应的指令启动。
