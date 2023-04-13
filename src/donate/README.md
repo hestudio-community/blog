@@ -6,6 +6,12 @@ comment: false
 next: false
 ---
 
+::: details 支付宝红包
+![](https://image.hestudio.org/img/2023/04/13/64381ab4a5692.jpg)
+
+
+:::
+
 ::: details 捐赠选项
 
 ::: tabs
@@ -15,6 +21,9 @@ next: false
 
 
 @tab 支付宝
+
+领完红包后向我付款更优惠！
+
 [![ ](https://image.hestudio.org/img/2023/03/04/6403658ad55e8.jpg)](https://qr.alipay.com/fkx13427ks9t0ups0qzc081)
 
 或者，通过[点击这里](https://qr.alipay.com/fkx13427ks9t0ups0qzc081)跳转到支付宝。
@@ -25,6 +34,7 @@ next: false
 
 @tab PayPal
 [点击向我付款](https://www.paypal.me/hestudionetwork)
+
 
 :::
 
@@ -38,6 +48,8 @@ next: false
 | 逐风天翼 | ￥ 30.00 |
 | 爱发电用户_KQqw | ￥ 6.00 |
 | 695777814 | ￥ 6.00 |
+| **元 | ￥ 6.00 |
+| 小羊肖恩 | ￥ 5.00 |
 | 爱发电用户_hMqP | ￥ 5.00 |
 | 爱发电用户_6ATh | ￥ 5.00 |
 | 2426908529 | ￥ 5.00 |
@@ -53,7 +65,7 @@ next: false
 | 爱发电用户_tQag | ￥ 5.00 |
 
 ::: tip
-迄今为止，共接受捐赠 ¥ 143.00
+迄今为止，共接受捐赠 ¥ 154.00
 :::
 
 ::: warning
