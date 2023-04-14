@@ -9,7 +9,7 @@ article: false
 
 - 手动发码(较慢)：访问 https://www.hestudio.org/donate ，选择三个多其中一种支付方式支付`¥1.99`，并将订单详细截图发送到 hestudio@hestudio.org
 
-::: 在爱发电购买
+::: details 如何在爱发电购买
 1. 爱发电购买链接：[点击这里购买](https://afdian.net/item/66544a4a1f0211ed835052540025c377)
 2. 点击 为TA发电
 ![点击 为TA发电](https://foruda.gitee.com/images/1664632117224809873/7c47c717_10456722.jpeg "IMG_20221001_214442.jpg")
