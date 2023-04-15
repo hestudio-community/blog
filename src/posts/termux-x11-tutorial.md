@@ -117,3 +117,5 @@ chmod +x /data/data/com.termux/files/usr/bin/x11
 可以正常使用了！
 
 ![](https://image.hestudio.org/img/2023/04/05/642c4e09d5602.jpg)
+
+<Share colorful />
