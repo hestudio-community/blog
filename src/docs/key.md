@@ -7,6 +7,8 @@ article: false
 #### 怎么购买
 - 爱发电购买链接：[点击这里购买](https://afdian.net/item/66544a4a1f0211ed835052540025c377)
 
+- 通过淘宝购买（自动）: [点击这里跳转到淘宝](https://h5.m.taobao.com/awp/core/detail.htm?ft=t&id=719190994604)
+
 - 手动发码(较慢)：访问 https://www.hestudio.org/donate ，选择三个多其中一种支付方式支付`¥1.99`，并将订单详细截图发送到 hestudio@hestudio.org
 
 ::: details 如何在爱发电购买
