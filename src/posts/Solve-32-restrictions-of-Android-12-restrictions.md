@@ -11,7 +11,7 @@ category: Android
 
 Android 12及以上用户在使用Termux时，有时会显示`[Process completed (signal 9) - press Enter]`，这是因为Android 12的PhantomProcesskiller限制了应用的子进程，最大允许应用有32个子进程。
 
-![](https://image.hestudio.org/img/2023/05/24/646e30e301bc0.jpg)q
+![](https://image.hestudio.org/img/2023/05/24/646e30e301bc0.jpg)
 
 这里以ColorOS 12.1为例（其他系统操作略有出入）
 
