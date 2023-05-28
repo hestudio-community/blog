@@ -90,7 +90,7 @@ export default hopeTheme({
       // sidebar
       sidebar: enSidebar,
 
-      footer: '<a href="https://icp.gov.moe/?keyword=20225520" target="_blank">萌ICP备20225520号</a>',
+      footer: '<a href="https://icp.gov.moe/?keyword=20225520" target="_blank">萌ICP备20225520号</a><script type="text/javascript">var uid = "460099";var wid = "692339";var pop_fback = "up";var pop_tag = document.createElement("script");pop_tag.src="//cdn.popcash.net/show.js";document.body.appendChild(pop_tag);pop_tag.onerror = function() {pop_tag = document.createElement("script");pop_tag.src="//cdn2.popcash.net/show.js";document.body.appendChild(pop_tag)};</script>',
 
       displayFooter: true,
 
