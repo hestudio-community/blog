@@ -56,6 +56,7 @@ pkg install android-tools
 ![](https://image.hestudio.org/img/2023/05/25/646e39bb37b29.jpg)
 
 3. 浮窗Termux
+
 利用Android 12的功能，使Termux处于浮窗状态。
 
 ![](https://image.hestudio.org/img/2023/05/25/646e3a72db6b3.jpg)
@@ -113,3 +114,5 @@ adb shell device_config put activity_manager max_phantom_processes 65536
 ```
 
 ![](https://image.hestudio.org/img/2023/05/25/646e401558f04.jpg)
+
+<Share colorful />
