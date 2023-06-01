@@ -3,12 +3,12 @@ import { enNavbar } from "./navbar/index.js";
 import { enSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://www.hestudio.org",
+  hostname: "https://www.hestudio.net",
 
   author: {
     name: "醉、倾城",
-    url: "https://www.hestudio.org/about/",
-    email: "hestudio@hestudio.org"
+    url: "https://www.hestudio.net/about/",
+    email: "hestudio@hestudio.net"
   },
 
   iconAssets: "iconfont",
@@ -48,7 +48,7 @@ export default hopeTheme({
         'https://m.tb.cn/h.UGbGzvZ?tk=6CpZdl6c79o',
         '<svg t="1681577836657" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4808" data-spm-anchor-id="a313x.7781069.0.i21" width="200" height="200"><path d="M619.8 464.32h106.44v36.6h-106.44v-36.6z m0 89.8h106.44v35.48h-106.44v-35.48z m159.64 0h104.24v35.48h-104.24v-35.48z m0 0" p-id="4809" fill="#fee50f" data-spm-anchor-id="a313x.7781069.0.i20" class=""></path><path d="M512 0C229.24 0 0 229.2 0 512c0 282.76 229.24 512 512 512s512-229.2 512-512S794.76 0 512 0zM187.24 335.68a26.6 26.6 0 0 1 26.64-26.6c14.72 0 26.6 11.92 26.6 26.6v29.96c0 14.72-11.92 26.64-26.6 26.64-14.72 0-26.64-11.92-26.64-26.64v-29.96z m57.64 352.64c0 9.52-5.08 18.32-13.32 23.04a26.636 26.636 0 0 1-26.64 0 26.592 26.592 0 0 1-13.32-23.04v-90.92a26.6 26.6 0 0 1 26.64-26.6c14.72 0 26.64 11.92 26.64 26.6v90.92z m158.72 0c0 9.52-5.08 18.32-13.32 23.04a26.636 26.636 0 0 1-26.64 0 26.592 26.592 0 0 1-13.32-23.04v-90.92c0-9.52 5.08-18.28 13.32-23.04a26.636 26.636 0 0 1 39.96 23.04v90.92z m79.88 0c0 9.52-5.08 18.32-13.32 23.04a26.636 26.636 0 0 1-26.64 0 26.592 26.592 0 0 1-13.32-23.04v-180.8H324.76v180.8c0 9.52-5.08 18.32-13.32 23.04a26.636 26.636 0 0 1-26.64 0 26.592 26.592 0 0 1-13.32-23.04v-180.8H165.04v180.8c0 9.52-5.08 18.32-13.32 23.04a26.636 26.636 0 0 1-26.64 0 26.592 26.592 0 0 1-13.32-23.04v-332.8a26.636 26.636 0 1 1 53.28 0v98.8h106.28v-8.92c0-9.52 5.08-18.32 13.32-23.04a26.636 26.636 0 0 1 39.96 23.04v8.88h105.48V382.24h-140.8c-9.52 0-18.32-5.08-23.04-13.32a26.636 26.636 0 0 1 23.04-39.96h167.48c7.08 0 13.84 2.8 18.84 7.8a26.608 26.608 0 0 1 7.8 18.84l0.08 332.72z m81.92-352.64c0-7.04 2.8-13.84 7.8-18.84a26.608 26.608 0 0 1 18.84-7.8h317.44c7.08 0 13.84 2.8 18.84 7.8s7.8 11.76 7.8 18.84v29.96c0 14.72-11.92 26.64-26.64 26.64s-26.64-11.92-26.64-26.64v-3.32h-264.2v3.32c0 14.72-11.92 26.64-26.64 26.64s-26.64-11.92-26.64-26.64l0.04-29.96z m26.64 379.28c-14.72 0-26.64-11.92-26.64-26.64s11.92-26.64 26.64-26.64 26.64 11.92 26.64 26.64c-0.04 14.72-11.96 26.64-26.64 26.64z m107.52 0c-14.72 0-26.64-11.92-26.64-26.64s11.92-26.64 26.64-26.64 26.64 11.92 26.64 26.64c-0.04 14.72-11.96 26.64-26.64 26.64z m105.36 0c-14.72 0-26.64-11.92-26.64-26.64s11.92-26.64 26.64-26.64 26.64 11.92 26.64 26.64c-0.04 14.72-11.96 26.64-26.64 26.64z m105.36 0c-14.72 0-26.64-11.92-26.64-26.64s11.92-26.64 26.64-26.64 26.64 11.92 26.64 26.64c-0.04 14.72-11.96 26.64-26.64 26.64z m0-70.96c-2.56 0-5.16-0.4-7.64-1.12h-309.52c-7.08 0-13.84-2.8-18.84-7.8a26.608 26.608 0 0 1-7.8-18.84v-178.56c0-7.04 2.8-13.84 7.8-18.84a26.4 26.4 0 0 1 18.84-7.76h145a26.62 26.62 0 0 1 29.44 0h142.76c7.08 0 13.84 2.8 18.84 7.8a26.608 26.608 0 0 1 7.8 18.84v179.64c0 7.08-2.8 13.84-7.8 18.84a26.772 26.772 0 0 1-18.88 7.8z m0 0" p-id="4810" fill="#fee50f"></path><path d="M779.44 464.32h104.24v36.6h-104.24z" p-id="4811" fill="#fee50f"></path></svg>',
       ],
-      Email: "mailto:hestudio@hestudio.org",
+      Email: "mailto:hestudio@hestudio.net",
       // Evernote: "https://example.com",
       // Facebook: "https://example.com",
       // Flipboard: "https://example.com",
@@ -69,7 +69,7 @@ export default hopeTheme({
         "https://t.me/hestudio_network",
         '<svg t="1673753702126" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4654" width="200" height="200"><path d="M679.424 746.862l84.005-395.996c7.424-34.852-12.581-48.567-35.438-40.009L234.277 501.138c-33.72 13.13-33.134 32-5.706 40.558l126.282 39.424 293.156-184.576c13.714-9.143 26.295-3.986 16.018 5.157L426.898 615.973l-9.143 130.304c13.13 0 18.871-5.706 25.71-12.581l61.696-59.429 128 94.282c23.442 13.129 40.01 6.29 46.3-21.724zM1024 512c0 282.843-229.157 512-512 512S0 794.843 0 512 229.157 0 512 0s512 229.157 512 512z" fill="#1296DB" p-id="4655"></path></svg>',
       ],
-      Rss: "https://www.hestudio.org/atom.xml",
+      Rss: "https://www.hestudio.net/atom.xml",
       // Steam: "https://example.com",
       // Twitter: "https://example.com",
       // Wechat: "https://example.com",
@@ -90,7 +90,7 @@ export default hopeTheme({
       // sidebar
       sidebar: enSidebar,
 
-      footer: '<a href="https://icp.gov.moe/?keyword=20225520" target="_blank">萌ICP备20225520号</a><script type="text/javascript">var uid = "460099";var wid = "692339";var pop_tag = document.createElement("script");pop_tag.src="//cdn.popcash.net/show.js";document.body.appendChild(pop_tag);pop_tag.onerror = function() {pop_tag = document.createElement("script");pop_tag.src="//cdn2.popcash.net/show.js";document.body.appendChild(pop_tag)};</script><script type="text/javascript">var uid = "460099";var wid = "692339";var pop_fback = "up";var pop_tag = document.createElement("script");pop_tag.src="//cdn.popcash.net/show.js";document.body.appendChild(pop_tag);pop_tag.onerror = function() {pop_tag = document.createElement("script");pop_tag.src="//cdn2.popcash.net/show.js";document.body.appendChild(pop_tag)};</script>',
+      // footer: '<a href="https://icp.gov.moe/?keyword=20225520" target="_blank">萌ICP备20225520号</a><script type="text/javascript">var uid = "460099";var wid = "692339";var pop_tag = document.createElement("script");pop_tag.src="//cdn.popcash.net/show.js";document.body.appendChild(pop_tag);pop_tag.onerror = function() {pop_tag = document.createElement("script");pop_tag.src="//cdn2.popcash.net/show.js";document.body.appendChild(pop_tag)};</script><script type="text/javascript">var uid = "460099";var wid = "692339";var pop_fback = "up";var pop_tag = document.createElement("script");pop_tag.src="//cdn.popcash.net/show.js";document.body.appendChild(pop_tag);pop_tag.onerror = function() {pop_tag = document.createElement("script");pop_tag.src="//cdn2.popcash.net/show.js";document.body.appendChild(pop_tag)};</script>',
 
       displayFooter: true,
 
@@ -106,6 +106,7 @@ export default hopeTheme({
     components: {
       components: [
         'Share',
+        'Notice',
       ],
     },
     prismjs: {

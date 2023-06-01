@@ -9,18 +9,18 @@ next: false
 ### 欢迎入坑
 这里是我的个人博客。为什么这么说呢？下文会有提及。
 
-- 联系邮箱：hestudio@hestudio.org
+- 联系邮箱：hestudio@hestudio.net
 - QQ频道：https://pd.qq.com/s/uakgta
 - 作者CSDN：醉、倾城
 - heStudio社区：https://bbs.csdn.net/forums/hestudio
 - 作者Gitlab：https://gitlab.com/hestudio
 - 作者Gitee：https://gitee.com/heStudio
 - 作者Github：https://github.com/heStudio-Network
-- 作者博客：https://www.hestudio.org/
+- 作者博客：https://www.hestudio.net/
 - 作者爱发电：https://afdian.net/@hestudio
 - 作者Telegram群组：https://t.me/hestudio_network
-- RSS 订阅：https://www.hestudio.org/atom.xml
-- 问题反馈：https://www.hestudio.org/get-help
+- RSS 订阅：https://www.hestudio.net/atom.xml
+- 问题反馈：https://www.hestudio.net/get-help
 
 
 ### 自己的项目
@@ -42,10 +42,10 @@ next: false
 - [VuePress Theme Hope](https://github.com/vuepress-theme-hope/vuepress-theme-hope)
 
 ### 友情链接
-本站欢迎友情链接，详见 https://www.hestudio.org/links
+本站欢迎友情链接，详见 https://www.hestudio.net/links
 
 ### 搬运
-本站在一定条件下允许搬运，详见 https://www.hestudio.org/docs/copyright.html
+本站在一定条件下允许搬运，详见 https://www.hestudio.net/docs/copyright.html
 
 ### 赞助
 赞助我们以获得更长期稳定的产品

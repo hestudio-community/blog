@@ -8,6 +8,10 @@ category: Windows
 ---
 ### KMS服务地址
 
+::: warning
+本站KMS地址因版权问题已经停用！
+:::
+
 ```text
 kms.hestudio.org
 ```

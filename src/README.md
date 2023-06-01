@@ -12,7 +12,7 @@ projects:
   - icon: install
     name: Kali Linux for Android
     desc: 在你的安卓手机上安装Kali Linux
-    link: https://www.hestudio.org/posts/install-kali-on-android-renew.html
+    link: /posts/install-kali-on-android-renew.html
 
   - icon: /quickref.svg
     name: Quick Reference
@@ -27,7 +27,7 @@ projects:
   - icon: api
     name: BingWallpaper Get
     desc: 一个直接返回图片的API
-    link: https://www.hestudio.org/docs/hestudio_bing_wallpaper_get.html
+    link: /docs/hestudio_bing_wallpaper_get.html
 
   - icon: api
     name: 百度搜索提交工具
@@ -47,7 +47,7 @@ projects:
   - icon: emoji
     name: Y
     desc: 治疗用户不看文档的陋习
-    link: https://www.hestudio.org/docs/y.html
+    link: /docs/y.html
 
 # footer: customize your footer text
 ---

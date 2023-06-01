@@ -8,6 +8,10 @@ tag:
     - Termux
 category: 软件发布
 ---
+
+::: warning 
+该计划已经停止！
+:::
 ### Ubuntu for Android 内测已经开始
 #### 参与内测
 你只需要在下方评论区扣一，我们会联系你的。

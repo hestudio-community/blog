@@ -17,7 +17,7 @@ category: Windows
 - 谷歌框架
 - Android 7.1及以上
 - Science Surfing [^1]
-- [连接至Windows （点击下载）](https://res.hestudio.org/res/blog/how-to-link-to-windows/link_to_windows.apk)
+- [连接至Windows （点击下载）](https://gitlab.com/heStudio/res/-/raw/main/link_to_windows.apk)
 
 [^1]: ![字面意思](https://image.hestudio.org/img/2022/12/12/6397000e41dba.png)
 

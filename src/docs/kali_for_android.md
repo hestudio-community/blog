@@ -5,7 +5,7 @@ article: false
 ---
 
 ### 教程
-https://www.hestudio.org/posts/install-kali-on-android-renew.html
+https://www.hestudio.net/posts/install-kali-on-android-renew.html
 
 ### 一些命令
 这里只说明我的教程涉及到的命令，查看其他博主教程的命令请转到对应博主的文档里查看，查看系统命令用法请访问 https://www.kali.org/tools/
@@ -42,7 +42,7 @@ vncserver -kill
 ##### 初始化vncserver
 本脚本内置vncserver[^6]服务，但是还是需要自己稍微设置一下。
 
-> 部分机型可能报错，如出现这种情况，请浏览 https://www.hestudio.org/docs/kali_for_android.html#%E6%88%91%E5%BC%80%E5%90%AF%E4%BA%86vncserver%E4%BD%86%E5%9C%A8vnc-viewer%E9%A1%B5%E9%9D%A2%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5%E3%80%82 或者到[QQ频道](https://pd.qq.com/s/uakgta)求助
+> 部分机型可能报错，如出现这种情况，请浏览 https://www.hestudio.net/docs/kali_for_android.html#%E6%88%91%E5%BC%80%E5%90%AF%E4%BA%86vncserver%E4%BD%86%E5%9C%A8vnc-viewer%E9%A1%B5%E9%9D%A2%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5%E3%80%82 或者到[QQ频道](https://pd.qq.com/s/uakgta)求助
 
 ::: info 
 查看更多vncserver操作，请到https://tigervnc.org/
@@ -102,7 +102,7 @@ chmod +x /usr/share/vncserver-shart
  
 其中`:1`应当改为你需要的数值，`vncserver-start`应当改为你想要的脚本名称（需要是非中文或特殊字符且不要和系统原有指令冲突）。然后以后可以通过脚本快速通过固定端口启动。
 
-如果需要使其开机自启动，请浏览 [Linux设置自启动和显示文字](https://www.hestudio.org/posts/Setting-up-Linux-self-starting-and-displaying-text.html)
+如果需要使其开机自启动，请浏览 [Linux设置自启动和显示文字](/posts/Setting-up-Linux-self-starting-and-displaying-text.html)
 
 
 #### 我开启了vncserver但在VNC Viewer页面无法进入。
@@ -175,13 +175,13 @@ termux-change-repo
 ping res.hestudio.org
 ```
 
-如果在ping的时候返回了IP地址，则说明网站正在维护，请过一会在尝试。如果还是不能访问，请[联系我](https://www.hestudio.org/about/)。出现第一种情况的可能性基本为零，因为所有的外置资源全部部署到阿里云的CDN中，且我们存在作为备用源的对象存储（不是存你的对象的）。所以即使遇到我们的服务器正在维护，你也可以从CDN的缓存或者备用对象存储（俗称备胎）获取你需要的资源。
+如果在ping的时候返回了IP地址，则说明网站正在维护，请过一会在尝试。如果还是不能访问，请[联系我](/about/)。出现第一种情况的可能性基本为零，因为所有的外置资源全部部署到阿里云的CDN中，且我们存在作为备用源的对象存储（不是存你的对象的）。所以即使遇到我们的服务器正在维护，你也可以从CDN的缓存或者备用对象存储（俗称备胎）获取你需要的资源。
 
 ![](https://image.hestudio.org/img/2023/01/05/63b6b0158d42d.png)
 
 
 所以基本上出现第二种情况的可能性最大，当在上一步未ping到IP地址，则适用于这一条。出现第二种情况既不是你的错，当然也不是我的错。当你遇到第二种情况时，请尝试修改你的设备中的DNS。我们推荐使用阿里云的DNS（地址是`223.5.5.5`和`223.6.6.6`）以更方便的访问我们的服务，当然你也可以选择其他常见的公共DNS。如果你的设备使用的是私人DNS，请你暂时关闭它。如果没有遇到这种情况，请忽略这一条的全部信息。
 
-> 最后一次更新 2023.01.05
+> 最后一次更新 2023.6.1
 
 <Share colorful />

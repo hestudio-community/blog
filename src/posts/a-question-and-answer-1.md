@@ -103,7 +103,7 @@ termux配合mt管理器
 ::: tip 回复
 @酷小呵: 这个是 vuepress-theme-hope
 
-本站用的所有开源软件合集： https://www.hestudio.org/docs/opensource.html
+本站用的所有开源软件合集： https://www.hestudio.net/docs/opensource.html
 :::
 
 <Share colorful />

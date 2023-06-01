@@ -51,6 +51,6 @@ GET /getcopyright
 
 ### 安装方法
 
-详见 https://www.hestudio.org/docs/hestudio_bing_wallpaper_get.html
+详见 https://www.hestudio.net/docs/hestudio_bing_wallpaper_get.html
 
 <Share colorful />

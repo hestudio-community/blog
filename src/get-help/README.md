@@ -49,9 +49,9 @@ next: false
 | heStudio Framework | https://gitee.com/heStudio-Framework/main-windows |
 | heStudio MFA for Desktop | https://gitee.com/hestudio/hmfa |
 
-2. 如果不是报错，想寻求技术帮助。请在浏览全部[文档](/docs/)后，如果没有你需要的内容，请通过 [heStudio Talking](https://www.hestudio.org/talking) 直接反馈
+2. 如果不是报错，想寻求技术帮助。请在浏览全部[文档](/docs/)后，如果没有你需要的内容，请通过 [heStudio Talking](/talking) 直接反馈
 
-3. 如果你的问题不方便公开，请向 hestudio@hestudio.org 发送电子邮件反馈。
+3. 如果你的问题不方便公开，请向 [hestudio@hestudio.net](mailto:hestudio@hestudio.net) 发送电子邮件反馈。
 
 ::: warning
 请发送电子邮件的时候详细描述你的问题，避免被系统当做垃圾邮件处理

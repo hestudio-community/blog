@@ -16,7 +16,7 @@ next: false
 
 1. 点击上传按钮
 2. 进入上传页面，上传文件后，复制Markdown选项的代码
-3. 返回[heStudio Talking](https://www.hestudio.org/talking/)，粘贴刚才复制的代码
+3. 返回[heStudio Talking](/talking/)，粘贴刚才复制的代码
 :::
 
 <Share colorful />

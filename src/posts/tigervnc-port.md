@@ -31,6 +31,6 @@ chmod +x /usr/share/vncserver-shart
  
 其中`:1`应当改为你需要的数值，`vncserver-start`应当改为你想要的脚本名称（需要是非中文或特殊字符且不要和系统原有指令冲突）。然后以后可以通过脚本快速通过固定端口启动。
 
-如果需要使其开机自启动，请浏览 [Linux设置自启动和显示文字](https://www.hestudio.org/posts/Setting-up-Linux-self-starting-and-displaying-text.html)
+如果需要使其开机自启动，请浏览 [Linux设置自启动和显示文字](/posts/Setting-up-Linux-self-starting-and-displaying-text.html)
 
 <Share colorful />

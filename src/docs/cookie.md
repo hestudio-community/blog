@@ -6,7 +6,7 @@ article: false
 
 ### Cookie政策
 
-本 Cookie 政策（“政策”）描述了 Cookie 是什么以及 Cookie 如何以及 hestudio.org 网站（“网站”或“服务”）及其任何相关产品和服务（统称为“服务”）正在使用它们。本政策是您（“用户”、“您”或“您的”）与本网站运营商（“运营商”、“我们”、“我们”或“我们的”）之间具有法律约束力的协议。如果您代表企业或其他法律实体签订本协议，则表示您有权使该实体受本协议的约束，在这种情况下，术语“用户”、“您”或“您的”应指此类实体。如果您没有此类权限，或者您不同意本协议的条款，则不得接受本协议，不得访问和使用本网站和服务。您应该阅读本政策，以便了解我们使用的 Cookie 类型、我们使用 Cookie 收集的信息以及如何使用这些信息。它还描述了您在接受或拒绝使用 Cookie 方面可用的选择。
+本 Cookie 政策（“政策”）描述了 Cookie 是什么以及 Cookie 如何以及 hestudio.net 网站（“网站”或“服务”）及其任何相关产品和服务（统称为“服务”）正在使用它们。本政策是您（“用户”、“您”或“您的”）与本网站运营商（“运营商”、“我们”、“我们”或“我们的”）之间具有法律约束力的协议。如果您代表企业或其他法律实体签订本协议，则表示您有权使该实体受本协议的约束，在这种情况下，术语“用户”、“您”或“您的”应指此类实体。如果您没有此类权限，或者您不同意本协议的条款，则不得接受本协议，不得访问和使用本网站和服务。您应该阅读本政策，以便了解我们使用的 Cookie 类型、我们使用 Cookie 收集的信息以及如何使用这些信息。它还描述了您在接受或拒绝使用 Cookie 方面可用的选择。
 
 #### 什么是Cookie？
 
@@ -46,17 +46,17 @@ Cookie 可能由网站（“第一方 Cookie”）或第三方设置，例如在
 
 如果您对本政策或 Cookie 的使用有任何疑问、疑虑或投诉，我们建议您使用以下详细信息与我们联系：
 
-- https://www.hestudio.org/get-help
+- https://www.hestudio.net/get-help
 
-- hestudio@hestudio.org
+- hestudio@hestudio.net
 
-本文档最后更新于 2022 年 11 月 11 日
+本文档最后更新于 2023 年 6 月 1 日
 
 
 
 ### Cookie policy
 
-This cookie policy (“Policy”) describes what cookies are and how and they’re being used by the hestudio.org website (“Website” or “Service”) and any of its related products and services (collectively, “Services”). This Policy is a legally binding agreement between you (“User”, “you” or “your”) and this Website operator (“Operator”, “we”, “us” or “our”). If you are entering into this agreement on behalf of a business or other legal entity, you represent that you have the authority to bind such entity to this agreement, in which case the terms “User”, “you” or “your” shall refer to such entity. If you do not have such authority, or if you do not agree with the terms of this agreement, you must not accept this agreement and may not access and use the Website and Services. You should read this Policy so you can understand the types of cookies we use, the information we collect using cookies and how that information is used. It also describes the choices available to you regarding accepting or declining the use of cookies.
+This cookie policy (“Policy”) describes what cookies are and how and they’re being used by the hestudio.net website (“Website” or “Service”) and any of its related products and services (collectively, “Services”). This Policy is a legally binding agreement between you (“User”, “you” or “your”) and this Website operator (“Operator”, “we”, “us” or “our”). If you are entering into this agreement on behalf of a business or other legal entity, you represent that you have the authority to bind such entity to this agreement, in which case the terms “User”, “you” or “your” shall refer to such entity. If you do not have such authority, or if you do not agree with the terms of this agreement, you must not accept this agreement and may not access and use the Website and Services. You should read this Policy so you can understand the types of cookies we use, the information we collect using cookies and how that information is used. It also describes the choices available to you regarding accepting or declining the use of cookies.
 
 #### What are cookies?
 
@@ -96,15 +96,15 @@ You acknowledge that you have read this Policy and agree to all its terms and co
 
 If you have any questions, concerns, or complaints regarding this Policy or the use of cookies, we encourage you to contact us using the details below:
 
-- https://www.hestudio.org/get-help
+- https://www.hestudio.net/get-help
 
-- hestudio@hestudio.org
+- hestudio@hestudio.net
 
-This document was last updated on November 11, 2022
+This document was last updated on June 1, 2023
 
 ### クッキーに関するポリシー
 
-このクッキーポリシー（以下「ポリシー」）は、hestudio.orgのウェブサイト（以下「サイト」または「サービス」）およびその関連製品・サービス（以下「サービス」と総称します）におけるクッキーとは何か、クッキーの使用方法について説明するものです。" ）およびその関連製品・サービス（以下、総称して「本サービス」といいます）をご利用されています。本ポリシーは、お客様（「ユーザー」、「お客様」または「お客様の」）と本サイトの運営者（「運営者」、「私たち」、「私たちの」、「私たちの」）との間のものです。「以下、「当社」といいます）。お客様が企業またはその他の法人を代表して本契約を締結する場合、お客様は当該法人を本契約に拘束する権限を有することを表明し、この場合、「ユーザー」、「お客様」または「お客様の」という用語が使用されます。「は、当該事業体を意味するものとする。お客様がそのような権限をお持ちでない場合、または本契約の条項に同意されない場合は、本契約を受諾せず、本サイトおよび本サービスにアクセスし、使用することができないものとします。お客様は、当社が使用するクッキーの種類、クッキーを使用して収集する情報、および当社がその情報をどのように使用するかを理解するために、このポリシーをお読みください。また、クッキーの使用を承諾または拒否することに関して、お客様が利用可能な選択肢を説明します。
+このクッキーポリシー（以下「ポリシー」）は、hestudio.netのウェブサイト（以下「サイト」または「サービス」）およびその関連製品・サービス（以下「サービス」と総称します）におけるクッキーとは何か、クッキーの使用方法について説明するものです。" ）およびその関連製品・サービス（以下、総称して「本サービス」といいます）をご利用されています。本ポリシーは、お客様（「ユーザー」、「お客様」または「お客様の」）と本サイトの運営者（「運営者」、「私たち」、「私たちの」、「私たちの」）との間のものです。「以下、「当社」といいます）。お客様が企業またはその他の法人を代表して本契約を締結する場合、お客様は当該法人を本契約に拘束する権限を有することを表明し、この場合、「ユーザー」、「お客様」または「お客様の」という用語が使用されます。「は、当該事業体を意味するものとする。お客様がそのような権限をお持ちでない場合、または本契約の条項に同意されない場合は、本契約を受諾せず、本サイトおよび本サービスにアクセスし、使用することができないものとします。お客様は、当社が使用するクッキーの種類、クッキーを使用して収集する情報、および当社がその情報をどのように使用するかを理解するために、このポリシーをお読みください。また、クッキーの使用を承諾または拒否することに関して、お客様が利用可能な選択肢を説明します。
 
 #### クッキーとは何ですか？
 
@@ -144,10 +144,10 @@ This document was last updated on November 11, 2022
 
 本ポリシーやクッキーの使用に関するご質問、ご不明な点、苦情等がございましたら、以下の連絡先までお問い合わせください。
 
-- https://www.hestudio.org/get-help
+- https://www.hestudio.net/get-help
 
-- hestudio@hestudio.org
+- hestudio@hestudio.net
 
-この文書の最終更新日：2022年11月11日
+この文書の最終更新日：2023年6月1日
 
 <Share colorful />
