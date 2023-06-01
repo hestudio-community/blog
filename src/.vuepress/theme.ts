@@ -106,7 +106,6 @@ export default hopeTheme({
     components: {
       components: [
         'Share',
-        'Notice',
       ],
     },
     prismjs: {
