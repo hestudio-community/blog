@@ -68,7 +68,7 @@ vncserver -kill
 ##### 链接到vnc
 1. 打开 VNC Viewer
 
-![VNC Viewer](https://image.hestudio.org/img/2022/12/11/6395a119a4602.jpg)
+![VNC Viewer](https://image.hestudio.net/img/2022/12/11/6395a119a4602.jpg)
 
 2. 一路`Next`
 3. 点击+号
@@ -78,7 +78,7 @@ port后面的4位数字为端口号，像这样
 localhost:5901
 ```
 
-![port后面的4位数字为端口号](https://image.hestudio.org/img/2022/12/11/6395a11b5c6c4.jpg)
+![port后面的4位数字为端口号](https://image.hestudio.net/img/2022/12/11/6395a11b5c6c4.jpg)
 
 5. 最后保存即可
 
@@ -130,7 +130,7 @@ chmod +x /usr/share/vncserver-shart
 ### 它支持什么功能
 详见这张图片
 
-![支持什么功能](https://image.hestudio.org/img/2022/12/11/6395a1cbdba87.jpg)
+![支持什么功能](https://image.hestudio.net/img/2022/12/11/6395a1cbdba87.jpg)
 
 ### 安装时显示文件损坏
 
@@ -142,7 +142,7 @@ chmod +x /usr/share/vncserver-shart
 :::
 
 ### Termux提示`Failed to fetch`
-![](https://image.hestudio.org/img/2023/02/27/63fcca9e7d274.jpg)
+![](https://image.hestudio.net/img/2023/02/27/63fcca9e7d274.jpg)
 
 当出现此提示的时候，请输入
 
@@ -153,7 +153,7 @@ termux-change-repo
 然后参照下一条操作。
 
 ### Termux选择源的时候怎么选
-![termux-change-repo](https://image.hestudio.org/img/2022/12/16/639c696754b56.jpg)
+![termux-change-repo](https://image.hestudio.net/img/2022/12/16/639c696754b56.jpg)
 
 如果出现这个页面，我建议在中国大陆的用户使用清华源（倒数第四个）或者北京外国语大学源（倒数第三个）。且最好使用触摸选择（不是底下的软键盘），点击对应的文字。
 
@@ -172,12 +172,12 @@ termux-change-repo
 我们可以使用ping来验证网站的状态，请尝试在终端内运行
 
 ```bash
-ping res.hestudio.org
+ping res.hestudio.net
 ```
 
 如果在ping的时候返回了IP地址，则说明网站正在维护，请过一会在尝试。如果还是不能访问，请[联系我](/about/)。出现第一种情况的可能性基本为零，因为所有的外置资源全部部署到阿里云的CDN中，且我们存在作为备用源的对象存储（不是存你的对象的）。所以即使遇到我们的服务器正在维护，你也可以从CDN的缓存或者备用对象存储（俗称备胎）获取你需要的资源。
 
-![](https://image.hestudio.org/img/2023/01/05/63b6b0158d42d.png)
+![](https://image.hestudio.net/img/2023/01/05/63b6b0158d42d.png)
 
 
 所以基本上出现第二种情况的可能性最大，当在上一步未ping到IP地址，则适用于这一条。出现第二种情况既不是你的错，当然也不是我的错。当你遇到第二种情况时，请尝试修改你的设备中的DNS。我们推荐使用阿里云的DNS（地址是`223.5.5.5`和`223.6.6.6`）以更方便的访问我们的服务，当然你也可以选择其他常见的公共DNS。如果你的设备使用的是私人DNS，请你暂时关闭它。如果没有遇到这种情况，请忽略这一条的全部信息。

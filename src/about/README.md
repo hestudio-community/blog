@@ -33,7 +33,7 @@ next: false
 - [heStudio BingWallpaper Get](https://www.npmjs.com/package/hestudio-bingwallpaper-get)
 
 ### 镜像的项目
-- [Quick Reference](https://quickref.hestudio.org/)
+- [Quick Reference](https://quickref.hestudio.net/)
 
 ### 参与的项目
 - [Quick Reference](https://github.com/jaywcjlove/reference)
@@ -50,6 +50,6 @@ next: false
 ### 赞助
 赞助我们以获得更长期稳定的产品
 
-[![赞助我们以获得更长期稳定的产品](https://image.hestudio.org/img/2022/12/13/639873ce2d116.jpg)](https://afdian.net/@hestudio)
+[![赞助我们以获得更长期稳定的产品](https://image.hestudio.net/img/2022/12/13/639873ce2d116.jpg)](https://afdian.net/@hestudio)
 
 <Share colorful />

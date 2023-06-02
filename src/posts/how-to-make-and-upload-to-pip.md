@@ -11,7 +11,7 @@ category: Python
 
 <!-- more -->
 
-![Pypi的文档截图](https://image.hestudio.org/img/2022/12/17/639db6293266c.png)
+![Pypi的文档截图](https://image.hestudio.net/img/2022/12/17/639db6293266c.png)
 
 ---
 ### 演示配置
@@ -34,9 +34,9 @@ py -m pip install --upgrade twine
 
 ### 写配置文件
 #### readme.md
-这个可以是任意内容，但必须要遵守[Markdown格式](https://quickref.hestudio.org/docs/markdown.html)，这个文件实际在pypi显示出来的效果是这样的。
+这个可以是任意内容，但必须要遵守[Markdown格式](https://quickref.hestudio.net/docs/markdown.html)，这个文件实际在pypi显示出来的效果是这样的。
 
-![](https://image.hestudio.org/img/2022/12/17/639dbe096bdeb.png)
+![](https://image.hestudio.net/img/2022/12/17/639dbe096bdeb.png)
 
 #### pyproject.toml
 这个文件用于告诉pip这个包的一些相关信息，如作者，描述文件等。
@@ -65,7 +65,7 @@ classifiers = [
 
 或者你可以参考一下我的项目中的是怎么写的。
 
-![](https://image.hestudio.org/img/2022/12/17/639db9b02c6dd.png)
+![](https://image.hestudio.net/img/2022/12/17/639db9b02c6dd.png)
 
 这里 ~~翻译~~ 讲解一下各项的意义
 - `name`是包的分发名称。这可以是任何名称。
@@ -77,11 +77,11 @@ classifiers = [
 - `classifiers`为索引和点提供一些额外的元数据 关于您的包裹。在官方示例的这种情况下，该包仅兼容 Python 3，根据 MIT 许可证获得许可，并且独立于操作系统。你应该始终至少包括您的软件包适用于哪个版本的 Python， 您的软件包在哪个许可证下可用，以及哪些操作系统可以让您的软件包正常工作。有关classifiers的完整列表，请参阅 https://pypi.org/classifiers/。
 - `urls`允许您列出任意数量的额外链接以在 PyPI 上显示。 通常，这可能是针对源，文档，问题跟踪器等。
 
-![pyproject.toml文件的方法](https://image.hestudio.org/img/2022/12/17/639db7f155d7b.png)
+![pyproject.toml文件的方法](https://image.hestudio.net/img/2022/12/17/639db7f155d7b.png)
 
 它在pypi上是这样显示的。
 
-![](https://image.hestudio.org/img/2022/12/17/639dc052cb2ba.png)
+![](https://image.hestudio.net/img/2022/12/17/639dc052cb2ba.png)
 
 #### setup.py(可选)
 如果你的项目包含多个文件夹，你可以使用它进行配置。这个是我的项目的文件，我提供出来作为示例。
@@ -115,7 +115,7 @@ py -m build
 ```
 当出现 Successfully 的时候，就代表项目构建成功。此时，你的项目文件夹内会生成`dist`文件夹，这个文件夹内就是你构建的文件。
 
-![](https://image.hestudio.org/img/2022/12/17/639dc62cc904d.png)
+![](https://image.hestudio.net/img/2022/12/17/639dc62cc904d.png)
 
 ### 上传项目
 #### 上传到testpypi测试
@@ -139,7 +139,7 @@ py -m pip install -i https://test.pypi.org/simple/  example
 ```powershell
 py -m twine upload dist\*
 ```
-![](https://image.hestudio.org/img/2022/12/17/639dcb8eb3135.png)
+![](https://image.hestudio.net/img/2022/12/17/639dcb8eb3135.png)
 
 最后，我们直接安装就可以。
 ```powershell

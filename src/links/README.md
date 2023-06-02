@@ -36,7 +36,7 @@ Welcome to mengBlog
 - 博客名: heStudio
 - 简介: Welcome to the pit!
 - 链接: https://www.hestudio.net/
-- 头像URL(可选): https://image.hestudio.org/img/2022/12/13/639872e717350.png
+- 头像URL(可选): https://image.hestudio.net/img/2022/12/13/639872e717350.png
 
 ::: warning
 由于我站正在更换域名，所以建议将图片保存后直接上传。

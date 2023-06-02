@@ -3,7 +3,7 @@ home: true
 layout: BlogHome
 icon: home
 title: Home
-bgImage: https://hbwg.hestudio.org/getimage
+bgImage: https://hbwg.hestudio.net/getimage
 # heroImage: /logo.svg
 heroText: heStudio
 tagline: Welcome to the pit!
@@ -17,7 +17,7 @@ projects:
   - icon: /quickref.svg
     name: Quick Reference
     desc: 为开发人员分享快速参考备忘清单
-    link: https://quickref.hestudio.org/
+    link: https://quickref.hestudio.net/
 
   - icon: windows
     name: Windows 11 升级助手

@@ -10,7 +10,7 @@ category: Linux
 
 前几天看到有人问我 TigerVNCServer 的端口总是变怎么办。这篇文章就讲解一下怎么设定某个特定的端口。
 
-![](https://image.hestudio.org/img/2023/03/24/641db8c731a86.jpg)
+![](https://image.hestudio.net/img/2023/03/24/641db8c731a86.jpg)
 
 TigerVNC默认是以`5900+X`作为版本号的。在重启后会继续向下一位分配版本号，这就意味着我们会经常修改vnc显示器的端口号。
 

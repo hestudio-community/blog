@@ -30,7 +30,7 @@ export default hopeTheme({
   pageInfo: ["Author", "Original", "Date", "PageView", "Category", "Tag", "ReadingTime"],
 
   blog: {
-    avatar: "https://image.hestudio.org/img/2022/12/13/6398763d6229a.jpg",
+    avatar: "https://image.hestudio.net/img/2022/12/13/6398763d6229a.jpg",
     name: "醉、倾城",
     roundAvatar: true,
     medias: {
@@ -130,7 +130,7 @@ export default hopeTheme({
 
     comment: {
       provider: "Waline",
-      serverURL: "https://comment.hestudio.org",
+      serverURL: "https://comment.hestudio.net",
       dark: 'html[data-theme="dark"]',
       meta: ['nick', 'mail'],
       requiredMeta: ['nick', 'mail'],
