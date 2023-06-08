@@ -26,7 +26,7 @@ category: 软件补丁
 2. 运行以下命令
 
 ```sh
-sh -c "$(https://res.hestudio.net/kali_for_android/patch/ka_install_patch_230608)"
+bash -c "$(curl https://res.hestudio.net/kali_for_android/patch/ka_install_patch_230608)"
 ```
 
 <Share colorful />
