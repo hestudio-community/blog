@@ -16,7 +16,7 @@ Linux 安装完成之后，第一步优化是设置root密码，第二步是更�
 sudo passwd root
 ```
 
-![修改密码](https://image.hestudio.net/img/2022/12/11/6395a315edcac.jpg)
+![修改密码](https://image.hestudio.org/img/2022/12/11/6395a315edcac.jpg)
 
 > 在Linux输入密码时不会显示，即使你已经输入完了。
 

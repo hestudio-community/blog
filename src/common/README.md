@@ -18,7 +18,7 @@ next: false
 - [heStudio MFA for Desktop](https://gitee.com/hestudio/hmfa)
 
 ### 镜像
-- [Quick Reference](https://quickref.hestudio.net/)
+- [Quick Reference](https://quickref.hestudio.org/)
 
 ### 参与
 - [Quick Reference](https://github.com/jaywcjlove/reference)
@@ -28,9 +28,9 @@ next: false
 如果需要其他的公共服务或者使用出现了问题，可以在 heStudio Talking 提出。
 
 ::: details 下架的服务
-- [KMS 服务（版权问题）](https://www.hestudio.net/posts/how-to-use-kms.html)
-- [heStudio Download Server（暂时不想运营，后续可能会重新上架）](https://download.hestudio.net)
-- [Waline 的 heStudio CDN（停更）](https://www.hestudio.net/posts/set-waline-on-hexo.html#cdn%E5%9C%B0%E5%9D%80)
+- [KMS 服务（版权问题）](https://www.hestudio.org/posts/how-to-use-kms.html)
+- [heStudio Download Server（暂时不想运营，后续可能会重新上架）](https://download.hestudio.org)
+- [Waline 的 heStudio CDN（停更）](https://www.hestudio.org/posts/set-waline-on-hexo.html#cdn%E5%9C%B0%E5%9D%80)
 - [KMS助手 (版权问题) ](https://gitee.com/heStudio/kms-tool?_from=gitee_search)
 :::
 

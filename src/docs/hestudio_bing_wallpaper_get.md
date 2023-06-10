@@ -5,7 +5,7 @@ article: false
 ---
 
 ### demo
-![这是一张自动更换的图片](https://hbwg.hestudio.net/getimage)
+![这是一张自动更换的图片](https://hbwg.hestudio.org/getimage)
 
 ### 调用方法
 

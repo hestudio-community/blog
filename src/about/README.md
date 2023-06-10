@@ -16,11 +16,11 @@ next: false
 - 作者Gitlab：https://gitlab.com/hestudio
 - 作者Gitee：https://gitee.com/heStudio
 - 作者Github：https://github.com/heStudio-Network
-- 作者博客：https://www.hestudio.net/
+- 作者博客：https://www.hestudio.org/
 - 作者爱发电：https://afdian.net/@hestudio
 - 作者Telegram群组：https://t.me/hestudio_network
-- RSS 订阅：https://www.hestudio.net/atom.xml
-- 问题反馈：https://www.hestudio.net/get-help
+- RSS 订阅：https://www.hestudio.org/atom.xml
+- 问题反馈：https://www.hestudio.org/get-help
 
 
 ### 自己的项目
@@ -33,7 +33,7 @@ next: false
 - [heStudio BingWallpaper Get](https://www.npmjs.com/package/hestudio-bingwallpaper-get)
 
 ### 镜像的项目
-- [Quick Reference](https://quickref.hestudio.net/)
+- [Quick Reference](https://quickref.hestudio.org/)
 
 ### 参与的项目
 - [Quick Reference](https://github.com/jaywcjlove/reference)
@@ -42,14 +42,14 @@ next: false
 - [VuePress Theme Hope](https://github.com/vuepress-theme-hope/vuepress-theme-hope)
 
 ### 友情链接
-本站欢迎友情链接，详见 https://www.hestudio.net/links
+本站欢迎友情链接，详见 https://www.hestudio.org/links
 
 ### 搬运
-本站在一定条件下允许搬运，详见 https://www.hestudio.net/docs/copyright.html
+本站在一定条件下允许搬运，详见 https://www.hestudio.org/docs/copyright.html
 
 ### 赞助
 赞助我们以获得更长期稳定的产品
 
-[![赞助我们以获得更长期稳定的产品](https://image.hestudio.net/img/2022/12/13/639873ce2d116.jpg)](https://afdian.net/@hestudio)
+[![赞助我们以获得更长期稳定的产品](https://image.hestudio.org/img/2022/12/13/639873ce2d116.jpg)](https://afdian.net/@hestudio)
 
 <Share colorful />

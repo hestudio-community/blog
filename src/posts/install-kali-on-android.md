@@ -9,7 +9,7 @@ category: Android
 ---
 
 ::: info 
-查看最新版请转到 https://www.hestudio.net/2022/12/install-kali-on-android-renew/
+查看最新版请转到 https://www.hestudio.org/2022/12/install-kali-on-android-renew/
 ::: 
 
 
@@ -35,15 +35,15 @@ category: Android
 ### 安装基本系统
 1. 打开Termux
 
-![Termux](https://image.hestudio.net/img/2022/12/11/6395a11208dde.jpg)
+![Termux](https://image.hestudio.org/img/2022/12/11/6395a11208dde.jpg)
 
 2. 输入以下指令
 ```
-termux-setup-storage && curl -O --url https://res.hestudio.net/kali_for_android/install.sh && chmod +x install.sh && ./install.sh
+termux-setup-storage && curl -O --url https://res.hestudio.org/kali_for_android/install.sh && chmod +x install.sh && ./install.sh
 ```
 3. 在弹出窗口的界面点击允许
 
-![系统权限请求](https://image.hestudio.net/img/2022/12/11/6395a11370b9d.jpg)
+![系统权限请求](https://image.hestudio.org/img/2022/12/11/6395a11370b9d.jpg)
 
 4. 系统会陆续执行程序，此过程需要很长时间，如遇输入，睁眼[^3]按y
 
@@ -55,13 +55,13 @@ termux-setup-storage && curl -O --url https://res.hestudio.net/kali_for_android/
 如不是因为以上原因导致的报错，请访问 https://pd.qq.com/s/rvk1vn?shareSource=5 或者到[QQ频道](https://pd.qq.com/s/uakgta)求助
 ::: 
 
-![感谢群友贡献的截图](https://image.hestudio.net/img/2022/12/11/6395a115191d3.jpg)
+![感谢群友贡献的截图](https://image.hestudio.org/img/2022/12/11/6395a115191d3.jpg)
 
 [^3]: 我之前在CSDN里写的是闭眼，结果真有人闭眼按了。
 
 5. 当看到以下界面时，代表基本系统安装完毕
 
-![kali终端](https://image.hestudio.net/img/2022/12/11/6395a1175482f.jpg)
+![kali终端](https://image.hestudio.org/img/2022/12/11/6395a1175482f.jpg)
 
 ::: info 
 后续启动kali linux需要使用`startkali`指令
@@ -116,7 +116,7 @@ vncserver -kill
 
 ##### 链接到vnc
 1. 打开 VNC Viewer
-![VNC Viewer](https://image.hestudio.net/img/2022/12/11/6395a119a4602.jpg)
+![VNC Viewer](https://image.hestudio.org/img/2022/12/11/6395a119a4602.jpg)
 
 2. 一路`Next`
 3. 点击+号
@@ -126,7 +126,7 @@ port后面的4位数字为端口号，像这样
 localhost:5901
 ```
 
-![port后面的4位数字为端口号](https://image.hestudio.net/img/2022/12/11/6395a11b5c6c4.jpg)
+![port后面的4位数字为端口号](https://image.hestudio.org/img/2022/12/11/6395a11b5c6c4.jpg)
 
 5. 最后保存即可
 

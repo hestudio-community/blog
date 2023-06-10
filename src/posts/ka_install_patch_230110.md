@@ -18,7 +18,7 @@ category: 软件补丁
 2. 运行以下命令
 
 ```bash
-wget https://res.hestudio.net/kali_for_android/patch/ka_install_patch_230110 && bash ka_install_patch_230110
+wget https://res.hestudio.org/kali_for_android/patch/ka_install_patch_230110 && bash ka_install_patch_230110
 ```
 
 <Share colorful />

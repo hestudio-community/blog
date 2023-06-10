@@ -49,17 +49,17 @@ pkg install xwayland
 ```
 
 
-![](https://image.hestudio.net/img/2023/04/04/642c47bb0f158.jpg)
+![](https://image.hestudio.org/img/2023/04/04/642c47bb0f158.jpg)
 
 访问 https://github.com/termux/termux-x11/actions/workflows/debug_build.yml 
 
-![Github Action 页面](https://image.hestudio.net/img/2023/04/04/642c448248d66.jpg)
+![Github Action 页面](https://image.hestudio.org/img/2023/04/04/642c448248d66.jpg)
 
 选择最新的一个进入，在底部找到"Artifacts"，下载并解压该文件。
 
-![](https://image.hestudio.net/img/2023/04/04/642c451390c51.jpg)
+![](https://image.hestudio.org/img/2023/04/04/642c451390c51.jpg)
 
-![](https://image.hestudio.net/img/2023/04/04/642c467084ad2.jpg)
+![](https://image.hestudio.org/img/2023/04/04/642c467084ad2.jpg)
 
 我们需要`apk`和`deb`文件，先安装`apk`文件。
 
@@ -70,7 +70,7 @@ cd [你的文件目录]
 dpkg -i termux-x11-1.02.07-0-all.deb
 ```
 
-![](https://image.hestudio.net/img/2023/04/04/642c476edb2b1.jpg)
+![](https://image.hestudio.org/img/2023/04/04/642c476edb2b1.jpg)
 
 ### 配置程序
 官方为xfce提供了命令以启动xfce，分别是：
@@ -100,22 +100,22 @@ chmod +x /data/data/com.termux/files/usr/bin/x11
 
 此时功能已经可以使用。
 
-![](https://image.hestudio.net/img/2023/04/05/642c4bb00adba.jpg)
+![](https://image.hestudio.org/img/2023/04/05/642c4bb00adba.jpg)
 
-![](https://image.hestudio.net/img/2023/04/05/642c4bb4085cc.jpg)
+![](https://image.hestudio.org/img/2023/04/05/642c4bb4085cc.jpg)
 
 但是这样使用体验感很糟，我们需要一些小设置。
 
 在长按termux-x11的图标后会显示出来几个选项，我们选择"Preferences"
 
-![](https://image.hestudio.net/img/2023/04/05/642c4c601609e.jpg)
+![](https://image.hestudio.org/img/2023/04/05/642c4c601609e.jpg)
 
 将框中的选项按照图示中的设置，并重新打开termux-x11
 
-![](https://image.hestudio.net/img/2023/04/05/642c4d138279a.png)
+![](https://image.hestudio.org/img/2023/04/05/642c4d138279a.png)
 
 可以正常使用了！
 
-![](https://image.hestudio.net/img/2023/04/05/642c4e09d5602.jpg)
+![](https://image.hestudio.org/img/2023/04/05/642c4e09d5602.jpg)
 
 <Share colorful />

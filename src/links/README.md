@@ -35,8 +35,8 @@ Welcome to mengBlog
 在下方留言申请加入我的友链（申请之前要先将我的博客加入友链），按如下格式在[heStudio Talking](/talking/)提供信息：
 - 博客名: heStudio
 - 简介: Welcome to the pit!
-- 链接: https://www.hestudio.net/
-- 头像URL(可选): https://image.hestudio.net/img/2022/12/13/639872e717350.png
+- 链接: https://www.hestudio.org/
+- 头像URL(可选): https://image.hestudio.org/img/2022/12/13/639872e717350.png
 
 ::: warning
 由于我站正在更换域名，所以建议将图片保存后直接上传。

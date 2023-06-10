@@ -23,21 +23,21 @@ category: Q&A
 
 
 ### @沈浪 来自QQ
-![](https://image.hestudio.net/img/2023/03/05/6404ad00314bc.jpg)
+![](https://image.hestudio.org/img/2023/03/05/6404ad00314bc.jpg)
 
 ::: tip 回复
 酷
 :::
 
 ### @登真 来自微信
-![](https://image.hestudio.net/img/2023/03/05/6404adcca4a4e.jpg)
+![](https://image.hestudio.org/img/2023/03/05/6404adcca4a4e.jpg)
 
 ::: tip 回复
 UNetbootin
 :::
 
 ### @404 not found 来自QQ
-![](https://image.hestudio.net/img/2023/03/05/6404aeec1eba8.jpg)
+![](https://image.hestudio.org/img/2023/03/05/6404aeec1eba8.jpg)
 
 ::: tip 我的回复
 被调用以创建一个新的 cls 类的实例。__new__() 是一个静态方法 (特殊情况下，所以你不需要把它声明为静态方法)，它把请求实例的类作为它的第一个参数。其余的参数是传递给对象构造函数表达式的参数（对类的调用）。__new__() 的返回值应该是新的对象实例（通常是 cls 的一个实例）。
@@ -81,7 +81,7 @@ print(t)  # 输出 [1, 2, 3, 4]
 :::
 
 ### @AE86 来自QQ
-![](https://image.hestudio.net/img/2023/03/05/6404b02f69313.jpg)
+![](https://image.hestudio.org/img/2023/03/05/6404b02f69313.jpg)
 
 ::: tip 回复
 @AE86 我又不知道你下载哪里了，不会自己看吗，自己在这里问问题不了解一点基本知识吗，这种Linux基础百度都能找到的，在群里发牢骚不是咨询问题的好方法，尤其是这种问题。
@@ -89,21 +89,21 @@ print(t)  # 输出 [1, 2, 3, 4]
 
 ### @晚风 来自QQ
 
-![](https://image.hestudio.net/img/2023/03/05/6404b0cf35ec8.jpg)
+![](https://image.hestudio.org/img/2023/03/05/6404b0cf35ec8.jpg)
 
-![](https://image.hestudio.net/img/2023/03/05/6404b0d144003.jpg)
+![](https://image.hestudio.org/img/2023/03/05/6404b0d144003.jpg)
 
 ::: tip 回复
 termux配合mt管理器
 :::
 
 ### @酷小呵 来自博客
-![](https://image.hestudio.net/img/2023/03/05/6404b26b48057.jpg)
+![](https://image.hestudio.org/img/2023/03/05/6404b26b48057.jpg)
 
 ::: tip 回复
 @酷小呵: 这个是 vuepress-theme-hope
 
-本站用的所有开源软件合集： https://www.hestudio.net/docs/opensource.html
+本站用的所有开源软件合集： https://www.hestudio.org/docs/opensource.html
 :::
 
 <Share colorful />

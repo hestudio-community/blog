@@ -23,7 +23,7 @@ echo $0
 ```
 使用这个命令查看终端类型
 
-![输出结果](https://image.hestudio.net/img/2022/12/11/6395a23825ef2.jpg)
+![输出结果](https://image.hestudio.org/img/2022/12/11/6395a23825ef2.jpg)
 
 例如，我这个终端就是zsh
 
@@ -44,7 +44,7 @@ vim基础使用方法
 | :w! | 保存而不退出 |
 | :wq | 保存并退出 |
 
-查看其它用法，请浏览 [Vim 备忘清单](https://quickref.hestudio.net/docs/vim.html)
+查看其它用法，请浏览 [Vim 备忘清单](https://quickref.hestudio.org/docs/vim.html)
 :::
 
 ### 每次打开终端时自动执行某命令
@@ -55,7 +55,7 @@ sshd
 ```
 3. 按下esc，然后输入`:wq`退出vim
 
-![开机自动启动 sshd ](https://image.hestudio.net/img/2022/12/11/6395a23ade90b.jpg)
+![开机自动启动 sshd ](https://image.hestudio.org/img/2022/12/11/6395a23ade90b.jpg)
 
 4. 重启终端
 
@@ -70,7 +70,7 @@ echo 'Hello heStudio!'
 
 运行效果如下
 
-![Hello heStudio!](https://image.hestudio.net/img/2022/12/11/6395a23ca4cb0.jpg)
+![Hello heStudio!](https://image.hestudio.org/img/2022/12/11/6395a23ca4cb0.jpg)
 
 ### ~/.bash_profile 和 ~/.bashrc文件区别
 #### ~/.bash_profile
