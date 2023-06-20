@@ -10,7 +10,7 @@ category: Python
 
 那么其实我们也可以自己做一个MFA验证器。本着只要网上有，绝不自己做的原则，我们将使用开源模块拼凑而成。
 
-![](https://image.hestudio.org/img/2022/12/28/63abc608bb033.png)
+![](https://image.hestudio.net/img/2022/12/28/63abc608bb033.png)
 
 <!-- more -->
 
@@ -27,7 +27,7 @@ category: Python
 
 所以我们计划使用`json`文本交换格式作为Secure的存储介质，使用`list`分别存储Secure及其对应的名称。
 
-![](https://image.hestudio.org/img/2022/12/31/63afb45c9805d.jpeg)
+![](https://image.hestudio.net/img/2022/12/31/63afb45c9805d.jpeg)
 
 --- 
 
@@ -188,7 +188,7 @@ def delete():
 
 `pyotp`输出的6位数临时密码通常是几秒变化一次，通过我们的了解，其他同类软件的变化周期通常是30s
 
-![](https://image.hestudio.org/img/2022/12/31/63afdb2b5f077.jpg)
+![](https://image.hestudio.net/img/2022/12/31/63afdb2b5f077.jpg)
 
 根据这些我们就可以写出一个动态密码显示器。
 
@@ -377,6 +377,6 @@ if __name__ == "__main__":
 
 :::
 
-![运行界面](https://image.hestudio.org/img/2022/12/31/63afe382abec2.png)
+![运行界面](https://image.hestudio.net/img/2022/12/31/63afe382abec2.png)
 
 <Share colorful />

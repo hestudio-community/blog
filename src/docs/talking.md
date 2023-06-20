@@ -53,10 +53,10 @@ heStudio Talking 是一个在heStudio博客内置的一个疑难解答的平台�
 
 ### 怎么更换头像
 1. 通过上面的教程上传图片并拿到图片的URL
-2. 访问 https://comment.hestudio.org/ui/profile?lng=zh-CN 
+2. 访问 https://comment.hestudio.net/ui/profile?lng=zh-CN 
 3. 在登录账号后点击你的头像，会提示输入URL
 
-![](https://image.hestudio.org/img/2023/01/29/63d54bb8b83f1.jpg)
+![](https://image.hestudio.net/img/2023/01/29/63d54bb8b83f1.jpg)
 
 4. 粘贴在图床获得的URL
 5. 修改完成

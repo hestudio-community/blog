@@ -24,11 +24,11 @@ TWA (Trusted Web Activity 可信任的网络应用）即: 基于Chrome Custom Ta
 2. 创建项目
 3. 选择 No Activity，稍后引入的库会包含一个activity。
 
-![](https://image.hestudio.org/img/2023/01/30/63d7d7edcd6c9.png)
+![](https://image.hestudio.net/img/2023/01/30/63d7d7edcd6c9.png)
 
 4. 填写信息，并注意API需要大于19
 
-![](https://image.hestudio.org/img/2023/01/30/63d7d87ed4e75.png)
+![](https://image.hestudio.net/img/2023/01/30/63d7d87ed4e75.png)
 
 ### 设置仓库
 首先我们需要设置仓库。打开project目录的`settings.gradle`，然后参考这样设置。
@@ -100,7 +100,7 @@ dependencies {
             <!-- Edit android:value to change the url opened by the TWA -->
             <meta-data
                 android:name="android.support.customtabs.trusted.DEFAULT_URL"
-                android:value="https://www.hestudio.org" />
+                android:value="https://www.hestudio.net" />
 
             <!-- This intent-filter adds the TWA to the Android Launcher -->
             <intent-filter>
@@ -110,7 +110,7 @@ dependencies {
 
             <!--
               This intent-filter allows the TWA to handle Intents to open
-              hestudio.org.
+              hestudio.net.
             -->
             <intent-filter android:autoVerify="true">
                 <action android:name="android.intent.action.VIEW" />
@@ -120,7 +120,7 @@ dependencies {
 
                 <!-- Edit android:host to handle links to the target URL-->
                 <data
-                    android:host="hestudio.org"
+                    android:host="hestudio.net"
                     android:scheme="https" />
             </intent-filter>
         </activity>
@@ -144,7 +144,7 @@ dependencies {
             \"relation\": [\"delegate_permission/common.handle_all_urls\"],
             \"target\": {
                 \"namespace\": \"web\",
-                \"site\": \"https://www.hestudio.org\"}
+                \"site\": \"https://www.hestudio.net\"}
         }]
     </string>
 </resources>
@@ -177,7 +177,7 @@ dependencies {
             <!-- Edit android:value to change the url opened by the TWA -->
             <meta-data
                 android:name="android.support.customtabs.trusted.DEFAULT_URL"
-                android:value="https://www.hestudio.org" />
+                android:value="https://www.hestudio.net" />
 
             <!-- This intent-filter adds the TWA to the Android Launcher -->
             <intent-filter>
@@ -187,7 +187,7 @@ dependencies {
 
             <!--
               This intent-filter allows the TWA to handle Intents to open
-              hestudio.org.
+              hestudio.net.
             -->
             <intent-filter android:autoVerify="true">
                 <action android:name="android.intent.action.VIEW" />
@@ -197,7 +197,7 @@ dependencies {
 
                 <!-- Edit android:host to handle links to the target URL-->
                 <data
-                    android:host="hestudio.org"
+                    android:host="hestudio.net"
                     android:scheme="https" />
             </intent-filter>
         </activity>

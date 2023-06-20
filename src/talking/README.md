@@ -5,7 +5,7 @@ article: false
 next: false
 ---
 
-- [上传图片](https://image.hestudio.org/)
+- [上传图片](https://image.hestudio.net/)
 - [heStudio Talking 使用帮助](/docs/talking.html)
 
 

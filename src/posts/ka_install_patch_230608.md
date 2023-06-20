@@ -14,9 +14,9 @@ category: 软件补丁
 - 简介：将之前版本kali的bash切换成zsh。
 
 ### 屏幕截图
-![安装前](https://image.hestudio.org/img/2023/06/08/64812660bf73c.jpg)
+![安装前](https://image.hestudio.net/img/2023/06/08/64812660bf73c.jpg)
 
-![安装后](https://image.hestudio.org/img/2023/06/08/64812687cc239.jpg)
+![安装后](https://image.hestudio.net/img/2023/06/08/64812687cc239.jpg)
 
 ### 注意事项
 暂无
@@ -26,7 +26,7 @@ category: 软件补丁
 2. 运行以下命令
 
 ```sh
-bash -c "$(curl https://res.hestudio.org/kali_for_android/patch/ka_install_patch_230608)"
+bash -c "$(curl https://res.hestudio.net/kali_for_android/patch/ka_install_patch_230608)"
 ```
 
 <Share colorful />

@@ -13,7 +13,7 @@ category: Windows
 :::
 
 ```text
-kms.hestudio.org
+kms.hestudio.net
 ```
 
 ### 使用方法
@@ -22,7 +22,7 @@ kms.hestudio.org
 
 
 ```batch
-slmgr.vbs /skms kms.hestudio.org
+slmgr.vbs /skms kms.hestudio.net
 ```
 
 
@@ -55,7 +55,7 @@ slmgr.vbs /ato
 
 
 ```batch
-cscript ospp.vbs /sethst:kms.hestudio.org
+cscript ospp.vbs /sethst:kms.hestudio.net
 ```
 
 

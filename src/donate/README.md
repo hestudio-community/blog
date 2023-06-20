@@ -7,7 +7,7 @@ next: false
 ---
 
 ::: details 支付宝红包
-![](https://image.hestudio.org/img/2023/04/13/64381ab4a5692.jpg)
+![](https://image.hestudio.net/img/2023/04/13/64381ab4a5692.jpg)
 
 
 :::
@@ -17,20 +17,20 @@ next: false
 ::: tabs
 
 @tab 微信支付
-![](https://image.hestudio.org/img/2023/03/04/6403651274504.jpg)
+![](https://image.hestudio.net/img/2023/03/04/6403651274504.jpg)
 
 
 @tab 支付宝
 
 领完红包后向我付款更优惠！
 
-[![ ](https://image.hestudio.org/img/2023/03/04/6403658ad55e8.jpg)](https://qr.alipay.com/fkx13427ks9t0ups0qzc081)
+[![ ](https://image.hestudio.net/img/2023/03/04/6403658ad55e8.jpg)](https://qr.alipay.com/fkx13427ks9t0ups0qzc081)
 
 或者，通过[点击这里](https://qr.alipay.com/fkx13427ks9t0ups0qzc081)跳转到支付宝。
 
 
 @tab QQ钱包
-![](https://image.hestudio.org/img/2023/03/04/640362d927b8a.png)
+![](https://image.hestudio.net/img/2023/03/04/640362d927b8a.png)
 
 @tab PayPal
 [点击向我付款](https://www.paypal.me/hestudionetwork)

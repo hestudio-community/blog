@@ -3,11 +3,11 @@ import { enNavbar } from "./navbar/index.js";
 import { enSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://www.hestudio.org",
+  hostname: "https://www.hestudio.net",
 
   author: {
     name: "醉、倾城",
-    url: "https://www.hestudio.org/about/",
+    url: "https://www.hestudio.net/about/",
     email: "hestudio@hestudio.net"
   },
 
@@ -30,7 +30,7 @@ export default hopeTheme({
   pageInfo: ["Author", "Original", "Date", "PageView", "Category", "Tag", "ReadingTime"],
 
   blog: {
-    avatar: "https://image.hestudio.org/img/2022/12/13/6398763d6229a.jpg",
+    avatar: "https://image.hestudio.net/img/2022/12/13/6398763d6229a.jpg",
     name: "醉、倾城",
     roundAvatar: true,
     medias: {
@@ -65,11 +65,8 @@ export default hopeTheme({
       QQ: "https://pd.qq.com/s/uakgta",
       // Qzone: "https://example.com",
       // Reddit: "https://example.com",
-      Telegram: [
-        "https://t.me/hestudio_network",
-        '<svg t="1673753702126" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4654" width="200" height="200"><path d="M679.424 746.862l84.005-395.996c7.424-34.852-12.581-48.567-35.438-40.009L234.277 501.138c-33.72 13.13-33.134 32-5.706 40.558l126.282 39.424 293.156-184.576c13.714-9.143 26.295-3.986 16.018 5.157L426.898 615.973l-9.143 130.304c13.13 0 18.871-5.706 25.71-12.581l61.696-59.429 128 94.282c23.442 13.129 40.01 6.29 46.3-21.724zM1024 512c0 282.843-229.157 512-512 512S0 794.843 0 512 229.157 0 512 0s512 229.157 512 512z" fill="#1296DB" p-id="4655"></path></svg>',
-      ],
-      Rss: "https://www.hestudio.org/atom.xml",
+      
+      Rss: "https://www.hestudio.net/atom.xml",
       // Steam: "https://example.com",
       // Twitter: "https://example.com",
       // Wechat: "https://example.com",
@@ -89,7 +86,8 @@ export default hopeTheme({
 
       // sidebar
       sidebar: enSidebar,
-
+      
+      footer: '<a href="https://beian.miit.gov.cn" target="_blank">鲁ICP备2023019014号-1</a>',
       // footer: '<a href="https://icp.gov.moe/?keyword=20225520" target="_blank">萌ICP备20225520号</a><script type="text/javascript">var uid = "460099";var wid = "692339";var pop_tag = document.createElement("script");pop_tag.src="//cdn.popcash.net/show.js";document.body.appendChild(pop_tag);pop_tag.onerror = function() {pop_tag = document.createElement("script");pop_tag.src="//cdn2.popcash.net/show.js";document.body.appendChild(pop_tag)};</script><script type="text/javascript">var uid = "460099";var wid = "692339";var pop_fback = "up";var pop_tag = document.createElement("script");pop_tag.src="//cdn.popcash.net/show.js";document.body.appendChild(pop_tag);pop_tag.onerror = function() {pop_tag = document.createElement("script");pop_tag.src="//cdn2.popcash.net/show.js";document.body.appendChild(pop_tag)};</script>',
 
       displayFooter: true,
@@ -130,11 +128,11 @@ export default hopeTheme({
 
     comment: {
       provider: "Waline",
-      serverURL: "https://comment.hestudio.org",
+      serverURL: "https://comment.hestudio.net",
       dark: 'html[data-theme="dark"]',
       meta: ['nick', 'mail'],
       requiredMeta: ['nick', 'mail'],
-      login: "force",
+      login: "true",
       search: false,
       reaction: true,
       copyright: false,
