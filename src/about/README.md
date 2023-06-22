@@ -18,7 +18,6 @@ next: false
 - 作者Github：https://github.com/heStudio-Network
 - 作者博客：https://www.hestudio.net/
 - 作者爱发电：https://afdian.net/@hestudio
-- 作者Telegram群组：https://t.me/hestudio_network
 - RSS 订阅：https://www.hestudio.net/atom.xml
 - 问题反馈：https://www.hestudio.net/get-help
 
@@ -26,7 +25,6 @@ next: false
 ### 自己的项目
 - [kali for Android](https://gitlab.com/heStudio/ka_install)
 - [Windows11升级助手](https://gitee.com/heStudio/upgrade_win11?_from=gitee_search)
-- [KMS助手](https://gitee.com/heStudio/kms-tool?_from=gitee_search)
 - [百度搜索提交工具](https://pypi.org/project/hbsst/)
 - [heStudio Framework](https://pypi.org/project/heframework/)
 - [heStudio MFA for Desktop](https://gitee.com/hestudio/hmfa)
@@ -50,6 +48,7 @@ next: false
 ### 赞助
 赞助我们以获得更长期稳定的产品
 
-[![赞助我们以获得更长期稳定的产品](https://image.hestudio.net/img/2022/12/13/639873ce2d116.jpg)](https://afdian.net/@hestudio)
+详见 https://www.hestudio.net/donate
+
 
 <Share colorful />
