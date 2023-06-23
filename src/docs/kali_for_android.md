@@ -163,25 +163,110 @@ termux-change-repo
 这个是Termux官方提供的文档：https://github.com/termux/termux-packages/wiki/Mirrors#mirrors-hosted-in-china
 :::
 
-### 出现 `curl: (28) SSL connection timeout` 报错
-这种现象在我的所有测试设备中总是无法复现，部分用户也表示使用该同一版本的脚本时从未出现这种情况。这种情况的出现可能由以下几大原因造成的：
+### 报错`[Process completed (signal 9) - press Enter]`
 
-- 服务器正在维护
-- 你使用的DNS未包含我的CDN所对应的IP地址
+Android 12及以上用户在使用Termux时，有时会显示`[Process completed (signal 9) - press Enter]`，这是因为Android 12的PhantomProcesskiller限制了应用的子进程，最大允许应用有32个子进程。
 
-我们可以使用ping来验证网站的状态，请尝试在终端内运行
+![](https://image.hestudio.net/img/2023/05/24/646e30e301bc0.jpg)q
 
-```bash
-ping res.hestudio.net
+这里以ColorOS 12.1为例（其他系统操作略有出入）
+
+
+#### 开启开发者模式
+
+1. 打开设置
+
+![](https://image.hestudio.net/img/2023/05/24/646e3396619f3.jpg)
+
+2. 打开“关于手机”
+
+![](https://image.hestudio.net/img/2023/05/25/646e37335a059.jpg)
+
+3. 打开“版本设置”
+
+![](https://image.hestudio.net/img/2023/05/25/646e37b13add7.jpg)
+
+4. 连续点击5次“版本号”
+
+![](https://image.hestudio.net/img/2023/05/25/646e37e23d65f.jpg)
+
+5. 输入密码（如果有）开启开发者模式。
+
+
+#### 打开Termux
+
+1. 打开Termux
+
+![](https://image.hestudio.net/img/2023/05/25/646e390076c17.jpg)
+
+没有Termux?[点击这里安装](https://gitlab.com/heStudio/res/-/raw/main/Termux_0.118.0.apk?inline=false)
+
+2. 安装Android Tools
+
+```sh
+pkg install android-tools
 ```
 
-如果在ping的时候返回了IP地址，则说明网站正在维护，请过一会在尝试。如果还是不能访问，请[联系我](/about/)。出现第一种情况的可能性基本为零，因为所有的外置资源全部部署到阿里云的CDN中，且我们存在作为备用源的对象存储（不是存你的对象的）。所以即使遇到我们的服务器正在维护，你也可以从CDN的缓存或者备用对象存储（俗称备胎）获取你需要的资源。
+![](https://image.hestudio.net/img/2023/05/25/646e39bb37b29.jpg)
 
-![](https://image.hestudio.net/img/2023/01/05/63b6b0158d42d.png)
+3. 浮窗Termux
+利用Android 12的功能，使Termux处于浮窗状态。
+
+![](https://image.hestudio.net/img/2023/05/25/646e3a72db6b3.jpg)
 
 
-所以基本上出现第二种情况的可能性最大，当在上一步未ping到IP地址，则适用于这一条。出现第二种情况既不是你的错，当然也不是我的错。当你遇到第二种情况时，请尝试修改你的设备中的DNS。我们推荐使用阿里云的DNS（地址是`223.5.5.5`和`223.6.6.6`）以更方便的访问我们的服务，当然你也可以选择其他常见的公共DNS。如果你的设备使用的是私人DNS，请你暂时关闭它。如果没有遇到这种情况，请忽略这一条的全部信息。
+#### 配置无线调试
+1. 转到设置 --> 系统设置 --> 开发者设置
 
-> 最后一次更新 2023.6.1
+![](https://image.hestudio.net/img/2023/05/25/646e3b2ac5102.jpg)
+
+2. 打开无线调试
+
+![](https://image.hestudio.net/img/2023/05/25/646e3bdbe0e18.jpg)
+
+![](https://image.hestudio.net/img/2023/05/25/646e3bfb9f918.jpg)
+
+3. 记住显示的IP地址和端口，并在浮窗下的Termux内输入
+
+![](https://image.hestudio.net/img/2023/05/25/646e3d6fc00e7.jpg)
+
+例如我的IP地址是`192.168.0.103:45367`那么我应该输入
+```sh
+adb pair 192.168.0.103:45367
+```
+
+当显示`Enter pairing code：`时，输入配对码链接。
+
+4. 链接到adb
+复制IP地址，以留备用。
+
+![](https://image.hestudio.net/img/2023/05/25/646e3e90bdf03.jpg)
+
+比如我的IP地址是`192.168.0.103:41249`，我应该输入
+
+```sh
+adb connect 192.168.0.103:41249
+```
+
+当输出
+```text
+* daemon not running; starting now at tcp:5037
+* daemon started successfully
+connected to 192.168.0.103:41249
+```
+时，即代表已经链接成功。
+
+![](https://image.hestudio.net/img/2023/05/25/646e3fb231205.jpg)
+
+5. 设置最大子进程是`65536`
+
+```sh
+adb shell device_config set_sync_disabled_for_tests persistent 
+adb shell device_config put activity_manager max_phantom_processes 65536
+```
+
+![](https://image.hestudio.net/img/2023/05/25/646e401558f04.jpg)
+
+> 最后一次更新 2023.6.23
 
 <Share colorful />
