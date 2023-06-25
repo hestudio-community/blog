@@ -6,7 +6,7 @@ comment: false
 next: false
 ---
 
-::: details
+::: details 提问须知
 由于时间原因，不可能每个平台都看，处理提问的优先级从上往下依次递减。
 
 在提问之前请务必阅读以下内容，如果你仍然需要提问，请浏览下面的反馈渠道。
@@ -41,15 +41,13 @@ next: false
 你可以先看看 文档 里面有没有你需要的。如果没有，可以向我们提出。
 :::
 
-1. 如果是报错，请向 [hestudio@hestudio.net](mailto:hestudio@hestudio.net) 发送电子邮件反馈，并附带报错日志。
+1. 请在浏览全部[文档](/docs/)后，如果没有你需要的内容，请通过 [heStudio Talking](/talking) 直接反馈
 
-2. 如果不是报错，请在浏览全部[文档](/docs/)后，如果没有你需要的内容，请通过 [heStudio Talking](/talking) 直接反馈
+2. 如果你的问题不方便公开，请向 [hestudio@hestudio.net](mailto:hestudio@hestudio.net) 发送电子邮件反馈。
 
-3. 如果你的问题不方便公开，请向 [hestudio@hestudio.net](mailto:hestudio@hestudio.net) 发送电子邮件反馈。
+3. 商务合作，请联系微信：hestudio-group
 
-4. 商务合作，请联系微信：hestudio-group
-
-5. 闲聊或者咨询其他问题，请加QQ频道：https://pd.qq.com/s/uakgta
+4. 闲聊或者咨询其他问题，请加QQ频道：https://pd.qq.com/s/uakgta
 
 ::: warning
 请发送电子邮件的时候详细描述你的问题，避免被系统当做垃圾邮件处理
