@@ -11,7 +11,7 @@ comment: false
 - [Key 获取与查找](/docs/key.html)
 - [补丁合集](/docs/patch.html)
 - [heStudio Talking 文档](/docs/talking.html)
-- [转载与授权](/docs/copyright.html)
+- [授权与备案](/docs/copyright.html)
 - [Cookie 政策](/docs/cookie.html)
 - [本站用到的开源服务](/docs/opensource.html)
 - [其他](/docs/other.html)

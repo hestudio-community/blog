@@ -7,7 +7,6 @@ export const enNavbar = navbar([
   "/talking/",
   "/get-help/",
   "/about/",
-  "/app/",
   "/links/",
   "/donate/",
 ]);

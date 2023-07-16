@@ -40,15 +40,17 @@ vncserver -kill
 ### VNCServer 教程
 #### 开启vnc
 ##### 初始化vncserver
-本脚本内置vncserver[^6]服务，但是还是需要自己稍微设置一下。
+本脚本内置vncserver服务，但是还是需要自己稍微设置一下。
 
-> 部分机型可能报错，如出现这种情况，请浏览 https://www.hestudio.net/docs/kali_for_android.html#%E6%88%91%E5%BC%80%E5%90%AF%E4%BA%86vncserver%E4%BD%86%E5%9C%A8vnc-viewer%E9%A1%B5%E9%9D%A2%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5%E3%80%82 或者到[QQ频道](https://pd.qq.com/s/uakgta)求助
+::: warning
+部分机型可能报错，如出现这种情况，请浏览 [我开启了vncserver但在VNC Viewer页面无法进入。](https://www.hestudio.net/docs/kali_for_android.html#%E6%88%91%E5%BC%80%E5%90%AF%E4%BA%86vncserver%E4%BD%86%E5%9C%A8vnc-viewer%E9%A1%B5%E9%9D%A2%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5%E3%80%82) 或者到[QQ频道](https://pd.qq.com/s/uakgta)求助
+:::
 
 ::: info 
 查看更多vncserver操作，请到https://tigervnc.org/
 :::
 
-[^6]: 本脚本内置[TigerVNC](https://tigervnc.org/)
+本脚本内置[TigerVNC](https://tigervnc.org/)
 
 先修改vnc密码，不然连不上！
 ```
@@ -267,6 +269,6 @@ adb shell device_config put activity_manager max_phantom_processes 65536
 
 ![](https://image.hestudio.net/img/2023/05/25/646e401558f04.jpg)
 
-> 最后一次更新 2023.6.23
+> 最后一次更新 2023.7.17
 
 <Share colorful />
