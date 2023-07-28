@@ -1,6 +1,5 @@
 ---
 title: 自己搭建一个KMS服务器
-date: 2022-11-26 08:27:00
 tag: 
     - Windows
     - Office
