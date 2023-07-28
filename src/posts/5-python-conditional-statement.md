@@ -1,6 +1,5 @@
 ---
 title: Python条件语句
-date: 2022-11-13 00:25:15
 tas: Python
 category: Python
 ---

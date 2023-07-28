@@ -1,6 +1,5 @@
 ---
 title: TigerVNC 怎么在某个特定的端口启动
-date: 2023-03-24 16:00:00
 tag: 
     - Linux
     - VNC

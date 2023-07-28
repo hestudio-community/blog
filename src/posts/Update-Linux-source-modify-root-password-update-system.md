@@ -1,6 +1,5 @@
 ---
 title: Linux更新源/修改root密码/更新系统
-date: 2022-10-19 14:45:25
 tag: Linux
 category: Linux
 ---

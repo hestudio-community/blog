@@ -1,6 +1,5 @@
 ---
 title: 在 Hexo 上使用 Waline
-date: 2022-11-15 06:40:00
 tag: 
     - Hexo
     - Waline

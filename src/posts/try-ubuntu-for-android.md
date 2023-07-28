@@ -1,6 +1,5 @@
 ---
 title: Ubuntu for Android 内测
-date: 2022-12-14 12:01:35
 tag: 
     - Ubuntu
     - Linux

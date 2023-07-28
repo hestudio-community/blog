@@ -1,6 +1,5 @@
 ---
 title: Git入门技巧
-date: 2023-01-26 00:55:00
 tag:
     - Git
     - Linux

@@ -1,6 +1,5 @@
 ---
 title: 让你的网站变成一个Android应用
-date: 2023-01-30 16:32:59
 tag: 
     - PWA
     - TWA
@@ -9,7 +8,7 @@ tag:
 category: Android
 ---
 
-TWA (Trusted Web Activity 可信任的网络应用）即: 基于Chrome Custom Tabs，利用谷歌浏览器提供的api，实现强大功能的桌面应用技术。我们可以通过这个把你的网站变成应用。
+TWA (Trusted Web Activity 可信任的网络应用) 即: 基于Chrome Custom Tabs，利用谷歌浏览器提供的api，实现强大功能的桌面应用技术。我们可以通过这个把你的网站变成应用。
 
 但是在这之前，你需要准备一些东西，包括
 - 一个支持[PWA](https://learn.microsoft.com/zh-cn/microsoft-edge/progressive-web-apps-chromium/)的网站

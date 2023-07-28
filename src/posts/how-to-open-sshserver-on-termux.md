@@ -1,6 +1,5 @@
 ---
 title: 如何在termux中启用ssh server
-date: 2022-10-18 06:12:20
 tag: 
     - Termux
     - Linux

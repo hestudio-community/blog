@@ -1,6 +1,5 @@
 ---
 title: termux-x11教程
-date: 2023-04-04 16:25:00
 tag: 
     - Linux
     - VNC

@@ -1,6 +1,5 @@
 ---
 title: 解决安卓12限制32个线程
-date: 2023-05-24 16:57:20
 tag: 
     - Linux
     - Android

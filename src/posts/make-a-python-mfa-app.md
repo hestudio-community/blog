@@ -1,6 +1,5 @@
 ---
 title: 通过Python制作一个MFA验证器
-date: 2022-12-31 08:10:10
 tag: 
     - Python
     - MFA

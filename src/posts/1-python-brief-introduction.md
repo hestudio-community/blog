@@ -1,6 +1,5 @@
 ---
 title: Python 简介
-date: 2022-10-19 18:44:05
 tag: Python
 category: Python
 ---

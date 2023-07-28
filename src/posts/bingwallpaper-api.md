@@ -1,6 +1,5 @@
 ---
 title: heStudio BingWallpaper Get - 一个自动获取图片的必应壁纸接口
-date: 2023-02-17 11:30:35
 tag: 
     - Linux
     - 必应壁纸

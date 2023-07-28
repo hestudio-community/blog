@@ -1,6 +1,5 @@
 ---
 title: Python输入与输出
-date: 2023-03-27 12:30:57
 tag: Python
 category: Python
 ---

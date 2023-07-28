@@ -1,6 +1,5 @@
 ---
 title: Linux设置自启动和显示文字
-date: 2022-10-18 14:33:22
 tag: 
     - Termux
     - Linux

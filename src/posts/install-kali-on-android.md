@@ -1,6 +1,5 @@
 ---
 title: 在Android手机上安装kali Linux
-date: 2022-10-19 23:01:35
 tag: 
     - Termux
     - Android

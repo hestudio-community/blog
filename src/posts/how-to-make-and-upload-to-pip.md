@@ -1,6 +1,5 @@
 ---
 title: 如何构建Python软件包并上传到Pypi
-date: 2022-12-17 22:05:59
 tag: 
     - Python
     - Pypi

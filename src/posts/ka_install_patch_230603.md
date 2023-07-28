@@ -1,6 +1,5 @@
 ---
 title: 软件补丁 | KA_INSTALL_PATCH_230603
-date: 2023-06-03 07:50:59
 tag: 
     - Termux
     - Android
