@@ -1,6 +1,8 @@
 import { defineUserConfig } from "vuepress";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
+import { removePWAPlugin } from "vuepress-plugin-remove-pwa";
+import { socialSharePlugin } from 'vuepress-plugin-social-share'
 import theme from "./theme.js";
 
 export default defineUserConfig({
@@ -17,6 +19,13 @@ export default defineUserConfig({
   theme,
 
   plugins: [
+    // socialSharePlugin({
+    //   networks: ["email", "weibo", "douban", "qq", "wechat", "qrcode"],
+    // }),
+    removePWAPlugin({
+      cachePrefix: "workbox",
+      swLocation: 'service-worker.js',
+    }),
     googleAnalyticsPlugin({
       // 配置项
       id: 'G-YTW6F8F5GC',

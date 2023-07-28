@@ -3,14 +3,15 @@ title: 如何使用KMS
 date: 2022-11-26 08:27:00
 tag: 
     - Windows
+    - Office
     - KMS
 category: Windows
 ---
-### KMS服务地址
+### 本站KMS服务地址
 
-::: warning
-本站KMS地址因版权问题已经停用！
-:::
+::: tip
+
+::: 了解如何自己搭建一个KMS服务器请访问： https://www.hestudio.net/posts/build-a-kms-server-yourself.html
 
 ```text
 kms.hestudio.net

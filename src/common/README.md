@@ -7,9 +7,10 @@ next: false
 ---
 
 ### 服务
-- [Kali for Termux 安装源](/posts/install-kali-on-android-renew.html#%E5%AE%89%E8%A3%85%E5%9F%BA%E6%9C%AC%E7%B3%BB%E7%BB%9F)
+- [Kali for Termux 安装源](/posts/install-kali-on-android-renew.html)
 - [heStudio Framework](https://pypi.org/project/heframework/)
 - [heStudio BingWallpaper Get](/docs/hestudio_bing_wallpaper_get.html)
+- [KMS 服务](https://www.hestudio.net/posts/how-to-use-kms.html)
 
 ### 软件
 - [Windows 11升级助手](https://gitee.com/hestudio/upgrade_win11)
@@ -29,7 +30,6 @@ next: false
 如果需要其他的公共服务或者使用出现了问题，可以在 heStudio Talking 提出。
 
 ::: details 下架的服务
-- [KMS 服务（版权问题）](https://www.hestudio.net/posts/how-to-use-kms.html)
 - [heStudio Download Server（暂时不想运营，后续可能会重新上架）](https://download.hestudio.net)
 - [Waline 的 heStudio CDN（停更）](https://www.hestudio.net/posts/set-waline-on-hexo.html#cdn%E5%9C%B0%E5%9D%80)
 - [KMS助手 (版权问题) ](https://gitee.com/heStudio/kms-tool?_from=gitee_search)

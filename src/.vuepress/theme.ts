@@ -15,7 +15,8 @@ export default hopeTheme({
 
   logo: "/logo.svg",
 
-  // repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "https://gitlab.com/heStudio/blog-source.git",
+  repoDisplay: false,
 
   docsDir: "docs",
 
@@ -132,10 +133,8 @@ export default hopeTheme({
       dark: 'html[data-theme="dark"]',
       meta: ['nick', 'mail'],
       requiredMeta: ['nick', 'mail'],
-      login: "true",
       search: false,
       reaction: true,
-      copyright: false,
     },
 
     // Disable features you don’t want here
@@ -184,14 +183,12 @@ export default hopeTheme({
     },
 
 
-    git: false,
+    git: {
+      contributors: false,
+    },
 
     seo: true,
 
-    pwa: {
-      cachePic: true,
-      update: 'hint',
-      themeColor: '#e77c8e',
-    },
+    pwa: false,
   },
 });
