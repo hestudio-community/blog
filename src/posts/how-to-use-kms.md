@@ -10,7 +10,9 @@ category: Windows
 
 ::: tip
 
-::: 了解如何自己搭建一个KMS服务器请访问： https://www.hestudio.net/posts/build-a-kms-server-yourself.html
+了解如何自己搭建一个KMS服务器请访问： https://www.hestudio.net/posts/build-a-kms-server-yourself.html
+
+:::
 
 ```text
 kms.hestudio.net
