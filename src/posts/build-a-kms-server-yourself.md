@@ -84,7 +84,7 @@ vim Dockerfile
 
 打开后，我们将划线位置修改成图片的这样。
 
-![2023.07.27-20.32.png](https://image.hestudio.net/i/2023/07/28/64c3436b3fff8.png)
+![](https://image.hestudio.net/i/2023/07/28/64c3436b3fff8.png)
 
 然后`:wq`保存并退出，再执行
 
