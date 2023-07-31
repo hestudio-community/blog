@@ -6,12 +6,6 @@ comment: false
 next: false
 ---
 
-### [–小透明](https://v.kuaishou.com/JneKBF)
-彼方尚有荣光在.
-
-### [wang湘杰🏀](https://v.kuaishou.com/P3fWle)
-提到了你
-
 ### [薛才杰个人博客](https://www.xuecaijie.com/)
 一个分享技术、记录生活的个人技术博客
 
@@ -27,9 +21,6 @@ Welcome to mengBlog
 
 ### [我的玩机技巧](https://wjkjy.cn/)
 欢迎来到玩机科技社!
-
-### [wsbのblog](https://wsbblog.cn)
-己所不欲，勿施于人
 
 ### 申请友链
 在下方留言申请加入我的友链（申请之前要先将我的博客加入友链），按如下格式在[heStudio Talking](/talking/)提供信息：
