@@ -1,8 +1,9 @@
 // .vuepress/client.ts
 import { defineClientConfig } from "@vuepress/client";
-import { defineWalineOptions } from "vuepress-plugin-comment2/client";
+import { defineWalineConfig } from "vuepress-plugin-comment2/client";
 
-defineWalineOptions({
+defineWalineConfig({
+    serverURL: "https://comment.hestudio.net",
     search: false,
     imageUploader: (image: File) => {
         let formData = new FormData();
