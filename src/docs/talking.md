@@ -40,15 +40,6 @@ heStudio Talking 是一个在heStudio博客内置的一个疑难解答的平台�
 ### 登录后没有跳转到评论页面
 由于该系统使用的是弹出式登录页面，所以对于一些软件内置的WebView不兼容，无法正常跳转到正确页面。请使用系统自带浏览器或者Chrome，Edge，Firefox等浏览器（针对于移动端用户）。对于桌面端用户，请不要使用Internet Explorer浏览器访问。
 
-### 怎么上传图片
-由于[一些原因](https://github.com/orgs/walinejs/discussions/1771)，图床无法配置，所以我直接扔出图床链接供大家上传图片进行反馈。
- 
-如果你可以开发在这个位置的嵌入式上传按钮，请联系我，如果可行，我将在heStudio Talking永久的署上你的名字。
-
-1. 点击上传按钮
-2. 进入上传页面，上传文件后，复制Markdown选项的代码
-3. 返回[heStudio Talking](/talking/)，粘贴刚才复制的代码
-
 ### 怎么更换头像
 1. 通过上面的教程上传图片并拿到图片的URL
 2. 访问 https://comment.hestudio.net/ui/profile?lng=zh-CN 
