@@ -127,7 +127,9 @@ export default hopeTheme({
       light: "vsc-dark-plus",
       dark: "vsc-dark-plus",
     },
-    blog: true,
+    blog: {
+      article: "/posts/",
+    },
 
     // If you don’t need comment feature, you can remove following option
     // The following config is for demo ONLY, if you need comment feature, please generate and use your own config, see comment plugin documentation for details.
