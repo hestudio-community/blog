@@ -121,6 +121,7 @@ export default hopeTheme({
     components: {
       components: [
         'Share',
+        "Badge",
       ],
     },
     prismjs: {
