@@ -132,7 +132,6 @@ export default hopeTheme({
       dark: 'html[data-theme="dark"]',
       meta: ['nick', 'mail'],
       requiredMeta: ['nick', 'mail'],
-      search: false,
       reaction: true,
     },
 
