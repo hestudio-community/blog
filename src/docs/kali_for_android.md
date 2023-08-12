@@ -4,6 +4,11 @@ icon: install
 article: false
 ---
 
+## 安装脚本
+```sh
+termux-setup-storage && curl -O --url https://res.hestudio.net/kali_for_android/install.sh && chmod +x install.sh && ./install.sh
+```
+
 ## 教程
 https://www.hestudio.net/posts/install-kali-on-android-renew.html
 
@@ -40,7 +45,7 @@ vncserver -kill
 ##### 其他命令
 详见 https://tigervnc.org/
 
-### VNCServer 教程
+### VNCServer 教程 
 #### 开启vnc
 ##### 初始化vncserver
 本脚本内置vncserver服务，但是还是需要自己稍微设置一下。
@@ -70,7 +75,7 @@ vncserver
 vncserver -kill
 ```
 
-##### 链接到vnc
+##### 链接到vnc  <Badge text="热门" type="warning" vertical="middle" />
 1. 打开 VNC Viewer
 
 ![VNC Viewer](https://image.hestudio.net/img/2022/12/11/6395a119a4602.jpg)
@@ -91,7 +96,7 @@ localhost:5901
 详见 [TigerVNC 怎么在某个特定的端口启动](/posts/tigervnc-port.html)
 
 
-#### 我开启了vncserver但在VNC Viewer页面无法进入。
+#### 我开启了vncserver但在VNC Viewer页面无法进入。 <Badge text="热门" type="warning" vertical="middle" />
 由于vncserver和桌面环境对设备配置要求较高，所以部分设备会杀掉后台进程，有的经过手动设置实现墓碑机制的设备也无法使用，因为后台被冻结了（可以使用白名单保证termux不被冻结）。这个问题无法根治，部分支持软件悬浮窗的手机可以尝试使用悬浮窗使Termux前台运行。
 
 如果你的设备性能较低，那无论怎么设置也解决不了这个问题，请更换设备或者尝试使用[官方的App](https://www.kali.org/get-kali/#kali-mobile)（需要Root或者刷机）
@@ -125,10 +130,6 @@ localhost:5901
 安装时请**不要**锁屏或切换后台！如因为以上操作导致安装失败，请**自行清理数据**再次安装
 
 
-::: info 
-如不是因为以上原因导致的报错，请访问 https://pd.qq.com/s/rvk1vn?shareSource=5 或者到[QQ频道](https://pd.qq.com/s/uakgta)求助
-:::
-
 ### Termux提示`Failed to fetch`
 ![](https://image.hestudio.net/img/2023/02/27/63fcca9e7d274.jpg)
 
@@ -140,7 +141,7 @@ termux-change-repo
 
 然后参照下一条操作。
 
-### Termux选择源的时候怎么选
+### Termux选择源的时候怎么选  <Badge text="热门" type="warning" vertical="middle" />
 ![termux-change-repo](https://image.hestudio.net/img/2022/12/16/639c696754b56.jpg)
 
 如果出现这个页面，建议在中国大陆的用户使用清华源（倒数第四个）或者北京外国语大学源（倒数第三个）。且最好使用触摸选择（不是底下的软键盘），点击对应的文字。
@@ -151,7 +152,7 @@ termux-change-repo
 这个是Termux官方提供的文档：https://github.com/termux/termux-packages/wiki/Mirrors#mirrors-hosted-in-china
 :::
 
-### 报错`[Process completed (signal 9) - press Enter]`
+### 报错`[Process completed (signal 9) - press Enter]`  <Badge text="热门" type="warning" vertical="middle" />
 
 详见 [解决安卓12限制32个线程](/posts/Solve-32-restrictions-of-Android-12-restrictions.html)
 
@@ -197,13 +198,8 @@ vim ${PREFIX}/bin/startkali
 
 请按照以下步骤恢复：
 
-1. 将你备份的`kali-arm*`恢复到用户目录`~/`
-2. 安装`proot`
-3. 安装[KA_INSTALL_PATCH_230608](https://www.hestudio.net/posts/ka_install_patch_230608.html)
-4. 如果无法启动，请执行
+1. 重新运行安装脚本
+. 将你备份的`kali-arm*`恢复到用户目录`~/`
 
-```sh
-chmod +x ${PREFIX}/bin/startkali
-```
 
 <Share colorful />

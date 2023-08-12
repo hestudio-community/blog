@@ -6,7 +6,7 @@ comment: false
 next: false
 ---
 
-::: details 提问须知
+::: details Instructions for asking questions
 由于时间原因，不可能每个平台都看，处理提问的优先级从上往下依次递减。
 
 在提问之前请务必阅读以下内容，如果你仍然需要提问，请浏览下面的反馈渠道。
@@ -38,16 +38,57 @@ next: false
 - 爱发电私信
 
 #### 仍然要提问
-你可以先看看 文档 里面有没有你需要的。如果没有，可以向我们提出。
+你可以先看看 [文档](/docs/) 里面有没有你需要的。如果没有，可以向我们提出。
+
+#### 语言要求
+请使用中文或者英文向我提问，其他提问方式会因社区成员无法理解被驳回。
+:::
+
+::: details Instructions for asking questions
+Due to time reasons, it is impossible to read on every platform, and the priority of handling questions decreases from top to bottom.
+
+Please be sure to read the following before asking questions, and if you still need to ask, please browse the feedback channels below.
+
+Before you start asking technical questions via email, newsgroups, or chat rooms, please do the following:
+1. Try searching for answers in old posts in the forum you're about to ask.
+2. Try searching online to find the answer.
+3. Try reading the manual to find out.
+4. Try reading the Frequently Asked Questions document (FAQ) to find the answer.
+5. Try to check or experiment for yourself to find out.
+6. Ask your strong friends to find out.
+7. If you are a program developer, try reading the source code to find out.
+
+#### Special Notice
+Every question you ask is answered manually, I am happy to solve your questions, please **pay attention to your words** when you ask questions, I **have no obligation to answer any of your questions**
+
+#### refuse to answer
+Refuse to answer the following types of questions, including but not limited to
+- "What is the key?" (except for sponsored users)
+- "How to do this?", with screenshots similar to:
+
+![](https://image.hestudio.net/img/2022/12/11/6395a115191d3.jpg)
+
+- Do not provide screenshots or error content
+- Some system normal phenomena
+
+#### Do not accept feedback through the following channels
+- CSDN comments and private messages
+- DM from afdian.net
+
+#### Still have to ask
+You can check [Documents](/docs/) first to see if there is anything you need. If not, you can ask us.
+
+#### Language Requirements
+Please ask me questions in Chinese or English. Other ways of asking questions will be rejected because community members cannot understand.
 :::
 
 1. 请在浏览全部[文档](/docs/)后，如果没有你需要的内容，请通过 [heStudio Talking](/talking) 直接反馈
 
 2. 如果你的问题不方便公开，请向 [hestudio@hestudio.net](mailto:hestudio@hestudio.net) 发送电子邮件反馈。
 
-3. 商务合作，请联系微信：hestudio-group
+3. 闲聊或者咨询其他问题，请加QQ频道：https://pd.qq.com/s/uakgt
 
-4. 闲聊或者咨询其他问题，请加QQ频道：https://pd.qq.com/s/uakgta
+4. For international users, please report your problems to me at hestudio@hestudio.net.
 
 ::: warning
 请发送电子邮件的时候详细描述你的问题，避免被系统当做垃圾邮件处理

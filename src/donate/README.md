@@ -26,8 +26,6 @@ next: false
 
 [![ ](https://image.hestudio.net/img/2023/03/04/6403658ad55e8.jpg)](https://qr.alipay.com/fkx13427ks9t0ups0qzc081)
 
-或者，通过[点击这里](https://qr.alipay.com/fkx13427ks9t0ups0qzc081)跳转到支付宝。
-
 
 @tab QQ钱包
 ![](https://image.hestudio.net/img/2023/03/04/640362d927b8a.png)

@@ -7,7 +7,6 @@ next: false
 ---
 
 ### 欢迎入坑
-这里是我的个人博客。为什么这么说呢？下文会有提及。
 
 - 联系邮箱：hestudio@hestudio.net
 - QQ频道：https://pd.qq.com/s/uakgta
@@ -24,9 +23,7 @@ next: false
 
 ### 自己的项目
 - [kali for Android](https://gitlab.com/heStudio/ka_install)
-- [Windows11升级助手](https://gitee.com/heStudio/upgrade_win11?_from=gitee_search)
 - [百度搜索提交工具](https://pypi.org/project/hbsst/)
-- [heStudio Framework](https://pypi.org/project/heframework/)
 - [heStudio MFA for Desktop](https://gitee.com/hestudio/hmfa)
 - [heStudio BingWallpaper Get](https://www.npmjs.com/package/hestudio-bingwallpaper-get)
 

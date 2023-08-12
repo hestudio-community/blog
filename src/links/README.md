@@ -9,7 +9,6 @@ next: false
 ### [薛才杰个人博客](https://www.xuecaijie.com/)
 一个分享技术、记录生活的个人技术博客
 
-
 ### [Meng](https://www.meng.me/)
 Welcome to mengBlog
 
