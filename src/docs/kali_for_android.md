@@ -4,17 +4,20 @@ icon: install
 article: false
 ---
 
-### 教程
+## 教程
 https://www.hestudio.net/posts/install-kali-on-android-renew.html
 
+## Q&A
 ### 一些命令
 这里只说明我的教程涉及到的命令，查看其他博主教程的命令请转到对应博主的文档里查看，查看系统命令用法请访问 https://www.kali.org/tools/
 
 #### 开启命令
-每次进入Termux可以通过 `startkali` 进入kali Linux终端。如果想在进入Termux时默认进入kali Linux终端，请浏览 [Linux设置自启动和显示文字](/posts/Setting-up-Linux-self-starting-and-displaying-text.html) 文章。
+每次进入Termux可以通过 `startkali` 进入kali Linux终端。
 
 #### VNCServer 命令
-本系统包预装[TigerVNCServer](https://tigervnc.org/)，如果使用不习惯请自行更换。它的常用命令如下：
+本系统包预装[TigerVNCServer](https://tigervnc.org/)，如果使用不习惯请自行更换。如果你向我咨询该问题，我们默认你使用`TigerVNCServer`。
+
+它的常用命令如下：
 
 ##### 修改密码
 
@@ -99,9 +102,9 @@ localhost:5901
 有关Termux的兼容性问题请浏览 https://github.com/termux/termux-packages/wiki/Termux-and-Android-10 和 https://developer.android.google.cn/about/versions/10/behavior-changes-10?hl=zh-cn#execute-permission
 :::
 
-由于Termux未适配Harmony OS，所以使用搭载有Harmony OS的华为或荣耀用户可能无法使用。在实际测试和用户反馈中，Harmony OS 2.0机型（测试设备为荣耀9x）可以使用除vnc之外的功能，Harmony OS 3.0机型（测试设备为华为MatePad Pro）由于安装脚本无法识别导致无法安装。
+由于Termux未适配Harmony OS，所以使用搭载有Harmony OS的华为或荣耀用户可能无法使用。在实际测试和用户反馈中，Harmony OS 2.0机型（测试设备为荣耀9x）可以使用除vnc之外的功能，Harmony OS 3.0机型（测试设备为华为MatePad Pro）由于安装脚本无法识别导致无法安装。**请Harmony OS 3.0及以上版本的用户不要咨询该问题**
 
-
+如果你使用Android 12或以上Android版本，并出现`[Process completed (signal 9) - press Enter]`，请浏览[解决安卓12限制32个线程](/posts/Solve-32-restrictions-of-Android-12-restrictions.html)
 
 ### 不显示网卡信息，怎么联网等
 由于手机设备等问题，导致Termux无法获取你的网卡信息，也无法使用一些基于硬件的功能。
@@ -131,7 +134,7 @@ localhost:5901
 
 当出现此提示的时候，请输入
 
-```shell
+```sh
 termux-change-repo
 ```
 
@@ -150,108 +153,57 @@ termux-change-repo
 
 ### 报错`[Process completed (signal 9) - press Enter]`
 
-Android 12及以上用户在使用Termux时，有时会显示`[Process completed (signal 9) - press Enter]`，这是因为Android 12的PhantomProcesskiller限制了应用的子进程，最大允许应用有32个子进程。
+详见 [解决安卓12限制32个线程](/posts/Solve-32-restrictions-of-Android-12-restrictions.html)
 
-![](https://image.hestudio.net/img/2023/05/24/646e30e301bc0.jpg)q
+## 高级用法
+::: danger Linux 小白慎入
+当你阅读本部分内容时，我们将认为你对Linux基础知识有一定了解。如果你是一位Linux小白，你应当阅读上面的内容。如果你误执行其中的命令导致你的设备无法正常使用，我们不承担任何责任。我们不希望你针对此部分内容的Linux基础知识向我们提问。
+:::
 
-这里以ColorOS 12.1为例（其他系统操作略有出入）
+### 在打开Termux的时候自动启动kali
+如果想在进入Termux时默认进入kali Linux终端，请浏览 [Linux设置自启动和显示文字](/posts/Setting-up-Linux-self-starting-and-displaying-text.html) 文章。
 
+### 修改kali容器的启动命令
+#### 修改启动名称
+在默认情况下，我们使用`startkali`启动kali容器。你可以通过修改`${PREFIX}/bin/startkali`的文件名称使得启动名称发生改变。
 
-#### 开启开发者模式
+在文档的其他部分，我们将认为你仍然使用默认启动名称
 
-1. 打开设置
-
-![](https://image.hestudio.net/img/2023/05/24/646e3396619f3.jpg)
-
-2. 打开“关于手机”
-
-![](https://image.hestudio.net/img/2023/05/25/646e37335a059.jpg)
-
-3. 打开“版本设置”
-
-![](https://image.hestudio.net/img/2023/05/25/646e37b13add7.jpg)
-
-4. 连续点击5次“版本号”
-
-![](https://image.hestudio.net/img/2023/05/25/646e37e23d65f.jpg)
-
-5. 输入密码（如果有）开启开发者模式。
-
-
-#### 打开Termux
-
-1. 打开Termux
-
-![](https://image.hestudio.net/img/2023/05/25/646e390076c17.jpg)
-
-没有Termux?[点击这里安装](https://gitlab.com/heStudio/res/-/raw/main/Termux_0.118.0.apk?inline=false)
-
-2. 安装Android Tools
+如，原来的修改名称是`startkali`，需要将其修改为`kalistart`，可以使用以下命令：
 
 ```sh
-pkg install android-tools
+mv ${PREFIX}/bin/startkali ${PREFIX}/bin/kalistart
 ```
 
-![](https://image.hestudio.net/img/2023/05/25/646e39bb37b29.jpg)
+#### 修改启动配置
+你可以通过修改`${PREFIX}/bin/startkali`的内容使得配置文件发生改变。
 
-3. 浮窗Termux
-利用Android 12的功能，使Termux处于浮窗状态。
-
-![](https://image.hestudio.net/img/2023/05/25/646e3a72db6b3.jpg)
-
-
-#### 配置无线调试
-1. 转到设置 --> 系统设置 --> 开发者设置
-
-![](https://image.hestudio.net/img/2023/05/25/646e3b2ac5102.jpg)
-
-2. 打开无线调试
-
-![](https://image.hestudio.net/img/2023/05/25/646e3bdbe0e18.jpg)
-
-![](https://image.hestudio.net/img/2023/05/25/646e3bfb9f918.jpg)
-
-3. 记住显示的IP地址和端口，并在浮窗下的Termux内输入
-
-![](https://image.hestudio.net/img/2023/05/25/646e3d6fc00e7.jpg)
-
-例如我的IP地址是`192.168.0.103:45367`那么我应该输入
-```sh
-adb pair 192.168.0.103:45367
-```
-
-当显示`Enter pairing code：`时，输入配对码链接。
-
-4. 链接到adb
-复制IP地址，以留备用。
-
-![](https://image.hestudio.net/img/2023/05/25/646e3e90bdf03.jpg)
-
-比如我的IP地址是`192.168.0.103:41249`，我应该输入
+如果你使用vim，则应当使用以下命令编辑：
 
 ```sh
-adb connect 192.168.0.103:41249
+vim ${PREFIX}/bin/startkali
 ```
 
-当输出
-```text
-* daemon not running; starting now at tcp:5037
-* daemon started successfully
-connected to 192.168.0.103:41249
-```
-时，即代表已经链接成功。
+如果你误修改配置文件导致容器无法启动，请通过安装[KA_INSTALL_PATCH_230608](https://www.hestudio.net/posts/ka_install_patch_230608.html)覆盖掉修改的配置文件。
 
-![](https://image.hestudio.net/img/2023/05/25/646e3fb231205.jpg)
+### 备份与恢复
+#### 备份
+你可以通过打包`~/kali-arm*`文件夹以备份已经安装好的容器系统源文件。
 
-5. 设置最大子进程是`65536`
+#### 恢复
+::: warning
+应当保持备份和恢复的是同一设备，否则可能会出现兼容性问题。
+:::
+
+请按照以下步骤恢复：
+
+1. 将你备份的`kali-arm*`恢复到用户目录`~/`
+2. 安装`proot`
+3. 安装[KA_INSTALL_PATCH_230608](https://www.hestudio.net/posts/ka_install_patch_230608.html)
+4. 如果无法启动，请执行
 
 ```sh
-adb shell device_config set_sync_disabled_for_tests persistent 
-adb shell device_config put activity_manager max_phantom_processes 65536
+chmod +x ${PREFIX}/bin/startkali
 ```
-
-![](https://image.hestudio.net/img/2023/05/25/646e401558f04.jpg)
-
-> 最后一次更新 2023.7.17
 
 <Share colorful />
