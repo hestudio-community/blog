@@ -199,7 +199,7 @@ vim ${PREFIX}/bin/startkali
 请按照以下步骤恢复：
 
 1. 重新运行安装脚本
-. 将你备份的`kali-arm*`恢复到用户目录`~/`
+2. 将你备份的`kali-arm*`恢复到用户目录`~/`
 
 
 <Share colorful />

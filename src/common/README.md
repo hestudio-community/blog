@@ -8,7 +8,6 @@ next: false
 
 ### 服务
 - [Kali for Termux 安装源](/posts/install-kali-on-android-renew.html)
-- [heStudio BingWallpaper Get](/docs/hestudio_bing_wallpaper_get.html)
 - [KMS 服务](https://www.hestudio.net/posts/how-to-use-kms.html) <Badge text="再次运营" type="note" vertical="middle" />
 
 ### 软件
