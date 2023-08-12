@@ -2,6 +2,7 @@
 title: heStudio Talking 文档
 icon: community
 article: false
+comment: false
 ---
 
 ### heStudio Talking 是什么？
@@ -11,11 +12,11 @@ heStudio Talking 是一个在heStudio博客内置的一个疑难解答的平台�
 你只需要填写你的电子邮箱和昵称用于接收回复。
 
 ::: warning 
-目前，由于接口问题，登录用户当前仅支持 邮箱 和 Github 登录。
+目前，由于接口问题，面向登录用户，当前仅支持 邮箱 和 Github 登录。
 :::
 
 ### 为什么评论后看不到自己的评论内容
-依据 [中华人民共和国公共安全行业标准(GA 1277.5—2020) - 互联网交互式服务安全管理要求 第5部分：论坛服务](https://res.hestudio.net/res/互联网交互式服务安全管理要求  第5部分 论坛服务.doc)要求，对评论内容先审后发。
+依据 中华人民共和国公共安全行业标准(GA 1277.5—2020) - 互联网交互式服务安全管理要求 第5部分：论坛服务要求，对评论内容先审后发。
 
 ![](https://image.hestudio.net/i/2023/06/26/6498878708cf5.jpg)
 
@@ -41,11 +42,11 @@ heStudio Talking 是一个在heStudio博客内置的一个疑难解答的平台�
 由于该系统使用的是弹出式登录页面，所以对于一些软件内置的WebView不兼容，无法正常跳转到正确页面。请使用系统自带浏览器或者Chrome，Edge，Firefox等浏览器（针对于移动端用户）。对于桌面端用户，请不要使用Internet Explorer浏览器访问。
 
 ### 怎么更换头像
-1. 通过上面的教程上传图片并拿到图片的URL
+1. 通过 https://image.hestudio.net/ 上传图片并拿到图片的URL
 2. 访问 https://comment.hestudio.net/ui/profile?lng=zh-CN 
 3. 在登录账号后点击你的头像，会提示输入URL
 
-![](https://image.hestudio.net/img/2023/01/29/63d54bb8b83f1.jpg)
+![](https://image.hestudio.net/i/2023/08/12/64d73f7003ac7.png)
 
 4. 粘贴在图床获得的URL
 5. 修改完成

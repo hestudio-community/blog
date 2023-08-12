@@ -2,6 +2,7 @@
 title: 授权与备案
 icon: license
 article: false
+comment: false
 ---
 
 ### 关于转载授权

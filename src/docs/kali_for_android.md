@@ -85,26 +85,7 @@ localhost:5901
 5. 最后保存即可
 
 #### vnc怎么更换端口
-TigerVNC默认是以`5900+X`作为版本号的。在重启后会继续向下一位分配版本号，这就意味着我们会经常修改vnc显示器的端口号。
-
-如果我们在运行的时候指定一个端口，那么实际上这个端口就固定了。
-
-```shell
-vncserver :1
-```
-
-在这种情况下vnc服务就会在`5901`端口运行。如果你想要在其他端口运行，那么可以将1改成其他数值。
-
-如果需要固定一个简便的方法，那么我们可以尝试创建一个脚本并通过脚本快速通过固定的端口启动。
-
-```shell
-echo "vncserver :1" >> /usr/share/vncserver-start
-chmod +x /usr/share/vncserver-shart
-```
- 
-其中`:1`应当改为你需要的数值，`vncserver-start`应当改为你想要的脚本名称（需要是非中文或特殊字符且不要和系统原有指令冲突）。然后以后可以通过脚本快速通过固定端口启动。
-
-如果需要使其开机自启动，请浏览 [Linux设置自启动和显示文字](/posts/Setting-up-Linux-self-starting-and-displaying-text.html)
+详见 [TigerVNC 怎么在某个特定的端口启动](/posts/tigervnc-port.html)
 
 
 #### 我开启了vncserver但在VNC Viewer页面无法进入。
@@ -119,6 +100,8 @@ chmod +x /usr/share/vncserver-shart
 :::
 
 由于Termux未适配Harmony OS，所以使用搭载有Harmony OS的华为或荣耀用户可能无法使用。在实际测试和用户反馈中，Harmony OS 2.0机型（测试设备为荣耀9x）可以使用除vnc之外的功能，Harmony OS 3.0机型（测试设备为华为MatePad Pro）由于安装脚本无法识别导致无法安装。
+
+
 
 ### 不显示网卡信息，怎么联网等
 由于手机设备等问题，导致Termux无法获取你的网卡信息，也无法使用一些基于硬件的功能。
@@ -157,7 +140,7 @@ termux-change-repo
 ### Termux选择源的时候怎么选
 ![termux-change-repo](https://image.hestudio.net/img/2022/12/16/639c696754b56.jpg)
 
-如果出现这个页面，我建议在中国大陆的用户使用清华源（倒数第四个）或者北京外国语大学源（倒数第三个）。且最好使用触摸选择（不是底下的软键盘），点击对应的文字。
+如果出现这个页面，建议在中国大陆的用户使用清华源（倒数第四个）或者北京外国语大学源（倒数第三个）。且最好使用触摸选择（不是底下的软键盘），点击对应的文字。
 
 如果你使用的是自己配置的源，可以点击Cancel关闭这个窗口
 

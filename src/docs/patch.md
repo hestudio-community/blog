@@ -2,6 +2,7 @@
 title: 补丁合集
 icon: debug
 article: false
+comment: false
 ---
 
 ::: details KA_INSTALL_PATCH

@@ -2,6 +2,7 @@
 title: Cookie政策
 icon: cache
 article: false
+comment: false
 ---
 
 ### Cookie政策

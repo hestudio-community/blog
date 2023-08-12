@@ -66,7 +66,7 @@ export default hopeTheme({
       QQ: "https://pd.qq.com/s/uakgta",
       // Qzone: "https://example.com",
       // Reddit: "https://example.com",
-      
+
       Rss: "https://www.hestudio.net/atom.xml",
       // Steam: "https://example.com",
       // Twitter: "https://example.com",
@@ -80,14 +80,31 @@ export default hopeTheme({
 
   sidebarSorter: ["readme", "date-desc"],
 
+  prevLink: false,
+  nextLink: false,
+  editLink: false,
+  contributors: false,
+
   locales: {
     "/": {
       // navbar
       navbar: enNavbar,
 
+      navbarAutoHide: "none",
+
+      navbarLayout: {
+        start: ["Brand"],
+        center: [],
+        end: ["Links","Language", "Repo", "Outlook", "Search"],
+      },
+      hideSiteNameOnMobile: false,
+
+      
       // sidebar
       sidebar: false,
+
       
+
       footer: '<a href="https://beian.miit.gov.cn" target="_blank">鲁ICP备2023019014号-1</a>',
 
       displayFooter: true,
@@ -139,6 +156,7 @@ export default hopeTheme({
     mdEnhance: {
       align: true,
       attrs: true,
+      card: true,
       chart: true,
       codetabs: true,
       container: true,
@@ -156,9 +174,7 @@ export default hopeTheme({
       playground: {
         presets: ["ts", "vue"],
       },
-      presentation: {
-        plugins: ["highlight", "math", "search", "notes", "zoom"],
-      },
+      presentation: ["highlight", "math", "search", "notes", "zoom"],
       stylize: [
         {
           matcher: "Recommended",

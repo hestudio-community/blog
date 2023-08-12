@@ -4,7 +4,7 @@ export const enNavbar = navbar([
   "/",
   {
     text: "文章",
-    link: "/article/",
+    link: "/posts/",
     icon: "note",
   },
   "/docs/",
