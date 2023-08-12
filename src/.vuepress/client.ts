@@ -1,6 +1,6 @@
 // .vuepress/client.ts
 import { defineClientConfig } from "@vuepress/client";
-import { defineWalineOptions } from "vuepress-plugin-comment2";
+import { defineWalineOptions } from "vuepress-plugin-comment2/client";
 
 defineWalineOptions({
     search: false,
