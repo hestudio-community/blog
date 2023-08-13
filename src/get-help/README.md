@@ -6,7 +6,7 @@ comment: false
 next: false
 ---
 
-::: details Instructions for asking questions
+::: details 提问须知
 由于时间原因，不可能每个平台都看，处理提问的优先级从上往下依次递减。
 
 在提问之前请务必阅读以下内容，如果你仍然需要提问，请浏览下面的反馈渠道。
