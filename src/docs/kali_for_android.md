@@ -202,4 +202,11 @@ vim ${PREFIX}/bin/startkali
 2. 将你备份的`kali-arm*`恢复到用户目录`~/`
 
 
+### 删除
+运行以下命令以删除该容器
+
+```sh
+rm -rf ~/ka_install ~/kali-arm* ${PREFIX}/bin/startkali 
+```
+
 <Share colorful />
