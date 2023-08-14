@@ -19,6 +19,8 @@ https://www.hestudio.net/posts/install-kali-on-android-renew.html
 #### 开启命令
 每次进入Termux可以通过 `startkali` 进入kali Linux终端。
 
+当然，你也可以使用 `startkali -r` 直接以`root`身份进入。
+
 #### VNCServer 命令
 本系统包预装[TigerVNCServer](https://tigervnc.org/)，如果使用不习惯请自行更换。如果你向我咨询该问题，我们默认你使用`TigerVNCServer`。
 
@@ -131,7 +133,11 @@ localhost:5901
 
 
 ### Termux提示`Failed to fetch`
+::: details 示例
+
 ![](https://image.hestudio.net/img/2023/02/27/63fcca9e7d274.jpg)
+
+:::
 
 当出现此提示的时候，请输入
 
@@ -142,7 +148,9 @@ termux-change-repo
 然后参照下一条操作。
 
 ### Termux选择源的时候怎么选  <Badge text="热门" type="warning" vertical="middle" />
+
 ![termux-change-repo](https://image.hestudio.net/img/2022/12/16/639c696754b56.jpg)
+
 
 如果出现这个页面，建议在中国大陆的用户使用清华源（倒数第四个）或者北京外国语大学源（倒数第三个）。且最好使用触摸选择（不是底下的软键盘），点击对应的文字。
 
@@ -155,6 +163,63 @@ termux-change-repo
 ### 报错`[Process completed (signal 9) - press Enter]`  <Badge text="热门" type="warning" vertical="middle" />
 
 详见 [解决安卓12限制32个线程](/posts/Solve-32-restrictions-of-Android-12-restrictions.html)
+
+### 安装中文语言 <Badge text="新！" type="tip" vertical="middle" />
+
+首先，需要切换到root用户。
+
+然后，执行以下代码：
+
+```sh
+dpkg-reconfigure locales
+```
+
+然后显示以下界面
+
+![](https://image.hestudio.net/i/2023/08/14/64d9d8e0b0d1f.png)
+
+找到`zh_CN.UTF-8 UTF-8`，按空格键锁定，然后按OK进行下一步。
+
+
+![](https://image.hestudio.net/i/2023/08/14/64d9d9a30a16b.png)
+
+选择`zh_CN.UTF-8`，然后按OK结束。
+
+
+![](https://image.hestudio.net/i/2023/08/14/64d9da1d53518.png)
+
+最后输入`exit`退出kali并重新进入。
+
+
+### 报错 `Errors were encountered while processing: /var/cache/apt/archives/postgresql-15_15.3-0+deb12u1_arm64.deb` <Badge text="新！" type="tip" vertical="middle" />
+
+如果在执行`sudo apt upgrade`出现类似以下报错：
+```text
+Preparing to unpack …/postgresql-15_15.3-0+deb12u1_arm64.deb …
+invoke-rc.d: could not determine current runlevel
+Stopping PostgreSQL 15 database server: mainError: Data directory /var/lib/postgresql/15/main must not be owned by root … failed!
+failed!
+invoke-rc.d: initscript postgresql, action “stop” failed.
+dpkg: warning: old postgresql-15 package pre-removal script subprocess returned error exit status 1
+dpkg: trying script from the new package instead …
+invoke-rc.d: could not determine current runlevel
+Stopping PostgreSQL 15 database server: mainError: Data directory /var/lib/postgresql/15/main must not be owned by root … failed!
+failed!
+invoke-rc.d: initscript postgresql, action “stop” failed.
+dpkg: error processing archive /var/cache/apt/archives/postgresql-15_15.3-0+deb12u1_arm64.deb (–unpack):
+new postgresql-15 package pre-removal script subprocess returned error exit status 1
+Errors were encountered while processing:
+/var/cache/apt/archives/postgresql-15_15.3-0+deb12u1_arm64.deb
+E: Sub-process /usr/bin/dpkg returned an error code (1)
+```
+
+解决方案参考 https://forums.kali.org/showthread.php?59108-Kali-Android-Rootless-upgrade-issues
+
+以下命令依次执行：
+```sh
+rm -rf /var/lib/dpkg/info/postgresql* && dpkg --configure -a
+sudo apt update && sudo apt full-upgrade -y
+```
 
 ## 高级用法
 ::: danger Linux 小白慎入

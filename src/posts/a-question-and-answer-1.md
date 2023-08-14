@@ -1,7 +1,7 @@
 ---
 title: 一期回答粉丝问题的稿子（1）
 tag: 
-    - kali
+    - Kali Linux
     - Python
     - 工具
     - 博客
