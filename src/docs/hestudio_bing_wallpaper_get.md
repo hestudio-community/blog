@@ -263,7 +263,7 @@ tz
 :::
 
 以下是示例代码，当然，它也是项目默认配置：
-```javascript {4-6}
+```javascript {4-10}
 // external.js
 
 module.exports = {
