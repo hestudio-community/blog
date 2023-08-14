@@ -105,7 +105,7 @@ export default hopeTheme({
 
       
 
-      footer: '<a href="https://beian.miit.gov.cn" target="_blank">鲁ICP备2023019014号-1</a>',
+      footer: '<a href="https://beian.miit.gov.cn" target="_blank">鲁ICP备2023019014号-1</a><p>本站支持 IPV6 访问</p>',
 
       displayFooter: true,
 
