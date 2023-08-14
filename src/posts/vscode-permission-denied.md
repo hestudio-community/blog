@@ -17,3 +17,5 @@ You are trying to start Visual Studio Code as a super user which isn't recommend
 ```sh
 /usr/share/code/code --no-sandbox --unity-launch
 ```
+
+<Share colorful />
