@@ -111,7 +111,7 @@ npm run server
 // external.js
 
 module.exports = {
-    // 组件配置
+  // 组件配置
 }
 ```
 :::
@@ -134,18 +134,18 @@ module.exports = {
 // external.js
 
 module.exports = {
-    rootprogram: (req, res) => {
-        //在这里修改内容
-        res.send("helloworld")
-    }
+  rootprogram: (req, res, getback, logback, logerr) => {
+    //在这里修改内容
+    res.send("helloworld")
+  }
 }
 ```
 
-#### `beforestart`: 在服务运行前导入代码 (#beforestart)
+#### `beforestart`: 在服务运行前导入代码 {#beforestart}
 
 在开始这部分内容之前，你需要了解以下内容。
 
-本组件导入了1个项目变量和1个项目函数。分别是`app`, `getback`, `logback`, `logerr`
+本组件导入了1个项目变量和4个项目函数。分别是`app`, `getback`, `postback`, `logback`, `logerr`
 
 其中，`app`变量由`express.js`导入，修改此部分需要你额外具有`express.js`的知识。如果不是太了解，可以参考：
 
@@ -154,7 +154,7 @@ module.exports = {
 
 你**不能**使用`app.listen()`，因为这会导致项目出现致命错误。当然，你也**不能**将URL路由至`/`, `/getimage`, `/geititle`, `/getcopyright`等，它们也会导致项目**无法正常运行**。你可以自定义`/`，但是仅限于**GET**请求。如果需要自定义`/`，请参考`rootprogram`函数。
 
-当然，还有3个项目函数，它们分别是`getback(ip, path)`, `logback(log)`, `logerr(err)`。我们分别来讲以下：
+当然，还有4个项目函数，它们分别是`getback(ip, path)`, `postback(ip, path)`, `logback(log)`, `logerr(err)`。我们分别来讲以下：
 
 ##### `getback(ip, path)` {#getback}
 
@@ -166,6 +166,18 @@ module.exports = {
 输出效果大概是这样:
 ```text
 [YYYY-MM-DD HH:mm:ss] ${ip} GET ${path}
+```
+
+##### `postback(ip, path)` {#postback}
+
+| 参数 | 参数类型 |
+|---|---|
+| `ip` | `String` |
+| `path` | `String` |
+
+输出效果大概是这样:
+```text
+[YYYY-MM-DD HH:mm:ss] ${ip} POST ${path}
 ```
 
 ##### `logback(log)` {#logback}
@@ -196,9 +208,9 @@ module.exports = {
 // external.js
 
 module.exports = {
-    beforestart: (app, getback, logback, logerr) => {
-        //在这里修改内容
-    }
+  beforestart: (app, getback, postback, logback, logerr) => {
+    //在这里修改内容
+  }
 }
 ```
 
@@ -267,13 +279,13 @@ tz
 // external.js
 
 module.exports = {
-    beforestart: (app, getback, logback, logerr) => {
-        //在这里修改内容
-        rule.hour = 0;
-        rule.minute = 0;
-        rule.second = 0;
-        rule.tz = 'Asia/Shanghai';
-    }
+  refreshtime: (rule) => {
+    //在这里修改内容
+    rule.hour = 0;
+    rule.minute = 0;
+    rule.second = 0;
+    rule.tz = 'Asia/Shanghai';
+  }
 }
 ```
 
