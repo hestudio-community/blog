@@ -8,11 +8,10 @@ before_script:
 pages:
   script:
     - pnpm docs:build
-    - cp -r ./src/.vuepress/.dist/* ./public/
   artifacts:
     paths:
       # The folder that contains the files to be exposed at the Page URL
-      - public
+      - src/.vuepress/.dist
   rules:
     # This ensures that only pushes to the default branch will trigger
     # a pages deploy
