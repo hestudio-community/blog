@@ -50,4 +50,4 @@ AtlasOS 是一个[开源](https://github.com/Atlas-OS/Atlas)免费的项目，�
 
 由于心情原因，导致我把C盘给格式化了，而且BCD文件内的一个字母打错了，结果你懂得（仔细看截图上的日期和页首的发布时间）。
 
-<Share colorful />
+

@@ -34,4 +34,4 @@ tag:
 
 ![关闭“自动检测设置”](https://image.hestudio.net/img/2022/12/11/6395a0a542201.png)
 
-<Share colorful />
+

@@ -94,4 +94,4 @@ Please ask me questions in Chinese or English. Other ways of asking questions wi
 请发送电子邮件的时候详细描述你的问题，避免被系统当做垃圾邮件处理
 :::
 
-<Share colorful />
+

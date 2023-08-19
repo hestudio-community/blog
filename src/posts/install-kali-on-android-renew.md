@@ -145,4 +145,4 @@ localhost:5901
 ### 文档
 在安装的时候出现问题？详见 https://www.hestudio.net/docs/kali_for_android.html
 
-<Share colorful />
+

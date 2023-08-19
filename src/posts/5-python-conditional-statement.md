@@ -146,4 +146,4 @@ else:
         print("成年")
 ```
 
-<Share colorful />
+

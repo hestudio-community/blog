@@ -15,4 +15,4 @@ comment: false
 
 :::
 
-<Share colorful />
+

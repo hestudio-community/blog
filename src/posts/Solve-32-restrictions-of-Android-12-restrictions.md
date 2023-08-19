@@ -114,4 +114,4 @@ adb shell device_config put activity_manager max_phantom_processes 65536
 
 ![](https://image.hestudio.net/img/2023/05/25/646e401558f04.jpg)
 
-<Share colorful />
+

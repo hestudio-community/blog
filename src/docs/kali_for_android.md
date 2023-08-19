@@ -274,4 +274,4 @@ vim ${PREFIX}/bin/startkali
 rm -rf ~/ka_install ~/kali-arm* ${PREFIX}/bin/startkali 
 ```
 
-<Share colorful />
+

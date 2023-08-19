@@ -20,4 +20,4 @@ comment: false
 
 可以在 https://beian.miit.gov.cn/ 核查本站备案信息。
 
-<Share colorful />
+

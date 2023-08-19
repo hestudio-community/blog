@@ -28,4 +28,4 @@ category: 软件补丁
 bash -c "$(curl https://res.hestudio.net/kali_for_android/patch/ka_install_patch_230608)"
 ```
 
-<Share colorful />
+

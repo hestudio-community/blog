@@ -35,4 +35,4 @@ next: false
 
 :::
 
-<Share colorful />
+

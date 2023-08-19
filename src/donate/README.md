@@ -33,7 +33,7 @@ next: false
 
 :::
 
-<Share colorful />
+
 
 ### 感谢以下粉丝的支持
 

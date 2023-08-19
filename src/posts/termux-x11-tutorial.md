@@ -117,4 +117,4 @@ chmod +x /data/data/com.termux/files/usr/bin/x11
 
 ![](https://image.hestudio.net/img/2023/04/05/642c4e09d5602.jpg)
 
-<Share colorful />
+

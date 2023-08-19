@@ -21,4 +21,4 @@ article: false
 :::
 
 
-<Share colorful />
+

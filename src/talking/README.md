@@ -5,7 +5,7 @@ article: false
 next: false
 ---
 
-<Share colorful />
+
 
 ```card
 title: heStudio Talking 使用帮助

@@ -151,4 +151,4 @@ This document was last updated on June 1, 2023
 
 この文書の最終更新日：2023年6月1日
 
-<Share colorful />
+

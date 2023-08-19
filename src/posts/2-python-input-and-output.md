@@ -171,4 +171,4 @@ print(str(a),"+",str(b),"=",float(a+b),"\n计算完毕！")
 
 ![运行结果](https://image.hestudio.net/img/2022/12/11/63959de863af2.jpg)
 
-<Share colorful />
+

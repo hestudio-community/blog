@@ -20,4 +20,4 @@ VSCode默认不支持root用户启动，如果需要使用root用户启动，需
 /usr/share/code/code --no-sandbox --unity-launch
 ```
 
-<Share colorful />
+

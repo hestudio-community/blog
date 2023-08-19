@@ -154,4 +154,4 @@ if __name__ == "__main__":
 
 > 而且，**听说**Windows11在后续的更新中要加入快速切换的按钮。
 
-<Share colorful />
+

@@ -79,4 +79,4 @@ Office的GVLK代码可以在这里获取：https://docs.microsoft.com/zh-cn/depl
 cscript ospp.vbs /act
 ```
 
-<Share colorful />
+

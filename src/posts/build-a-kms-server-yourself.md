@@ -101,4 +101,4 @@ docker run -idt -p 1688:1688 vlmcsd
 
 现在程序应该启动了，但是部分云服务器需要到服务商的控制台开启安全组。查看如何使用KMS，请访问 https://www.hestudio.net/posts/how-to-use-kms.html
 
-<Share colorful />
+

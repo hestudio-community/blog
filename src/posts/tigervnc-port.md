@@ -32,4 +32,4 @@ chmod +x /usr/share/vncserver-shart
 
 如果需要使其开机自启动，请浏览 [Linux设置自启动和显示文字](/posts/Setting-up-Linux-self-starting-and-displaying-text.html)
 
-<Share colorful />
+

@@ -289,4 +289,4 @@ module.exports = {
 }
 ```
 
-<Share colorful />
+

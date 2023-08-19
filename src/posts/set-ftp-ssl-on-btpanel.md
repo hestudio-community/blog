@@ -31,4 +31,4 @@ vim /etc/ssl/private/pure-ftpd.pem
 
 ![](https://image.hestudio.net/img/2022/12/22/63a40228a6826.png)
 
-<Share colorful />
+

@@ -112,4 +112,4 @@ print("不管走到哪里都会想起的人是你"+"\tyou"*2)
 
 ![只因你太美歌词片段](https://image.hestudio.net/img/2022/12/11/63959ea96002c.jpg)
 
-<Share colorful />
+

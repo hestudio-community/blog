@@ -31,5 +31,5 @@ export CHROMIUM_FLAGS="$CHROMIUM_FLAGS --password-store=detect --no-sandbox --us
 
 最后保存，然后就可以在root下使用了。
 
-<Share colorful />
+
 
