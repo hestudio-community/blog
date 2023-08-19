@@ -199,7 +199,7 @@ module.exports = {
 
 输出效果大概是这样:
 ```text
-[YYYY-MM-DD HH:mm:ss] ${err}
+[YYYY-MM-DD HH:mm:ss] ERROR: ${err}
 ```
 
 好的，现在可以通过以下结构在服务运行前导入代码

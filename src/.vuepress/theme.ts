@@ -116,7 +116,6 @@ export default hopeTheme({
     },
   },
 
-
   plugins: {
     components: {
       components: [
@@ -208,4 +207,7 @@ export default hopeTheme({
 
     pwa: false,
   },
+},
+{
+  custom: true,
 });
