@@ -9,6 +9,7 @@
   </div>
   <p>{{ message }}</p>
 </template>
+
 <script>
 import VueTurnstile from 'vue-turnstile';
 
@@ -30,7 +31,7 @@ export default {
       show(msg)
       var requestOptions = {
         method: 'GET',
-        redirect: 'follow'
+        redirect: 'Follow'
       };
       const url = 'https://api.hestudio.net/keysearch?' + 'trade_id=' + this.trade_id + '&phone=' + this.phone + '&token' + this.token
       function verifyget(src) {

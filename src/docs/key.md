@@ -24,6 +24,3 @@ article: false
 <KeySearch />
 :::
 
-<script setup lang="ts">
-import KeySearch from "@KeySearch";
-</script>
