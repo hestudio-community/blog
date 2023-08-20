@@ -20,5 +20,10 @@ article: false
 ![](https://image.hestudio.net/i/2023/07/04/64a30a49662cb.jpg)
 :::
 
+::: details 查找你的Key
+<KeySearch />
+:::
 
-
+<script setup lang="ts">
+import KeySearch from "@KeySearch";
+</script>
