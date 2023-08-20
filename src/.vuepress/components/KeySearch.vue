@@ -1,8 +1,12 @@
 <template>
   <p><input v-model="trade_id" placeholder="请输入订单号" /></p>
   <p><input v-model="phone" placeholder="请输入绑定的手机号" /></p>
-  <vue-turnstile site-key="0x4AAAAAAAJAH9qZfNmMP_v8" v-model="token" />
-  <button @click="search" >查询</button>
+  <div v-if="isBrowser">
+    <vue-turnstile site-key="0x4AAAAAAAJAH9qZfNmMP_v8" v-model="token" />
+    <button @click="search">查询</button>
+  </div>
+  <div v-else>
+  </div>
   <p>{{ message }}</p>
 </template>
 <script>
@@ -14,6 +18,7 @@ export default {
   data() {
     return {
       message: '',
+      isBrowser: typeof window !== 'undefined'
     };
   },
   methods: {
@@ -27,7 +32,7 @@ export default {
         method: 'GET',
         redirect: 'follow'
       };
-      const url = 'https://api.hestudio.net/keysearch?'+'trade_id='+this.trade_id+'&phone='+this.phone+'&token'+this.token
+      const url = 'https://api.hestudio.net/keysearch?' + 'trade_id=' + this.trade_id + '&phone=' + this.phone + '&token' + this.token
       function verifyget(src) {
         console.log(src.exist)
         if (src.exist) {
