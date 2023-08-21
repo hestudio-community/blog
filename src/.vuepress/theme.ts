@@ -105,7 +105,7 @@ export default hopeTheme({
       // sidebar
       sidebar: false,
     
-      footer: '<a href="https://beian.miit.gov.cn" target="_blank">鲁ICP备2023019014号-1</a><a href="https://status.hestudio.net" target="_blank">本站支持 IPV6 访问</a><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9539803519556987" crossorigin="anonymous"></script>',
+      footer: '<p><a href="https://beian.miit.gov.cn" target="_blank">鲁ICP备2023019014号-1</a></p><p><a href="https://status.hestudio.net" target="_blank">本站支持 IPV6 访问</a></p><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9539803519556987" crossorigin="anonymous"></script>',
 
       displayFooter: true,
 
