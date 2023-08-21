@@ -1,7 +1,7 @@
 // .vuepress/client.ts
 import { defineClientConfig } from "@vuepress/client";
 import { defineWalineConfig } from "vuepress-plugin-comment2/client";
-import KeySearch from './components/KeySearch.vue'
+
 
 defineWalineConfig({
     serverURL: "https://comment.hestudio.net",
@@ -24,7 +24,5 @@ defineWalineConfig({
 });
 
 export default defineClientConfig({
-  enhance: ({ app, router, siteData }) => {
-    app.component("KeySearch", KeySearch);
-  },
+  
 });

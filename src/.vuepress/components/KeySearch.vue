@@ -1,25 +1,22 @@
 <template>
   <p><input v-model="trade_id" placeholder="请输入订单号" /></p>
   <p><input v-model="phone" placeholder="请输入绑定的手机号" /></p>
-  <div v-if="isBrowser">
+    <component v-if="dynamicComponent" :is="dynamicComponent">
     <vue-turnstile site-key="0x4AAAAAAAJAH9qZfNmMP_v8" v-model="token" />
+    </component>
     <button @click="search">查询</button>
-  </div>
-  <div v-else>
-  </div>
-  <p>{{ message }}</p>
 </template>
 
 <script>
-import VueTurnstile from 'vue-turnstile';
+// import VueTurnstile from 'vue-turnstile';
 
 export default {
-  components: { VueTurnstile },
+  // components: { VueTurnstile },
 
   data() {
     return {
       message: '',
-      isBrowser: typeof window !== 'undefined'
+      dynamicComponent: null
     };
   },
   methods: {
@@ -60,5 +57,10 @@ export default {
         .then((result) => verifyget(result))
     },
   },
+  mounted () {
+    import('vue-turnstile').then(module => {
+      this.dynamicComponent = module.default
+    })
+  }
 }
 </script>

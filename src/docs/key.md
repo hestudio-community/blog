@@ -21,6 +21,15 @@ article: false
 :::
 
 ::: details 查找你的Key
-<KeySearch />
-:::
+  
+<ClientOnly>
+  <keySearch />
+</ClientOnly>
+
+::: 
+  
+<script>
+  import KeySearch from '@KeySearch'
+</script>
+
 
