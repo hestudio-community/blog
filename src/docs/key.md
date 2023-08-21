@@ -22,9 +22,7 @@ article: false
 
 ::: details 查找你的Key
   
-<ClientOnly>
-  <keySearch />
-</ClientOnly>
+<keySearch />
 
 ::: 
   
