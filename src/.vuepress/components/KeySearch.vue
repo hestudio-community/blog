@@ -25,7 +25,6 @@ export default {
       };
       const url = 'https://api.hestudio.net/keysearch?' + 'trade_id=' + this.trade_id + '&phone=' + this.phone
       function verifyget(src) {
-        console.log(src.exist)
         if (src.exist) {
           const status = src.status
           function status_get(status) {
@@ -40,7 +39,6 @@ export default {
           msg = String('Key: ' + src.key + "\n" + '状态: ' + status_get(status))
           show(msg)
         } else {
-          console.log(src.msg)
           msg = src.msg
           show(msg)
         }
