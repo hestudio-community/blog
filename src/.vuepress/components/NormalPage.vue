@@ -1,7 +1,9 @@
 <template>
     <HopeNormalPage>
         <template #contentBefore>
-            <p align="center"><Share colorful /></p>
+            <div style="text-align: center;">
+                <Share colorful />
+            </div>
         </template>
     </HopeNormalPage>
 </template>

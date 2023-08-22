@@ -1,7 +1,7 @@
 <template>
   <p><input v-model="trade_id" placeholder="请输入订单号" /></p>
   <p><input v-model="phone" placeholder="请输入绑定的手机号" /></p>
-  <button @click="search" >查询</button>
+  <button @click="search">查询</button>
   <p>{{ message }}</p>
 </template>
 <script>
@@ -23,7 +23,7 @@ export default {
         method: 'GET',
         redirect: 'follow'
       };
-      const url = 'https://api.hestudio.net/keysearch?'+'trade_id='+this.trade_id+'&phone='+this.phone
+      const url = 'https://api.hestudio.net/keysearch?' + 'trade_id=' + this.trade_id + '&phone=' + this.phone
       function verifyget(src) {
         console.log(src.exist)
         if (src.exist) {
