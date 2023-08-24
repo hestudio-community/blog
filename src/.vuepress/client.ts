@@ -2,6 +2,10 @@
 import { defineClientConfig } from "@vuepress/client";
 import { defineWalineConfig } from "vuepress-plugin-comment2/client";
 
+import ElementPlus from 'element-plus'
+import 'element-plus/dist/index.css'
+
+
 defineWalineConfig({
     serverURL: "https://comment.hestudio.net",
     search: false,
@@ -23,5 +27,7 @@ defineWalineConfig({
 });
 
 export default defineClientConfig({
-    // ...
+  enhance({ app }) {
+    app.use(ElementPlus)
+  }
 });

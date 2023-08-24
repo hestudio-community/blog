@@ -1,15 +1,30 @@
 <template>
-  <p><input v-model="trade_id" placeholder="请输入订单号" /></p>
-  <p><input v-model="phone" placeholder="请输入绑定的手机号" /></p>
-  <button @click="search">查询</button>
+  <!-- <p><input v-model="trade_id" placeholder="请输入订单号" /></p>
+  <p><input v-model="phone" placeholder="请输入绑定的手机号" /></p> -->
+  <div>
+    <div>
+      <p>
+        <el-input v-model="trade_id" placeholder="请输入订单号" />
+      </p>
+      <p>
+        <el-input v-model="phone" placeholder="请输入绑定的手机号" />
+      </p>
+    </div>
+    <p>
+      <el-button @click="search" type="primary" round>查询</el-button>
+    </p>
+  </div>
+  <!-- <button @click="search">查询</button> -->
   <p>{{ message }}</p>
 </template>
-<script>
 
+<script>
 export default {
   data() {
     return {
       message: '',
+      trade_id: '',
+      phone: ''
     };
   },
   methods: {
