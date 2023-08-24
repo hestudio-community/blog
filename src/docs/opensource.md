@@ -10,9 +10,8 @@ article: false
 一个具有强大功能的 vuepress 主题✨
 
 #### 文档
-- 中文（简体）：https://vuepress-theme-hope.gitee.io/v2/zh/
-- English：https://vuepress-theme-hope.github.io/v2/
-- Русский：https://vuepress-theme-hope.github.io/v2/ru
+- 中文（简体）：https://theme-hope.vuejs.press/zh/
+- English：https://theme-hope.vuejs.press/
 
 #### Github
 https://github.com/vuepress-theme-hope/vuepress-theme-hope
@@ -35,12 +34,12 @@ https://github.com/walinejs/waline
 #### 官网
 https://www.iconfont.cn/
 
-### Pixabay
+### Element Plus（原Element UI）
 #### 介绍
-免费正版高清图片素材库
+基于 Vue 3，面向设计师和开发者的组件库
 
 #### 官网
-https://pixabay.com/
+https://element-plus.org
 
 ## Minecraft服务器
 ### MCSManager

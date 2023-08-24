@@ -1,6 +1,5 @@
 <template>
-  <!-- <p><input v-model="trade_id" placeholder="请输入订单号" /></p>
-  <p><input v-model="phone" placeholder="请输入绑定的手机号" /></p> -->
+
   <div>
     <div>
       <p>
@@ -14,9 +13,13 @@
       <el-button @click="search" type="primary" round>查询</el-button>
     </p>
   </div>
-  <!-- <button @click="search">查询</button> -->
   <p>{{ message }}</p>
 </template>
+
+<script setup>
+console.log('KeySearch Component is running.')
+console.log('Version: v1.0.2')
+</script>
 
 <script>
 export default {
