@@ -164,34 +164,15 @@ termux-change-repo
 
 详见 [解决安卓12限制32个线程](/posts/Solve-32-restrictions-of-Android-12-restrictions.html)
 
-### 安装中文语言 <Badge text="新！" type="tip" vertical="middle" />
+### 安装中文语言 <Badge text="2.0" type="tip" vertical="middle" />
 
-首先，需要切换到root用户。
-
-然后，执行以下代码：
-
+在运行之前加入该环境变量
 ```sh
-dpkg-reconfigure locales
+export LANG=zh_CN.UTF-8
 ```
+也可以实现自动添加并启动，详见 [Linux设置自启动和显示文字](/posts/Setting-up-Linux-self-starting-and-displaying-text.html)
 
-然后显示以下界面
-
-![](https://image.hestudio.net/i/2023/08/14/64d9d8e0b0d1f.png)
-
-找到`zh_CN.UTF-8 UTF-8`，按空格键锁定，然后按OK进行下一步。
-
-
-![](https://image.hestudio.net/i/2023/08/14/64d9d9a30a16b.png)
-
-选择`zh_CN.UTF-8`，然后按OK结束。
-
-
-![](https://image.hestudio.net/i/2023/08/14/64d9da1d53518.png)
-
-最后输入`exit`退出kali并重新进入。
-
-
-### 报错 `Errors were encountered while processing: /var/cache/apt/archives/postgresql-15_15.3-0+deb12u1_arm64.deb` <Badge text="新！" type="tip" vertical="middle" />
+### 报错 `Errors were encountered while processing: /var/cache/apt/archives/postgresql-15_15.3-0+deb12u1_arm64.deb`
 
 如果在执行`sudo apt upgrade`出现类似以下报错：
 ```text
@@ -251,6 +232,17 @@ vim ${PREFIX}/bin/startkali
 ```
 
 如果你误修改配置文件导致容器无法启动，请通过安装[KA_INSTALL_PATCH_230608](https://www.hestudio.net/posts/ka_install_patch_230608.html)覆盖掉修改的配置文件。
+
+### 更换默认语言 <Badge text="2.0" type="tip" vertical="middle" />
+
+我们通过读取`LANG`环境变量值判断你的默认语言，通过修改该变量可以修改你的容器语言。
+```sh
+# 中文（简体）
+export LANG=zh_CN.UTF-8
+```
+如果需要修改成其他语言，请自行查阅资料。
+
+也可以实现自动添加并启动，详见 [Linux设置自启动和显示文字](/posts/Setting-up-Linux-self-starting-and-displaying-text.html)
 
 ### 备份与恢复
 #### 备份
