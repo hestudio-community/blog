@@ -2,14 +2,15 @@
   <div>
     <div>
       <p>
-        <el-input v-model="trade_id" placeholder="请输入订单号" />
+        <el-input v-model="trade_id" placeholder="请输入订单号" clearable />
       </p>
       <p>
-        <el-input v-model="phone" placeholder="请输入绑定的手机号" />
+        <el-input v-model="phone" placeholder="请输入绑定的手机号" clearable />
       </p>
     </div>
     <p>
-      <el-button @click="search" v-bind="button" color="#e77c8e" type="primary" :icon="Search" round>查询</el-button>
+      <el-button @click="search" v-bind="button" type="primary" :icon="Search" round>查询</el-button>
+      <el-button @click="help" :icon="QuestionFilled" circle />
     </p>
   </div>
   <p>{{ message }}</p>
@@ -17,10 +18,13 @@
 
 
 <script setup>
-import { Search } from '@element-plus/icons-vue'
+import {
+  Search,
+  QuestionFilled
+} from '@element-plus/icons-vue'
 
 console.log('KeySearch Component is running.')
-console.log('Version: v1.0.3')
+console.log('Version: v1.0.4')
 </script>
 
 <script>
@@ -36,6 +40,11 @@ export default {
     };
   },
   methods: {
+    help() {
+      this.$router.push({
+        path: '/get-help'
+      })
+    },
     search() {
       async function button_loading(th, config) {
         th.button.loading = config
