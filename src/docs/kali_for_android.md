@@ -4,6 +4,10 @@ icon: install
 article: false
 ---
 
+::: details 目录
+[[TOC]]
+:::
+
 ## 安装脚本
 ```sh
 termux-setup-storage && curl -O --url https://res.hestudio.net/kali_for_android/install.sh && chmod +x install.sh && ./install.sh

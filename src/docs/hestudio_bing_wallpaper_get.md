@@ -4,6 +4,10 @@ icon: api
 article: false
 ---
 
+::: details 目录
+[[TOC]]
+:::
+
 ## demo
 ![这是一张自动更换的图片](https://api.hestudio.net/bgimage)
 
