@@ -3,8 +3,7 @@ title: Key 获取与查找
 icon: lock
 article: false
 ---
-### 怎么获取key&找到已购买的key
-#### 怎么购买
+
 - 爱发电购买链接：[点击这里购买](https://afdian.net/item/66544a4a1f0211ed835052540025c377)
 
 

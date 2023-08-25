@@ -22,6 +22,8 @@
     "vuepress-theme-hope": "2.0.0-beta.235"
   },
   "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
+    "@vueuse/core": "^10.3.0",
     "element-plus": "^2.3.9"
   }
 }

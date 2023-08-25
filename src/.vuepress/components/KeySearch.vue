@@ -1,5 +1,4 @@
 <template>
-
   <div>
     <div>
       <p>
@@ -10,15 +9,18 @@
       </p>
     </div>
     <p>
-      <el-button @click="search" type="primary" round>查询</el-button>
+      <el-button @click="search" v-bind="button" color="#e77c8e" type="primary" :icon="Search" round>查询</el-button>
     </p>
   </div>
   <p>{{ message }}</p>
 </template>
 
+
 <script setup>
+import { Search } from '@element-plus/icons-vue'
+
 console.log('KeySearch Component is running.')
-console.log('Version: v1.0.2')
+console.log('Version: v1.0.3')
 </script>
 
 <script>
@@ -27,14 +29,24 @@ export default {
     return {
       message: '',
       trade_id: '',
-      phone: ''
+      phone: '',
+      button: {
+        loading: false
+      }
     };
   },
   methods: {
     search() {
+      async function button_loading(th, config) {
+        th.button.loading = config
+      }
+      const button_load = (config) => {
+        button_loading(this, config)
+      }
       const show = (msg) => {
         this.message = msg
       }
+      button_load(true)
       var msg = '查询中...'
       show(msg)
       var requestOptions = {
@@ -55,9 +67,11 @@ export default {
             }
           }
           msg = String('Key: ' + src.key + "\n" + '状态: ' + status_get(status))
+          button_load(false)
           show(msg)
         } else {
           msg = src.msg
+          button_load(false)
           show(msg)
         }
       }
