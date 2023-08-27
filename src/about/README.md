@@ -13,13 +13,10 @@ next: false
 
 说点正经的。性别男，爱好女
 
-...
+（中二病怎么又犯了？!）
 
----
 
-让开😎😎，我是分界线
-
----
+<el-divider>让开😎😎，我是分界线</el-divider>
 
 爱好写代码，有时候玩玩Minecraft（想要一起玩的[Contact me](/about/#contact)）
 天性懒惰，issue不处理属于常事（总会处理的，只是时间问题）。of course 挖坑不填也是常事。
