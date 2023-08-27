@@ -168,13 +168,6 @@ termux-change-repo
 
 详见 [解决安卓12限制32个线程](/posts/Solve-32-restrictions-of-Android-12-restrictions.html)
 
-### 安装中文语言 <Badge text="2.0" type="tip" vertical="middle" />
-
-在运行之前加入该环境变量
-```sh
-export LANG=zh_CN.UTF-8
-```
-也可以实现自动添加并启动，详见 [Linux设置自启动和显示文字](/posts/Setting-up-Linux-self-starting-and-displaying-text.html)
 
 ### 报错 `Errors were encountered while processing: /var/cache/apt/archives/postgresql-15_15.3-0+deb12u1_arm64.deb`
 
@@ -246,7 +239,7 @@ export LANG=zh_CN.UTF-8
 ```
 如果需要修改成其他语言，请自行查阅资料。
 
-也可以实现自动添加并启动，详见 [Linux设置自启动和显示文字](/posts/Setting-up-Linux-self-starting-and-displaying-text.html)
+也可以实现自动添加并启动，详见上文。
 
 ### 备份与恢复
 #### 备份
