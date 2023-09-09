@@ -11,11 +11,6 @@ next: false
 
 好吧，其实我喜欢你ヾ(≧▽≦*)o
 
-说点正经的。性别男，爱好女
-
-（中二病怎么又犯了？!）
-
-
 <el-divider>让开😎😎，我是分界线</el-divider>
 
 爱好写代码，有时候玩玩Minecraft（想要一起玩的[Contact me](/about/#contact)）
@@ -23,7 +18,7 @@ next: false
 
 有新鲜点子[欢迎投稿](/talking/)！！！
 
-之前写过一次博客，但是因为没有种种原因，被蜀黍们敲门了。这次，我可是带着标（见页尾）来的，手续齐全，不怕敲门。
+之前写过一次博客，但是因为种种原因，被蜀黍们敲门了。这次，我可是带着标（见页尾）来的，手续齐全，不怕敲门。
 
 本站没有广告（不排除以后会有，还是[欢迎合作](https://image.hestudio.net/i/2023/08/27/64ead5a6eac4c.png)）
 
@@ -70,11 +65,7 @@ next: false
 
 
 <script setup>
-console.log('哈哈哈，你终于还是发现这里了')
-console.log('告诉你一个秘密（左右探望）')
-console.log('程路平是大笨蛋！！！')
-console.log('反正你告诉她又没关系，她又找不到我藏哪了。')
-console.log('略略略😜😜')
+import '@aboutegg'
 </script>
 
 
