@@ -46,7 +46,7 @@ next: false
 - [kali for Android](https://gitlab.com/heStudio/ka_install)
 - [百度搜索提交工具](https://pypi.org/project/hbsst/)
 - [heStudio MFA for Desktop](https://gitee.com/hestudio/hmfa)
-- [heStudio BingWallpaper Get](https://www.npmjs.com/package/hestudio-bingwallpaper-get)
+- [heStudio BingWallpaper Get](https://github.com/hestudio-community/bing-wallpaper-get/)
 
 ### 镜像的项目
 - [Quick Reference](https://quickref.hestudio.net/)
