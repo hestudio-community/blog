@@ -65,7 +65,7 @@ node server.js
 
 @tab 手动安装
 ```sh
-git clone https://gitlab.com/heStudio/bing-wallpaper-get.git
+git clone https://github.com/hestudio-community/bing-wallpaper-get.git
 cd bing-wallpaper-get
 npm install
 npm run server
@@ -75,9 +75,13 @@ npm run server
 
 ## 在其他地方找到本项目 {#link}
 
-- Gitlab: https://gitlab.com/heStudio/bing-wallpaper-get
+- GitHub: https://github.com/hestudio-community/bing-wallpaper-get
 - NPM: https://www.npmjs.com/package/hestudio-bingwallpaper-get
 - Docker Hub: https://hub.docker.com/r/hestudio/bingwallpaper_get
+
+## 提交问题 {#issue}
+
+https://github.com/hestudio-community/bing-wallpaper-get/issues
 
 ## 高级用法 {#pro}
 
