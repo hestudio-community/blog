@@ -4,7 +4,6 @@ layout: BlogHome
 icon: home
 title: Home
 bgImage: https://api.hestudio.net/bgimage
-# heroImage: /logo.svg
 heroText: heStudio
 tagline: Welcome to the pit!
 heroFullScreen: true
