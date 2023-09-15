@@ -18,8 +18,6 @@ next: false
 
 有新鲜点子[欢迎投稿](/talking/)！！！
 
-之前写过一次博客，但是因为种种原因，被蜀黍们敲门了。这次，我可是带着标（见页尾）来的，手续齐全，不怕敲门。
-
 本站没有广告（不排除以后会有，还是[欢迎合作](https://image.hestudio.net/i/2023/08/27/64ead5a6eac4c.png)）
 
 ### 赞助
@@ -34,13 +32,11 @@ next: false
 - QQ频道：https://pd.qq.com/s/uakgta
 - 作者CSDN：醉、倾城
 - heStudio社区：https://bbs.csdn.net/forums/hestudio
-- 作者Gitlab：https://gitlab.com/hestudio
-- 作者Gitee（停更）：https://gitee.com/heStudio
 - 作者Github：https://github.com/heStudio-Network
+- 项目Github：https://github.com/hestudio-community
 - 作者博客：https://www.hestudio.net/
 - 作者爱发电：https://afdian.net/@hestudio
 - RSS 订阅：https://www.hestudio.net/atom.xml
-
 
 ### 自己的项目
 - [kali for Android](https://gitlab.com/heStudio/ka_install)
