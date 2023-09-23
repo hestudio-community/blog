@@ -6,7 +6,7 @@ export default hopeTheme({
   hostname: "https://www.hestudio.net",
 
   author: {
-    name: "醉、倾城",
+    name: "undefined",
     url: "https://www.hestudio.net/about/",
     email: "hestudio@hestudio.net"
   },
@@ -33,8 +33,8 @@ export default hopeTheme({
   pageInfo: ["Author", "Original", "Date", "PageView", "Category", "Tag", "ReadingTime"],
 
   blog: {
-    avatar: "https://image.hestudio.net/img/2022/12/13/6398763d6229a.jpg",
-    name: "醉、倾城",
+    avatar: "https://image.hestudio.net/i/2023/09/24/650f24a97753f.png",
+    name: "undefined",
     roundAvatar: true,
     medias: {
       // Baidu: "https://example.com",

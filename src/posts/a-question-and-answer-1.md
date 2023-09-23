@@ -7,7 +7,7 @@ tag:
     - 博客
     - Android
 author: 
-    - 醉、倾城
+    - undefined
     - 沈浪
     - 登真
     - 404 not found

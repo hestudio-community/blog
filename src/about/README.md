@@ -30,7 +30,7 @@ next: false
 - 问题反馈：https://www.hestudio.net/get-help
 - 联系邮箱：hestudio@hestudio.net
 - QQ频道：https://pd.qq.com/s/uakgta
-- 作者CSDN：醉、倾城
+- 作者CSDN：https://blog.csdn.net/a18845594188
 - heStudio社区：https://bbs.csdn.net/forums/hestudio
 - 作者Github：https://github.com/heStudio-Network
 - 项目Github：https://github.com/hestudio-community
