@@ -33,5 +33,5 @@ jobs:
       - uses: actions/download-artifact@v2
         with:
           name: my-artifact
-      - run: rm -rf /www/wwwroot/www/*
-      - run: cp * /www/wwwroot/www/
+      - run: sudo rm -rf /www/wwwroot/www/*
+      - run: sudo cp * /www/wwwroot/www/
