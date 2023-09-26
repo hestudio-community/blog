@@ -6,8 +6,7 @@ import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
 import 'element-plus/theme-chalk/dark/css-vars.css'
 
-import { DarkMode } from './components/DarkMode.js'
-
+import DarkMode from './components/DarkMode.vue'
 
 defineWalineConfig({
   serverURL: "https://comment.hestudio.net",
@@ -33,7 +32,5 @@ export default defineClientConfig({
   enhance({ app }) {
     app.use(ElementPlus)
   },
-  setup() {
-    DarkMode()
-  },
+  rootComponents: [DarkMode]
 });
