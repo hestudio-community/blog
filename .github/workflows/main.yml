@@ -34,4 +34,4 @@ jobs:
         with:
           name: my-artifact
       - run: sudo rm -rf /www/wwwroot/www/*
-      - run: sudo cp * /www/wwwroot/www/
+      - run: sudo cp -r * /www/wwwroot/www/
