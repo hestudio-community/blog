@@ -27,7 +27,7 @@ jobs:
 
   deploy:
     name: Deploy
-    runs-on: hestudio
+    runs-on: self-hosted
     needs: build
     steps:
       - uses: actions/download-artifact@v2
