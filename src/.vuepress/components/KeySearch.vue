@@ -22,8 +22,6 @@ import {
   Search,
   QuestionFilled
 } from '@element-plus/icons-vue'
-import { timePanelSharedProps } from 'element-plus/es/components/time-picker/src/props/shared';
-import 'element-plus/theme-chalk/dark/css-vars.css'
 console.log('KeySearch Component is running.')
 console.log('Version: v1.0.5')
 </script>
@@ -38,16 +36,6 @@ export default {
       button: {
         loading: false
       },
-      darkmode: async () => {
-        setInterval(() => {
-          console.log('Running Darkmode.')
-          if (document.querySelector('html[data-theme="dark"]')) {
-            document.querySelector('html').classList.add('dark');
-          } else {
-            document.querySelector('html').classList.remove('dark')
-          }
-        }, 1000);
-      }
     };
   },
   methods: {
@@ -100,8 +88,5 @@ export default {
         .then((result) => verifyget(result))
     },
   },
-  mounted() {
-    this.darkmode()
-  }
 }
 </script>

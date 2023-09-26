@@ -4,6 +4,9 @@ import { defineWalineConfig } from "vuepress-plugin-comment2/client";
 
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
+import 'element-plus/theme-chalk/dark/css-vars.css'
+
+import { DarkMode } from './components/DarkMode.js'
 
 
 defineWalineConfig({
@@ -29,5 +32,8 @@ defineWalineConfig({
 export default defineClientConfig({
   enhance({ app }) {
     app.use(ElementPlus)
-  }
+  },
+  setup() {
+    DarkMode()
+  },
 });
