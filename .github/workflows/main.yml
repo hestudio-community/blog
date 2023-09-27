@@ -35,6 +35,8 @@ jobs:
     runs-on: self-hosted
     needs: build
     steps:
+      - name: Import environment variables
+        run: source /etc/profile
       - uses: actions/download-artifact@v2
         with:
           name: my-artifact
