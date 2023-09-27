@@ -22,8 +22,6 @@ import {
   Search,
   QuestionFilled
 } from '@element-plus/icons-vue'
-console.log('KeySearch Component is running.')
-console.log('Version: v1.0.5')
 </script>
 
 <script>
@@ -88,5 +86,9 @@ export default {
         .then((result) => verifyget(result))
     },
   },
+  mounted() {
+    console.log('KeySearch Component is running.')
+    console.log('Version: v1.0.5')
+  }
 }
 </script>
