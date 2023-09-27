@@ -17,6 +17,8 @@ jobs:
           node-version: 18
       - name: Setup pnpm
         uses: pnpm/action-setup@v2.4.0
+        with:
+          version: 8
       - name: Installation dependency
         run: pnpm install
       - name: Build Website
@@ -42,4 +44,3 @@ jobs:
         run: sudo cp -r * /www/wwwroot/www/
       - name: Refresh CDN
         run: node ~/refresh/www.js
-        
