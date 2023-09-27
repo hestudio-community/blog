@@ -59,9 +59,10 @@ next: false
 ### 搬运
 本站在一定条件下允许搬运，详见 https://www.hestudio.net/docs/copyright.html
 
+<egg />
 
 <script setup>
-import '@aboutegg'
+import egg from '@aboutegg'
 </script>
 
 

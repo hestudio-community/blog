@@ -15,11 +15,14 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-
-      - run: npm install -g pnpm
-      - run: pnpm install
-      - run: pnpm docs:build
-      - uses: actions/upload-artifact@v2
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2.4.0
+      - name: Installation dependency
+        run: pnpm install
+      - name: Build Website
+        run: pnpm docs:build
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v2
         with:
           name: my-artifact
           path: src/.vuepress/dist
@@ -33,5 +36,10 @@ jobs:
       - uses: actions/download-artifact@v2
         with:
           name: my-artifact
-      - run: sudo rm -rf /www/wwwroot/www/*
-      - run: sudo cp -r * /www/wwwroot/www/
+      - name: Clean up old files on the website
+        run: sudo rm -rf /www/wwwroot/www/*
+      - name: Import website files
+        run: sudo cp -r * /www/wwwroot/www/
+      - name: Refresh CDN
+        run: node ~/refresh/www.js
+        
