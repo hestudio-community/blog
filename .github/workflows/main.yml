@@ -15,7 +15,7 @@ jobs:
     # 步骤 根据步骤执行任务
     steps:
       - name: Clone Code
-        run: git clone https://github.com/hestudio-community/blog.git
+        run: git clone https://github.com/hestudio-community/blog.git .
       - uses: actions/setup-node@v3
         with:
           node-version: 18
