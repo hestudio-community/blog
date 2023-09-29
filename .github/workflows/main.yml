@@ -14,7 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     # 步骤 根据步骤执行任务
     steps:
-      - uses: actions/checkout@v3
+      - name: Clone Code
+        run: git clone https://github.com/hestudio-community/blog.git
       - uses: actions/setup-node@v3
         with:
           node-version: 18
