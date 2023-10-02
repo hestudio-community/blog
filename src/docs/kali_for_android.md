@@ -169,7 +169,7 @@ termux-change-repo
 详见 [解决安卓12限制32个线程](/posts/Solve-32-restrictions-of-Android-12-restrictions.html)
 
 
-### 报错 `Errors were encountered while processing: /var/cache/apt/archives/postgresql-15_15.3-0+deb12u1_arm64.deb`
+### 报错 `Errors were encountered while processing: /var/cache/apt/archives/postgresql-15_15.3-0+deb12u1_arm64.deb` <Badge text="热门" type="warning" vertical="middle" />
 
 如果在执行`sudo apt upgrade`出现类似以下报错：
 ```text
@@ -198,6 +198,10 @@ E: Sub-process /usr/bin/dpkg returned an error code (1)
 rm -rf /var/lib/dpkg/info/postgresql* && dpkg --configure -a
 sudo apt update && sudo apt full-upgrade -y
 ```
+
+### 报错 `failed to execute child process 'dbus-launch'` <Badge text="热门" type="warning" vertical="middle" />
+
+详见： [修复 failed to execute child process 'dbus-launch' 问题](/posts/fix-failed-to-execute-child-process-dbus-launch.html)
 
 ## 高级用法
 ::: danger Linux 小白慎入
