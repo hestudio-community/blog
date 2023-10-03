@@ -82,6 +82,11 @@ You can check [Documents](/docs/) first to see if there is anything you need. If
 Please ask me questions in Chinese or English. Other ways of asking questions will be rejected because community members cannot understand.
 :::
 
+::: tip 通过微信客服联系
+[点击此链接通过企业微信反馈](https://work.weixin.qq.com/kfid/kfcbe17894dfd6c78f2)
+:::
+
+
 1. 请在浏览全部[文档](/docs/)后，如果没有你需要的内容，请通过 [heStudio Talking](/talking) 直接反馈
 
 2. 如果你的问题不方便公开，请向 [hestudio@hestudio.net](mailto:hestudio@hestudio.net) 发送电子邮件反馈。
