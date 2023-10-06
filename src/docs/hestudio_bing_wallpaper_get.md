@@ -67,10 +67,18 @@ node server.js
 ```sh
 git clone https://github.com/hestudio-community/bing-wallpaper-get.git
 cd bing-wallpaper-get
-npm install
-npm run server
+yarn install
+yarn server
 ```
 
+:::
+
+::: danger
+请在更新版本之前仔细阅读版本更新日志，并决定是否更新版本。盲目的更新版本可能会导致程序崩溃。建议在更新之前请先记录之前版本的版本号，在遇到兼容问题时可以回退到之前的版本。
+:::
+
+::: warning
+我们将在`v1.3.0`版本之后将开发时使用的包管理器切换到`yarn`，建议使用手动部署的也使用`yarn`包管理器，`Docker`部署和`NPM`部署的用户不受影响。
 :::
 
 ## 在其他地方找到本项目 {#link}
@@ -92,22 +100,33 @@ https://github.com/hestudio-community/bing-wallpaper-get/issues
 ::: info 假设条件
 在下文中，我们将假设你将服务运行在`localhost:3000`
 
-**请根据自己的实际需求更改文字**
+**请根据自己的实际需求按需修改，默认配置并不适合所有人**
 :::
 
 ### 环境变量 {#env}
 
-#### `hbwg_port`: 自定义程序端口
+#### `hbwg_port`: 自定义程序端口 {#hbwg_port}
 - 默认值: `3000`
 
-#### `hbwg_host`: 自定义Bing前置URL
+#### `hbwg_host`: 自定义Bing前置URL {#hbwg_host}
 - 默认值: `https://cn.bing.com`
 
-#### `hbwg_config`: 自定义请求参数
+#### `hbwg_config`: 自定义请求参数 {#hbwg_config}
 - 默认值: `format=js&idx=0&n=1&mkt=zh-CN`
 
 #### `hbwg_external`: 外部文件路径
-- 默认值: `./external.js`
+- 默认值: `./external.js` {#hbwg_external}
+
+#### `hbwg_getupdate`: 是否检查更新 {#hbwg_getupdate}
+- 默认值: `true`
+- 注意，你应当只传入`false`以禁用自动检查更新。如果你不需要禁用自动检查更新，应当传入`true`或者不传入任何值。
+
+::: tip
+我们将会在后续的版本将此开关移至`external.js`文件，目前你不需要做任何适配，我们会对其做兼容性处理。
+:::
+
+#### `hbwg_packageurl`: `package.json`对应URL
+- 默认值: `https://raw.githubusercontent.com/hestudio-community/bing-wallpaper-get/main/package.json`
 
 ### 修改组件行为 {#external}
 ::: tip 修改前提示
