@@ -243,7 +243,7 @@ module.exports = {
 
 #### `refreshtime`: 设置资源刷新时间 {#refreshtime}
 
-在修改本部分内容之前，需要了解以下[`node-schedule`](https://www.npmjs.com/package/node-schedule)
+在修改本部分内容之前，需要了解一下[`node-schedule`](https://www.npmjs.com/package/node-schedule)
 
 已导入`rule`变量，需修改rule变量才能有效果。
 
