@@ -121,67 +121,22 @@ https://github.com/hestudio-community/bing-wallpaper-get/issues
 - 默认值: `true`
 - 注意，你应当只传入`false`以禁用自动检查更新。如果你不需要禁用自动检查更新，应当传入`true`或者不传入任何值。
 
-::: tip
-我们将会在后续的版本将此开关移至`external.js`文件，目前你不需要做任何适配，我们会对其做兼容性处理。
+::: danger
+我们已经在`v1.3.1`将此开关移至`external.js`文件，请浏览[检查更新开关](/docs/hestudio_bing_wallpaper_get.html#getupdate)。
+
+**请注意，我们将在`v1.4.0`版本移除此环境变量。
 :::
 
-#### `hbwg_packageurl`: `package.json`对应URL
+#### `hbwg_packageurl`: `package.json`对应URL {#hbwg_packageurl}
 - 默认值: `https://raw.githubusercontent.com/hestudio-community/bing-wallpaper-get/main/package.json`
 
 ### 修改组件行为 {#external}
 ::: tip 修改前提示
 修改前你需要在根目录创建`external.js`文件。你可以自定义创建的路径和文件名称，只需添加`hbwg_external`环境变量即可。
 
-将以下初始化内容粘贴到`external.js`:
-
-```javascript
-// external.js
-
-module.exports = {
-  // 组件配置
-}
-```
-:::
-
-#### `rootprogram`: 自定义`GET /`的行为 {#rootprogram}
-
-::: warning
-修改此部分需要你额外具有`express.js`的知识。如果不是太了解，可以参考：
-
-- http://expressjs.com/
-- https://quickref.hestudio.net/docs/expressjs.html
-
-:::
-
-在默认情况下，访问`localhost:3000`会跳转到这里，你可以通过修改`rootprogram`函数以修改此行为。
-
-示例项目如下：
-
-```javascript {4-7}
-// external.js
-
-module.exports = {
-  rootprogram: (req, res, getback, logback, logerr) => {
-    //在这里修改内容
-    res.send("helloworld")
-  }
-}
-```
-
-#### `beforestart`: 在服务运行前导入代码 {#beforestart}
-
 在开始这部分内容之前，你需要了解以下内容。
 
-本组件导入了1个项目变量和4个项目函数。分别是`app`, `getback`, `postback`, `logback`, `logerr`
-
-其中，`app`变量由`express.js`导入，修改此部分需要你额外具有`express.js`的知识。如果不是太了解，可以参考：
-
-- http://expressjs.com/
-- https://quickref.hestudio.net/docs/expressjs.html
-
-你**不能**使用`app.listen()`，因为这会导致项目出现致命错误。当然，你也**不能**将URL路由至`/`, `/getimage`, `/geititle`, `/getcopyright`等，它们也会导致项目**无法正常运行**。你可以自定义`/`，但是仅限于**GET**请求。如果需要自定义`/`，请参考`rootprogram`函数。
-
-当然，还有4个项目函数，它们分别是`getback(ip, path)`, `postback(ip, path)`, `logback(log)`, `logerr(err)`。我们分别来讲以下：
+本项目导出了4个项目函数。它们分别是`getback(ip, path)`, `postback(ip, path)`, `logback(log)`, `logerr(err)`。我们分别来讲以下：
 
 ##### `getback(ip, path)` {#getback}
 
@@ -229,13 +184,105 @@ module.exports = {
 [YYYY-MM-DD HH:mm:ss] ERROR: ${err}
 ```
 
+另外还有4个指示器，它们输出的数据类型是`string`。它们分别是`port`, `api`, `getupdate`, `packageurl`
+
+你只能查看它们的值，无法直接修改它们。该指示器提供给开发人员调试使用，不要在生产环境使用。
+
+- `port`: 程序端口号，可以在[hbwg_port](/docs/hestudio_bing_wallpaper_get.html#hbwg_port)修改。
+- `api`: 服务地址，可以在[hbwg_host](/docs/hestudio_bing_wallpaper_get.html#hbwg_host)和[hbwg_config](/docs/hestudio_bing_wallpaper_get.html#hbwg_config)修改
+- `getupdate`: 获取更新开关，可以在[获取更新开关](/docs/hestudio_bing_wallpaper_get.html#getupdate)修改。
+- `packageurl`: 更新源，在检查更新时会请求该地址。可以在[`package.json`对应URL](/docs/hestudio_bing_wallpaper_get.html#hbwg_packageurl)修改。
+
+将以下初始化内容粘贴到`external.js`:
+
+```javascript
+// external.js
+
+const {
+  // 项目函数
+  // getback
+  // postback
+  // logback
+  // logerr
+  //
+  // 指示器
+  // port
+  // api
+  // getupdate
+  // packageurl
+} = require("hestudio-bingwallpaper-get")
+
+module.exports = {
+  // 组件配置
+}
+```
+:::
+
+上述模板中均已注释项目函数和指示器，可根据需要自行取消注释。
+
+#### `getupdate`: 获取更新开关 {#getupdate}
+
+此开关决定系统是否提示更新版本。
+
+在默认状态下，这个开关是**开启**状态。程序会在刚开始运行时和每个[资源刷新周期](/docs/hestudio_bing_wallpaper_get.html#refreshtime)自动请求[更新源](/docs/hestudio_bing_wallpaper_get.html#hbwg_packageurl)。如果检测到更新源有更新的版本，将会在日志中提示。
+
+::: tip
+**不会**自动更新本程序，仅提示更新。
+:::
+
+如果需要禁用更新提示，可以在`external.js`中进行如下修改。
+
+```javascript {4}
+// external.js
+
+module.exports = {
+  getupdate: false;
+}
+```
+
+#### `rootprogram`: 自定义`GET /`的行为 {#rootprogram}
+
+::: warning
+修改此部分需要你额外具有`express.js`的知识。如果不是太了解，可以参考：
+
+- http://expressjs.com/
+- https://quickref.hestudio.net/docs/expressjs.html
+
+:::
+
+在默认情况下，访问`localhost:3000`会跳转到这里，你可以通过修改`rootprogram`函数以修改此行为。
+
+示例项目如下：
+
+```javascript {4-7}
+// external.js
+
+module.exports = {
+  rootprogram: (req, res) => {
+    //在这里修改内容
+    res.send("helloworld")
+  }
+}
+```
+
+#### `beforestart`: 在服务运行前导入代码 {#beforestart}
+
+在开始这部分内容之前，你需要了解以下内容。
+
+本组件中导入了`app`变量，该变量由`express.js`导入，修改此部分需要你额外具有`express.js`的知识。如果不是太了解，可以参考：
+
+- http://expressjs.com/
+- https://quickref.hestudio.net/docs/expressjs.html
+
+你**不能**使用`app.listen()`，因为这会导致项目出现致命错误。当然，你也**不能**将URL路由至`/`, `/getimage`, `/geititle`, `/getcopyright`等，它们也会导致项目**无法正常运行**。你可以自定义`/`，但是仅限于**GET**请求。如果需要自定义`/`，请参考`rootprogram`函数。
+
 好的，现在可以通过以下结构在服务运行前导入代码
 
 ```javascript {4-6}
 // external.js
 
 module.exports = {
-  beforestart: (app, getback, postback, logback, logerr) => {
+  beforestart: (app) => {
     //在这里修改内容
   }
 }
