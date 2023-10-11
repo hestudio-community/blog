@@ -131,7 +131,7 @@ https://github.com/hestudio-community/bing-wallpaper-get/issues
 - 默认值: `https://raw.githubusercontent.com/hestudio-community/bing-wallpaper-get/main/package.json`
 
 ### 修改组件行为 {#external}
-::: tip 修改前提示
+
 修改前你需要在根目录创建`external.js`文件。你可以自定义创建的路径和文件名称，只需添加`hbwg_external`环境变量即可。
 
 在开始这部分内容之前，你需要了解以下内容。
@@ -216,7 +216,6 @@ module.exports = {
   // 组件配置
 }
 ```
-:::
 
 上述模板中均已注释项目函数和指示器，可根据需要自行取消注释。
 
