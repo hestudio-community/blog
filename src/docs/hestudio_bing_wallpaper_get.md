@@ -124,7 +124,7 @@ https://github.com/hestudio-community/bing-wallpaper-get/issues
 ::: danger
 我们已经在`v1.3.1`将此开关移至`external.js`文件，请浏览[检查更新开关](/docs/hestudio_bing_wallpaper_get.html#getupdate)。
 
-**请注意，我们将在`v1.4.0`版本移除此环境变量。
+**请注意，我们将在`v1.4.0`版本移除此环境变量。**
 :::
 
 #### `hbwg_packageurl`: `package.json`对应URL {#hbwg_packageurl}
