@@ -82,7 +82,7 @@ You can check [Documents](/docs/) first to see if there is anything you need. If
 Please ask me questions in Chinese or English. Other ways of asking questions will be rejected because community members cannot understand.
 :::
 
-- [附：《提问的智慧》](/docs/how-to-ask-question.html)
+- [附：《提问的智慧》](/posts/how-to-ask-question.html)
 
 
 ::: tip 通过微信客服联系

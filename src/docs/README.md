@@ -11,7 +11,7 @@ comment: false
 - [Key 获取与查找](/docs/key.html)
 - [补丁合集](/docs/patch.html)
 - [heStudio Talking 文档](/docs/talking.html)
-- [《提问的智慧》](/docs/how-to-ask-question.html)
+- [《提问的智慧》](/posts/how-to-ask-question.html)
 - [法律信息](/docs/legal.html)
 - [本站用到的开源服务](/docs/opensource.html)
 - [没找到文档？前往反馈](/get-help/)
