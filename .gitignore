@@ -3,4 +3,3 @@ node_modules
 .temp
 dist
 dist.zip
-pnpm-lock.yaml

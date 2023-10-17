@@ -1,18 +1,17 @@
 <template>
-  <div>
-    <div>
-      <p>
-        <el-input v-model="trade_id" placeholder="请输入订单号" clearable />
-      </p>
-      <p>
-        <el-input v-model="phone" placeholder="请输入绑定的手机号" clearable />
-      </p>
-    </div>
+  <form>
+    <p>
+      <el-input v-model="trade_id" placeholder="请输入订单号" clearable />
+    </p>
+    <p>
+      <el-input v-model="phone" placeholder="请输入绑定的手机号" clearable />
+    </p>
+    <vue-hcaptcha @verify="verify" v-bind="hcaptcha" sitekey="c52f98bd-b35e-4878-9325-1f600841ad45"></vue-hcaptcha>
     <p>
       <el-button @click="search" v-bind="button" type="primary" :icon="Search" round>查询</el-button>
       <el-button @click="help" :icon="QuestionFilled" circle />
     </p>
-  </div>
+  </form>
   <p>{{ message }}</p>
 </template>
 
@@ -22,6 +21,7 @@ import {
   Search,
   QuestionFilled
 } from '@element-plus/icons-vue'
+import VueHcaptcha from '@hcaptcha/vue3-hcaptcha';
 </script>
 
 <script>
@@ -31,12 +31,21 @@ export default {
       message: '',
       trade_id: '',
       phone: '',
+      token: '',
       button: {
-        loading: false
+        loading: false,
+        disabled: true,
       },
+      hcaptcha: {
+        theme: 'light',
+      }
     };
   },
   methods: {
+    verify(token) {
+      this.token = token
+      this.button.disabled = false
+    },
     help() {
       this.$router.push({
         path: '/get-help'
@@ -59,7 +68,7 @@ export default {
         method: 'GET',
         redirect: 'follow'
       };
-      const url = 'https://api.hestudio.net/keysearch?' + 'trade_id=' + this.trade_id + '&phone=' + this.phone
+      const url = 'https://api.hestudio.net/keysearch/v2?' + 'trade_id=' + this.trade_id + '&phone=' + this.phone + '&token=' + this.token
       function verifyget(src) {
         if (src.exist) {
           const status = src.status
@@ -89,6 +98,16 @@ export default {
   mounted() {
     console.log('KeySearch Component is running.')
     console.log('Version: v1.0.5')
+    const autodark = async () => {
+      setInterval(() => {
+        if (document.querySelector('html[data-theme="dark"]')) {
+          this.hcaptcha.theme = 'dark'
+        } else {
+          this.hcaptcha.theme = 'light'
+        }
+      }, 1000);
+    }
+    autodark()
   }
 }
 </script>
