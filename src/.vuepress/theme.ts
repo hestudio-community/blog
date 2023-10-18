@@ -17,7 +17,7 @@ export default hopeTheme({
 
   logoDark: "/dark.svg",
 
-  repo: "https://gitlab.com/heStudio/blog-source.git",
+  repo: "https://github.com/hestudio-community/blog.git",
   repoDisplay: false,
 
   docsDir: "docs",
@@ -72,7 +72,7 @@ export default hopeTheme({
       Rss: "https://www.hestudio.net/atom.xml",
       // Steam: "https://example.com",
       // Twitter: "https://example.com",
-      // Wechat: "https://example.com",
+      Wechat: "https://work.weixin.qq.com/kfid/kfcbe17894dfd6c78f2",
       // Weibo: "https://example.com",
       // Whatsapp: "https://example.com",
       // Youtube: "https://example.com",
@@ -156,26 +156,26 @@ export default hopeTheme({
 
     // Disable features you don’t want here
     mdEnhance: {
-      align: true,
+      align: false,
       attrs: true,
       card: true,
-      chart: true,
+      chart: false,
       codetabs: true,
       container: true,
-      demo: true,
-      echarts: true,
-      figure: true,
-      flowchart: true,
+      demo: false,
+      echarts: false,
+      figure: false,
+      flowchart: false,
       gfm: true,
       imgLazyload: true,
       imgSize: true,
-      include: true,
-      katex: true,
+      include: false,
+      katex: false,
       mark: true,
-      mermaid: true,
-      playground: {
-        presets: ["ts", "vue"],
-      },
+      mermaid: false,
+      // playground: {
+      //   presets: ["ts", "vue"],
+      // },
       presentation: ["highlight", "math", "search", "notes", "zoom"],
       stylize: [
         {
@@ -193,8 +193,8 @@ export default hopeTheme({
       sub: true,
       sup: true,
       tabs: true,
-      vPre: true,
-      vuePlayground: true,
+      vPre: false,
+      vuePlayground: false,
       tasklist: true,
     },
 
