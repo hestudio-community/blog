@@ -1,15 +1,19 @@
 <template>
+  <el-form>
     <p>
       <el-input v-model="trade_id" placeholder="请输入订单号" clearable />
     </p>
     <p>
       <el-input v-model="phone" placeholder="请输入绑定的手机号" clearable />
     </p>
-    <vue-hcaptcha @verify="verify" v-bind="hcaptcha" sitekey="c52f98bd-b35e-4878-9325-1f600841ad45"></vue-hcaptcha>
+    <div>
+      <vue-hcaptcha @verify="verify" v-bind="hcaptcha" sitekey="c52f98bd-b35e-4878-9325-1f600841ad45"></vue-hcaptcha>
+    </div>
     <p>
       <el-button @click="search" v-bind="button" type="primary" :icon="Search" round>查询</el-button>
       <el-button @click="help" :icon="QuestionFilled" circle />
     </p>
+  </el-form>
   <p>{{ message }}</p>
 </template>
 
@@ -96,16 +100,6 @@ export default {
   mounted() {
     console.log('KeySearch Component is running.')
     console.log('Version: v1.0.5')
-    const autodark = async () => {
-      setInterval(() => {
-        if (document.querySelector('html[data-theme="dark"]')) {
-          this.hcaptcha.theme = 'dark'
-        } else {
-          this.hcaptcha.theme = 'light'
-        }
-      }, 1000);
-    }
-    autodark()
   }
 }
 </script>
