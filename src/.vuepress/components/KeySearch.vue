@@ -1,5 +1,4 @@
 <template>
-  <form>
     <p>
       <el-input v-model="trade_id" placeholder="请输入订单号" clearable />
     </p>
@@ -11,7 +10,6 @@
       <el-button @click="search" v-bind="button" type="primary" :icon="Search" round>查询</el-button>
       <el-button @click="help" :icon="QuestionFilled" circle />
     </p>
-  </form>
   <p>{{ message }}</p>
 </template>
 
