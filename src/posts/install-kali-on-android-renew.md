@@ -23,13 +23,13 @@ category: Android
 
 ### 工具
 1. 搭载基于Android的手机
-2. [Termux](https://gitlab.com/heStudio/res/-/raw/main/Termux_0.118.0.apk?inline=false)
-3. [VNC Viewer](https://gitlab.com/heStudio/res/-/raw/main/VNC_Viewer_3.7.1.44443.apk?inline=false) (可选)
+2. [Termux](https://res.hestudio.net/kali_for_android/Termux_0.118.0.apk)
+3. [VNC Viewer](https://res.hestudio.net/kali_for_android/VNC_Viewer_3.7.1.44443.apk) (可选)
 
 ### 安装必备软件(如已安装请忽略)
 
-- [点我下载 Termux](https://gitlab.com/heStudio/res/-/raw/main/Termux_0.118.0.apk?inline=false)
-- [点我下载 VNC Viewer](https://gitlab.com/heStudio/res/-/raw/main/VNC_Viewer_3.7.1.44443.apk?inline=false)
+- [点我下载 Termux](https://res.hestudio.net/kali_for_android/Termux_0.118.0.apk)
+- [点我下载 VNC Viewer](https://res.hestudio.net/kali_for_android/VNC_Viewer_3.7.1.44443.apk)
 
 ### 安装基本系统
 1. 打开Termux
