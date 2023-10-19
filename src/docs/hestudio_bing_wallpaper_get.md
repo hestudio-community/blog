@@ -130,6 +130,15 @@ https://github.com/hestudio-community/bing-wallpaper-get/issues
 #### `hbwg_packageurl`: `package.json`对应URL {#hbwg_packageurl}
 - 默认值: `https://raw.githubusercontent.com/hestudio-community/bing-wallpaper-get/main/package.json`
 
+::: tip 镜像源
+对于部分用户，Github源不可用，建议更换成CDN源。
+
+以下是几个我们认可的CDN源。当然，你也可以自定义成你自己的CDN源。
+
+- jsDelivr: https://cdn.jsdelivr.net/npm/hestudio-bingwallpaper-get@latest/package.json
+- UNPKG: https://unpkg.com/hestudio-bingwallpaper-get@latest/package.json
+:::
+
 ### 修改组件行为 {#external}
 
 修改前你需要在根目录创建`external.js`文件。你可以自定义创建的路径和文件名称，只需添加`hbwg_external`环境变量即可。

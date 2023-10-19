@@ -39,7 +39,6 @@ export default {
         disabled: true,
         type: "primary",
         round: true,
-        circle: false
       },
       hcaptcha: {
         theme: 'light',
