@@ -7,10 +7,10 @@
       <el-input v-model="phone" placeholder="请输入绑定的手机号" clearable />
     </p>
     <div>
-      <vue-hcaptcha @verify="verify" v-bind="hcaptcha" sitekey="c52f98bd-b35e-4878-9325-1f600841ad45"></vue-hcaptcha>
+      <vue-hcaptcha @verify="verify" ref="captcha" v-bind="hcaptcha" sitekey="c52f98bd-b35e-4878-9325-1f600841ad45"></vue-hcaptcha>
     </div>
     <p>
-      <el-button @click="search" v-bind="button" type="primary" :icon="Search" round>查询</el-button>
+      <el-button @click="search" v-bind="button" :icon="Search" >查询</el-button>
       <el-button @click="help" :icon="QuestionFilled" circle />
     </p>
   </el-form>
@@ -37,6 +37,9 @@ export default {
       button: {
         loading: false,
         disabled: true,
+        type: "primary",
+        round: true,
+        circle: false
       },
       hcaptcha: {
         theme: 'light',
@@ -44,22 +47,42 @@ export default {
     };
   },
   methods: {
+    /**
+     * verify function for hcaptcha
+     * @param {string} token token fron hcaptcha
+     */
     verify(token) {
       this.token = token
       this.button.disabled = false
     },
+    /**
+     * help button to go to /get-help pages
+     */
     help() {
       this.$router.push({
         path: '/get-help'
       })
     },
     search() {
+      /**
+       * 
+       * @param {*} th this
+       * @param {boolean} config 
+       */
       async function button_loading(th, config) {
         th.button.loading = config
       }
+      /**
+       * 
+       * @param {boolean} config button switch
+       */
       const button_load = (config) => {
         button_loading(this, config)
       }
+      /**
+       * 
+       * @param {string} msg show message
+       */
       const show = (msg) => {
         this.message = msg
       }
@@ -71,35 +94,40 @@ export default {
         redirect: 'follow'
       };
       const url = 'https://api.hestudio.net/keysearch/v2?' + 'trade_id=' + this.trade_id + '&phone=' + this.phone + '&token=' + this.token
-      function verifyget(src) {
+      const verifyget = (src) => {
         if (src.exist) {
           const status = src.status
-          function status_get(status) {
+          const status_get = (status) => {
             if (status === true) {
+              this.button.type = 'success'
               return '正常'
             } else if (status === 'lock') {
+              this.button.type = 'warning'
               return '已锁定'
             } else if (status === 'ban') {
+              this.button.type = 'danger'
               return '已封禁'
             }
           }
           msg = String('Key: ' + src.key + "\n" + '状态: ' + status_get(status))
-          button_load(false)
           show(msg)
         } else {
           msg = src.msg
-          button_load(false)
           show(msg)
+          this.button.type = 'info'
         }
       }
       fetch(url, requestOptions)
         .then((response) => response.json())
         .then((result) => verifyget(result))
+      button_load(false)
+      this.button.disabled = true
+      this.$refs.captcha.reset()
     },
   },
   mounted() {
     console.log('KeySearch Component is running.')
-    console.log('Version: v1.0.5')
+    console.log('Version: v1.0.6')
   }
 }
 </script>
