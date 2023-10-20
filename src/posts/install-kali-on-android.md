@@ -51,7 +51,7 @@ termux-setup-storage && curl -O --url https://res.hestudio.net/kali_for_android/
 ::: 
 
 ::: info 
-如不是因为以上原因导致的报错，请访问 https://pd.qq.com/s/rvk1vn?shareSource=5 或者到[QQ频道](https://pd.qq.com/s/uakgta)求助
+如不是因为以上原因导致的报错，请访问 https://pd.qq.com/s/rvk1vn?shareSource=5 或者到[QQ频道](https://pd.qq.com/s/am85w6nbs)求助
 ::: 
 
 ![感谢群友贡献的截图](https://image.hestudio.net/img/2022/12/11/6395a115191d3.jpg)
@@ -90,7 +90,7 @@ sudo apt-get upgrade
 ##### 初始化vncserver
 本脚本内置vnc[^5]服务，但是还是需要自己稍微设置一下。
 
-> 部分机型可能报错，如出现这种情况，请到[QQ频道](https://pd.qq.com/s/uakgta)求助
+> 部分机型可能报错，如出现这种情况，请到[QQ频道](https://pd.qq.com/s/am85w6nbs)求助
 
 ::: secondary 
 查看更多vnc骚操作，请到https://tigervnc.org/
