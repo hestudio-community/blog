@@ -32,7 +32,7 @@ export default {
   data() {
     return {
       message: '',
-      buttonmsg: '查询',
+      buttonmsg: '请先通过人机验证后再查询',
       trade_id: '',
       phone: '',
       token: '',
