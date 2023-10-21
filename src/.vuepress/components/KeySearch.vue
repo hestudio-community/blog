@@ -7,10 +7,11 @@
       <el-input v-model="phone" placeholder="请输入绑定的手机号" clearable />
     </p>
     <div>
-      <vue-hcaptcha @verify="verify" ref="captcha" v-bind="hcaptcha" sitekey="c52f98bd-b35e-4878-9325-1f600841ad45"></vue-hcaptcha>
+      <vue-hcaptcha @verify="verify" ref="captcha" v-bind="hcaptcha"
+        sitekey="c52f98bd-b35e-4878-9325-1f600841ad45"></vue-hcaptcha>
     </div>
     <p>
-      <el-button @click="search" v-bind="button" :icon="Search" >查询</el-button>
+      <el-button @click="search" v-bind="button" :icon="Search">{{ buttonmsg }}</el-button>
       <el-button @click="help" :icon="QuestionFilled" circle />
     </p>
   </el-form>
@@ -31,6 +32,7 @@ export default {
   data() {
     return {
       message: '',
+      buttonmsg: '查询',
       trade_id: '',
       phone: '',
       token: '',
@@ -53,6 +55,9 @@ export default {
     verify(token) {
       this.token = token
       this.button.disabled = false
+      this.button.type = 'primary'
+      this.message =''
+      this.buttonmsg='查询'
     },
     /**
      * help button to go to /get-help pages
@@ -87,7 +92,8 @@ export default {
       }
       button_load(true)
       var msg = '查询中...'
-      show(msg)
+      this.buttonmsg = msg
+      show('')
       var requestOptions = {
         method: 'GET',
         redirect: 'follow'
@@ -96,15 +102,22 @@ export default {
       const verifyget = (src) => {
         if (src.exist) {
           const status = src.status
+          /**
+           * 
+           * @param {boolean | string} status 
+           */
           const status_get = (status) => {
             if (status === true) {
               this.button.type = 'success'
+              this.buttonmsg = '查询成功'
               return '正常'
             } else if (status === 'lock') {
               this.button.type = 'warning'
+              this.buttonmsg = '已锁定'
               return '已锁定'
             } else if (status === 'ban') {
               this.button.type = 'danger'
+              this.buttonmsg = '已封禁'
               return '已封禁'
             }
           }
@@ -112,8 +125,9 @@ export default {
           show(msg)
         } else {
           msg = src.msg
-          show(msg)
+          show('')
           this.button.type = 'info'
+          this.buttonmsg = msg
         }
       }
       fetch(url, requestOptions)
@@ -126,7 +140,7 @@ export default {
   },
   mounted() {
     console.log('KeySearch Component is running.')
-    console.log('Version: v1.0.6')
+    console.log('Version: v1.0.7')
   }
 }
 </script>
