@@ -56,7 +56,7 @@ export default hopeTheme({
       // Facebook: "https://example.com",
       // Flipboard: "https://example.com",
       // Gitee: "https://gitee.com/heStudio",
-      GitHub: "https://github.com/heStudio-Network",
+      GitHub: "https://github.com/hestudio-community",
       // Gitlab: "https://gitlab.com/hestudio",
       // Gmail: "https://example.com",
       // Instagram: "https://example.com",

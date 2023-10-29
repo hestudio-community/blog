@@ -94,7 +94,7 @@ Please ask me questions in Chinese or English. Other ways of asking questions wi
 
 2. 如果你的问题不方便公开，请向 [hestudio@hestudio.net](mailto:hestudio@hestudio.net) 发送电子邮件反馈。
 
-3. 闲聊或者咨询其他问题，请加QQ频道：https://pd.qq.com/s/uakgt
+3. 闲聊或者咨询其他问题，请加QQ频道：https://pd.qq.com/s/am85w6nbs
 
 4. For international users, please report your problems to me at hestudio@hestudio.net.
 

@@ -32,7 +32,7 @@ next: false
 - QQ频道：https://pd.qq.com/s/am85w6nbs
 - 作者CSDN：https://blog.csdn.net/a18845594188
 - heStudio社区：https://bbs.csdn.net/forums/hestudio
-- 作者Github：https://github.com/heStudio-Network
+- 作者Github：https://github.com/undefined-hestudio
 - 项目Github：https://github.com/hestudio-community
 - 作者博客：https://www.hestudio.net/
 - 作者爱发电：https://afdian.net/@hestudio
