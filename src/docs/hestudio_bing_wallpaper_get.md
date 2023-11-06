@@ -67,8 +67,9 @@ node server.js
 ```sh
 git clone https://github.com/hestudio-community/bing-wallpaper-get.git
 cd bing-wallpaper-get
-yarn install
-yarn server
+npm install -global pnpm
+pnpm install --production
+pnpm run server
 ```
 
 :::
@@ -78,7 +79,7 @@ yarn server
 :::
 
 ::: warning
-我们将在`v1.3.0`版本之后将开发时使用的包管理器切换到`yarn`，建议使用手动部署的也使用`yarn`包管理器，`Docker`部署和`NPM`部署的用户不受影响。
+我们将在`v1.3.2`版本之后将开发时使用的包管理器切换到`pnpm`，建议使用手动部署的也使用`pnpm`包管理器，`Docker`部署和`NPM`部署的用户不受影响。
 :::
 
 ## 在其他地方找到本项目 {#link}
@@ -114,8 +115,8 @@ https://github.com/hestudio-community/bing-wallpaper-get/issues
 #### `hbwg_config`: 自定义请求参数 {#hbwg_config}
 - 默认值: `format=js&idx=0&n=1&mkt=zh-CN`
 
-#### `hbwg_external`: 外部文件路径
-- 默认值: `./external.js` {#hbwg_external}
+#### `hbwg_external`: 外部文件路径 {#hbwg_external}
+- 默认值: `./external.js` 
 
 #### `hbwg_getupdate`: 是否检查更新 {#hbwg_getupdate}
 - 默认值: `true`
@@ -135,9 +136,14 @@ https://github.com/hestudio-community/bing-wallpaper-get/issues
 
 以下是几个我们认可的CDN源。当然，你也可以自定义成你自己的CDN源。
 
+- NPM: https://registry.npmjs.com/hestudio-bingwallpaper-get/latest
+- NPMMirror: https://registry.npmmirror.com/hestudio-bingwallpaper-get/latest
 - jsDelivr: https://cdn.jsdelivr.net/npm/hestudio-bingwallpaper-get@latest/package.json
 - UNPKG: https://unpkg.com/hestudio-bingwallpaper-get@latest/package.json
 :::
+
+#### `hbwg_header`: 传入真实IP的请求头 {#hbwg_header}
+- 默认值: `x-real-ip`
 
 ### 修改组件行为 {#external}
 
@@ -193,14 +199,27 @@ https://github.com/hestudio-community/bing-wallpaper-get/issues
 [YYYY-MM-DD HH:mm:ss] ERROR: ${err}
 ```
 
-另外还有4个指示器，它们输出的数据类型是`string`。它们分别是`port`, `api`, `getupdate`, `packageurl`
+##### `logwarn(err)` {#logwarn}
 
-你只能查看它们的值，无法直接修改它们。该指示器提供给开发人员调试使用，不要在生产环境使用。
+| 参数 | 参数类型 |
+|---|---|
+| `warn` | `String` |
 
-- `port`: 程序端口号，可以在[hbwg_port](/docs/hestudio_bing_wallpaper_get.html#hbwg_port)修改。
-- `api`: 服务地址，可以在[hbwg_host](/docs/hestudio_bing_wallpaper_get.html#hbwg_host)和[hbwg_config](/docs/hestudio_bing_wallpaper_get.html#hbwg_config)修改
-- `getupdate`: 获取更新开关，可以在[获取更新开关](/docs/hestudio_bing_wallpaper_get.html#getupdate)修改。
-- `packageurl`: 更新源，在检查更新时会请求该地址。可以在[`package.json`对应URL](/docs/hestudio_bing_wallpaper_get.html#hbwg_packageurl)修改。
+输出效果大概是这样:
+```text
+[YYYY-MM-DD HH:mm:ss] WARN: ${warn}
+```
+
+另外还有6个指示器，它们输出的数据类型是`string`。他们被包含在`hbwgConfig`对象当中，你只能查看它们的值，无法直接修改它们。该指示器提供给开发人员调试使用，不要在生产环境使用。
+
+- `hbwgConfig.port`: 程序端口号，可以在[`hbwg_port`](/docs/hestudio_bing_wallpaper_get.html#hbwg_port)修改。
+- `hbwgConfig.api`: 服务地址，可以在[`hbwg_host`](/docs/hestudio_bing_wallpaper_get.html#hbwg_host)和[`hbwg_config`](/docs/hestudio_bing_wallpaper_get.html#hbwg_config)修改。
+- `hbwgConfig.host`: Bing前置URL,可以在[`hbwg_host`](/docs/hestudio_bing_wallpaper_get.html#hbwg_host)修改。
+- `hbwgConfig.getupdate`: 获取更新开关，可以在[获取更新开关](/docs/hestudio_bing_wallpaper_get.html#getupdate)修改。
+- `hbwgConfig.packageurl`: 更新源，在检查更新时会请求该地址。可以在[`package.json`对应URL](/docs/hestudio_bing_wallpaper_get.html#hbwg_packageurl)修改。
+- `hbwgConfig.header`: IP地址传入请求头，可以在[`hbwg_header`](/docs/hestudio_bing_wallpaper_get.html#hbwg_header)
+
+当然，你也直接可以用`hbwgConfig`对象获取到他们的全部信息。详见[示例](/docs/hestudio_bing_wallpaper_get.html#rootprogram)。
 
 将以下初始化内容粘贴到`external.js`:
 
@@ -213,12 +232,10 @@ const {
   // postback
   // logback
   // logerr
+  // logwarn
   //
-  // 指示器
-  // port
-  // api
-  // getupdate
-  // packageurl
+  // 配置信息
+  // hbwgConfig
 } = require("hestudio-bingwallpaper-get")
 
 module.exports = {
@@ -272,6 +289,22 @@ module.exports = {
   }
 }
 ```
+
+::: note 示例
+一个输出程序配置信息的示例程序，你应当**仅在开发调试环境使用**
+
+```javascript
+// external.js
+
+const { hbwgConfig } = require("hestudio-bingwallpaper-get")
+
+module.exports = {
+  rootprogram: (req, res) => {
+    res.send(hbwgConfig)
+  }
+}
+```
+:::
 
 #### `beforestart`: 在服务运行前导入代码 {#beforestart}
 
@@ -370,5 +403,4 @@ module.exports = {
   }
 }
 ```
-
 
