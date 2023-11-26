@@ -78,7 +78,7 @@ heStudio Talking 是一个在heStudio博客内置的一个疑难解答的平台�
 ```
 
 #### Github注册用户
-请使用对应Github账号向 [heStudio-Network](https://github.com/undefined-hestudio) 发送以下内容的私信
+请使用对应Github账号向 [ubdefined](https://github.com/undefined-hestudio) 发送以下内容的私信
 
 ```text
 我是 #你的昵称#，我需要注销账号并放弃注册用户的支持和服务。
