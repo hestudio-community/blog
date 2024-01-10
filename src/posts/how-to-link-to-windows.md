@@ -1,11 +1,11 @@
 ---
-title: 非特定手机如何连接到Windows
+title: 手机如何连接到Windows
 tag:
     - Windows
     - Android
 category: Windows
 ---
-之前，微软允许了在特定的荣耀和三星手机上使用 Link to Windows。但是我们没有特定的手机，也想使用这个功能。所以这篇文章就解决了这个问题。
+之前，微软允许了部分手机上使用 Link to Windows。但是我们没有受支持的手机，也想使用这个功能。这篇文章就解决了这个问题。
 
 
 <!-- more -->
@@ -28,7 +28,9 @@ category: Windows
 #### 2. 手机安装软件
 [连接至Windows （点击下载）](https://res.hestudio.net/res/blog/how-to-link-to-windows/link_to_windows.apk)
 
-不要从 Google Play 下载，Google Play的是国际版的，国际版的无法在国区（指的是系统区域）使用。
+::: warning
+本文中提供的并不是最新版本，如果出现链接问题，请尝试将电脑和手机上的App都更新到最新版本。电脑版本可以在Microsoft Store更新，而手机版本可以在Google Play Store更新。
+:::
 
 ![连接至Windows](https://image.hestudio.net/img/2022/12/12/6396fa6a5a311.png)
 
