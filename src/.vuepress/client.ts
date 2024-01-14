@@ -7,6 +7,7 @@ import 'element-plus/dist/index.css'
 import 'element-plus/theme-chalk/dark/css-vars.css'
 
 import DarkMode from './components/DarkMode.vue'
+import InternalJumpCard from './components/InternalJumpCard.vue'
 
 defineWalineConfig({
   serverURL: "https://comment.hestudio.net",
@@ -31,6 +32,8 @@ defineWalineConfig({
 export default defineClientConfig({
   enhance({ app }) {
     app.use(ElementPlus)
+    app.component("InternalJumpCard", InternalJumpCard)
+    
   },
   rootComponents: [DarkMode]
 });
