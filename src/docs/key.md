@@ -4,7 +4,7 @@ icon: lock
 article: false
 ---
 
-- 爱发电购买链接：[点击这里购买](https://afdian.net/item/66544a4a1f0211ed835052540025c377)
+<ExternalJumpCard header="前往 爱发电 购买" text="如果无法显示商品信息，请注册并购买爱发电账号" buttontext="前往 爱发电 购买" link="https://afdian.net/item/66544a4a1f0211ed835052540025c377" />
 
 
 ::: details 如何在爱发电购买

@@ -7,7 +7,8 @@ import 'element-plus/dist/index.css'
 import 'element-plus/theme-chalk/dark/css-vars.css'
 
 import DarkMode from './components/DarkMode.vue'
-import InternalJumpCard from './components/InternalJumpCard.vue'
+
+import JumpCard from "vue-plugin-jumpcard"
 
 defineWalineConfig({
   serverURL: "https://comment.hestudio.net",
@@ -32,8 +33,22 @@ defineWalineConfig({
 export default defineClientConfig({
   enhance({ app }) {
     app.use(ElementPlus)
-    app.component("InternalJumpCard", InternalJumpCard)
-    
+    app.use(JumpCard)
+    app.config.globalProperties.$loadRecaptcha = async function (siteKey) {
+      return new Promise<void>((resolve, reject) => {
+        const script = document.createElement('script');
+        script.src = `https://www.recaptcha.net/recaptcha/api.js?render=${siteKey}`;
+        script.async = true;
+        script.onload = () => {
+          resolve();
+        };
+        script.onerror = (error) => {
+          reject(error);
+        };
+        document.head.appendChild(script);
+      });
+    };
+    app.config.globalProperties.$loadRecaptcha('6Lf7k1wpAAAAADbNcQ3ea2ueZVwLoOD1wTZOx2Rp')
   },
   rootComponents: [DarkMode]
 });

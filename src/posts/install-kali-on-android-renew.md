@@ -26,10 +26,10 @@ category: Android
 2. [Termux](https://res.hestudio.net/kali_for_android/Termux_0.118.0.apk)
 3. [VNC Viewer](https://res.hestudio.net/kali_for_android/VNC_Viewer_3.7.1.44443.apk) (可选)
 
-### 安装必备软件(如已安装请忽略)
+### 安装软件(如已安装请忽略)
 
-- [点我下载 Termux](https://res.hestudio.net/kali_for_android/Termux_0.118.0.apk)
-- [点我下载 VNC Viewer](https://res.hestudio.net/kali_for_android/VNC_Viewer_3.7.1.44443.apk)
+<ExternalJumpCard header="Termux" buttontext="点我下载 Termux" link="https://res.hestudio.net/kali_for_android/Termux_0.118.0.apk" />
+<ExternalJumpCard header="VNC Viewer" buttontext="点我下载 VNC Viewer" link="https://res.hestudio.net/kali_for_android/VNC_Viewer_3.7.1.44443.apk" />
 
 ### 安装基本系统
 1. 打开Termux
@@ -94,10 +94,10 @@ sudo apt-get upgrade
 ##### 初始化vncserver
 本脚本内置vncserver[^6]服务，但是还是需要自己稍微设置一下。
 
-> 部分机型可能报错，如出现这种情况，请浏览 https://www.hestudio.net/docs/kali_for_android.html#%E6%88%91%E5%BC%80%E5%90%AF%E4%BA%86vncserver%E4%BD%86%E5%9C%A8vnc-viewer%E9%A1%B5%E9%9D%A2%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5%E3%80%82 或者到[QQ频道](https://pd.qq.com/s/am85w6nbs)求助
+<InternalJumpCard text="部分机型可能报错，如出现这种情况，请参阅这里。" buttontext="我开启了vncserver但在VNC Viewer页面无法进入。" link="/docs/kali_for_android.html#%E6%88%91%E5%BC%80%E5%90%AF%E4%BA%86vncserver%E4%BD%86%E5%9C%A8vnc-viewer%E9%A1%B5%E9%9D%A2%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5%E3%80%82" />
 
 ::: info 
-查看更多vncserver操作，请到https://tigervnc.org/
+查看更多vncserver操作，请到 https://tigervnc.org/
 :::
 
 [^6]: 本脚本内置[TigerVNC](https://tigervnc.org/)
@@ -139,10 +139,10 @@ localhost:5901
 此操作不适用于小白
 :::
 
-详见[《Linux设置自启动和显示文字》](/posts/Setting-up-Linux-self-starting-and-displaying-text.html)
+<InternalJumpCard header="Linux设置自启动和显示文字" buttontext="去了解如何设置自启动" link="/posts/Setting-up-Linux-self-starting-and-displaying-text.html" />
 
+---
 
-### 文档
-在安装的时候出现问题？详见 https://www.hestudio.net/docs/kali_for_android.html
+<InternalJumpCard header="文档" buttontext="查看文档" link="/docs/kali_for_android.html" />
 
 

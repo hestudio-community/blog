@@ -13,10 +13,6 @@ comment: false
 如无法遵守上面的协议，请向 hestudio@hestudio.net 申请许可。
 :::
 
-### 备案
 
-本站已经依法通过工信部ICP备案，备案号为：[鲁ICP备2023019014号-1](https://beian.miit.gov.cn/)
-
-可以在 https://beian.miit.gov.cn/ 核查本站备案信息。
 
 

@@ -7,10 +7,7 @@ tag:
 category: Android
 ---
 
-::: info 
-查看最新版请转到 https://www.hestudio.net/2022/12/install-kali-on-android-renew/
-::: 
-
+<InternalJumpCard text="" header="【重制版】在Android手机上安装kali Linux" link="/posts/install-kali-on-android-renew.html" buttontext="在这里查看最新版"  />
 
 由于kali官方的Nethunter[^1]的安装代码因为...无法访问，手头又没有一些受支持的机器[^2]，所以做了这个脚本供大家使用。
 
@@ -28,8 +25,8 @@ category: Android
 
 ### 安装必备软件(如已安装请忽略)
 
-- [点我下载 Termux](https://res.hestudio.net/kali_for_android/Termux_0.118.0.apk)
-- - [点我下载 VNC Viewer](https://res.hestudio.net/kali_for_android/VNC_Viewer_3.7.1.44443.apk)
+<ExternalJumpCard header="Termux" buttontext="点我下载 Termux" link="https://res.hestudio.net/kali_for_android/Termux_0.118.0.apk" />
+<ExternalJumpCard header="VNC Viewer" buttontext="点我下载 VNC Viewer" link="https://res.hestudio.net/kali_for_android/VNC_Viewer_3.7.1.44443.apk" />
 
 ### 安装基本系统
 1. 打开Termux
@@ -134,6 +131,6 @@ localhost:5901
 此操作不适用于小白
 ::: 
 
-详见[《Linux设置自启动和显示文字》](/posts/Setting-up-Linux-self-starting-and-displaying-text.html)
+<InternalJumpCard header="Linux设置自启动和显示文字" buttontext="去了解如何设置自启动" link="/posts/Setting-up-Linux-self-starting-and-displaying-text.html" />
 
 

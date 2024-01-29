@@ -6,10 +6,9 @@
     <p>
       <el-input v-model="phone" placeholder="请输入绑定的手机号" clearable />
     </p>
-    <div>
-      <vue-hcaptcha @verify="verify" ref="captcha" v-bind="hcaptcha"
-        sitekey="c52f98bd-b35e-4878-9325-1f600841ad45"></vue-hcaptcha>
-    </div>
+    This site is protected by reCAPTCHA and the Google
+    <a href="https://policies.google.com/privacy">Privacy Policy</a> and
+    <a href="https://policies.google.com/terms">Terms of Service</a> apply.
     <p>
       <el-button @click="search" v-bind="button" :icon="Search">{{ buttonmsg }}</el-button>
       <el-button @click="help" :icon="QuestionFilled" circle />
@@ -24,7 +23,6 @@ import {
   Search,
   QuestionFilled
 } from '@element-plus/icons-vue'
-import VueHcaptcha from '@hcaptcha/vue3-hcaptcha';
 </script>
 
 <script>
@@ -32,33 +30,19 @@ export default {
   data() {
     return {
       message: '',
-      buttonmsg: '请先通过人机验证后再查询',
+      buttonmsg: '查询',
       trade_id: '',
       phone: '',
       token: '',
       button: {
         loading: false,
-        disabled: true,
+        disabled: false,
         type: "primary",
         round: true,
       },
-      hcaptcha: {
-        theme: 'light',
-      }
-    };
+    }
   },
   methods: {
-    /**
-     * verify function for hcaptcha
-     * @param {string} token token fron hcaptcha
-     */
-    verify(token) {
-      this.token = token
-      this.button.disabled = false
-      this.button.type = 'primary'
-      this.message =''
-      this.buttonmsg='查询'
-    },
     /**
      * help button to go to /get-help pages
      */
@@ -67,7 +51,10 @@ export default {
         path: '/get-help'
       })
     },
-    search() {
+    async search() {
+      this.token = await new Promise((resolve, reject) => {
+        grecaptcha.execute('6Lf7k1wpAAAAADbNcQ3ea2ueZVwLoOD1wTZOx2Rp', { action: 'submit_form' }).then(resolve, reject);
+      });
       /**
        * 
        * @param {*} th this
@@ -98,7 +85,7 @@ export default {
         method: 'GET',
         redirect: 'follow'
       };
-      const url = 'https://api.hestudio.net/keysearch/v2?' + 'trade_id=' + this.trade_id + '&phone=' + this.phone + '&token=' + this.token
+      const url = 'https://api.hestudio.net/keysearch/v3?' + 'trade_id=' + this.trade_id + '&phone=' + this.phone + '&token=' + this.token
       const verifyget = (src) => {
         if (src.exist) {
           const status = src.status
@@ -135,12 +122,11 @@ export default {
         .then((result) => verifyget(result))
       button_load(false)
       this.button.disabled = true
-      this.$refs.captcha.reset()
     },
   },
   mounted() {
     console.log('KeySearch Component is running.')
-    console.log('Version: v1.0.7')
+    console.log('Version: v1.0.8')
   }
 }
 </script>

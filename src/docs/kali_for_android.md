@@ -14,7 +14,7 @@ termux-setup-storage && curl -O --url https://res.hestudio.net/kali_for_android/
 ```
 
 ## 教程
-https://www.hestudio.net/posts/install-kali-on-android-renew.html
+<InternalJumpCard text="" header="【重制版】在Android手机上安装kali Linux" link="/posts/install-kali-on-android-renew.html" buttontext="在这里查看最新版"  />
 
 ## Q&A
 ### 一些命令
@@ -57,7 +57,7 @@ vncserver -kill
 本脚本内置vncserver服务，但是还是需要自己稍微设置一下。
 
 ::: warning
-部分机型可能报错，如出现这种情况，请浏览 [我开启了vncserver但在VNC Viewer页面无法进入。](https://www.hestudio.net/docs/kali_for_android.html#%E6%88%91%E5%BC%80%E5%90%AF%E4%BA%86vncserver%E4%BD%86%E5%9C%A8vnc-viewer%E9%A1%B5%E9%9D%A2%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5%E3%80%82) 或者到[QQ频道](https://pd.qq.com/s/am85w6nbs)求助
+<InternalJumpCard text="部分机型可能报错，如出现这种情况，请参阅这里。" buttontext="我开启了vncserver但在VNC Viewer页面无法进入。" link="/docs/kali_for_android.html#%E6%88%91%E5%BC%80%E5%90%AF%E4%BA%86vncserver%E4%BD%86%E5%9C%A8vnc-viewer%E9%A1%B5%E9%9D%A2%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5%E3%80%82" />
 :::
 
 ::: info 
@@ -99,7 +99,7 @@ localhost:5901
 5. 最后保存即可
 
 #### vnc怎么更换端口
-详见 [TigerVNC 怎么在某个特定的端口启动](/posts/tigervnc-port.html)
+<InternalJumpCard header="TigerVNC 怎么在某个特定的端口启动" text="TigerVNC默认是以`5900+X`作为版本号的。在重启后会继续向下一位分配版本号，这就意味着我们会经常修改vnc显示器的端口号。如果我们在运行的时候指定一个端口，那么实际上这个端口就固定了......" buttontext="了解" link="/posts/tigervnc-port.html" />
 
 
 #### 我开启了vncserver但在VNC Viewer页面无法进入。 <Badge text="热门" type="warning" vertical="middle" />
@@ -110,7 +110,9 @@ localhost:5901
 部分配置比较高的手机因为它的系统版本往往是最高的，而Termux并未对其进行适配，所以会导致Termux突然崩溃。
 
 ::: danger 兼容性问题
-有关Termux的兼容性问题请浏览 https://github.com/termux/termux-packages/wiki/Termux-and-Android-10 和 https://developer.android.google.cn/about/versions/10/behavior-changes-10?hl=zh-cn#execute-permission
+有关Termux的兼容性问题请浏览 
+<ExternalJumpCard header="Termux and Android 10" text="Due to SDK behavior changes and new Google Play policy, Termux does not receive updates on Play Store anymore. Install the application and add-ons from F-Droid instead..." buttontext="前往 Github 查看" link="https://github.com/termux/termux-packages/wiki/Termux-and-Android-10" />
+<ExternalJumpCard header="行为变更：以 API 29 及更高级别为目标平台的应用" text="...从可写应用的主目录执行文件的行为违反了 W^X 安全机制。应用应仅加载嵌入到应用 APK 文件中的二进制代码..." buttontext="前往 Android Developers 查看" link="https://developer.android.google.cn/about/versions/10/behavior-changes-10?hl=zh-cn#execute-permission" />
 :::
 
 由于Termux未适配Harmony OS，所以使用搭载有Harmony OS的华为或荣耀用户可能无法使用。在实际测试和用户反馈中，Harmony OS 2.0机型（测试设备为荣耀9x）可以使用除vnc之外的功能，Harmony OS 3.0机型（测试设备为华为MatePad Pro）由于安装脚本无法识别导致无法安装。**请Harmony OS 3.0及以上版本的用户不要咨询该问题**
@@ -124,10 +126,9 @@ localhost:5901
 这个属于官方的bug，之前没有这个问题，属于kali官方管辖的范围，与我无关。
 
 ### 这个到底怎么玩？
-详见 https://www.kali.org/tools/
+<ExternalJumpCard header="Kali Tools" buttontext="前往 Kali Linux Website 查看" link="https://www.kali.org/tools/" />
 
 ### 它支持什么功能
-详见这张图片
 
 ![支持什么功能](https://image.hestudio.net/img/2022/12/11/6395a1cbdba87.jpg)
 
@@ -161,12 +162,13 @@ termux-change-repo
 如果你使用的是自己配置的源，可以点击Cancel关闭这个窗口
 
 ::: tip 如何寻找Termux的源
-这个是Termux官方提供的文档：https://github.com/termux/termux-packages/wiki/Mirrors#mirrors-hosted-in-china
+这个是Termux官方提供的文档：
+<ExternalJumpCard link="https://github.com/termux/termux-packages/wiki/Mirrors#mirrors-hosted-in-china" header="Mirrors" text="...Mirrors for users in China for better ping and download speed..." buttontext="前往 Github 查看" />
 :::
 
 ### 报错`[Process completed (signal 9) - press Enter]`  <Badge text="热门" type="warning" vertical="middle" />
 
-详见 [解决安卓12限制32个线程](/posts/Solve-32-restrictions-of-Android-12-restrictions.html)
+<InternalJumpCard link="/posts/Solve-32-restrictions-of-Android-12-restrictions.html" header="解决安卓12限制32个线程" text="Android 12及以上用户在使用Termux时，有时会显示[Process completed (signal 9) - press Enter]，这是因为Android 12的PhantomProcesskiller限制了应用的子进程，最大允许应用有32个子进程..." buttontext="前往查看" />
 
 
 ### 报错 `Errors were encountered while processing: /var/cache/apt/archives/postgresql-15_15.3-0+deb12u1_arm64.deb` <Badge text="热门" type="warning" vertical="middle" />
@@ -191,7 +193,8 @@ Errors were encountered while processing:
 E: Sub-process /usr/bin/dpkg returned an error code (1)
 ```
 
-解决方案参考 https://forums.kali.org/showthread.php?59108-Kali-Android-Rootless-upgrade-issues
+解决方案参考 
+<InternalJumpCard header="Kali Android Rootless upgrade issues." link="https://forums.kali.org/showthread.php?59108-Kali-Android-Rootless-upgrade-issues" buttontext="前往 Kali Forums 查看" />
 
 以下命令依次执行：
 ```sh
@@ -201,15 +204,12 @@ sudo apt update && sudo apt full-upgrade -y
 
 ### 报错 `failed to execute child process 'dbus-launch'` <Badge text="热门" type="warning" vertical="middle" />
 
-详见： [修复 failed to execute child process 'dbus-launch' 问题](/posts/fix-failed-to-execute-child-process-dbus-launch.html)
+<InternalJumpCard header="修复 failed to execute child process 'dbus-launch' 问题" link="/posts/fix-failed-to-execute-child-process-dbus-launch.html" text="在kali-nethunter 2023.3版本中，使用VNC链接桌面会报错failed to execute child process 'dbus-launch'..." buttontext="前往查看"/>
 
 ## 高级用法
 ::: danger Linux 小白慎入
 当你阅读本部分内容时，我们将认为你对Linux基础知识有一定了解。如果你是一位Linux小白，你应当阅读上面的内容。如果你误执行其中的命令导致你的设备无法正常使用，我们不承担任何责任。我们不希望你针对此部分内容的Linux基础知识向我们提问。
 :::
-
-### 在打开Termux的时候自动启动kali
-如果想在进入Termux时默认进入kali Linux终端，请浏览 [Linux设置自启动和显示文字](/posts/Setting-up-Linux-self-starting-and-displaying-text.html) 文章。
 
 ### 修改kali容器的启动命令
 #### 修改启动名称

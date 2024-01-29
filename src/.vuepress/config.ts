@@ -27,6 +27,13 @@ export default defineUserConfig({
     '@aboutegg': path.resolve(__dirname, "./components/egg.vue")
   },
 
+  head: [
+    ["style",
+      {},
+      ".grecaptcha-badge { visibility: hidden; }"
+    ]
+  ],
+
   plugins: [
     // socialSharePlugin({
     //   networks: ["email", "weibo", "douban", "qq", "wechat", "qrcode"],
