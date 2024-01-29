@@ -52,9 +52,6 @@ export default {
       })
     },
     async search() {
-      this.token = await new Promise((resolve, reject) => {
-        grecaptcha.execute('6Lf7k1wpAAAAADbNcQ3ea2ueZVwLoOD1wTZOx2Rp', { action: 'submit_form' }).then(resolve, reject);
-      });
       /**
        * 
        * @param {*} th this
@@ -81,6 +78,11 @@ export default {
       var msg = '查询中...'
       this.buttonmsg = msg
       show('')
+      
+      this.token = await new Promise((resolve, reject) => {
+        grecaptcha.execute('6Lf7k1wpAAAAADbNcQ3ea2ueZVwLoOD1wTZOx2Rp', { action: 'submit_form' }).then(resolve, reject);
+      });
+      
       var requestOptions = {
         method: 'GET',
         redirect: 'follow'

@@ -1,6 +1,7 @@
 // .vuepress/client.ts
 import { defineClientConfig } from "@vuepress/client";
 import { defineWalineConfig } from "vuepress-plugin-comment2/client";
+import { onMounted } from "vue"
 
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
@@ -34,7 +35,9 @@ export default defineClientConfig({
   enhance({ app }) {
     app.use(ElementPlus)
     app.use(JumpCard)
-    app.config.globalProperties.$loadRecaptcha = async function (siteKey) {
+  },
+  setup() {
+    let loadRecaptcha = async function (siteKey) {
       return new Promise<void>((resolve, reject) => {
         const script = document.createElement('script');
         script.src = `https://www.recaptcha.net/recaptcha/api.js?render=${siteKey}`;
@@ -48,7 +51,16 @@ export default defineClientConfig({
         document.head.appendChild(script);
       });
     };
-    app.config.globalProperties.$loadRecaptcha('6Lf7k1wpAAAAADbNcQ3ea2ueZVwLoOD1wTZOx2Rp')
+
+    onMounted(async () => {
+      try {
+        await loadRecaptcha('6Lf7k1wpAAAAADbNcQ3ea2ueZVwLoOD1wTZOx2Rp');
+      } catch (error) {
+        console.error('Failed to load reCAPTCHA:', error);
+      }
+    });
+    
+    return {};
   },
   rootComponents: [DarkMode]
 });
