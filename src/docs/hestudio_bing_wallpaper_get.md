@@ -119,7 +119,7 @@ https://github.com/hestudio-community/bing-wallpaper-get/issues
 - 默认值: `./external.js` 
 - **注意：`external.js`如手动修改，需在环境变量输入绝对值**
 
-#### `hbwg_getupdate`: 是否检查更新 {#hbwg_getupdate} <Badge text="v1.4.0" type="tip" vertical="middle" />
+#### `hbwg_getupdate`: 是否检查更新 <Badge text="v1.4.0" type="tip" vertical="middle" /> {#hbwg_getupdate} 
 - 默认值: `true`
 - **注意，你应当只传入`false`以禁用自动检查更新。如果你不需要禁用自动检查更新，应当传入`true`或者不传入任何值。** 
 
@@ -146,7 +146,7 @@ https://github.com/hestudio-community/bing-wallpaper-get/issues
 #### `hbwg_header`: 传入真实IP的请求头 {#hbwg_header}
 - 默认值: `x-real-ip`
 
-#### `hbwg_tempdir`: 修改缓存目录 {#hbwg_tempdir} <Badge text="v1.4.0" type="tip" vertical="middle" />
+#### `hbwg_tempdir`: 修改缓存目录 <Badge text="v1.4.0" type="tip" vertical="middle" /> {#hbwg_tempdir} 
 - 默认值为项目根目录的`tmp`文件夹
 - **需输入绝对值，如`/workspace/bing-wallpaper-get/tmp`**
 
@@ -413,7 +413,7 @@ module.exports = {
 }
 ```
 
-#### 设置API配置 {#api} <Badge text="v1.4.0" type="tip" vertical="middle" />
+#### 设置API配置 <Badge text="v1.4.0" type="tip" vertical="middle" /> {#api}
 
 ##### 修改API对应路径 {#api.rename}
 
@@ -439,7 +439,7 @@ module.exports = {
 }
 ```
 
-#### `robots.txt` {#robots} <Badge text="v1.4.0" type="tip" vertical="middle" />
+#### `robots.txt` <Badge text="v1.4.0" type="tip" vertical="middle" /> {#robots}
 
 添加默认`robots.txt`，默认禁止所有搜索引擎爬取。
 
@@ -460,7 +460,7 @@ Disallow: /
 }
 ```
 
-#### `/debug` （GET）调试接口 {#debug} <Badge text="v1.4.0" type="tip" vertical="middle" />
+#### `/debug` （GET）调试接口 <Badge text="v1.4.0" type="tip" vertical="middle" /> {#debug}
 
 1. 默认关闭，可在`external.js`中开启
 
@@ -496,7 +496,7 @@ module.exports = {
 ```
 
 
-#### 返回bing服务器原始请求结果 (`/bingsrc`) {#bingsrc} <Badge text="v1.4.0" type="tip" vertical="middle" />
+#### 返回bing服务器原始请求结果 (`/bingsrc`) <Badge text="v1.4.0" type="tip" vertical="middle" /> {#bingsrc}
 
 1. 用户可以通过 GET /bingsrc获取
 2. 默认禁用，可以通过`external.js`开启
@@ -517,7 +517,7 @@ module.exports = {
 }
 ```
 
-### 定时任务 {#refreshtask} <Badge text="v1.4.0" type="tip" vertical="middle" />
+### 定时任务 <Badge text="v1.4.0" type="tip" vertical="middle" /> {#refreshtask} 
 开发者可以在服务器刷新资源时自定义执行一些任务。
 
 ```javascript
