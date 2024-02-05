@@ -63,12 +63,12 @@ echo "require('hestudio-bingwallpaper-get')" >> server.js
 node server.js
 ```
 
-@tab 手动安装
+@tab 手动安装 (不推荐，仅开发人员使用)
 ```sh
 git clone https://github.com/hestudio-community/bing-wallpaper-get.git
 cd bing-wallpaper-get
 npm install -global pnpm
-pnpm install --production
+pnpm install
 pnpm run server
 ```
 
@@ -117,10 +117,11 @@ https://github.com/hestudio-community/bing-wallpaper-get/issues
 
 #### `hbwg_external`: 外部文件路径 {#hbwg_external}
 - 默认值: `./external.js` 
+- **注意：`external.js`如手动修改，需在环境变量输入绝对值**
 
-#### `hbwg_getupdate`: 是否检查更新 {#hbwg_getupdate}
+#### `hbwg_getupdate`: 是否检查更新 {#hbwg_getupdate} <Badge text="v1.4.0" type="tip" vertical="middle" />
 - 默认值: `true`
-- 注意，你应当只传入`false`以禁用自动检查更新。如果你不需要禁用自动检查更新，应当传入`true`或者不传入任何值。
+- **注意，你应当只传入`false`以禁用自动检查更新。如果你不需要禁用自动检查更新，应当传入`true`或者不传入任何值。** 
 
 ::: danger
 我们已经在`v1.3.1`将此开关移至`external.js`文件，请浏览[检查更新开关](/docs/hestudio_bing_wallpaper_get.html#getupdate)。
@@ -145,13 +146,17 @@ https://github.com/hestudio-community/bing-wallpaper-get/issues
 #### `hbwg_header`: 传入真实IP的请求头 {#hbwg_header}
 - 默认值: `x-real-ip`
 
+#### `hbwg_tempdir`: 修改缓存目录 {#hbwg_tempdir} <Badge text="v1.4.0" type="tip" vertical="middle" />
+- 默认值为项目根目录的`tmp`文件夹
+- **需输入绝对值，如`/workspace/bing-wallpaper-get/tmp`**
+
 ### 修改组件行为 {#external}
 
 修改前你需要在根目录创建`external.js`文件。你可以自定义创建的路径和文件名称，只需添加`hbwg_external`环境变量即可。
 
 在开始这部分内容之前，你需要了解以下内容。
 
-本项目导出了4个项目函数。它们分别是`getback(ip, path)`, `postback(ip, path)`, `logback(log)`, `logerr(err)`。我们分别来讲以下：
+本项目导出了5个项目函数用于日志记录。它们分别是`getback(ip, path)`, `postback(ip, path)`, `logback(log)`, `logerr(err)`, `logwarn(warn)`。我们分别来讲一下：
 
 ##### `getback(ip, path)` {#getback}
 
@@ -199,25 +204,29 @@ https://github.com/hestudio-community/bing-wallpaper-get/issues
 [YYYY-MM-DD HH:mm:ss] ERROR: ${err}
 ```
 
-##### `logwarn(err)` {#logwarn}
+##### `logwarn(warn)` {#logwarn}
 
 | 参数 | 参数类型 |
 |---|---|
 | `warn` | `String` |
 
 输出效果大概是这样:
+
 ```text
 [YYYY-MM-DD HH:mm:ss] WARN: ${warn}
 ```
 
-另外还有6个指示器，它们输出的数据类型是`string`。他们被包含在`hbwgConfig`对象当中，你只能查看它们的值，无法直接修改它们。该指示器提供给开发人员调试使用，不要在生产环境使用。
+另外还有9个指示器。他们被包含在`hbwgConfig`对象当中，你只能查看它们的值，无法直接修改它们。该指示器提供给开发人员调试使用，不要在生产环境使用。 <Badge text="v1.4.0" type="tip" vertical="middle" />
 
-- `hbwgConfig.port`: 程序端口号，可以在[`hbwg_port`](/docs/hestudio_bing_wallpaper_get.html#hbwg_port)修改。
-- `hbwgConfig.api`: 服务地址，可以在[`hbwg_host`](/docs/hestudio_bing_wallpaper_get.html#hbwg_host)和[`hbwg_config`](/docs/hestudio_bing_wallpaper_get.html#hbwg_config)修改。
-- `hbwgConfig.host`: Bing前置URL,可以在[`hbwg_host`](/docs/hestudio_bing_wallpaper_get.html#hbwg_host)修改。
-- `hbwgConfig.getupdate`: 获取更新开关，可以在[获取更新开关](/docs/hestudio_bing_wallpaper_get.html#getupdate)修改。
-- `hbwgConfig.packageurl`: 更新源，在检查更新时会请求该地址。可以在[`package.json`对应URL](/docs/hestudio_bing_wallpaper_get.html#hbwg_packageurl)修改。
-- `hbwgConfig.header`: IP地址传入请求头，可以在[`hbwg_header`](/docs/hestudio_bing_wallpaper_get.html#hbwg_header)
+- `hbwgConfig.port`(String): 程序端口号，可以在[`hbwg_port`](/docs/hestudio_bing_wallpaper_get.html#hbwg_port)修改。
+- `hbwgConfig.api`(String): 服务地址，可以在[`hbwg_host`](/docs/hestudio_bing_wallpaper_get.html#hbwg_host)和[`hbwg_config`](/docs/hestudio_bing_wallpaper_get.html#hbwg_config)修改。
+- `hbwgConfig.host`(String): Bing前置URL,可以在[`hbwg_host`](/docs/hestudio_bing_wallpaper_get.html#hbwg_host)修改。
+- `hbwgConfig.getupdate`(String): 获取更新开关，可以在[获取更新开关](/docs/hestudio_bing_wallpaper_get.html#getupdate)修改。
+- `hbwgConfig.packageurl`(String): 更新源，在检查更新时会请求该地址。可以在[`package.json`对应URL](/docs/hestudio_bing_wallpaper_get.html#hbwg_packageurl)修改。
+- `hbwgConfig.header`(String): IP地址传入请求头，可以在[`hbwg_header`](/docs/hestudio_bing_wallpaper_get.html#hbwg_header)
+- `hbwgConfig.tempDir`(String): 缓存目录，可以在[`hbwg_tempdir`](/docs/hestudio_bing_wallpaper_get.html#hbwg_tempdir)修改。
+- `hbwgConfig.apiconfig`(Object): API配置，可以在[设置API配置](/docs/hestudio_bing_wallpaper_get.html#api)修改。
+- `hbwgConfig.robots`(String | Boolean): robots.txt配置，可以在[`robots.txt`](/docs/hestudio_bing_wallpaper_get.html##robots)修改。
 
 当然，你也直接可以用`hbwgConfig`对象获取到他们的全部信息。详见[示例](/docs/hestudio_bing_wallpaper_get.html#rootprogram)。
 
@@ -236,7 +245,7 @@ const {
   //
   // 配置信息
   // hbwgConfig
-} = require("hestudio-bingwallpaper-get")
+} = require(`${process.cwd()}/node_modules/hestudio-bingwallpaper-get`)
 
 module.exports = {
   // 组件配置
@@ -296,7 +305,7 @@ module.exports = {
 ```javascript
 // external.js
 
-const { hbwgConfig } = require("hestudio-bingwallpaper-get")
+const { hbwgConfig } = require(`${process.cwd()}/node_modules/hestudio-bingwallpaper-get`)
 
 module.exports = {
   rootprogram: (req, res) => {
@@ -404,3 +413,116 @@ module.exports = {
 }
 ```
 
+#### 设置API配置 {#api} <Badge text="v1.4.0" type="tip" vertical="middle" />
+
+##### 修改API对应路径 {#api.rename}
+
+```javascript
+module.exports = {
+  api: {
+    rename: {
+      getimage: '/getimage',
+      gettitle: '/gettitle',
+      getcopyright: '/getcopyright'
+    }
+  }
+}
+```
+
+##### 禁用API {#api.ban}
+
+```javascript
+module.exports = {
+  api: {
+    ban: ['getimage', 'gettitle', 'getcopyright']
+  }
+}
+```
+
+#### `robots.txt` {#robots} <Badge text="v1.4.0" type="tip" vertical="middle" />
+
+添加默认`robots.txt`，默认禁止所有搜索引擎爬取。
+
+可以关闭，通过：
+```javascript
+module.exports = {
+  robots: false
+}
+```
+
+可以指定代码。
+```javascript
+module.exports = {
+  robots: `
+User-agent: *
+Disallow: /
+`
+}
+```
+
+#### `/debug` （GET）调试接口 {#debug} <Badge text="v1.4.0" type="tip" vertical="middle" />
+
+1. 默认关闭，可在`external.js`中开启
+
+```javascript
+module.exports = {
+  debug: true
+}
+```
+
+2. 允许修改默认URL
+```javascript
+module.exports = {
+  debug: {
+    url: '/debug'
+  }
+}
+```
+
+3. 允许加设密码
+
+```javascript
+module.exports = {
+  debug: {
+    passwd: 'yourpassword'
+  }
+}
+```
+
+开发者可以如下格式在浏览器访问：
+
+```text
+/debug?passwd=yourpassword
+```
+
+
+#### 返回bing服务器原始请求结果 (`/bingsrc`) {#bingsrc} <Badge text="v1.4.0" type="tip" vertical="middle" />
+
+1. 用户可以通过 GET /bingsrc获取
+2. 默认禁用，可以通过`external.js`开启
+
+```javascript
+module.exports = {
+    bingsrc: true
+}
+```
+
+3. 允许修改默认URL 
+
+```javascript
+module.exports = {
+    bingsrc: {
+        url: '/bingsrc'
+    }
+}
+```
+
+### 定时任务 {#refreshtask} <Badge text="v1.4.0" type="tip" vertical="middle" />
+开发者可以在服务器刷新资源时自定义执行一些任务。
+
+```javascript
+module.exports = {
+  refreshtask: () => {
+    // 这里面是你要执行的定时任务
+  }
+}
