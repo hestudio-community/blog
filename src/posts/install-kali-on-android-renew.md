@@ -38,7 +38,7 @@ category: Android
 
 2. 输入以下指令
 ```
-termux-setup-storage && curl -O --url https://res.hestudio.net/kali_for_android/install.sh && chmod +x install.sh && ./install.sh
+curl -O --url https://res.hestudio.net/kali_for_android/install.sh && chmod +x install.sh && ./install.sh
 ```
 3. 在弹出窗口的界面点击允许
 

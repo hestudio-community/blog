@@ -9,9 +9,10 @@ article: false
 :::
 
 ## 安装脚本
-```sh
-termux-setup-storage && curl -O --url https://res.hestudio.net/kali_for_android/install.sh && chmod +x install.sh && ./install.sh
+curl -O --url https://res.hestudio.net/kali_for_android/install.sh && chmod +x install.sh && ./install.sh
 ```
+
+> 感谢 @随风飘扬 对Android14版本优化的贡献！
 
 ## 教程
 <InternalJumpCard text="" header="【重制版】在Android手机上安装kali Linux" link="/posts/install-kali-on-android-renew.html" buttontext="在这里查看最新版"  />
@@ -194,7 +195,7 @@ E: Sub-process /usr/bin/dpkg returned an error code (1)
 ```
 
 解决方案参考 
-<InternalJumpCard header="Kali Android Rootless upgrade issues." link="https://forums.kali.org/showthread.php?59108-Kali-Android-Rootless-upgrade-issues" buttontext="前往 Kali Forums 查看" />
+<ExternalJumpCard header="Kali Android Rootless upgrade issues." link="https://forums.kali.org/showthread.php?59108-Kali-Android-Rootless-upgrade-issues" buttontext="前往 Kali Forums 查看" />
 
 以下命令依次执行：
 ```sh
