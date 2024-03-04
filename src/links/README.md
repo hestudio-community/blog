@@ -6,6 +6,9 @@ comment: false
 next: false
 ---
 
+### [[广告] 全国大流量卡免费领](https://haokawx.lot-ml.com/Product/index/502034)
+月租19-29元，超值优惠，长期套餐，免费包邮。
+
 ### [薛才杰个人博客](https://www.xuecaijie.com/)
 一个分享技术、记录生活的个人技术博客
 

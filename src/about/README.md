@@ -18,8 +18,6 @@ next: false
 
 有新鲜点子[欢迎投稿](/talking/)！！！
 
-本站没有广告（不排除以后会有，还是[欢迎合作](https://image.hestudio.net/i/2023/08/27/64ead5a6eac4c.png)）
-
 ### 赞助
 赞助我们以获得更长期稳定的产品
 

@@ -32,6 +32,11 @@ projects:
     name: heStudio MFA for Desktop
     desc: 一个用Java写的的桌面端MFA应用
     link: https://github.com/hestudio-community/hmfa
+    
+  - icon: mini-app
+    name: heStudio二维码工具箱
+    desc: 一个简单的二维码工具箱
+    link: /commom/qrcodebox/
 
 # footer: customize your footer text
 ---

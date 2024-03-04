@@ -7,6 +7,8 @@ article: false
 <ExternalJumpCard header="前往 爱发电 购买" text="如果无法显示商品信息，请注册并购买爱发电账号" buttontext="前往 爱发电 购买" link="https://afdian.net/item/66544a4a1f0211ed835052540025c377" />
 
 
+[![广告](https://image.hestudio.net/i/2024/03/05/65e5f73783b72.png)](https://haokawx.lot-ml.com/Product/index/502034)
+
 ::: details 如何在爱发电购买
 1. 爱发电购买链接：[点击这里购买](https://afdian.net/item/66544a4a1f0211ed835052540025c377)
 2. 点击 `发电 ￥1.99/份`
