@@ -7,6 +7,7 @@ next: false
 ---
 
 ### 服务
+- [[广告] 全国大流量卡免费领](https://haokawx.lot-ml.com/Product/index/502034)
 - [Kali for Termux 安装源](/posts/install-kali-on-android-renew.html)
 - [KMS 服务](https://www.hestudio.net/posts/how-to-use-kms.html) <Badge text="再次运营" type="note" vertical="middle" />
 
