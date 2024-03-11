@@ -29,8 +29,8 @@ projects:
     link: https://pypi.org/project/hbsst/
 
   - icon: token
-    name: heStudio MFA for Desktop
-    desc: 一个用Java写的的桌面端MFA应用
+    name: heStudio Authenticator
+    desc: 媲美于Google的MFA令牌工具
     link: https://github.com/hestudio-community/hmfa
     
   - icon: mini-app

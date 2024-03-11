@@ -41,6 +41,8 @@ next: false
 - [百度搜索提交工具](https://pypi.org/project/hbsst/)
 - [heStudio MFA for Desktop](https://gitee.com/hestudio/hmfa)
 - [heStudio BingWallpaper Get](https://github.com/hestudio-community/bing-wallpaper-get/)
+- [heStudio Authenticator](/common/authenticator/)
+- [heStudio二维码工具箱](/common/qrcodebox/)
 
 ### 镜像的项目
 - [Quick Reference](https://quickref.hestudio.net/)

@@ -14,7 +14,7 @@ next: false
 ### 软件
 - [百度搜索提交工具](https://pypi.org/project/hbsst/) <Badge text="没有开发计划" type="warning" vertical="middle" />
 - [BingWallpaper Get](/docs/hestudio_bing_wallpaper_get.html)
-- [heStudio MFA for Desktop](https://gitee.com/hestudio/hmfa) <Badge text="没有开发计划" type="warning" vertical="middle" />
+- [heStudio Authenticator](/common/authenticator/)
 - [heStudio二维码工具箱](/common/qrcodebox/)
 
 ### 镜像
