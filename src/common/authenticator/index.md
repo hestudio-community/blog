@@ -14,5 +14,5 @@ article: true
 
 ![微信小程序（手机）版](https://image.hestudio.net/i/2024/03/12/65ef52182214b.png)
 
-<ExternalJumpCard link="https://install.appcenter.ms/users/heStudio/apps/heStudio-Authenticator-for-Watch/releases/" header="手表（Android）版" text="请先在小程序端完成配置，导出备份后再配置手表端。" buttontext="点击下载" />
+<ExternalJumpCard link="https://install.appcenter.ms/users/hestudio/apps/hestudio-authenticator-for-watch/distribution_groups/release" header="手表（Android）版" text="请先在小程序端完成配置，导出备份后再配置手表端。" buttontext="点击下载" />
 

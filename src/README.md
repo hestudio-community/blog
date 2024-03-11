@@ -31,7 +31,7 @@ projects:
   - icon: token
     name: heStudio Authenticator
     desc: 媲美于Google的MFA令牌工具
-    link: https://github.com/hestudio-community/hmfa
+    link: https://www.hestudio.net/common/authenticator/
     
   - icon: mini-app
     name: heStudio二维码工具箱
