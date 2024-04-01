@@ -31,7 +31,7 @@ category: Android
 <ExternalJumpCard header="Termux" buttontext="点我下载 Termux" link="https://res.hestudio.net/kali_for_android/Termux_0.118.0.apk" />
 <ExternalJumpCard header="VNC Viewer" buttontext="点我下载 VNC Viewer" link="https://res.hestudio.net/kali_for_android/VNC_Viewer_3.7.1.44443.apk" />
 
-[![广告](https://image.hestudio.net/i/2024/03/05/65e5f73783b72.png)](https://haokawx.lot-ml.com/Product/index/502034)
+
 
 ### 安装基本系统
 1. 打开Termux

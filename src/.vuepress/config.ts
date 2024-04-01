@@ -1,8 +1,9 @@
-import { getDirname, path } from '@vuepress/utils';
+import { getDirname, path } from 'vuepress/utils';
 import { defineUserConfig } from "vuepress";
 import { searchPlugin } from "@vuepress/plugin-search";
 import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
-import { removePWAPlugin } from "vuepress-plugin-remove-pwa";
+import { removePwaPlugin } from "@vuepress/plugin-remove-pwa";
+import { viteBundler } from '@vuepress/bundler-vite'
 import theme from "./theme.js";
 
 const __dirname = getDirname(import.meta.url);
@@ -38,7 +39,7 @@ export default defineUserConfig({
     // socialSharePlugin({
     //   networks: ["email", "weibo", "douban", "qq", "wechat", "qrcode"],
     // }),
-    removePWAPlugin({
+    removePwaPlugin({
       cachePrefix: "workbox",
       swLocation: 'service-worker.js',
     }),
@@ -53,4 +54,9 @@ export default defineUserConfig({
   ],
 
   shouldPrefetch: false,
+
+  bundler: viteBundler({
+    viteOptions: {},
+    vuePluginOptions: {},
+  }),
 });

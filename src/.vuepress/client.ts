@@ -1,5 +1,5 @@
 // .vuepress/client.ts
-import { defineClientConfig } from "@vuepress/client";
+import { defineClientConfig } from "vuepress/client";
 import { defineWalineConfig } from "vuepress-plugin-comment2/client";
 import { onMounted } from "vue"
 

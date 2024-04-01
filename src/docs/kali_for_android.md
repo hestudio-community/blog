@@ -208,7 +208,6 @@ sudo apt update && sudo apt full-upgrade -y
 
 <InternalJumpCard header="修复 failed to execute child process 'dbus-launch' 问题" link="/posts/fix-failed-to-execute-child-process-dbus-launch.html" text="在kali-nethunter 2023.3版本中，使用VNC链接桌面会报错failed to execute child process 'dbus-launch'..." buttontext="前往查看"/>
 
-[![广告](https://image.hestudio.net/i/2024/03/05/65e5f73783b72.png)](https://haokawx.lot-ml.com/Product/index/502034)
 
 ## 高级用法
 ::: danger Linux 小白慎入

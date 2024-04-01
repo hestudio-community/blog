@@ -84,7 +84,7 @@ adb pair 192.168.0.103:45367
 
 当显示`Enter pairing code：`时，输入配对码链接。
 
-[![广告](https://image.hestudio.net/i/2024/03/05/65e5f73783b72.png)](https://haokawx.lot-ml.com/Product/index/502034)
+
 
 4. 链接到adb
 复制IP地址，以留备用。

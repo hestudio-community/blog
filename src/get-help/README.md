@@ -84,7 +84,7 @@ Please ask me questions in Chinese or English. Other ways of asking questions wi
 
 - [附：《提问的智慧》](/posts/how-to-ask-question.html)
 
-[![广告](https://image.hestudio.net/i/2024/03/05/65e5f73783b72.png)](https://haokawx.lot-ml.com/Product/index/502034)
+
 
 <ExternalJumpCard buttontext="通过 微信客服 反馈" link="https://work.weixin.qq.com/kfid/kfcbe17894dfd6c78f2" />
 

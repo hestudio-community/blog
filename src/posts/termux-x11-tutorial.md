@@ -38,7 +38,7 @@ Xfce 是类 UNIX 操作系统上的轻量级桌面环境。虽然它致力于快
 pkg install xfce
 ```
 
-[![广告](https://image.hestudio.net/i/2024/03/05/65e5f73783b72.png)](https://haokawx.lot-ml.com/Product/index/502034)
+
 
 #### termux-x11 (主程序)
 你需要同时安装Termux和安卓的安装包。
