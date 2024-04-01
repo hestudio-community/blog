@@ -9,6 +9,7 @@ article: false
 :::
 
 ## 安装脚本
+```bash
 curl -O --url https://res.hestudio.net/kali_for_android/install.sh && chmod +x install.sh && ./install.sh
 ```
 
