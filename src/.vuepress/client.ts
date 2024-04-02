@@ -1,6 +1,6 @@
 // .vuepress/client.ts
 import { defineClientConfig } from "vuepress/client";
-import { defineWalineConfig } from "vuepress-plugin-comment2/client";
+import { defineWalineConfig } from "@vuepress/plugin-comment/client";
 import { onMounted } from "vue"
 
 import ElementPlus from 'element-plus'
