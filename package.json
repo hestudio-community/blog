@@ -9,7 +9,8 @@
     "docs:clean-dev": "vuepress dev src --clean-cache",
     "docs:dev": "vuepress dev src",
     "docs:log-dev": "vuepress dev src --debug",
-    "docs:info": "vuepress info"
+    "docs:info": "vuepress info",
+    "docs:update": "pnpm dlx vp-update"
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.9",
