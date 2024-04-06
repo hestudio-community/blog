@@ -1,6 +1,6 @@
 ---
 title: 文档
-icon: repo
+icon: bxs:book
 article: false
 comment: false
 ---

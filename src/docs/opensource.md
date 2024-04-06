@@ -1,6 +1,6 @@
 ---
 title: 本站用到的开源服务
-icon: code
+icon: ph:code-bold
 article: false
 ---
 

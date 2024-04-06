@@ -1,6 +1,6 @@
 ---
 title: heStudio二维码工具箱
-icon: mini-app
+icon: mdi:line-scan
 article: true
 ---
 

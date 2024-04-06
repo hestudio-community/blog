@@ -1,6 +1,6 @@
 ---
 title: 关于
-icon: info
+icon: mdi:about
 article: false
 comment: false
 next: false

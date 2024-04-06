@@ -1,6 +1,6 @@
 ---
 title: 在Android手机上安装kali Linux 的 Q&A
-icon: install
+icon: simple-icons:kalilinux
 article: false
 ---
 

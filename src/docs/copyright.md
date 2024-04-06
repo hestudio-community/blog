@@ -1,6 +1,6 @@
 ---
 title: 文章转载与授权
-icon: license
+icon: fa6-solid:copyright
 article: false
 comment: false
 ---

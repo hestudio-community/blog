@@ -1,6 +1,6 @@
 ---
 title: 获取帮助
-icon: question
+icon: material-symbols:help
 article: false
 comment: false
 next: false

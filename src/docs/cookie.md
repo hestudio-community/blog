@@ -1,6 +1,6 @@
 ---
 title: Cookie政策
-icon: cache
+icon: material-symbols:cookie
 article: false
 comment: false
 ---

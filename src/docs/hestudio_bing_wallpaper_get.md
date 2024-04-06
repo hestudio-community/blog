@@ -1,6 +1,6 @@
 ---
 title: heStudio BingWallpaper Get
-icon: api
+icon: bi:bing
 article: false
 ---
 

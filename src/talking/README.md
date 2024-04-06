@@ -1,6 +1,6 @@
 ---
 title: Talking
-icon: community
+icon: mingcute:comment-fill
 article: false
 next: false
 ---

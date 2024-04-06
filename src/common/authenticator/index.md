@@ -1,6 +1,6 @@
 ---
 title: heStudio Authenticator
-icon: mini-app
+icon: arcticons:microsoft-authenticator
 article: true
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: 补丁合集
-icon: debug
+icon: fluent:patch-24-filled
 article: false
 comment: false
 ---

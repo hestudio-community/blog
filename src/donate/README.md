@@ -1,6 +1,6 @@
 ---
 title: 支持我
-icon: support
+icon: bxs:donate-heart
 article: false
 comment: false
 next: false

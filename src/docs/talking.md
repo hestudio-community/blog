@@ -1,6 +1,6 @@
 ---
 title: heStudio Talking 文档
-icon: community
+icon: mingcute:comment-fill
 article: false
 comment: false
 ---

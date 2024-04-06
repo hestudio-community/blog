@@ -1,6 +1,6 @@
 ---
 title: 法律信息
-icon: license
+icon: clarity:license-solid
 article: false
 comment: false
 ---

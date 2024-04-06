@@ -1,6 +1,6 @@
 ---
 title: Key 获取与查找
-icon: lock
+icon: material-symbols-light:key
 article: false
 ---
 

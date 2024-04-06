@@ -1,6 +1,6 @@
 ---
 title: 隐私政策 | heStudio二维码工具箱
-icon: license
+icon: ic:baseline-privacy-tip
 article: false
 comment: false
 ---

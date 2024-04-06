@@ -1,6 +1,5 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import { enNavbar } from "./navbar/index.js";
-// import { enSidebar } from "./sidebar/index.js";
+import { Navbar } from "./navbar/index.js";
 
 export default hopeTheme({
   hostname: "https://www.hestudio.net",
@@ -11,7 +10,7 @@ export default hopeTheme({
     email: "hestudio@hestudio.net"
   },
 
-  iconAssets: "iconfont",
+  iconAssets: "iconify",
 
   logo: "/logo.svg",
 
@@ -90,7 +89,7 @@ export default hopeTheme({
   locales: {
     "/": {
       // navbar
-      navbar: enNavbar,
+      navbar: Navbar,
 
       navbarAutoHide: "none",
 
@@ -158,10 +157,10 @@ export default hopeTheme({
     mdEnhance: {
       align: false,
       attrs: true,
-      card: true,
+      // card: true,
       chart: false,
       codetabs: true,
-      container: true,
+      // container: true,
       demo: false,
       echarts: false,
       figure: false,
@@ -176,7 +175,7 @@ export default hopeTheme({
       // playground: {
       //   presets: ["ts", "vue"],
       // },
-      presentation: ["highlight", "math", "search", "notes", "zoom"],
+      // presentation: ["highlight", "math", "search", "notes", "zoom"],
       stylize: [
         {
           matcher: "Recommended",

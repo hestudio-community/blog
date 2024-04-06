@@ -1,6 +1,6 @@
 ---
 title: 友情链接
-icon: link
+icon: mingcute:link-3-fill
 article: false
 comment: false
 next: false
