@@ -11,6 +11,17 @@ const __dirname = getDirname(import.meta.url);
 export default defineUserConfig({
   base: "/",
 
+  head: [
+    "script",
+    [
+      {
+        async: true,
+        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9539803519556987",
+        crossorigin: "anonymous",
+      },
+    ]
+  ]
+
   locales: {
     "/": {
       lang: "zh-CN",
