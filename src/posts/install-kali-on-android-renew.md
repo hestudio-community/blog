@@ -53,7 +53,7 @@ curl -O --url https://res.hestudio.net/kali_for_android/install.sh && chmod +x i
 :::
 
 ::: info 
-如不是因为以上原因导致的报错，请访问 https://pd.qq.com/s/rvk1vn?shareSource=5 或者到[QQ频道](https://pd.qq.com/s/am85w6nbs)求助
+如不是因为以上原因导致的报错，请访问 https://pd.qq.com/s/rvk1vn?shareSource=5 或者到[QQ群：806312062](https://qm.qq.com/cgi-bin/qm/qr?k=4n1uhUrvOtudkpynl_Pf9T6fja1rV04N&jump_from=webapi&authKey=yxfsjLe/w5hhJtQETdZmWUatNI4ocPjagH6R9ZZqJyICYv5cQ9PwAFWNz169PgZd)求助
 :::
 
 ![感谢群友贡献的截图](https://image.hestudio.net/img/2022/12/11/6395a115191d3.jpg)

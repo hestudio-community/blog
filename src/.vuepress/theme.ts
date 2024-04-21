@@ -64,7 +64,7 @@ export default hopeTheme({
       // Linkedin: "https://example.com",
       // Pinterest: "https://example.com",
       // Pocket: "https://example.com",
-      QQ: "https://pd.qq.com/s/am85w6nbs",
+      QQ: "https://qm.qq.com/cgi-bin/qm/qr?k=4n1uhUrvOtudkpynl_Pf9T6fja1rV04N&jump_from=webapi&authKey=yxfsjLe/w5hhJtQETdZmWUatNI4ocPjagH6R9ZZqJyICYv5cQ9PwAFWNz169PgZd",
       // Qzone: "https://example.com",
       // Reddit: "https://example.com",
 

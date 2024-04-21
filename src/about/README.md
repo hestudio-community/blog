@@ -25,16 +25,16 @@ next: false
 
 ### Contact me {#contact}
 
-- 问题反馈：https://www.hestudio.net/get-help
-- 联系邮箱：hestudio@hestudio.net
-- QQ频道：https://pd.qq.com/s/am85w6nbs
-- 作者CSDN：https://blog.csdn.net/a18845594188
-- heStudio社区：https://bbs.csdn.net/forums/hestudio
-- 作者Github：https://github.com/undefined-hestudio
-- 项目Github：https://github.com/hestudio-community
-- 作者博客：https://www.hestudio.net/
-- 作者爱发电：https://afdian.net/@hestudio
-- RSS 订阅：https://www.hestudio.net/atom.xml
+- [问题反馈](/get-help)：https://www.hestudio.net/get-help
+- [联系邮箱](mailto:hestudio@hestudio.net)：hestudio@hestudio.net
+- [QQ群：806312062](https://qm.qq.com/cgi-bin/qm/qr?k=4n1uhUrvOtudkpynl_Pf9T6fja1rV04N&jump_from=webapi&authKey=yxfsjLe/w5hhJtQETdZmWUatNI4ocPjagH6R9ZZqJyICYv5cQ9PwAFWNz169PgZd)
+- [作者CSDN](https://blog.csdn.net/a18845594188)：https://blog.csdn.net/a18845594188
+- [heStudio社区](https://bbs.csdn.net/forums/hestudio)：https://bbs.csdn.net/forums/hestudio
+- [作者Github](https://github.com/undefined-hestudio)：https://github.com/undefined-hestudio
+- [项目Github](https://github.com/hestudio-community)：https://github.com/hestudio-community
+- [作者博客](https://www.hestudio.net/)：https://www.hestudio.net/
+- [作者爱发电](https://afdian.net/@hestudio)：https://afdian.net/@hestudio
+- [RSS 订阅](https://www.hestudio.net/atom.xml)：https://www.hestudio.net/atom.xml
 
 ### 自己的项目
 - [kali for Android](https://gitlab.com/heStudio/ka_install)

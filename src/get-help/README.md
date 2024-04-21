@@ -88,13 +88,15 @@ Please ask me questions in Chinese or English. Other ways of asking questions wi
 
 <ExternalJumpCard buttontext="通过 微信客服 反馈" link="https://work.weixin.qq.com/kfid/kfcbe17894dfd6c78f2" />
 
-1. 请在浏览全部[文档](/docs/)后，如果没有你需要的内容，请通过 [heStudio Talking](/talking) 直接反馈
+1. 提交Bug反馈：https://github.com/hestudio-community/issues/issues
 
-2. 如果你的问题不方便公开，请向 [hestudio@hestudio.net](mailto:hestudio@hestudio.net) 发送电子邮件反馈。
+2. 请在浏览全部[文档](/docs/)后，如果没有你需要的内容，请通过 [heStudio Talking](/talking) 直接反馈
 
-3. 闲聊或者咨询其他问题，请加 [QQ频道](https://pd.qq.com/s/am85w6nbs)
+3. 如果你的问题不方便公开，请向 [hestudio@hestudio.net](mailto:hestudio@hestudio.net) 发送电子邮件反馈。
 
-4. For international users, please report your problems to me at [hestudio@hestudio.net](mailto:hestudio@hestudio.net).
+4. 闲聊或者咨询其他问题，请加 [QQ群：806312062](https://qm.qq.com/cgi-bin/qm/qr?k=4n1uhUrvOtudkpynl_Pf9T6fja1rV04N&jump_from=webapi&authKey=yxfsjLe/w5hhJtQETdZmWUatNI4ocPjagH6R9ZZqJyICYv5cQ9PwAFWNz169PgZd)
+
+5. For international users, please report your problems to me at [hestudio@hestudio.net](mailto:hestudio@hestudio.net).
 
 ::: warning
 请发送电子邮件的时候详细描述你的问题，避免被系统当做垃圾邮件处理
