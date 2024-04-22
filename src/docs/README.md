@@ -5,7 +5,7 @@ article: false
 comment: false
 ---
 
-- [在Android手机上安装kali Linux 的 Q&A](/docs/kali_for_android.html)
+- [在 Android 手机上安装 kali Linux 的 Q&A](/docs/kali_for_android.html)
 - [heStudio BingWallpaper Get](/docs/hestudio_bing_wallpaper_get.html)
 - [heStudio Authenticator](/common/authenticator/)
 - [百度搜索提交工具](https://pypi.org/project/hbsst/)

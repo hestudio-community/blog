@@ -12,6 +12,7 @@ next: false
 在提问之前请务必阅读以下内容，如果你仍然需要提问，请浏览下面的反馈渠道。
 
 在你准备要通过电子邮件、新闻群组或者聊天室提出技术问题前，请先做到以下事情:
+
 1. 尝试在你准备提问的论坛的旧文章中搜索答案。
 2. 尝试上网搜索以找到答案。
 3. 尝试阅读手册以找到答案。
@@ -21,11 +22,14 @@ next: false
 7. 如果你是程序开发者，请尝试阅读源代码以找到答案。
 
 #### 特别声明
+
 你所提出的每一个问题都是人工回复的，我很乐意解决你提出的问题，请你提问时**注意你的言辞** ，我**没有任何义务回复你的任何问题**
 
 #### 拒绝回答
+
 拒绝回答以下类型的问题，包括但不限于
-- "key是什么？"（赞助用户除外）
+
+- "key 是什么？"（赞助用户除外）
 - "这个怎么弄？"，并附截图类似：
 
 ![](https://image.hestudio.net/img/2022/12/11/6395a115191d3.jpg)
@@ -34,13 +38,16 @@ next: false
 - 一些系统正常现象
 
 #### 不接受通过以下渠道反馈
-- CSDN评论和私信
+
+- CSDN 评论和私信
 - 爱发电私信
 
 #### 仍然要提问
+
 你可以先看看 [文档](/docs/) 里面有没有你需要的。如果没有，可以向我们提出。
 
 #### 语言要求
+
 请使用中文或者英文向我提问，其他提问方式会因社区成员无法理解被驳回。
 :::
 
@@ -50,6 +57,7 @@ Due to time reasons, it is impossible to read on every platform, and the priorit
 Please be sure to read the following before asking questions, and if you still need to ask, please browse the feedback channels below.
 
 Before you start asking technical questions via email, newsgroups, or chat rooms, please do the following:
+
 1. Try searching for answers in old posts in the forum you're about to ask.
 2. Try searching online to find the answer.
 3. Try reading the manual to find out.
@@ -59,10 +67,13 @@ Before you start asking technical questions via email, newsgroups, or chat rooms
 7. If you are a program developer, try reading the source code to find out.
 
 #### Special Notice
+
 Every question you ask is answered manually, I am happy to solve your questions, please **pay attention to your words** when you ask questions, I **have no obligation to answer any of your questions**
 
 #### refuse to answer
+
 Refuse to answer the following types of questions, including but not limited to
+
 - "What is the key?" (except for sponsored users)
 - "How to do this?", with screenshots similar to:
 
@@ -72,34 +83,33 @@ Refuse to answer the following types of questions, including but not limited to
 - Some system normal phenomena
 
 #### Do not accept feedback through the following channels
+
 - CSDN comments and private messages
 - DM from afdian.net
 
 #### Still have to ask
+
 You can check [Documents](/docs/) first to see if there is anything you need. If not, you can ask us.
 
 #### Language Requirements
+
 Please ask me questions in Chinese or English. Other ways of asking questions will be rejected because community members cannot understand.
 :::
 
 - [附：《提问的智慧》](/posts/how-to-ask-question.html)
 
-
-
 <ExternalJumpCard buttontext="通过 微信客服 反馈" link="https://work.weixin.qq.com/kfid/kfcbe17894dfd6c78f2" />
 
-1. 提交Bug反馈：https://github.com/hestudio-community/issues/issues
+1. 提交 Bug 反馈：https://github.com/hestudio-community/issues/issues
 
 2. 请在浏览全部[文档](/docs/)后，如果没有你需要的内容，请通过 [heStudio Talking](/talking) 直接反馈
 
 3. 如果你的问题不方便公开，请向 [hestudio@hestudio.net](mailto:hestudio@hestudio.net) 发送电子邮件反馈。
 
-4. 闲聊或者咨询其他问题，请加 [QQ群：806312062](https://qm.qq.com/cgi-bin/qm/qr?k=4n1uhUrvOtudkpynl_Pf9T6fja1rV04N&jump_from=webapi&authKey=yxfsjLe/w5hhJtQETdZmWUatNI4ocPjagH6R9ZZqJyICYv5cQ9PwAFWNz169PgZd)
+4. 闲聊或者咨询其他问题，请加 [QQ 群：806312062](https://qm.qq.com/cgi-bin/qm/qr?k=4n1uhUrvOtudkpynl_Pf9T6fja1rV04N&jump_from=webapi&authKey=yxfsjLe/w5hhJtQETdZmWUatNI4ocPjagH6R9ZZqJyICYv5cQ9PwAFWNz169PgZd)
 
 5. For international users, please report your problems to me at [hestudio@hestudio.net](mailto:hestudio@hestudio.net).
 
 ::: warning
 请发送电子邮件的时候详细描述你的问题，避免被系统当做垃圾邮件处理
 :::
-
-

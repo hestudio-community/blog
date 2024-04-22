@@ -1,125 +1,139 @@
 ---
 title: 在Android手机上安装kali Linux
-tag: 
-    - Termux
-    - Android
-    - Kali Linux
+tag:
+  - Termux
+  - Android
+  - Kali Linux
 category: Android
 ---
 
 <InternalJumpCard text="" header="【重制版】在Android手机上安装kali Linux" link="/posts/install-kali-on-android-renew.html" buttontext="在这里查看最新版"  />
 
-由于kali官方的Nethunter[^1]的安装代码因为...无法访问，手头又没有一些受支持的机器[^2]，所以做了这个脚本供大家使用。
+由于 kali 官方的 Nethunter[^1]的安装代码因为...无法访问，手头又没有一些受支持的机器[^2]，所以做了这个脚本供大家使用。
 
 [^1]: 官方文档： https://www.kali.org/docs/nethunter/nethunter-rootless/
-
 [^2]: 受支持的机器列表具有时效性，详见 https://www.kali.org/get-kali/#kali-mobile
 
 <!-- more -->
 
 ### 工具
-1. 搭载基于Android的手机
+
+1. 搭载基于 Android 的手机
 2. Termux
 3. VNC Viewer(不一定需要)
 4. 手（脚也可以）
 
 ### 安装必备软件(如已安装请忽略)
 
-<ExternalJumpCard header="Termux" buttontext="点我下载 Termux" link="https://res.hestudio.net/kali_for_android/Termux_0.118.0.apk" />
-<ExternalJumpCard header="VNC Viewer" buttontext="点我下载 VNC Viewer" link="https://res.hestudio.net/kali_for_android/VNC_Viewer_3.7.1.44443.apk" />
-
-
+<ExternalJumpCard header="Termux" text="下载密码 8692" buttontext="点我下载 Termux" link="https://url55.ctfile.com/f/55670755-1060597225-9ac563?p=8692" />
+<ExternalJumpCard header="VNC Viewer (可选)" text="下载密码 8692" buttontext="点我下载 VNC Viewer" link="https://url55.ctfile.com/f/55670755-1060597228-cd557d?p=8692" />
 
 ### 安装基本系统
-1. 打开Termux
+
+1. 打开 Termux
 
 ![Termux](https://image.hestudio.net/img/2022/12/11/6395a11208dde.jpg)
 
 2. 输入以下指令
+
 ```
 termux-setup-storage && curl -O --url https://res.hestudio.net/kali_for_android/install.sh && chmod +x install.sh && ./install.sh
 ```
+
 3. 在弹出窗口的界面点击允许
 
 ![系统权限请求](https://image.hestudio.net/img/2022/12/11/6395a11370b9d.jpg)
 
-4. 系统会陆续执行程序，此过程需要很长时间，如遇输入，睁眼[^3]按y
+4. 系统会陆续执行程序，此过程需要很长时间，如遇输入，睁眼[^3]按 y
 
-::: warning 
+::: warning
 安装时请不要锁屏或切换后台，如因为以上操作导致安装失败，请不要浪费我以及群友的时间，请自行清理数据再次安装
-::: 
+:::
 
-::: info 
-如不是因为以上原因导致的报错，请访问 https://pd.qq.com/s/rvk1vn?shareSource=5 或者到[QQ群：806312062](https://qm.qq.com/cgi-bin/qm/qr?k=4n1uhUrvOtudkpynl_Pf9T6fja1rV04N&jump_from=webapi&authKey=yxfsjLe/w5hhJtQETdZmWUatNI4ocPjagH6R9ZZqJyICYv5cQ9PwAFWNz169PgZd)求助
-::: 
+::: info
+如不是因为以上原因导致的报错，请访问 https://pd.qq.com/s/rvk1vn?shareSource=5 或者到[QQ 群：806312062](https://qm.qq.com/cgi-bin/qm/qr?k=4n1uhUrvOtudkpynl_Pf9T6fja1rV04N&jump_from=webapi&authKey=yxfsjLe/w5hhJtQETdZmWUatNI4ocPjagH6R9ZZqJyICYv5cQ9PwAFWNz169PgZd)求助
+:::
 
 ![感谢群友贡献的截图](https://image.hestudio.net/img/2022/12/11/6395a115191d3.jpg)
 
-[^3]: 我之前在CSDN里写的是闭眼，结果真有人闭眼按了。
+[^3]: 我之前在 CSDN 里写的是闭眼，结果真有人闭眼按了。
 
 5. 当看到以下界面时，代表基本系统安装完毕
 
 ![kali终端](https://image.hestudio.net/img/2022/12/11/6395a1175482f.jpg)
 
-::: info 
-后续启动kali linux需要使用`startkali`指令
-::: 
+::: info
+后续启动 kali linux 需要使用`startkali`指令
+:::
 
 ### 后续操作
+
 #### 更新本地索引
-说人话就是你需要让kali知道自己有什么。
+
+说人话就是你需要让 kali 知道自己有什么。
+
 ```
 sudo apt-get update
 ```
-> Linux输入密码[^4]时不显示密码，即使你已经输入
 
-[^4]: kali Linux的默认密码是`kali`
+> Linux 输入密码[^4]时不显示密码，即使你已经输入
+
+[^4]: kali Linux 的默认密码是`kali`
 
 #### 更新软件
+
 ```
 sudo apt-get upgrade
 ```
-::: info 
+
+::: info
 第一次更新软件需要几个小时，建议睡觉时插充电器进行。
 
 注意更新过程中不要切后台或返回桌面；配置低的手机或杀后台严重的手机不要锁屏；建议临时将手机息屏时间设置为最长。
-::: 
+:::
 
-#### 开启vnc
-##### 初始化vncserver
-本脚本内置vnc[^5]服务，但是还是需要自己稍微设置一下。
+#### 开启 vnc
 
-> 部分机型可能报错，如出现这种情况，请到[QQ群：806312062](https://qm.qq.com/cgi-bin/qm/qr?k=4n1uhUrvOtudkpynl_Pf9T6fja1rV04N&jump_from=webapi&authKey=yxfsjLe/w5hhJtQETdZmWUatNI4ocPjagH6R9ZZqJyICYv5cQ9PwAFWNz169PgZd)求助
+##### 初始化 vncserver
 
-::: secondary 
-查看更多vnc骚操作，请到https://tigervnc.org/
-::: 
+本脚本内置 vnc[^5]服务，但是还是需要自己稍微设置一下。
+
+> 部分机型可能报错，如出现这种情况，请到[QQ 群：806312062](https://qm.qq.com/cgi-bin/qm/qr?k=4n1uhUrvOtudkpynl_Pf9T6fja1rV04N&jump_from=webapi&authKey=yxfsjLe/w5hhJtQETdZmWUatNI4ocPjagH6R9ZZqJyICYv5cQ9PwAFWNz169PgZd)求助
+
+::: secondary
+查看更多 vnc 骚操作，请到https://tigervnc.org/
+:::
 
 [^5]: 本脚本内置[TigerVNC](https://tigervnc.org/)
 
-先修改vnc密码，不然连不上！
+先修改 vnc 密码，不然连不上！
+
 ```
 vncpasswd
 ```
 
-##### 运行vncserver
+##### 运行 vncserver
+
 ```
 vncserver
 ```
 
-##### 杀死vncserver
+##### 杀死 vncserver
+
 ```
 vncserver -kill
 ```
 
-##### 链接到vnc
+##### 链接到 vnc
+
 1. 打开 VNC Viewer
-![VNC Viewer](https://image.hestudio.net/img/2022/12/11/6395a119a4602.jpg)
+   ![VNC Viewer](https://image.hestudio.net/img/2022/12/11/6395a119a4602.jpg)
 
 2. 一路`Next`
 3. 点击+号
 4. 设置链接地址
-port后面的4位数字为端口号，像这样
+   port 后面的 4 位数字为端口号，像这样
+
 ```
 localhost:5901
 ```
@@ -128,11 +142,10 @@ localhost:5901
 
 5. 最后保存即可
 
-#### 设置kali linux和vncserver自启动
-::: danger 
+#### 设置 kali linux 和 vncserver 自启动
+
+::: danger
 此操作不适用于小白
-::: 
+:::
 
 <InternalJumpCard header="Linux设置自启动和显示文字" buttontext="去了解如何设置自启动" link="/posts/Setting-up-Linux-self-starting-and-displaying-text.html" />
-
-

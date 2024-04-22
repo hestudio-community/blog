@@ -12,7 +12,4 @@ comment: false
 - [KA_INSTALL_PATCH_230110](/posts/ka_install_patch_230110.html)
 - [KA_INSTALL_PATCH_230107](/posts/ka_install_patch_230107.html)
 
-
 :::
-
-

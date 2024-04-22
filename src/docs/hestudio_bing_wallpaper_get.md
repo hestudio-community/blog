@@ -9,6 +9,7 @@ article: false
 :::
 
 ## demo
+
 ![这是一张自动更换的图片](https://api.hestudio.net/bgimage)
 
 ## 调用方法 {#way}
@@ -18,45 +19,49 @@ article: false
 :::
 
 ### 获取图片 {#getimage}
+
 ```
 GET /getimage
 ```
 
 ### 获取图片标题 {#gettitle}
+
 ```
 GET /gettitle
 ```
 
 返回参数：
 
-| 参数 | 说明 |
-|---|---|
+| 参数    | 说明 |
+| ------- | ---- |
 | `title` | 标题 |
 
 ### 获取图片版权信息 {#getcopyright}
+
 ```
 GET /getcopyright
 ```
 
 返回参数：
 
-| 参数 | 说明 |
-|---|---|
-| `copyright` | 版权信息 |
+| 参数            | 说明                 |
+| --------------- | -------------------- |
+| `copyright`     | 版权信息             |
 | `copyrightlink` | 版权信息所对应的链接 |
 
 ## 安装方法 {#install}
 
 ::: code-tabs
 
-@tab Docker部署 (推荐)
+@tab Docker 部署 (推荐)
+
 ```sh
 docker pull hestudio/bingwallpaper_get
 docker run -d -p 3000:3000 hestudio/bingwallpaper_get
 ```
 
+@tab NPM 安装
 
-@tab NPM安装
 ```sh
 npm install hestudio-bingwallpaper-get
 echo "require('hestudio-bingwallpaper-get')" >> server.js
@@ -64,6 +69,7 @@ node server.js
 ```
 
 @tab 手动安装 (不推荐，仅开发人员使用)
+
 ```sh
 git clone https://github.com/hestudio-community/bing-wallpaper-get.git
 cd bing-wallpaper-get
@@ -107,21 +113,26 @@ https://github.com/hestudio-community/bing-wallpaper-get/issues
 ### 环境变量 {#env}
 
 #### `hbwg_port`: 自定义程序端口 {#hbwg_port}
+
 - 默认值: `3000`
 
-#### `hbwg_host`: 自定义Bing前置URL {#hbwg_host}
+#### `hbwg_host`: 自定义 Bing 前置 URL {#hbwg_host}
+
 - 默认值: `https://cn.bing.com`
 
 #### `hbwg_config`: 自定义请求参数 {#hbwg_config}
+
 - 默认值: `format=js&idx=0&n=1&mkt=zh-CN`
 
 #### `hbwg_external`: 外部文件路径 {#hbwg_external}
-- 默认值: `./external.js` 
+
+- 默认值: `./external.js`
 - **注意：`external.js`如手动修改，需在环境变量输入绝对值**
 
-#### `hbwg_getupdate`: 是否检查更新 <Badge text="v1.4.0" type="tip" vertical="middle" /> {#hbwg_getupdate} 
+#### `hbwg_getupdate`: 是否检查更新 <Badge text="v1.4.0" type="tip" vertical="middle" /> {#hbwg_getupdate}
+
 - 默认值: `true`
-- **注意，你应当只传入`false`以禁用自动检查更新。如果你不需要禁用自动检查更新，应当传入`true`或者不传入任何值。** 
+- **注意，你应当只传入`false`以禁用自动检查更新。如果你不需要禁用自动检查更新，应当传入`true`或者不传入任何值。**
 
 ::: danger
 我们已经在`v1.3.1`将此开关移至`external.js`文件，请浏览[检查更新开关](/docs/hestudio_bing_wallpaper_get.html#getupdate)。
@@ -129,24 +140,27 @@ https://github.com/hestudio-community/bing-wallpaper-get/issues
 **请注意，我们将在`v1.4.0`版本移除此环境变量。**
 :::
 
-#### `hbwg_packageurl`: `package.json`对应URL {#hbwg_packageurl}
+#### `hbwg_packageurl`: `package.json`对应 URL {#hbwg_packageurl}
+
 - 默认值: `https://raw.githubusercontent.com/hestudio-community/bing-wallpaper-get/main/package.json`
 
 ::: tip 镜像源
-对于部分用户，Github源不可用，建议更换成CDN源。
+对于部分用户，Github 源不可用，建议更换成 CDN 源。
 
-以下是几个我们认可的CDN源。当然，你也可以自定义成你自己的CDN源。
+以下是几个我们认可的 CDN 源。当然，你也可以自定义成你自己的 CDN 源。
 
 - NPM: https://registry.npmjs.com/hestudio-bingwallpaper-get/latest
 - NPMMirror: https://registry.npmmirror.com/hestudio-bingwallpaper-get/latest
 - jsDelivr: https://cdn.jsdelivr.net/npm/hestudio-bingwallpaper-get@latest/package.json
 - UNPKG: https://unpkg.com/hestudio-bingwallpaper-get@latest/package.json
-:::
+  :::
 
-#### `hbwg_header`: 传入真实IP的请求头 {#hbwg_header}
+#### `hbwg_header`: 传入真实 IP 的请求头 {#hbwg_header}
+
 - 默认值: `x-real-ip`
 
-#### `hbwg_tempdir`: 修改缓存目录 <Badge text="v1.4.0" type="tip" vertical="middle" /> {#hbwg_tempdir} 
+#### `hbwg_tempdir`: 修改缓存目录 <Badge text="v1.4.0" type="tip" vertical="middle" /> {#hbwg_tempdir}
+
 - 默认值为项目根目录的`tmp`文件夹
 - **需输入绝对值，如`/workspace/bing-wallpaper-get/tmp`**
 
@@ -156,58 +170,62 @@ https://github.com/hestudio-community/bing-wallpaper-get/issues
 
 在开始这部分内容之前，你需要了解以下内容。
 
-本项目导出了5个项目函数用于日志记录。它们分别是`getback(ip, path)`, `postback(ip, path)`, `logback(log)`, `logerr(err)`, `logwarn(warn)`。我们分别来讲一下：
+本项目导出了 5 个项目函数用于日志记录。它们分别是`getback(ip, path)`, `postback(ip, path)`, `logback(log)`, `logerr(err)`, `logwarn(warn)`。我们分别来讲一下：
 
 ##### `getback(ip, path)` {#getback}
 
-| 参数 | 参数类型 |
-|---|---|
-| `ip` | `String` |
+| 参数   | 参数类型 |
+| ------ | -------- |
+| `ip`   | `String` |
 | `path` | `String` |
 
 输出效果大概是这样:
+
 ```text
 [YYYY-MM-DD HH:mm:ss] ${ip} GET ${path}
 ```
 
 ##### `postback(ip, path)` {#postback}
 
-| 参数 | 参数类型 |
-|---|---|
-| `ip` | `String` |
+| 参数   | 参数类型 |
+| ------ | -------- |
+| `ip`   | `String` |
 | `path` | `String` |
 
 输出效果大概是这样:
+
 ```text
 [YYYY-MM-DD HH:mm:ss] ${ip} POST ${path}
 ```
 
 ##### `logback(log)` {#logback}
 
-| 参数 | 参数类型 |
-|---|---|
+| 参数  | 参数类型 |
+| ----- | -------- |
 | `log` | `String` |
 
 输出效果大概是这样:
+
 ```text
 [YYYY-MM-DD HH:mm:ss] ${log}
 ```
 
 ##### `logerr(err)` {#logerr}
 
-| 参数 | 参数类型 |
-|---|---|
+| 参数  | 参数类型 |
+| ----- | -------- |
 | `err` | `String` |
 
 输出效果大概是这样:
+
 ```text
 [YYYY-MM-DD HH:mm:ss] ERROR: ${err}
 ```
 
 ##### `logwarn(warn)` {#logwarn}
 
-| 参数 | 参数类型 |
-|---|---|
+| 参数   | 参数类型 |
+| ------ | -------- |
 | `warn` | `String` |
 
 输出效果大概是这样:
@@ -216,17 +234,17 @@ https://github.com/hestudio-community/bing-wallpaper-get/issues
 [YYYY-MM-DD HH:mm:ss] WARN: ${warn}
 ```
 
-另外还有9个指示器。他们被包含在`hbwgConfig`对象当中，你只能查看它们的值，无法直接修改它们。该指示器提供给开发人员调试使用，不要在生产环境使用。 <Badge text="v1.4.0" type="tip" vertical="middle" />
+另外还有 9 个指示器。他们被包含在`hbwgConfig`对象当中，你只能查看它们的值，无法直接修改它们。该指示器提供给开发人员调试使用，不要在生产环境使用。 <Badge text="v1.4.0" type="tip" vertical="middle" />
 
 - `hbwgConfig.port`(String): 程序端口号，可以在[`hbwg_port`](/docs/hestudio_bing_wallpaper_get.html#hbwg_port)修改。
 - `hbwgConfig.api`(String): 服务地址，可以在[`hbwg_host`](/docs/hestudio_bing_wallpaper_get.html#hbwg_host)和[`hbwg_config`](/docs/hestudio_bing_wallpaper_get.html#hbwg_config)修改。
-- `hbwgConfig.host`(String): Bing前置URL,可以在[`hbwg_host`](/docs/hestudio_bing_wallpaper_get.html#hbwg_host)修改。
+- `hbwgConfig.host`(String): Bing 前置 URL,可以在[`hbwg_host`](/docs/hestudio_bing_wallpaper_get.html#hbwg_host)修改。
 - `hbwgConfig.getupdate`(String): 获取更新开关，可以在[获取更新开关](/docs/hestudio_bing_wallpaper_get.html#getupdate)修改。
-- `hbwgConfig.packageurl`(String): 更新源，在检查更新时会请求该地址。可以在[`package.json`对应URL](/docs/hestudio_bing_wallpaper_get.html#hbwg_packageurl)修改。
-- `hbwgConfig.header`(String): IP地址传入请求头，可以在[`hbwg_header`](/docs/hestudio_bing_wallpaper_get.html#hbwg_header)
+- `hbwgConfig.packageurl`(String): 更新源，在检查更新时会请求该地址。可以在[`package.json`对应 URL](/docs/hestudio_bing_wallpaper_get.html#hbwg_packageurl)修改。
+- `hbwgConfig.header`(String): IP 地址传入请求头，可以在[`hbwg_header`](/docs/hestudio_bing_wallpaper_get.html#hbwg_header)
 - `hbwgConfig.tempDir`(String): 缓存目录，可以在[`hbwg_tempdir`](/docs/hestudio_bing_wallpaper_get.html#hbwg_tempdir)修改。
-- `hbwgConfig.apiconfig`(Object): API配置，可以在[设置API配置](/docs/hestudio_bing_wallpaper_get.html#api)修改。
-- `hbwgConfig.robots`(String | Boolean): robots.txt配置，可以在[`robots.txt`](/docs/hestudio_bing_wallpaper_get.html##robots)修改。
+- `hbwgConfig.apiconfig`(Object): API 配置，可以在[设置 API 配置](/docs/hestudio_bing_wallpaper_get.html#api)修改。
+- `hbwgConfig.robots`(String | Boolean): robots.txt 配置，可以在[`robots.txt`](/docs/hestudio_bing_wallpaper_get.html##robots)修改。
 
 当然，你也直接可以用`hbwgConfig`对象获取到他们的全部信息。详见[示例](/docs/hestudio_bing_wallpaper_get.html#rootprogram)。
 
@@ -245,11 +263,11 @@ const {
   //
   // 配置信息
   // hbwgConfig
-} = require(`${process.cwd()}/node_modules/hestudio-bingwallpaper-get`)
+} = require(`${process.cwd()}/node_modules/hestudio-bingwallpaper-get`);
 
 module.exports = {
   // 组件配置
-}
+};
 ```
 
 上述模板中均已注释项目函数和指示器，可根据需要自行取消注释。
@@ -294,9 +312,9 @@ module.exports = {
 module.exports = {
   rootprogram: (req, res) => {
     //在这里修改内容
-    res.send("helloworld")
-  }
-}
+    res.send("helloworld");
+  },
+};
 ```
 
 ::: note 示例
@@ -305,14 +323,17 @@ module.exports = {
 ```javascript
 // external.js
 
-const { hbwgConfig } = require(`${process.cwd()}/node_modules/hestudio-bingwallpaper-get`)
+const {
+  hbwgConfig,
+} = require(`${process.cwd()}/node_modules/hestudio-bingwallpaper-get`);
 
 module.exports = {
   rootprogram: (req, res) => {
-    res.send(hbwgConfig)
-  }
-}
+    res.send(hbwgConfig);
+  },
+};
 ```
+
 :::
 
 #### `beforestart`: 在服务运行前导入代码 {#beforestart}
@@ -324,7 +345,7 @@ module.exports = {
 - http://expressjs.com/
 - https://quickref.hestudio.net/docs/expressjs.html
 
-你**不能**使用`app.listen()`，因为这会导致项目出现致命错误。当然，你也**不能**将URL路由至`/`, `/getimage`, `/geititle`, `/getcopyright`等，它们也会导致项目**无法正常运行**。你可以自定义`/`，但是仅限于**GET**请求。如果需要自定义`/`，请参考`rootprogram`函数。
+你**不能**使用`app.listen()`，因为这会导致项目出现致命错误。当然，你也**不能**将 URL 路由至`/`, `/getimage`, `/geititle`, `/getcopyright`等，它们也会导致项目**无法正常运行**。你可以自定义`/`，但是仅限于**GET**请求。如果需要自定义`/`，请参考`rootprogram`函数。
 
 好的，现在可以通过以下结构在服务运行前导入代码
 
@@ -334,56 +355,62 @@ module.exports = {
 module.exports = {
   beforestart: (app) => {
     //在这里修改内容
-  }
-}
+  },
+};
 ```
 
 #### `refreshtime`: 设置资源刷新时间 {#refreshtime}
 
 在修改本部分内容之前，需要了解一下[`node-schedule`](https://www.npmjs.com/package/node-schedule)
 
-已导入`rule`变量，需修改rule变量才能有效果。
+已导入`rule`变量，需修改 rule 变量才能有效果。
 
 ::: details 官方教程
 Recurrence Rule Scheduling
 
 You can build recurrence rules to specify when a job should recur. For instance, consider this rule, which executes the function every hour at 42 minutes after the hour:
+
 ```javascript
-const schedule = require('node-schedule');
+const schedule = require("node-schedule");
 
 const rule = new schedule.RecurrenceRule();
 rule.minute = 42;
 
-const job = schedule.scheduleJob(rule, function(){
-  console.log('The answer to life, the universe, and everything!');
+const job = schedule.scheduleJob(rule, function () {
+  console.log("The answer to life, the universe, and everything!");
 });
 ```
+
 You can also use arrays to specify a list of acceptable values, and the Range object to specify a range of start and end values, with an optional step parameter. For instance, this will print a message on Thursday, Friday, Saturday, and Sunday at 5pm:
+
 ```javascript
 const rule = new schedule.RecurrenceRule();
 rule.dayOfWeek = [0, new schedule.Range(4, 6)];
 rule.hour = 17;
 rule.minute = 0;
 
-const job = schedule.scheduleJob(rule, function(){
-  console.log('Today is recognized by Rebecca Black!');
+const job = schedule.scheduleJob(rule, function () {
+  console.log("Today is recognized by Rebecca Black!");
 });
 ```
+
 Timezones are also supported. Here is an example of executing at the start of every day in the UTC timezone.
 
 ```javascript
 const rule = new schedule.RecurrenceRule();
 rule.hour = 0;
 rule.minute = 0;
-rule.tz = 'Etc/UTC';
+rule.tz = "Etc/UTC";
 
-const job = schedule.scheduleJob(rule, function(){
-  console.log('A new day has begun in the UTC timezone!');
+const job = schedule.scheduleJob(rule, function () {
+  console.log("A new day has begun in the UTC timezone!");
 });
 ```
+
 A list of acceptable tz (timezone) values can be found at https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 RecurrenceRule properties
+
 ```text
 second (0-59)
 minute (0-59)
@@ -396,9 +423,10 @@ tz
 ```
 
 > Note: It's worth noting that the default value of a component of a recurrence rule is null (except for second, which is 0 for familiarity with cron). If we did not explicitly set minute to 0 above, the message would have instead been logged at 5:00pm, 5:01pm, 5:02pm, ..., 5:59pm. Probably not what you want.
-:::
+> :::
 
 以下是示例代码，当然，它也是项目默认配置：
+
 ```javascript {4-10}
 // external.js
 
@@ -408,35 +436,35 @@ module.exports = {
     rule.hour = 0;
     rule.minute = 0;
     rule.second = 0;
-    rule.tz = 'Asia/Shanghai';
-  }
-}
+    rule.tz = "Asia/Shanghai";
+  },
+};
 ```
 
-#### 设置API配置 <Badge text="v1.4.0" type="tip" vertical="middle" /> {#api}
+#### 设置 API 配置 <Badge text="v1.4.0" type="tip" vertical="middle" /> {#api}
 
-##### 修改API对应路径 {#api.rename}
+##### 修改 API 对应路径 {#api.rename}
 
 ```javascript
 module.exports = {
   api: {
     rename: {
-      getimage: '/getimage',
-      gettitle: '/gettitle',
-      getcopyright: '/getcopyright'
-    }
-  }
-}
+      getimage: "/getimage",
+      gettitle: "/gettitle",
+      getcopyright: "/getcopyright",
+    },
+  },
+};
 ```
 
-##### 禁用API {#api.ban}
+##### 禁用 API {#api.ban}
 
 ```javascript
 module.exports = {
   api: {
-    ban: ['getimage', 'gettitle', 'getcopyright']
-  }
-}
+    ban: ["getimage", "gettitle", "getcopyright"],
+  },
+};
 ```
 
 #### `robots.txt` <Badge text="v1.4.0" type="tip" vertical="middle" /> {#robots}
@@ -444,20 +472,22 @@ module.exports = {
 添加默认`robots.txt`，默认禁止所有搜索引擎爬取。
 
 可以关闭，通过：
+
 ```javascript
 module.exports = {
-  robots: false
-}
+  robots: false,
+};
 ```
 
 可以指定代码。
+
 ```javascript
 module.exports = {
   robots: `
 User-agent: *
 Disallow: /
-`
-}
+`,
+};
 ```
 
 #### `/debug` （GET）调试接口 <Badge text="v1.4.0" type="tip" vertical="middle" /> {#debug}
@@ -466,17 +496,18 @@ Disallow: /
 
 ```javascript
 module.exports = {
-  debug: true
-}
+  debug: true,
+};
 ```
 
-2. 允许修改默认URL
+2. 允许修改默认 URL
+
 ```javascript
 module.exports = {
   debug: {
-    url: '/debug'
-  }
-}
+    url: "/debug",
+  },
+};
 ```
 
 3. 允许加设密码
@@ -484,9 +515,9 @@ module.exports = {
 ```javascript
 module.exports = {
   debug: {
-    passwd: 'yourpassword'
-  }
-}
+    passwd: "yourpassword",
+  },
+};
 ```
 
 开发者可以如下格式在浏览器访问：
@@ -495,34 +526,35 @@ module.exports = {
 /debug?passwd=yourpassword
 ```
 
+#### 返回 bing 服务器原始请求结果 (`/bingsrc`) <Badge text="v1.4.0" type="tip" vertical="middle" /> {#bingsrc}
 
-#### 返回bing服务器原始请求结果 (`/bingsrc`) <Badge text="v1.4.0" type="tip" vertical="middle" /> {#bingsrc}
-
-1. 用户可以通过 GET /bingsrc获取
+1. 用户可以通过 GET /bingsrc 获取
 2. 默认禁用，可以通过`external.js`开启
 
 ```javascript
 module.exports = {
-    bingsrc: true
-}
+  bingsrc: true,
+};
 ```
 
-3. 允许修改默认URL 
+3. 允许修改默认 URL
 
 ```javascript
 module.exports = {
-    bingsrc: {
-        url: '/bingsrc'
-    }
-}
+  bingsrc: {
+    url: "/bingsrc",
+  },
+};
 ```
 
-### 定时任务 <Badge text="v1.4.0" type="tip" vertical="middle" /> {#refreshtask} 
+### 定时任务 <Badge text="v1.4.0" type="tip" vertical="middle" /> {#refreshtask}
+
 开发者可以在服务器刷新资源时自定义执行一些任务。
 
 ```javascript
 module.exports = {
   refreshtask: () => {
     // 这里面是你要执行的定时任务
-  }
-}
+  },
+};
+```
