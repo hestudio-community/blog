@@ -261,7 +261,7 @@ vim ${PREFIX}/bin/startkali
 
 #### 更换默认语言 <Badge text="2.0" type="tip" vertical="middle" />
 
-我们通过读取`LANG`环境变量值判断你的默认语言，通过修改该变量可以修改你的容器语言。
+我们通过读取`LANG`环境变量值判断你的默认语言。在Kali Linux启动前，修改该变量可以修改你的Kali Linux语言。
 
 ```sh
 # 中文（简体）
