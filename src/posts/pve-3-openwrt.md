@@ -11,7 +11,7 @@ category: Proxmox VE
 
 大家好，很长时间没有更新这个系列了。最近正在开发新项目，刚刚想起来我是不是还有一个什么专栏没更新。
 
-本期的网络配置背景同于前两期的描述（详见https://www.hestudio.net/category/proxmox-ve/），这一期只是对网络配置的扩展，也就是安装软路由，实现网络配置的更多功能。
+本期的网络配置背景同于前两期的描述（ 详见https://www.hestudio.net/category/proxmox-ve/ ），这一期只是对网络配置的扩展，也就是安装软路由，实现网络配置的更多功能。
 
 ---
 
@@ -19,7 +19,7 @@ category: Proxmox VE
 
 工欲善其事，必先利其器。我们如果想配置OpenWrt，首先需要安装它。
 
-我们选择一个适合我们自己的OpenWrt 发行版，本期我们选择iStoreOS 作为我们用于演示的发行版，我本人也是使用的这个发行版。这个发行版由我们国人开发，无论是扩展性还是易用性，或是本土化都做的非常好。他们提供了安装教程，详见https://doc.linkease.com/zh/guide/istoreos/install_pve.html
+我们选择一个适合我们自己的OpenWrt 发行版，本期我们选择iStoreOS 作为我们用于演示的发行版，我本人也是使用的这个发行版。这个发行版由我们国人开发，无论是扩展性还是易用性，或是本土化都做的非常好。他们提供了安装教程，详见 https://doc.linkease.com/zh/guide/istoreos/install_pve.html
 
 ---
 
@@ -77,6 +77,6 @@ root@pve:~# lspci | grep "Network controller"
 02:00.0 Network controller: Qualcomm Atheros AR93xx Wireless Network Adapter (rev 01)
 ```
 
-如果显示了你的无线网卡，请检查你已经是否正确的安装驱动，详见https://doc.linkease.com/zh/guide/istoreos/practice/WiFiSupported.html
+如果显示了你的无线网卡，请检查你已经是否正确的安装驱动，详见 https://doc.linkease.com/zh/guide/istoreos/practice/WiFiSupported.html
 
 到此，Proxmox VE最复杂的一环已经结束。
