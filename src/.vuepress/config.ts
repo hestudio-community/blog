@@ -37,12 +37,31 @@ export default defineUserConfig({
       },
     ],
     ["style", {}, ".grecaptcha-badge { visibility: hidden; }"],
+    [
+      "link",
+      {
+        rel: "preconnect",
+        href: "https://fonts.googleapis.com",
+      },
+    ],
+    [
+      "link",
+      {
+        rel: "preconnect",
+        href: "https://fonts.gstatic.com",
+        crossorigin: "",
+      },
+    ],
+    [
+      "link",
+      {
+        href: "https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&display=swap",
+        rel: "stylesheet",
+      },
+    ],
   ],
 
   plugins: [
-    // socialSharePlugin({
-    //   networks: ["email", "weibo", "douban", "qq", "wechat", "qrcode"],
-    // }),
     removePwaPlugin({
       cachePrefix: "workbox",
       swLocation: "service-worker.js",
