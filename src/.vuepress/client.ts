@@ -1,15 +1,15 @@
 // .vuepress/client.ts
 import { defineClientConfig } from "vuepress/client";
 import { defineWalineConfig } from "@vuepress/plugin-comment/client";
-import { onMounted } from "vue"
+import { onMounted } from "vue";
 
-import ElementPlus from 'element-plus'
-import 'element-plus/dist/index.css'
-import 'element-plus/theme-chalk/dark/css-vars.css'
+import ElementPlus from "element-plus";
+import "element-plus/dist/index.css";
+import "element-plus/theme-chalk/dark/css-vars.css";
 
-import DarkMode from './components/DarkMode.vue'
+import DarkMode from "./components/DarkMode.vue";
 
-import JumpCard from "vue-plugin-jumpcard"
+import JumpCard from "vue-plugin-jumpcard";
 
 defineWalineConfig({
   serverURL: "https://comment.hestudio.net",
@@ -18,11 +18,11 @@ defineWalineConfig({
     let formData = new FormData();
     let headers = new Headers();
 
-    formData.append('file', image);
-    headers.append('Accept', 'application/json');
+    formData.append("file", image);
+    headers.append("Accept", "application/json");
 
-    return fetch('https://image.hestudio.net/api/v1/upload', {
-      method: 'POST',
+    return fetch("https://image.hestudio.net/api/v1/upload", {
+      method: "POST",
       headers: headers,
       body: formData,
     })
@@ -33,13 +33,13 @@ defineWalineConfig({
 
 export default defineClientConfig({
   enhance({ app }) {
-    app.use(ElementPlus)
-    app.use(JumpCard)
+    app.use(ElementPlus);
+    app.use(JumpCard);
   },
   setup() {
     let loadRecaptcha = async function (siteKey) {
       return new Promise<void>((resolve, reject) => {
-        const script = document.createElement('script');
+        const script = document.createElement("script");
         script.src = `https://www.recaptcha.net/recaptcha/api.js?render=${siteKey}`;
         script.async = true;
         script.onload = () => {
@@ -54,13 +54,13 @@ export default defineClientConfig({
 
     onMounted(async () => {
       try {
-        await loadRecaptcha('6Lf7k1wpAAAAADbNcQ3ea2ueZVwLoOD1wTZOx2Rp');
+        await loadRecaptcha("6Lf7k1wpAAAAADbNcQ3ea2ueZVwLoOD1wTZOx2Rp");
       } catch (error) {
-        console.error('Failed to load reCAPTCHA:', error);
+        console.error("Failed to load reCAPTCHA:", error);
       }
     });
-    
+
     return {};
   },
-  rootComponents: [DarkMode]
+  rootComponents: [DarkMode],
 });
