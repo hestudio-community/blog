@@ -78,7 +78,7 @@ export default {
             }
           );
         case "console":
-          window.open("https://account.hestudio.net", _blank);
+          window.open("https://account.hestudio.net", "_blank");
       }
     },
   },
