@@ -77,8 +77,10 @@ export default {
               }
             }
           );
+          break;
         case "console":
           window.open("https://account.hestudio.net", "_blank");
+          break;
       }
     },
   },

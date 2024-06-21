@@ -104,7 +104,6 @@ export default hopeTheme(
           center: [],
           end: ["Links", "Language", "Repo", "Outlook", "Search"],
         },
-        hideSiteNameOnMobile: false,
 
         // sidebar
         sidebar: false,
