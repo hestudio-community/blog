@@ -1,5 +1,8 @@
 ---
 title: 登录 heStudio Account
+article: false
+comment: false
+next: false
 ---
 
 <login />
