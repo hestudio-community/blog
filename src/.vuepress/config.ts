@@ -29,6 +29,7 @@ export default defineUserConfig({
     ),
     "@KeySearch": path.resolve(__dirname, "./components/KeySearch.vue"),
     "@Login": path.resolve(__dirname, "./components/Login.vue"),
+    "@Feedback": path.resolve(__dirname, "./components/Feedback.vue"),
     "@aboutegg": path.resolve(__dirname, "./components/egg.vue"),
   },
 

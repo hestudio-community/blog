@@ -98,11 +98,9 @@ Please ask me questions in Chinese or English. Other ways of asking questions wi
 
 - [附：《提问的智慧》](/posts/how-to-ask-question.html)
 
-<ExternalJumpCard buttontext="通过 微信客服 反馈" link="https://work.weixin.qq.com/kfid/kfcbe17894dfd6c78f2" />
+1. 提交 Bug 反馈： <Feedback />
 
-1. 提交 Bug 反馈：https://github.com/hestudio-community/issues/issues
-
-2. 请在浏览全部[文档](/docs/)后，如果没有你需要的内容，请通过 [heStudio Talking](/talking) 直接反馈
+2. 浏览全部[文档](/docs/)，或者搜索文档，查看是否有你需要的。
 
 3. 如果你的问题不方便公开，请向 [hestudio@hestudio.net](mailto:hestudio@hestudio.net) 发送电子邮件反馈。
 
@@ -113,3 +111,7 @@ Please ask me questions in Chinese or English. Other ways of asking questions wi
 ::: warning
 请发送电子邮件的时候详细描述你的问题，避免被系统当做垃圾邮件处理
 :::
+
+<script setup>
+    import Feedback from "@Feedback";
+</script>

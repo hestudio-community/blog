@@ -5,8 +5,10 @@ article: false
 comment: false
 ---
 
-::: details 目录
-[[TOC]]
+::: danger heStudio Talking 下线通知
+由于产品策略问题，Talking 模块将下架。请通过[获取帮助](/get-help/)页面获取帮助。
+
+我们正在逐步的用 heStudio Account 统一登录系统替代该部分模块。
 :::
 
 ### heStudio Talking 是什么？
