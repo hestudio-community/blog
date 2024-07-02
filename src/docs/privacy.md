@@ -1,6 +1,6 @@
 ---
 title: 隐私政策
-icon: ic:baseline-privacy-tip
+icon: /icons/hand_raised_hexagon_fill.svg
 article: false
 comment: false
 ---

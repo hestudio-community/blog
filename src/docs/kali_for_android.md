@@ -1,6 +1,6 @@
 ---
 title: 在Android手机上安装kali Linux 的 Q&A
-icon: simple-icons:kalilinux
+icon: /icons/kali.svg
 article: false
 ---
 
@@ -261,7 +261,7 @@ vim ${PREFIX}/bin/startkali
 
 #### 更换默认语言 <Badge text="2.0" type="tip" vertical="middle" />
 
-我们通过读取`LANG`环境变量值判断你的默认语言。在Kali Linux启动前，修改该变量可以修改你的Kali Linux语言。
+我们通过读取`LANG`环境变量值判断你的默认语言。在 Kali Linux 启动前，修改该变量可以修改你的 Kali Linux 语言。
 
 ```sh
 # 中文（简体）

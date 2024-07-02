@@ -1,6 +1,6 @@
 ---
 title: 本站用到的开源服务
-icon: ph:code-bold
+icon: /icons/doc_text_badge_checkmark.svg
 article: false
 ---
 

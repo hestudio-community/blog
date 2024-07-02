@@ -1,6 +1,6 @@
 ---
 title: 补丁合集
-icon: fluent:patch-24-filled
+icon: /icons/externaldrive_fill_3.svg
 article: false
 comment: false
 ---

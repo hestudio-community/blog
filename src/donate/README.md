@@ -1,6 +1,6 @@
 ---
 title: 支持我
-icon: bxs:donate-heart
+icon: /icons/hand_thumbsup_fill.svg
 article: false
 comment: false
 next: false

@@ -1,5 +1,4 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import { Navbar } from "./navbar/index.js";
 
 export default hopeTheme(
   {
@@ -48,7 +47,6 @@ export default hopeTheme(
         // Baidu: "https://example.com",
         BiliBili: "https://space.bilibili.com/1511806753",
         // Bitbucket: "https://example.com",
-        CSDN: "https://bbs.csdn.net/forums/hestudio",
         // Dingding: "https://example.com",
         // Discord: "https://example.com",
         // Dribbble: "https://example.com",
@@ -95,7 +93,21 @@ export default hopeTheme(
     locales: {
       "/": {
         // navbar
-        navbar: Navbar,
+        navbar: [
+          "/",
+          {
+            text: "文章",
+            link: "/posts/",
+            icon: "/icons/book_pages_fill_1.svg",
+          },
+          "/docs/",
+          "/common/",
+          "/talking/",
+          "/get-help/",
+          "/about/",
+          "/links/",
+          "/donate/",
+        ],
 
         navbarAutoHide: "none",
 

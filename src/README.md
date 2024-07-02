@@ -1,7 +1,7 @@
 ---
 home: true
 layout: BlogHome
-icon: ic:round-home
+icon: /icons/house_fill.svg
 title: Home
 bgImage: https://api.hestudio.net/bgimage
 heroText: heStudio
@@ -32,13 +32,10 @@ projects:
     name: heStudio Authenticator
     desc: 媲美于Google的MFA令牌工具
     link: https://www.hestudio.net/common/authenticator/
-    
+
   - icon: mdi:line-scan
     name: heStudio二维码工具箱
     desc: 一个简单的二维码工具箱
     link: https://www.hestudio.net/common/qrcodebox/
-
 # footer: customize your footer text
 ---
-
-

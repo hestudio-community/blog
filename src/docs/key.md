@@ -1,6 +1,6 @@
 ---
 title: Key 获取与查找
-icon: material-symbols-light:key
+icon: /icons/key_horizontal.svg
 article: false
 ---
 

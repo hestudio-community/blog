@@ -1,6 +1,6 @@
 ---
 title: 友情链接
-icon: mingcute:link-3-fill
+icon: /icons/discover_fill.svg
 article: false
 comment: false
 next: false

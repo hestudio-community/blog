@@ -1,15 +1,13 @@
 ---
 title: 关于
-icon: mdi:about
+icon: /icons/info_circle.svg
 article: false
 comment: false
 next: false
 ---
 
 我？
-我一枚普通男高，喜欢唱、跳、rap、篮球（bushi
-
-好吧，其实我喜欢你ヾ(≧▽≦\*)o
+我一枚普通准大学生，喜欢唱、跳、rap、篮球，和程路平 ❤️❤️
 
 <el-divider>让开 😎😎，我是分界线</el-divider>
 

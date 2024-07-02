@@ -1,6 +1,6 @@
 ---
 title: heStudio BingWallpaper Get
-icon: bi:bing
+icon: /icons/bing.svg
 article: false
 ---
 

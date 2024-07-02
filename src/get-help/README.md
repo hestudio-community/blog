@@ -1,6 +1,6 @@
 ---
 title: 获取帮助
-icon: material-symbols:help
+icon: /icons/questionmark_circle.svg
 article: false
 comment: false
 next: false

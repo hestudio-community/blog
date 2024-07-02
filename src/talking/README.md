@@ -1,6 +1,6 @@
 ---
 title: Talking
-icon: mingcute:comment-fill
+icon: /icons/message_on_message_fill.svg
 article: false
 comment: false
 next: false

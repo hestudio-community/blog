@@ -1,6 +1,6 @@
 ---
 title: 文档
-icon: bxs:book
+icon: /icons/doc_text_fill.svg
 article: false
 comment: false
 ---
