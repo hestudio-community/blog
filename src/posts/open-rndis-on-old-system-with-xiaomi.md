@@ -22,8 +22,8 @@ category: Windows
 
 下载后解压文件，手机连接电脑，将该文件传输到电脑。然后打开 USB 网络共享。在设备管理器中右键 RNDIS，选择“更新驱动程序”，然后选择“从列表指定位置安装驱动”（如果提示从 Windows Update 更新驱动，请选择否）
 
-![](https://image.hestudio.net/i/2024/07/10/668e69c442314.webp)
+![](https://image.hestudio.net/i/2024/07/10/668e778aef109.webp)
 
 选择“在这些位置搜索最佳驱动程序”，点击“浏览”，选择解压后文件所在的文件夹，点击下一步。这样就安装成功 了。
 
-![](https://image.hestudio.net/i/2024/07/10/668e69c442314.webp)
+![](https://image.hestudio.net/i/2024/07/10/668e77a1c885a.webp)
