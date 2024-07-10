@@ -102,11 +102,13 @@ Please ask me questions in Chinese or English. Other ways of asking questions wi
 
 2. 浏览全部[文档](/docs/)，或者搜索文档，查看是否有你需要的。
 
-3. 如果你的问题不方便公开，请向 [hestudio@hestudio.net](mailto:hestudio@hestudio.net) 发送电子邮件反馈。
+3. 通过[微信公众号](/about/weixin.html)直接回复咨询任何问题。
 
-4. 闲聊或者咨询其他问题，请加 [QQ 群：806312062](https://qm.qq.com/cgi-bin/qm/qr?k=4n1uhUrvOtudkpynl_Pf9T6fja1rV04N&jump_from=webapi&authKey=yxfsjLe/w5hhJtQETdZmWUatNI4ocPjagH6R9ZZqJyICYv5cQ9PwAFWNz169PgZd)
+4. 如果你的问题不方便公开，请向 [hestudio@hestudio.net](mailto:hestudio@hestudio.net) 发送电子邮件反馈。
 
-5. For international users, please report your problems to me at [hestudio@hestudio.net](mailto:hestudio@hestudio.net).
+5. 闲聊或者咨询其他问题，请加 [QQ 群：806312062](https://qm.qq.com/cgi-bin/qm/qr?k=4n1uhUrvOtudkpynl_Pf9T6fja1rV04N&jump_from=webapi&authKey=yxfsjLe/w5hhJtQETdZmWUatNI4ocPjagH6R9ZZqJyICYv5cQ9PwAFWNz169PgZd)
+
+6. For international users, please report your problems to me at [hestudio@hestudio.net](mailto:hestudio@hestudio.net).
 
 ::: warning
 请发送电子邮件的时候详细描述你的问题，避免被系统当做垃圾邮件处理

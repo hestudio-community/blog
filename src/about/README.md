@@ -33,6 +33,7 @@ next: false
 - [项目 Github](https://github.com/hestudio-community)：https://github.com/hestudio-community
 - [作者博客](https://www.hestudio.net/)：https://www.hestudio.net/
 - [作者爱发电](https://afdian.net/@hestudio)：https://afdian.net/@hestudio
+- [微信公众号](/about/weixin.html)
 - [RSS 订阅](https://www.hestudio.net/atom.xml)：https://www.hestudio.net/atom.xml
 
 ### 自己的项目

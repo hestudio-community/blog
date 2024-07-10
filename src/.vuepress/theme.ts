@@ -71,11 +71,10 @@ export default hopeTheme(
         QQ: "https://qm.qq.com/cgi-bin/qm/qr?k=4n1uhUrvOtudkpynl_Pf9T6fja1rV04N&jump_from=webapi&authKey=yxfsjLe/w5hhJtQETdZmWUatNI4ocPjagH6R9ZZqJyICYv5cQ9PwAFWNz169PgZd",
         // Qzone: "https://example.com",
         // Reddit: "https://example.com",
-
         Rss: "https://www.hestudio.net/atom.xml",
         // Steam: "https://example.com",
         // Twitter: "https://example.com",
-        Wechat: "https://work.weixin.qq.com/kfid/kfcbe17894dfd6c78f2",
+        Wechat: "https://www.hestudio.net/about/weixin.html",
         // Weibo: "https://example.com",
         // Whatsapp: "https://example.com",
         // Youtube: "https://example.com",
