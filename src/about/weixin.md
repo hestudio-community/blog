@@ -1,6 +1,9 @@
 ---
 title: 微信公众号
 icon: /icons/weixin.png
+article: false
+comment: false
+next: false
 ---
 
 ![](https://image.hestudio.net/i/2024/07/10/668e69c442314.webp)
