@@ -26,8 +26,8 @@
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.1",
-    "@waline/client": "^3.2.6",
-    "element-plus": "^2.7.6",
+    "@waline/client": "^3.3.0",
+    "element-plus": "^2.7.7",
     "vue-plugin-jumpcard": "1.0.2"
   }
 }
