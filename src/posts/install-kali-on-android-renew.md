@@ -25,13 +25,12 @@ category: Android
 ### 工具
 
 1. 搭载基于 Android 的手机
-2. [Termux （下载密码 8692）](https://url55.ctfile.com/f/55670755-1060597225-9ac563?p=8692)
-3. [VNC Viewer （下载密码 8692）](https://url55.ctfile.com/f/55670755-1060597228-cd557d?p=8692) (可选)
+2. Termux
+3. VNC Viewer (可选)
 
 ### 安装软件(如已安装请忽略)
 
-<ExternalJumpCard header="Termux" text="下载密码 8692" buttontext="点我下载 Termux" link="https://url55.ctfile.com/f/55670755-1060597225-9ac563?p=8692" />
-<ExternalJumpCard header="VNC Viewer (可选)" text="下载密码 8692" buttontext="点我下载 VNC Viewer" link="https://url55.ctfile.com/f/55670755-1060597228-cd557d?p=8692" />
+关注[微信公众号 heStudio Community](/about/weixin.html)回复 kali 获取下载链接。
 
 ### 安装基本系统
 

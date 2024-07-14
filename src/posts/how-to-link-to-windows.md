@@ -17,7 +17,7 @@ category: Windows
 - 谷歌框架
 - Android 7.1 及以上
 - Science Surfing [^1]
-- [连接至 Windows （下载密码 8692）](https://url55.ctfile.com/f/55670755-1060597678-191f82?p=8692)
+- 连接至 Windows
 
 [^1]: ![字面意思](https://image.hestudio.net/img/2022/12/12/6397000e41dba.png)
 
@@ -30,7 +30,7 @@ category: Windows
 
 #### 2. 手机安装软件
 
-<ExternalJumpCard header="连接至Windows" text="下载密码 8692" buttontext="点我下载" link="https://url55.ctfile.com/f/55670755-1060597678-191f82?p=8692" />
+关注[微信公众号 heStudio Community](/about/weixin.html)回复 linktowindows 获取下载链接。
 
 ::: warning
 本文中提供的并不是最新版本，如果出现链接问题，请尝试将电脑和手机上的 App 都更新到最新版本。电脑版本可以在 Microsoft Store 更新，而手机版本可以在 Google Play Store 更新。

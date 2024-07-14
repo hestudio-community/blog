@@ -25,8 +25,7 @@ category: Android
 
 ### 安装必备软件(如已安装请忽略)
 
-<ExternalJumpCard header="Termux" text="下载密码 8692" buttontext="点我下载 Termux" link="https://url55.ctfile.com/f/55670755-1060597225-9ac563?p=8692" />
-<ExternalJumpCard header="VNC Viewer (可选)" text="下载密码 8692" buttontext="点我下载 VNC Viewer" link="https://url55.ctfile.com/f/55670755-1060597228-cd557d?p=8692" />
+关注[微信公众号 heStudio Community](/about/weixin.html)回复 kali 获取下载链接。
 
 ### 安装基本系统
 

@@ -117,7 +117,7 @@ apt-get install wireless-tools
 
 - 如果你的服务器无法连接网络，你可以通过下载以下的资源包，然后手动导入安装。
 
-  - [下载通道 1（访问密码：8692）](https://url55.ctfile.com/f/55670755-1060005940-5b408f?p=8692)
+  - 下载通道 1： 关注[微信公众号heStudio Community](/about/weixin.html)回复 wireless 获取下载链接。
   - [下载通道 2](https://download.csdn.net/download/a18845594188/89185527)
 
   在下载后，你需要准备 sftp 传输工具，比如 xftp，然后把下载好的资源包解压后（为什么要求解压后呢，因为服务器未安装`unzip`）上传到服务器的同一个文件夹，然后全部安装。
