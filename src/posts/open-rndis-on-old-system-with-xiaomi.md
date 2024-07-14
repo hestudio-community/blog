@@ -18,7 +18,7 @@ category: Windows
 
 首先，需要下载 winusb 驱动。
 
-[xiaomi_usb_driver.rar（访问密码：8692）](https://089m.com/f/55670755-1322572222-2fa944?p=8692)
+关注[微信公众号 heStudio Community](/about/weixin.html)回复 miusb 获取下载链接。
 
 下载后解压文件，手机连接电脑，将该文件传输到电脑。然后打开 USB 网络共享。在设备管理器中右键 RNDIS，选择“更新驱动程序”，然后选择“从列表指定位置安装驱动”（如果提示从 Windows Update 更新驱动，请选择否）
 

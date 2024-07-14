@@ -10,7 +10,7 @@ category: Android
 
 ### 准备工作
 
-- [Magisk-Stable-27000.apk（访问密码：8692）](https://089m.com/f/55670755-1322724697-b2ae2a?p=8692)
+- Magisk: 关注[微信公众号 heStudio Community](/about/weixin.html)回复 magisk 获取下载链接。
 - 第三方 Recovery（官方 Recovery 能玩出什么花样？？）以下做出两个推荐，看看哪个更适合你的手机。
   - [Twrp](https://twrp.me/Devices/)
   - [Orangefox](https://orangefox.download/zh-CN)
