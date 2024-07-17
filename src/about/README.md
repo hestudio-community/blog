@@ -35,6 +35,7 @@ next: false
 - [作者爱发电](https://afdian.net/@hestudio)：https://afdian.net/@hestudio
 - [微信公众号](/about/weixin.html)
 - [RSS 订阅](https://www.hestudio.net/atom.xml)：https://www.hestudio.net/atom.xml
+- [面包多](https://mbd.pub/o/hestudio/): https://mbd.pub/o/hestudio/
 
 ### 自己的项目
 
